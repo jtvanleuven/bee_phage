@@ -1,0 +1,34 @@
+Criteria for scoring prophage regions (as intact, questionable, or incomplete):
+Method 1:
+1. If the number of certain phage organism in this table is more than or equal to 100% of the total number of CDS of the region,
+   the region is marked with total score 150. If less than 100%, method 2 and 3 will be used.
+
+Method 2:
+1. If the number of certain phage organism in this table  is more than 50% of the total number of CDS of the region, that phage 
+   organism is considered as the major potential phage for that region; the percentage of the total number
+   of that phage organism in this table in the  total number of proteins of the region is calculated and 
+   then multipled by 100; the percentage of the length of that phage organism in this table in the length 
+   of the region is calculated and then multipled by 50 (phage head's encapsulation capability is considered).
+
+Method 3:
+1. If any of the specific phage-related keywords (such as 'capsid', 'head', 'integrase', 'plate', 'tail', 'fiber',
+   'coat', 'transposase', 'portal', 'terminase', 'protease' or 'lysin') are present, the score will be increased 
+   by 10 for each keyword found.
+2. If the size of the region is greater than 30 Kb, the score will be increased by 10.
+3. If there are at least 40 proteins in the region, the score will be increased by 10.
+4. If all of the phage-related proteins and hypothetical proteins constitute more than 70% of
+   the total number of proteins in the region, the score will be increased by 10.
+
+Compared the total score of method 2 with the total score of method 3, the bigger one is chosen as the total score of the region.
+If the region's total score is less than 70, it is marked as incomplete; if between 70 to 90, it is marked as questionable; if greater than 90, it is marked as intact.
+   
+
+
+Totally 0 intact prophage regions have been identified.
+
+
+
+
+                                  REGION         REGION_LENGTH            COMPLETENESS(score)           SPECIFIC_KEYWORD                             REGION_POSITION          TRNA_NUM                 TOTAL_PROTEIN_NUM       PHAGE_HIT_PROTEIN_NUM            HYPOTHETICAL_PROTEIN_NUM         PHAGE+HYPO_PROTEIN_PERCENTAGE    BACTERIAL_PROTEIN_NUM            ATT_SITE_SHOWUP                  PHAGE_SPECIES_NUM                MOST_COMMON_PHAGE_NAME(hit_genes_count)    FIRST_MOST_COMMON_PHAGE_NUM      FIRST_MOST_COMMON_PHAGE_PERCENTAGE   GC_PERCENTAGE                 
+                                 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  1              13.9Kb                   questionable(70)              tail,capsid,protease                         1108-15060               0                        20                      13                               7                                100%                             0                                no                               4                                PHAGE_Bacter_Lily_NC_028841(7),PHAGE_Vibrio_X29_NC_024369(7),PHAGE_Burkho_BcepMu_NC_005882(3),PHAGE_Burkho_phiE255_NC_009237(2),PHAGE_Rhizob_RR1_B_NC_021557(1),PHAGE_Bacill_BCD7_NC_019515(1),PHAGE_Propio_PFR1_NC_031076(1),PHAGE_Klebsi_phiKO2_NC_005857(1),PHAGE_Xylell_Salvo_NC_042345(1),PHAGE_Propio_PFR2_NC_031108(1),PHAGE_Phage_Gifsy_1_NC_010392(1),PHAGE_Yersin_PY54_NC_005069(1),PHAGE_Salini_M8CC_19_NC_042349(1),PHAGE_Paraco_Shpa_NC_041868(1),PHAGE_Xylell_Sano_NC_042344(1),PHAGE_Salini_M8CRM_1_NC_042351(1),PHAGE_Burkho_KL3_NC_015266(1),PHAGE_Rhodob_RcapNL_NC_020489(1)   10                               35%                              36.66%                        

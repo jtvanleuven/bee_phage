@@ -1,0 +1,34 @@
+Criteria for scoring prophage regions (as intact, questionable, or incomplete):
+Method 1:
+1. If the number of certain phage organism in this table is more than or equal to 100% of the total number of CDS of the region,
+   the region is marked with total score 150. If less than 100%, method 2 and 3 will be used.
+
+Method 2:
+1. If the number of certain phage organism in this table  is more than 50% of the total number of CDS of the region, that phage 
+   organism is considered as the major potential phage for that region; the percentage of the total number
+   of that phage organism in this table in the  total number of proteins of the region is calculated and 
+   then multipled by 100; the percentage of the length of that phage organism in this table in the length 
+   of the region is calculated and then multipled by 50 (phage head's encapsulation capability is considered).
+
+Method 3:
+1. If any of the specific phage-related keywords (such as 'capsid', 'head', 'integrase', 'plate', 'tail', 'fiber',
+   'coat', 'transposase', 'portal', 'terminase', 'protease' or 'lysin') are present, the score will be increased 
+   by 10 for each keyword found.
+2. If the size of the region is greater than 30 Kb, the score will be increased by 10.
+3. If there are at least 40 proteins in the region, the score will be increased by 10.
+4. If all of the phage-related proteins and hypothetical proteins constitute more than 70% of
+   the total number of proteins in the region, the score will be increased by 10.
+
+Compared the total score of method 2 with the total score of method 3, the bigger one is chosen as the total score of the region.
+If the region's total score is less than 70, it is marked as incomplete; if between 70 to 90, it is marked as questionable; if greater than 90, it is marked as intact.
+   
+
+
+Totally 0 intact prophage regions have been identified.
+
+
+
+
+                                  REGION         REGION_LENGTH            COMPLETENESS(score)           SPECIFIC_KEYWORD                             REGION_POSITION          TRNA_NUM                 TOTAL_PROTEIN_NUM       PHAGE_HIT_PROTEIN_NUM            HYPOTHETICAL_PROTEIN_NUM         PHAGE+HYPO_PROTEIN_PERCENTAGE    BACTERIAL_PROTEIN_NUM            ATT_SITE_SHOWUP                  PHAGE_SPECIES_NUM                MOST_COMMON_PHAGE_NAME(hit_genes_count)    FIRST_MOST_COMMON_PHAGE_NUM      FIRST_MOST_COMMON_PHAGE_PERCENTAGE   GC_PERCENTAGE                 
+                                 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  1              17.3Kb                   questionable(90)              tail                                         183-17560                0                        16                      15                               1                                100%                             0                                no                               6                                PHAGE_Pseudo_vB_PaeS_PM105_NC_028667(5),PHAGE_Pseudo_B3_NC_006548(4),PHAGE_Pseudo_JBD67_NC_042135(3),PHAGE_Pseudo_SM1_NC_041877(2),PHAGE_Pseudo_JBD88a_NC_020200(2),PHAGE_Pseudo_JBD18_NC_027986(2),PHAGE_Pseudo_JBD25_NC_027992(2),PHAGE_Pseudo_H70_NC_027384(1),PHAGE_Proteu_pPM_01_NC_028812(1),PHAGE_Salmon_37_NC_029045(1),PHAGE_Pseudo_YuA_NC_010116(1),PHAGE_Pseudo_JBD30_NC_020198(1),PHAGE_Pseudo_MP29_NC_011613(1),PHAGE_Vibrio_VpKK5_NC_026610(1),PHAGE_Burkho_BcepNazgul_NC_005091(1),PHAGE_Pseudo_NP1_NC_031058(1),PHAGE_Salmon_118970_sal1_NC_031930(1),PHAGE_Salmon_SPN19_NC_019417(1),PHAGE_Pseudo_JBD5_NC_020202(1),PHAGE_Stenot_vB_SmaS_DLP_5_NC_042082(1),PHAGE_Pseudo_LPB1_NC_027298(1),PHAGE_Salmon_Chi_NC_021315(1),PHAGE_Pseudo_LKO4_NC_041934(1),PHAGE_Salmon_FSLSP088_NC_021780(1),PHAGE_Pseudo_MP22_NC_009818(1),PHAGE_Salmon_Chi_NC_025442(1),PHAGE_Pseudo_MP38_NC_011611(1),PHAGE_Pseudo_FHA0480_NC_041851(1),PHAGE_Pseudo_PaMx28_NC_028931(1),PHAGE_Pseudo_PAE1_NC_028980(1),PHAGE_Salmon_FSLSP030_NC_021779(1),PHAGE_Salmon_BP12C_NC_031228(1),PHAGE_Pseudo_M6_NC_007809(1)   6                                31.25%                           36.78%                        
