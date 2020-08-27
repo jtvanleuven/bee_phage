@@ -4,6 +4,7 @@ library(ggplot2)
 library(cowplot)
 library(RColorBrewer)
 library(seqinr)
+library(ape)
 
 
 ##merge Tayor's PHASTER analysis
@@ -24,4 +25,15 @@ for(i in 1:length(phaster_dirs)){
   #genes <- genes[-3,]
 }
 phaster_summaries <- phaster_summaries[-1,]
-write.table(phaster_summaries,"analysis/phaster_summary.csv", quote = F, row.names = F, sep = "\t")
+#write.table(phaster_summaries,"analysis/phaster_summary.csv", quote = F, row.names = F, sep = "\t")
+
+
+flye_info <- read.csv("raw_data/assembly_info_flye.txt", sep = "\t")
+
+vibrant_pred <- read.csv("raw_data/VIBRANT_machine_assembly_flye_1000_filtered.tsv", sep="\t", stringsAsFactors = F)
+vibrant_qual <- read.csv("raw_data/VIBRANT_genome_quality_assembly_flye_1000_filtered.tsv", sep="\t", stringsAsFactors = F)
+
+
+
+
+
