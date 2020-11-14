@@ -19,4 +19,19 @@ acc <- matthijnssen[!matthijnssen$Genbank.accession == 'nan',]$Genbank.accession
 #blastn -db JAAOBB01.1.engel.fasta -query ../flye_meta.fasta -evalue 1E-10 -outfmt 6 > flye_meta_vs_engel.blastn
 #make three-way blast
 
-
+matt_blast <- read.csv("raw_data/blastdb/matthijnssen_vs_engel.blastn", sep="\t", stringsAsFactors = F)
+engel_blast <- read.csv("raw_data/blastdb/flye_meta_vs_engel.blastn", sep="\t", stringsAsFactors = F)
+names <- c("qseqid",
+           "sseqid",
+           "pident",
+           "length",
+           "mismatch",
+           "gapopen",
+           "qstart",
+           "qend",
+           "sstart",
+           "send",
+           "evalue",
+           "bitscore")
+names(matt_blast) <- names
+names(engel_blast) <- names
