@@ -1,0 +1,1371 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "contig_1919" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 9190 ,
+            seq-data
+              iupacna "TATTTCGATGATACTCCAGATAGTAATGCAGTCTATCAGTTGTTAGTAAATCAAT
+AGTGGTATGTACTTTCGTGAAATATCTGTTAAAACTAAAGATTTTCCAGCTTTCAATAGTTTCAGTTTTGCCAAAGAC
+ATTGCCAAGCTTCAAACAGCGATTGCTAATGCAGGTTCGATTAAAACTATTGGTGGCAAGAAGCCTGATGATAAAGGC
+AATATCAATTTGTCTTCATTTGAAAATCCTGATTTTATCTATAAGTATAAAGACACGTTAGATGTCGACAAAGCTACT
+ACACCAGGTATCTACTCGTTAATGGATACTACATTGACATGCTCTATTAATAAAAATGCGCTAAACGCAGTGCCAGGA
+AAACACAGACGGTACAACATATACAGGATATCTTGTGGTGTATAAGCATGATGCCGCGAATATTACTCAAGAGTTAAG
+GATTTATACTGGCCGCACCGTACCTGATTTTACAACTAGCACAAGAAGTATTTATGGCAACAGTAATTATCGTCCTAA
+CTTTCAACGGTTAATCACAGATTATGATTATAAGAATATTCTCGGTTACATTGATGGCAAAGAAGTAGTACATCAATG
+TGCAGATTTAACAAGTGGCATTGCTTATTCAAAAGCAAATCCAAACATCATTGTTGCAACGCCTTAATAATAGTAGAA
+AGGGGATTGATTATGCTGCAAATGAACGGTAAAGAAGTTAATAATCTGGTTATAGCAGGACAACGCTTTTCGGCTGTT
+AAAAATACGCTGATAGGTACTCAAGTTCAGGTTAAAAAAGGGCAGAAAGCTATCTATGTTGGCGAAGCTCAAACGACG
+TCTATAGGAAGGTTTTCAACTGGAACGTCCACAAAAGACCAACTAGTAGAAGTTAAACAGTGCTTATATTTGACTAAG
+ACAAATAATCCGGATGATGGAGAATATTGGATTCAAGCTTTAATCAATTTTACTAATGAGGAAAATAGAATAGTCTAT
+GTTTCAGCCCCAGTTTTTATGCGGCTATCTGATGTAACCATCCAAAATAATCTGGGGGGTAAATAAGCCCTCCTATTT
+ACTATTTATATATGAATTAAGAAGCGTGAAGGAGGTGACTCCTTCATGGCTATAATGATGAATGGAAAAGAAATAAGG
+AACCTGGTAGTTAGTGGAGAAGTATTCTCAAAAGGATATGTTAATAGAAGAGTAAAAATACTAAATACCGGTAGTGGG
+ATGGATGTACGTATAGGACACAACGTTAATATTACGGGTTATATATATTACTCTGAAACAGACACAGTGCATGTTGGT
+GATGAGTTTGTCGTATTCGCCAAAGTGCAAGACGCGCTATTTATCGGTAACTCGCCTAAGCCACCGTCAACAAACAGT
+TCACCAAAAACTTCCGGTTTTGGTATGGGCTGGATACCAATGAGCAGCGTTCAATTTTTAGATTAGGAGACAAAAATG
+ACAGAAACAACGAATACAGTTAATCAAGATAGTAGCGGTGCTGATGTAGCACCTAAAGATGATGTGAAAGGATTTGTT
+CAAGTTTACAAATCAACAGATGATGTACCATGCGAGGTGTGGTTCGCGCCTCGGGATGCAGAAATTATCCGACCTTAT
+ACGCAGATTCCTCCTGACCCAAGCTTGAAAAAACCTAAATTTGATTTTGTAAATTATAAATGGTTCGATTTAGATGCG
+GCGACTCAAGCACAAAAAATAAATAAATTAGCAGAAAAAATCAAAAAATTACAGCAAGATGTAGCTGACGGCAAGCTT
+ACGCAAGAAGAAATGAACCAACAATTAGGTTTATTAACCGATTTGGTTTCATCAGCAGCTACTGATAATGCTGACAAT
+GACAAGGAAGAAGGCAGCAGCAATGAACAAGGCTAAGATTTTCGAAAAGCTGTACAAATACCTATATACTGTTGGCAC
+GTACGACAAAGCAAAAGTTGCAAGCTATGTAGGTTTGACTATTGATGCAAAAGCGTATGAGGAGATTACGGGTGATGA
+ATATGTCGAAACGACTGAAGCAGCTAATTAGATATGCTGATAAAAACTTTAACCAAATGCTGATAGGGGTGCTAATCA
+TATTGATTGGCATTTTTTTATGGGCGGACAAAAATTATTTCTTTTGGCCACCACAACTTAGGCCGCTGATGAACAGCG
+AATGGTCGGATATCATCTTTATTATTTTAGGTATCTGTTTATTTTGTACTGCTCTAACTGGCAATCGCAGTAGAAGGT
+TCCAGAGTATTTTGCTAATTGTGGCAAGTGCAGCTGTGGCCATGCTGCTAGTTGAGCAGTTATGGCACGTGTTATTTG
+CTAATAAAATTGAAATGATAATGGCTGTAATCTTAGACGCAGGATTATTAGTAATGCTTATCAGGTGCGCATACGAGA
+ATTAAGGGGGCGATCACTTGCGCGATCTATCAAATTGGATACAAGTGTTCGCTGGAGCAATTAGTACGTTAATAGCTG
+CTGTTGCTGTGTCACACAAAACCAACAGGGCAGACTATGATGCGATAATCAATGAACATAAGTCGGAGCGGGATGAGT
+TAAAGAAGGAGAGGGACGAATTCAAAAAAAGCTATTACGAAGAGCGTGAGCTAAGAACCAAGGCAGAAAATCAACTAT
+TAGAATATAAAACTAAATGTAAGATTTTATCAAAAGAACTAGAACACAAAAAAAGCACTAGGAACAAATCCTAAGTGC
+TTTTTTAATTGAAAGGAATATAAAATGAACCAATTAACTAGTATTTTTAACAACGTATTACCATACGTAACATTAATT
+GCAATTATCTTTGTGGCCGTATATCCGACTATTAAGCAGCGTAATCCAAGCATTGCTGAAAAGACTGAGTGGCTTTAT
+AAATTGGCACAGTCGCTTGTCATTAATCAAAATACAAATGATGCTCCTGGTAAGGATAAAAAAGCAGAAGCCACTAAA
+CAACTACTTGATCAAGCCAAAGCATCTAAGACTAAACTGACTGAGAGTGCAGCAGAAGCAATGATTGAAGCTGCCTAT
+AATAATGTTAATAGCCAAAATGAAGGCAACCAAATTTCTGACTTCCAAGGATTTGCTGCTGACGAAGAAAGTCAGGTA
+ACTAATAACATGGCCAATGAACCAGAAGCAGAAGGAAATGGAGCTGATGACGATGACACAGACGTTGCCTAGTAGAAG
+CTACTTAACAGATATTTCCGAGTTTCAAGGTGACAATGCCGCATATCCGTATTCAAAAGGTACGATAATTAAGCTAAT
+GCAGTATAACTACCCAGGTTATAACTATGTTCGAGCTAAGGCACAAATTGCATCTAGTAAAGCGCATGGTCTAATGAC
+AATGGGATATTTTTATGCAACTTTTTCTAATAATGTGGCTCAAGCTAAAACCGAAGCAGAGTTTGCCTGCAAAAAAGC
+TGATGAATTAGGTTTGCCTAAAGGTACCTATTTAGCAGTCGATTGGGAAAACGGCAGTGGCAATAACATTTATTGCGG
+TGTATCAAGTAGCACGTCTGCTGTTTTAGCTGCAATGGCCGTGATTAAAGCACATGGCTATCAACCATTGTTTTACTC
+AGGCGCTTCAGCCATGCGTAACAACATTGATACTAAGAGCATTGTTAAGGCTTATGGCAATTGTCTGTGGGTTGCTAG
+TTATCCAACCATAGCAGCAGTCAACACTGCTAACATGGCGTACTTCCCATCAATGGATGGTGTGGCTATCTGGCAATT
+TACTGACAATTACCGTGGTTTGCACGTTGACGGGAACATTTCTGTTTTGCCATTAAAAATTAACGGATCAGTAGCGAA
+ATTAAAAAATAAAGGTAGTGATGACATGAGCTTGCACCCAGTTGCTAAATATGATGTCGAACGTGTTTTTGTTGTGAC
+TAATAAAAAAGGATGTGGGCTATACGATAGTACAGATCTAAGCAACAAAATTAGGACTTTAAAAACTGGCGGTATGTT
+CAAAGTGCTAGACGAAAAAAACGGTGCTTTGAAACTTGGTAAAAACCAGTATGTAGACGGTCGTGCAGGCTACACAAA
+GTCAAATCCGATTGCTACACGAGATAATATCGGTGGTCGAGTTAAGATTGTACAAGCGCACACACATGCATTGTACAG
+TGCCGATGCAGACGCAAAAAAGGCATACGAGCTAACGACTAATAAAATCTATCGGATTGTAGGACGGAAGGGGAGATT
+TTTACAGCTCAAAGATAAATATAAAGGTAAGACAGTATACGTAACAGGTAACAGAGCATACGTTGTGCTCTAATTTTA
+AGTAAACAACATTATCAACGATCTTTTTTCTATTAAATAAGCCACTCTGGATTAGGTTCTGGAGTGGCTTATTTTTGT
+GCAATAAAAAAGCTCCCAAGTGGGAGCGAATAAAGTAAAAGAAGCTAAAAAAATTAACTTCCTTTTTATAATAACTTT
+TTTTTGGGAAAAAATATCAAAAGTTAGTTGACGTGTACCCTTTTAGGTGTATAATAAGATTATAAAGTAAAAGAAGAA
+AAGAAAGGAACTTTAAAATGGCACGCTGGGAAGATGAAGCATTAGACTTTTGGAAACAAGAATATCCTAAGAGTTGGG
+AAGAACACAAGCATCCTGGTCAAGGCACTATGGCTGACTTTGGTAAATTTATGTTAGCCGCATACATCGACAATAAGG
+TAATCTGGGAAGGTGGATTTTACAATCCAAACCATCTACGCAGTAGGGGTGAAGCAAATCCAATTTCAATAAAAATCG
+AAGATCATGTTGACGGTAAATATTACGCTGTCTCTTGTGAGCAACGTAATCTACAAGGAAGATCTACCTATTATCTTG
+GTGAAAAAGTAGTTGATAAATATTTAGATTAGGAGCATTAAATGGGGAAACTTAGTGAAGCAAGAGTTAGAGCCAATA
+AAAAATGGGATGCTAAAAAATCGCGAAAGAGCTGCTTACATCAATAAGCGCTCTGCTGCTAAAAACTTTATCCTGAAA
+TTAGCTACTGAAGATGACCTTCAGAGCATGCAGGGGTACATTAAAGAAAGAAAAAAAGAACTACAAAAAAATAAAAAC
+ATTATTTGACATGTACCCTTTTAGGTGTATAATTAAATTATAAAGTAAAAGAAGTAAAAAAGAAAGGAACTTCAAAAT
+GACAAACGAAAAATTAAGAGAAATCAGCAAGGATTACGCAGATAAAATTAGTCAATATGTTGATGAAAATCAATTAAA
+CAATATGGAAAAAGCTGACGTATTATTTATATATGAAGACGATGACGCAGAAAGCTACCCATCAGGCCAACATGTAAC
+AGTATCCTTCAAAATTAATACTGAAGGTGACGGTTTACCAGAAGACTTTGACATGTCAGAGTTTTGGGAACGTGACTT
+AGACTTAAAAGACAGTGGACTAATTGAATTAGTCAAAGAATATGAACAGGCAATAAGACAATGGTAGTATACTCATTC
+GATTCAAACGAACTTATCAAAGAGCTAGAAAACGATATTTCTGAATTCGGTGACGAAAAGGTCTGGGCATACTGGACT
+GTTATGGAAAATGGTCAGGAGATATATTTTGAATATTGTCCACTTGACGATCCTGAATTAGAAAATGAACCTGATTAT
+CAATCGGTTTCAGATTTTGATAAAAAGGTTTCGAAAAACCATCCTAATTTTTTTTAGGAAAATAATGCAGTCTAGTGA
+GCTTCTAAACTTGCTGAAAGAAGAAAAAGATATAATGTAGAAAAAACACCTTTGGGCTAATTAGTCTAAGGGTGTTTT
+ATTGTTAAATAAGTAAATAACGTCTTTAAAATTGCTTTTTTATCACTTAGGTTTTACAATTATACCAAACTAATGTTT
+GAGTGATGTGCAGTGAGTAAAGAATTTGACAAACGAGTAGATGATTTTTTTAGGACATATCAAGACCGTGGTATGAAG
+AAGTGGCAGGGATTTATGCTAAGCGACCTAAATTCCGCCATTGATAAATTTGAAAGGCAGCAGTCAACCGTTTATCAT
+AAAAAGAAGTCGATGAGCGAGAAAGAGATTAGCGAATTACTAATGATAGCTTACTCTAATCATCTTGTAGTTTCGATT
+CAGTTAAAAGAAATTAACCAGAATGATGAATACTCAGCTGACATCGAAGGGATGGTAGAAGGGTACAATGTTGACCAT
+ATCCTAATTGATGGACGTTGGATTGATTTTGATAGTATTAATAACGTTGAGATAATATAAAATTAAAAATATTAAATT
+GTATAAAGACTTTAGTATCTGCTAAAGTCTTTTTTTAGTACAAAAATGGGACAAATAATGTGTAATATTACGTAATTT
+CTTGGAATAATTGGAACCAATTTGGAATTTAAAAAGCTTGATATATCAATGGTTATGTTGATATATCAAGCTTTTTTG
+ATTTGGTACCGATTTAAATGGTTGTTAAAACCATCTTTAGTCACGATGCCTTTAACATCAGCGTTTATAGGGTATGAT
+ATGGGCAAAAAAGAACAGTAATGGGACAATTATTTTGGAAAATTGAGCCCACTAATCATCTCATTGTATTTTTTAGCT
+TTGCGATTGGTTATGTGTAAATAGATTTCACGAGTAATCTTGTCGTTCTCGTGGCCAACCCTTTTTGAAATTACATCA
+AGTGGATATCCTAGCTCTGAAAGTTTGGACACATGAGTATGCCTAAAAATATGGGCTGTAATAGGCTTATCAATATTT
+TGCCTTTTGCATATACTTTTTAAAACTGGATTAATTGATCCTGTTGAAAATGGATTACCTGTGCGTTTGTTGGTAAAA
+AGATAATCCTTTTTATTTTTGCCTTTTTTATTATCCAAATATAAGTCAACTGCTTGCTGGGGCAAAGCAATCTCTCGC
+ATGCTGCTTTTGGTTTTGGTAAACGGCTGCTTAACATAGCCCTGTCCCACAATCTTAATAAGTGTCCCATCAATTTGG
+CAAAAAAATATATCATCTTTTTGAGTAATATTATCAACCTGTATTGCTCCACCTTCTCCAATACGCATGCCAGTGAGG
+TATAACCATAGTATAAAGTCACGATAGTCAGGGCGGTGCATTTCGTTACAATCTCGAACAATCTTGCTCATTTCATCA
+TCAGTCAAATACCAGTTTTCAGCGCGGTAATTGTTCTTGTGACTTTCGTCCTTATAATTAATTTTTACATCTAACATT
+GGATTAGTTTTTAATATAGCCGAATTGTTTTGCGTATGAGAAAACGTTATTGAGTAGAGCGCGGTAGCTATGTACAGT
+CTTATTACTTAGATTCCTTTCGTATAGCAAGTTATCTAAAAACTTATTAATTTGTATGGTGGTAATAGTAGACACCAT
+TTGTTTGCCAAATACTTCATTAATTTTATTAAGATGTGAACGATAAGATAATCTGGTCTTATAAGCATTGCCACGCTT
+TTCAAGTGTCCCAAAGTACTTTTGGGACAAGTTACTAAAAGTGATAGGCTGTTGCCCTGATAGTCCTAGACTAGCTCT
+AATTTTTTGCTTAACGATTAAATCGGCATGATTTTTGGCGTAACTTGAATTATTTTTAATCACTAGAGATTTTTTTCT
+AATGCCATCAAATGATGGATCTCTGTATCTTATTGAGTATTGATATTTGCCATTAGATGTTTTAGTGACTTGTGGTGA
+AAAAAATTTGACCATTGTTTCTGTCCTTCATGTATAATGAAGAAGACATAGTTTTAACTTTGTCTTCAATAACTAGCC
+GTTAGAATTTGTTTGAACGCTGATTCTAGCGGCTTTTTTGTTTTGCTAAGTTTATAAATCTAGTAATTGCTTTTTCTT
+AAGATTGAATTCTTCATTAGTAATAATGCCTTCATCTGCCAAACTCTTATATTTTCTGATTTGACTAGGAATGTCATC
+ATCGGCTTCTGATTTGATAACTGGTTGAGCTGCTTGCGCTTTCCAAGCATCAATTATAGAAATTATGTTATTCAATCT
+CGAATAAGCTCCTCTGGCAATAAAACTGTCGCTTTTGGTTTTAGACCTTAAGACAGTAATCTCAAAGTTGCTGCCATC
+TGTCAGGTTTATGATTATACCTAGGTGGTCGATAAATTCATTGTTTTTGCCCCCCGTGGTGCCACCTATAATAGCGCC
+AGCTCCACCAGCTATAATCCCACCGGTTACGGCTCTAGCAATGGTATGACGCTTATGTTCGTTATGACCTTTTTCGTT
+AATGTTATATGAAACTATTTCATCTGCATCAACATATCTAGGTTCTGATAACAAAGTCTTATCAATCAAAATTTTTCT
+TTTATCAGTTGAAATGTAAAAATGGGACTCTTTTAATGCATCTTTTTTAAAATTGTCTCGTTCTACTTTTAACTTATC
+TTCTGCCTCAATTTTTTTATTCTTTTCTAAAGTTAAACTTTCTTTTATTTTCGTGAGTTCTTGAGGATTGCTAATCAG
+GTCTTGTATATCACCTACAGTTTTGTTGCTGATGAAATCATCCATCAGCTTTCCATCTACGTCACTAAAGAGAGCCTT
+AGACGCCGTGCAATTACCACAAACAACTCCATCTTTCAGCTTGTGACTAGCATCTAAAATTCCAATTTCTTGCATACA
+AAAACCACATTTTTTGAAGCTAAATAAATGATTTTTTGGAGCTACTTTATATGTAATTTCTTTCTACTTCAAATGGTG
+CCTGGGAGAAAGGGGTCCATACTTAGGACGTAAATCATTAATCCCAGTCCAGCAATCACTACTATTAATGAGATTAAT
+AATGAGCTTTCGCTTTTCAATTCGATGTCTGTGTAATTTTCCAAAAAGTGCTGCCATTGTTTCAAAATCCTTTCCATA
+ATTCCTACCTCAATCAATCCCCATCAGCTTACGTTTCTTTTGTTCGCTTCTGTATTTAATAAATTCTTCCCACCGCCT
+TTTATCAATCAAAGTTTTTCCATCAAGAATTACTGCATCCTGGTAGTCTGACAGTAGGCACTCCTTTCGCCTTTCATA
+AAAAGTCGATTTTTTGTAATGGTATTCATTCATTACTTCATCCGCTGTTAAAAGTGTCATGGTTTCACCTCCTTTCTA
+ATCAGGTTTCGAATTCGCAACTTTTTAATTTAAAAAAAGTCTGATGTAGTAATATTAAGACTTTGTGCCAATTTTTTG
+GCCTCGCTTAATTTGAAGTCTCTCCCGGCGTTGCGGTTGAGCTTCTGATTAAATGTGTTTCTGCTCACGTGACTCTCA
+CGAGATGTG" } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_1" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 116 ,
+            seq-data
+              ncbieaa "MYFREISVKTKDFPAFNSFSFAKDIAKLQTAIANAGSIKTIGGKKPDDKGNINLS
+SFENPDFIYKYKDTLDVDKATTPGIYSLMDTTLTCSINKNALNAVPGKHRRYNIYRISCGV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 115 ,
+                        id
+                          local
+                            str "contig_1919_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_2" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 88 ,
+            seq-data
+              ncbieaa "MVYKHDAANITQELRIYTGRTVPDFTTSTRSIYGNSNYRPNFQRLITDYDYKNIL
+GYIDGKEVVHQCADLTSGIAYSKANPNIIVATP" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 87 ,
+                        id
+                          local
+                            str "contig_1919_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_3" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 121 ,
+            seq-data
+              ncbieaa "MLQMNGKEVNNLVIAGQRFSAVKNTLIGTQVQVKKGQKAIYVGEAQTTSIGRFST
+GTSTKDQLVEVKQCLYLTKTNNPDDGEYWIQALINFTNEENRIVYVSAPVFMRLSDVTIQNNLGGK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 120 ,
+                        id
+                          local
+                            str "contig_1919_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_4" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 110 ,
+            seq-data
+              ncbieaa "MAIMMNGKEIRNLVVSGEVFSKGYVNRRVKILNTGSGMDVRIGHNVNITGYIYYS
+ETDTVHVGDEFVVFAKVQDALFIGNSPKPPSTNSSPKTSGFGMGWIPMSSVQFLD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 109 ,
+                        id
+                          local
+                            str "contig_1919_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_5" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 142 ,
+            seq-data
+              ncbieaa "MTETTNTVNQDSSGADVAPKDDVKGFVQVYKSTDDVPCEVWFAPRDAEIIRPYTQ
+IPPDPSLKKPKFDFVNYKWFDLDAATQAQKINKLAEKIKKLQQDVADGKLTQEEMNQQLGLLTDLVSSAATDNADNDK
+EEGSSNEQG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 141 ,
+                        id
+                          local
+                            str "contig_1919_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_6" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 54 ,
+            seq-data
+              ncbieaa "MNKAKIFEKLYKYLYTVGTYDKAKVASYVGLTIDAKAYEEITGDEYVETTEAAN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 53 ,
+                        id
+                          local
+                            str "contig_1919_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_7" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 132 ,
+            seq-data
+              ncbieaa "MNMSKRLKQLIRYADKNFNQMLIGVLIILIGIFLWADKNYFFWPPQLRPLMNSEW
+SDIIFIILGICLFCTALTGNRSRRFQSILLIVASAAVAMLLVEQLWHVLFANKIEMIMAVILDAGLLVMLIRCAYEN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 131 ,
+                        id
+                          local
+                            str "contig_1919_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_8" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 87 ,
+            seq-data
+              ncbieaa "MFAGAISTLIAAVAVSHKTNRADYDAIINEHKSERDELKKERDEFKKSYYEEREL
+RTKAENQLLEYKTKCKILSKELEHKKSTRNKS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 86 ,
+                        id
+                          local
+                            str "contig_1919_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_9" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 145 ,
+            seq-data
+              ncbieaa "MNQLTSIFNNVLPYVTLIAIIFVAVYPTIKQRNPSIAEKTEWLYKLAQSLVINQN
+TNDAPGKDKKAEATKQLLDQAKASKTKLTESAAEAMIEAAYNNVNSQNEGNQISDFQGFAADEESQVTNNMANEPEAE
+GNGADDDDTDVA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 144 ,
+                        id
+                          local
+                            str "contig_1919_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_10" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 372 ,
+            seq-data
+              ncbieaa "MTMTQTLPSRSYLTDISEFQGDNAAYPYSKGTIIKLMQYNYPGYNYVRAKAQIAS
+SKAHGLMTMGYFYATFSNNVAQAKTEAEFACKKADELGLPKGTYLAVDWENGSGNNIYCGVSSSTSAVLAAMAVIKAH
+GYQPLFYSGASAMRNNIDTKSIVKAYGNCLWVASYPTIAAVNTANMAYFPSMDGVAIWQFTDNYRGLHVDGNISVLPL
+KINGSVAKLKNKGSDDMSLHPVAKYDVERVFVVTNKKGCGLYDSTDLSNKIRTLKTGGMFKVLDEKNGALKLGKNQYV
+DGRAGYTKSNPIATRDNIGGRVKIVQAHTHALYSADADAKKAYELTTNKIYRIVGRKGRFLQLKDKYKGKTVYVTGNR
+AYVVL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 371 ,
+                        id
+                          local
+                            str "contig_1919_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_11" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 108 ,
+            seq-data
+              ncbieaa "MARWEDEALDFWKQEYPKSWEEHKHPGQGTMADFGKFMLAAYIDNKVIWEGGFYN
+PNHLRSRGEANPISIKIEDHVDGKYYAVSCEQRNLQGRSTYYLGEKVVDKYLD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 29 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 107 ,
+                        id
+                          local
+                            str "contig_1919_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_12" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 100 ,
+            seq-data
+              ncbieaa "MTNEKLREISKDYADKISQYVDENQLNNMEKADVLFIYEDDDAESYPSGQHVTVS
+FKINTEGDGLPEDFDMSEFWERDLDLKDSGLIELVKEYEQAIRQW" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 30 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 99 ,
+                        id
+                          local
+                            str "contig_1919_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_13" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 76 ,
+            seq-data
+              ncbieaa "MVVYSFDSNELIKELENDISEFGDEKVWAYWTVMENGQEIYFEYCPLDDPELENE
+PDYQSVSDFDKKVSKNHPNFF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 31 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 75 ,
+                        id
+                          local
+                            str "contig_1919_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_14" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 119 ,
+            seq-data
+              ncbieaa "MSKEFDKRVDDFFRTYQDRGMKKWQGFMLSDLNSAIDKFERQQSTVYHKKKSMSE
+KEISELLMIAYSNHLVVSIQLKEINQNDEYSADIEGMVEGYNVDHILIDGRWIDFDSINNVEII" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 32 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 118 ,
+                        id
+                          local
+                            str "contig_1919_14" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_15" } ,
+          descr {
+            title "Tyrosine recombinase XerC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 223 ,
+            seq-data
+              ncbieaa "MLDVKINYKDESHKNNYRAENWYLTDDEMSKIVRDCNEMHRPDYRDFILWLYLTG
+MRIGEGGAIQVDNITQKDDIFFCQIDGTLIKIVGQGYVKQPFTKTKSSMREIALPQQAVDLYLDNKKGKNKKDYLFTN
+KRTGNPFSTGSINPVLKSICKRQNIDKPITAHIFRHTHVSKLSELGYPLDVISKRVGHENDKITREIYLHITNRKAKK
+YNEMISGLNFPK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 33 ,
+                    data
+                      prot {
+                        name {
+                          "Tyrosine recombinase XerC" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 222 ,
+                        id
+                          local
+                            str "contig_1919_15" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_16" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00016 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 159 ,
+            seq-data
+              ncbieaa "MVKFFSPQVTKTSNGKYQYSIRYRDPSFDGIRKKSLVIKNNSSYAKNHADLIVKQ
+KIRASLGLSGQQPITFSNLSQKYFGTLEKRGNAYKTRLSYRSHLNKINEVFGKQMVSTITTIQINKFLDNLLYERNLS
+NKTVHSYRALLNNVFSYAKQFGYIKN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 34 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 158 ,
+                        id
+                          local
+                            str "contig_1919_16" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_17" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00017 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 267 ,
+            seq-data
+              ncbieaa "MQEIGILDASHKLKDGVVCGNCTASKALFSDVDGKLMDDFISNKTVGDIQDLISN
+PQELTKIKESLTLEKNKKIEAEDKLKVERDNFKKDALKESHFYISTDKRKILIDKTLLSEPRYVDADEIVSYNINEKG
+HNEHKRHTIARAVTGGIIAGGAGAIIGGTTGGKNNEFIDHLGIIINLTDGSNFEITVLRSKTKSDSFIARGAYSRLNN
+IISIIDAWKAQAAQPVIKSEADDDIPSQIRKYKSLADEGIITNEEFNLKKKQLLDL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 35 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 266 ,
+                        id
+                          local
+                            str "contig_1919_17" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_1919_18" } ,
+          descr {
+            title "hypothetical protein KKOGLKFP_00018 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 68 ,
+            seq-data
+              ncbieaa "MTLLTADEVMNEYHYKKSTFYERRKECLLSDYQDAVILDGKTLIDKRRWEEFIKY
+RSEQKKRKLMGID" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 36 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 67 ,
+                        id
+                          local
+                            str "contig_1919_18" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_1" ,
+                location
+                  int {
+                    from 61 ,
+                    to 411 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_2" ,
+                location
+                  int {
+                    from 401 ,
+                    to 667 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_3" ,
+                location
+                  int {
+                    from 691 ,
+                    to 1056 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_4" ,
+                location
+                  int {
+                    from 1114 ,
+                    to 1446 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_5" ,
+                location
+                  int {
+                    from 1456 ,
+                    to 1884 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_6" ,
+                location
+                  int {
+                    from 1871 ,
+                    to 2035 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_7" ,
+                location
+                  int {
+                    from 2001 ,
+                    to 2399 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_8" ,
+                location
+                  int {
+                    from 2439 ,
+                    to 2702 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_9" ,
+                location
+                  int {
+                    from 2731 ,
+                    to 3168 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_10" ,
+                location
+                  int {
+                    from 3143 ,
+                    to 4261 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_11" ,
+                location
+                  int {
+                    from 4518 ,
+                    to 4844 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_12" ,
+                location
+                  int {
+                    from 5123 ,
+                    to 5425 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_13" ,
+                location
+                  int {
+                    from 5419 ,
+                    to 5649 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_14" ,
+                location
+                  int {
+                    from 5839 ,
+                    to 6198 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00014" } } } } ,
+              {
+                id
+                  local
+                    id 15 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_15" ,
+                location
+                  int {
+                    from 6480 ,
+                    to 7151 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "protein motif:HAMAP:MF_01808" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "xerC" ,
+                        locus-tag "KKOGLKFP_00015" } } } } ,
+              {
+                id
+                  local
+                    id 16 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_16" ,
+                location
+                  int {
+                    from 7156 ,
+                    to 7635 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00016" } } } } ,
+              {
+                id
+                  local
+                    id 17 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_17" ,
+                location
+                  int {
+                    from 7750 ,
+                    to 8553 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00017" } } } } ,
+              {
+                id
+                  local
+                    id 18 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_1919_18" ,
+                location
+                  int {
+                    from 8800 ,
+                    to 9006 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_1919" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "KKOGLKFP_00018" } } } } } } } } } }

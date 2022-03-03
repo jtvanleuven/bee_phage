@@ -1,0 +1,120 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1							phanotate	+	3	1292	1290	contig_1755	prodigal	+	3	1292	1290	contig_1755	
+2	glimmer	+	48	1292	1245	contig_1755													
+3							phanotate	+	1292	1720	429	contig_1755	prodigal	+	1292	1720	429	contig_1755	
+4	glimmer	+	1325	1720	396	contig_1755													
+5	glimmer	+	1724	1930	207	contig_1755													
+6							phanotate	+	1754	1930	177	contig_1755	prodigal	+	1754	1930	177	contig_1755	
+7	glimmer	+	1921	3045	1125	contig_1755	phanotate	+	1921	3045	1125	contig_1755	prodigal	+	1921	3045	1125	contig_1755	
+8	glimmer	+	3070	3882	813	contig_1755													
+9							phanotate	+	3094	3882	789	contig_1755	prodigal	+	3094	3882	789	contig_1755	
+10	glimmer	+	3977	4240	264	contig_1755	phanotate	+	3977	4240	264	contig_1755							
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 10
+The number of gene calls in common among all callers is 1
+The number of unique (non-matching) gene calls is 4
+Caller glimmer produced 6 gene calls.
+Caller glimmer gene-call length stats:  min: 207 , max: 1245 , ave: 675.0
+Caller phanotate produced 6 gene calls.
+Caller phanotate gene-call length stats:  min: 177 , max: 1290 , ave: 679.0
+Caller prodigal produced 5 gene calls.
+Caller prodigal gene-call length stats:  min: 177 , max: 1290 , ave: 762.0
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+						
+phanotate	+	3	1292	1290	contig_1755	
+prodigal	+	3	1292	1290	contig_1755	
+
+2 	
+glimmer	+	48	1292	1245	contig_1755	
+						
+						
+
+3 	
+						
+phanotate	+	1292	1720	429	contig_1755	
+prodigal	+	1292	1720	429	contig_1755	
+
+4 	
+glimmer	+	1325	1720	396	contig_1755	
+						
+						
+
+5 	
+glimmer	+	1724	1930	207	contig_1755	
+						
+						
+
+6 	
+						
+phanotate	+	1754	1930	177	contig_1755	
+prodigal	+	1754	1930	177	contig_1755	
+
+7 	
+glimmer	+	1921	3045	1125	contig_1755	
+phanotate	+	1921	3045	1125	contig_1755	
+prodigal	+	1921	3045	1125	contig_1755	
+
+8 	
+glimmer	+	3070	3882	813	contig_1755	
+						
+						
+
+9 	
+						
+phanotate	+	3094	3882	789	contig_1755	
+prodigal	+	3094	3882	789	contig_1755	
+
+10 	
+glimmer	+	3977	4240	264	contig_1755	
+phanotate	+	3977	4240	264	contig_1755	
+						
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+phanotate 	 contig_1755 	 1 	 3 	 1292 	 + 	 0.83
+prodigal 	 contig_1755 	 1 	 3 	 1292 	 + 	 0.83
+glimmer 	 contig_1755 	 1 	 48 	 1292 	 + 	 0.50
+phanotate 	 contig_1755 	 2 	 1292 	 1720 	 + 	 0.83
+prodigal 	 contig_1755 	 2 	 1292 	 1720 	 + 	 0.83
+glimmer 	 contig_1755 	 2 	 1325 	 1720 	 + 	 0.50
+glimmer 	 contig_1755 	 3 	 1724 	 1930 	 + 	 0.50
+phanotate 	 contig_1755 	 3 	 1754 	 1930 	 + 	 0.83
+prodigal 	 contig_1755 	 3 	 1754 	 1930 	 + 	 0.83
+glimmer 	 contig_1755 	 4 	 1921 	 3045 	 + 	 1.00
+phanotate 	 contig_1755 	 4 	 1921 	 3045 	 + 	 1.00
+prodigal 	 contig_1755 	 4 	 1921 	 3045 	 + 	 1.00
+glimmer 	 contig_1755 	 5 	 3070 	 3882 	 + 	 0.50
+phanotate 	 contig_1755 	 5 	 3094 	 3882 	 + 	 0.83
+prodigal 	 contig_1755 	 5 	 3094 	 3882 	 + 	 0.83
+glimmer 	 contig_1755 	 6 	 3977 	 4240 	 + 	 0.83
+phanotate 	 contig_1755 	 6 	 3977 	 4240 	 + 	 0.83
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.64
+Caller phanotate gene-call consensus score: 0.86
+Caller prodigal gene-call consensus score: 0.87
+CGC_main says, Processing complete.

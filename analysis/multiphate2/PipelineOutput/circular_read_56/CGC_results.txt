@@ -1,0 +1,134 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1							phanotate	+	2	109	108	circular_read_56							
+2	glimmer	+	82	207	126	circular_read_56	phanotate	+	82	207	126	circular_read_56							
+3	glimmer	-	266	385	120	circular_read_56	phanotate	-	266	385	120	circular_read_56							
+4							phanotate	-	482	580	99	circular_read_56							
+5							phanotate	+	647	751	105	circular_read_56							
+6	glimmer	+	724	849	126	circular_read_56	phanotate	+	724	849	126	circular_read_56							
+7	glimmer	-	908	1027	120	circular_read_56	phanotate	-	908	1027	120	circular_read_56							
+8							phanotate	-	1124	1222	99	circular_read_56							
+9							phanotate	+	1289	1393	105	circular_read_56							
+10	glimmer	+	1366	1491	126	circular_read_56	phanotate	+	1366	1491	126	circular_read_56							
+11	glimmer	-	1550	1669	120	circular_read_56	phanotate	-	1550	1669	120	circular_read_56							
+12							phanotate	-	1766	1855	90	circular_read_56	prodigal	-	1766	1855	90	circular_read_56	
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 12
+The number of gene calls in common among all callers is 0
+The number of unique (non-matching) gene calls is 5
+Caller glimmer produced 6 gene calls.
+Caller glimmer gene-call length stats:  min: 120 , max: 126 , ave: 123.0
+Caller phanotate produced 12 gene calls.
+Caller phanotate gene-call length stats:  min: 90 , max: 126 , ave: 112.0
+Caller prodigal produced 1 gene calls.
+Caller prodigal gene-call length stats:  min: 90 , max: 90 , ave: 90.0
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+						
+phanotate	+	2	109	108	circular_read_56	
+						
+
+2 	
+glimmer	+	82	207	126	circular_read_56	
+phanotate	+	82	207	126	circular_read_56	
+						
+
+3 	
+glimmer	-	266	385	120	circular_read_56	
+phanotate	-	266	385	120	circular_read_56	
+						
+
+4 	
+						
+phanotate	-	482	580	99	circular_read_56	
+						
+
+5 	
+						
+phanotate	+	647	751	105	circular_read_56	
+						
+
+6 	
+glimmer	+	724	849	126	circular_read_56	
+phanotate	+	724	849	126	circular_read_56	
+						
+
+7 	
+glimmer	-	908	1027	120	circular_read_56	
+phanotate	-	908	1027	120	circular_read_56	
+						
+
+8 	
+						
+phanotate	-	1124	1222	99	circular_read_56	
+						
+
+9 	
+						
+phanotate	+	1289	1393	105	circular_read_56	
+						
+
+10 	
+glimmer	+	1366	1491	126	circular_read_56	
+phanotate	+	1366	1491	126	circular_read_56	
+						
+
+11 	
+glimmer	-	1550	1669	120	circular_read_56	
+phanotate	-	1550	1669	120	circular_read_56	
+						
+
+12 	
+						
+phanotate	-	1766	1855	90	circular_read_56	
+prodigal	-	1766	1855	90	circular_read_56	
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+phanotate 	 circular_read_56 	 1 	 2 	 109 	 + 	 0.33
+glimmer 	 circular_read_56 	 1 	 82 	 207 	 + 	 0.83
+phanotate 	 circular_read_56 	 2 	 82 	 207 	 + 	 0.83
+glimmer 	 circular_read_56 	 2 	 266 	 385 	 - 	 0.83
+phanotate 	 circular_read_56 	 3 	 266 	 385 	 - 	 0.83
+phanotate 	 circular_read_56 	 4 	 482 	 580 	 - 	 0.33
+phanotate 	 circular_read_56 	 5 	 647 	 751 	 + 	 0.33
+glimmer 	 circular_read_56 	 3 	 724 	 849 	 + 	 0.83
+phanotate 	 circular_read_56 	 6 	 724 	 849 	 + 	 0.83
+glimmer 	 circular_read_56 	 4 	 908 	 1027 	 - 	 0.83
+phanotate 	 circular_read_56 	 7 	 908 	 1027 	 - 	 0.83
+phanotate 	 circular_read_56 	 8 	 1124 	 1222 	 - 	 0.33
+phanotate 	 circular_read_56 	 9 	 1289 	 1393 	 + 	 0.33
+glimmer 	 circular_read_56 	 5 	 1366 	 1491 	 + 	 0.83
+phanotate 	 circular_read_56 	 10 	 1366 	 1491 	 + 	 0.83
+glimmer 	 circular_read_56 	 6 	 1550 	 1669 	 - 	 0.83
+phanotate 	 circular_read_56 	 11 	 1550 	 1669 	 - 	 0.83
+phanotate 	 circular_read_56 	 12 	 1766 	 1855 	 - 	 0.83
+prodigal 	 circular_read_56 	 1 	 1766 	 1855 	 - 	 0.83
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.83
+Caller phanotate gene-call consensus score: 0.62
+Caller prodigal gene-call consensus score: 0.83
+CGC_main says, Processing complete.

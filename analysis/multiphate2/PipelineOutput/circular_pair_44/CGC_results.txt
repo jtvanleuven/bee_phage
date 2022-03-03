@@ -1,0 +1,158 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1							phanotate	-	3	443	441	circular_pair_44							
+2													prodigal	-	3	488	486	circular_pair_44	
+3	glimmer	-	481	1212	732	circular_pair_44	phanotate	-	481	1212	732	circular_pair_44	prodigal	-	481	1212	732	circular_pair_44	
+4	glimmer	-	1285	1533	249	circular_pair_44	phanotate	-	1285	1533	249	circular_pair_44							
+5							phanotate	-	1575	2090	516	circular_pair_44							
+6													prodigal	-	1575	2135	561	circular_pair_44	
+7	glimmer	+	1629	1943	315	circular_pair_44													
+8	glimmer	-	2128	2859	732	circular_pair_44	phanotate	-	2128	2859	732	circular_pair_44	prodigal	-	2128	2859	732	circular_pair_44	
+9	glimmer	-	2932	3180	249	circular_pair_44	phanotate	-	2932	3180	249	circular_pair_44							
+10							phanotate	-	3222	3737	516	circular_pair_44							
+11													prodigal	-	3222	3782	561	circular_pair_44	
+12	glimmer	+	3276	3590	315	circular_pair_44													
+13	glimmer	-	3775	4506	732	circular_pair_44	phanotate	-	3775	4506	732	circular_pair_44	prodigal	-	3775	4506	732	circular_pair_44	
+14	glimmer	-	4579	4827	249	circular_pair_44	phanotate	-	4579	4827	249	circular_pair_44							
+15							phanotate	-	4869	5201	333	circular_pair_44	prodigal	-	4869	5201	333	circular_pair_44	
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 15
+The number of gene calls in common among all callers is 3
+The number of unique (non-matching) gene calls is 8
+Caller glimmer produced 8 gene calls.
+Caller glimmer gene-call length stats:  min: 249 , max: 732 , ave: 446.625
+Caller phanotate produced 10 gene calls.
+Caller phanotate gene-call length stats:  min: 249 , max: 732 , ave: 474.9
+Caller prodigal produced 7 gene calls.
+Caller prodigal gene-call length stats:  min: 333 , max: 732 , ave: 591.0
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+						
+phanotate	-	3	443	441	circular_pair_44	
+						
+
+2 	
+						
+						
+prodigal	-	3	488	486	circular_pair_44	
+
+3 	
+glimmer	-	481	1212	732	circular_pair_44	
+phanotate	-	481	1212	732	circular_pair_44	
+prodigal	-	481	1212	732	circular_pair_44	
+
+4 	
+glimmer	-	1285	1533	249	circular_pair_44	
+phanotate	-	1285	1533	249	circular_pair_44	
+						
+
+5 	
+						
+phanotate	-	1575	2090	516	circular_pair_44	
+						
+
+6 	
+						
+						
+prodigal	-	1575	2135	561	circular_pair_44	
+
+7 	
+glimmer	+	1629	1943	315	circular_pair_44	
+						
+						
+
+8 	
+glimmer	-	2128	2859	732	circular_pair_44	
+phanotate	-	2128	2859	732	circular_pair_44	
+prodigal	-	2128	2859	732	circular_pair_44	
+
+9 	
+glimmer	-	2932	3180	249	circular_pair_44	
+phanotate	-	2932	3180	249	circular_pair_44	
+						
+
+10 	
+						
+phanotate	-	3222	3737	516	circular_pair_44	
+						
+
+11 	
+						
+						
+prodigal	-	3222	3782	561	circular_pair_44	
+
+12 	
+glimmer	+	3276	3590	315	circular_pair_44	
+						
+						
+
+13 	
+glimmer	-	3775	4506	732	circular_pair_44	
+phanotate	-	3775	4506	732	circular_pair_44	
+prodigal	-	3775	4506	732	circular_pair_44	
+
+14 	
+glimmer	-	4579	4827	249	circular_pair_44	
+phanotate	-	4579	4827	249	circular_pair_44	
+						
+
+15 	
+						
+phanotate	-	4869	5201	333	circular_pair_44	
+prodigal	-	4869	5201	333	circular_pair_44	
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+phanotate 	 circular_pair_44 	 1 	 3 	 443 	 - 	 0.50
+prodigal 	 circular_pair_44 	 1 	 3 	 488 	 - 	 0.50
+glimmer 	 circular_pair_44 	 2 	 481 	 1212 	 - 	 1.00
+phanotate 	 circular_pair_44 	 2 	 481 	 1212 	 - 	 1.00
+prodigal 	 circular_pair_44 	 2 	 481 	 1212 	 - 	 1.00
+glimmer 	 circular_pair_44 	 3 	 1285 	 1533 	 - 	 0.83
+phanotate 	 circular_pair_44 	 3 	 1285 	 1533 	 - 	 0.83
+phanotate 	 circular_pair_44 	 4 	 1575 	 2090 	 - 	 0.50
+prodigal 	 circular_pair_44 	 3 	 1575 	 2135 	 - 	 0.50
+glimmer 	 circular_pair_44 	 4 	 1629 	 1943 	 + 	 0.33
+glimmer 	 circular_pair_44 	 5 	 2128 	 2859 	 - 	 1.00
+phanotate 	 circular_pair_44 	 5 	 2128 	 2859 	 - 	 1.00
+prodigal 	 circular_pair_44 	 4 	 2128 	 2859 	 - 	 1.00
+glimmer 	 circular_pair_44 	 6 	 2932 	 3180 	 - 	 0.83
+phanotate 	 circular_pair_44 	 6 	 2932 	 3180 	 - 	 0.83
+phanotate 	 circular_pair_44 	 7 	 3222 	 3737 	 - 	 0.50
+prodigal 	 circular_pair_44 	 5 	 3222 	 3782 	 - 	 0.50
+glimmer 	 circular_pair_44 	 7 	 3276 	 3590 	 + 	 0.33
+glimmer 	 circular_pair_44 	 8 	 3775 	 4506 	 - 	 1.00
+phanotate 	 circular_pair_44 	 8 	 3775 	 4506 	 - 	 1.00
+prodigal 	 circular_pair_44 	 6 	 3775 	 4506 	 - 	 1.00
+glimmer 	 circular_pair_44 	 9 	 4579 	 4827 	 - 	 0.83
+phanotate 	 circular_pair_44 	 9 	 4579 	 4827 	 - 	 0.83
+phanotate 	 circular_pair_44 	 10 	 4869 	 5201 	 - 	 0.83
+prodigal 	 circular_pair_44 	 7 	 4869 	 5201 	 - 	 0.83
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.77
+Caller phanotate gene-call consensus score: 0.78
+Caller prodigal gene-call consensus score: 0.76
+CGC_main says, Processing complete.

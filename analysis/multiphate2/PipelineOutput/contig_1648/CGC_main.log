@@ -1,0 +1,261 @@
+Opening log at 2021-04-21 09:07:20.817306
+Iterating through fileSet at 2021-04-21 09:07:20.817573
+fileSet is ['/home/james/Software/multiPhATE2/PipelineOutput/contig_1648/commoncore.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/contig_1648/consensus.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/contig_1648/glimmer.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/contig_1648/phanotate.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/contig_1648/prodigal.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/contig_1648/superset.cgc']
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/commoncore.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/commoncore.cgc
+Appending call set  number of calls is: 0
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/consensus.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/consensus.cgc
+Appending call set  number of calls is: 0
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/glimmer.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/glimmer.cgc
+Appending call set  number of calls is: 17
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/phanotate.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/phanotate.cgc
+Appending call set  number of calls is: 18
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/prodigal.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/prodigal.cgc
+Appending call set  number of calls is: 15
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/superset.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/contig_1648/superset.cgc
+Appending call set  number of calls is: 0
+All call sets have been added to caller list. Number of call sets in callerList: 6
+callerList is   glimmer phanotate prodigal  
+Total number of gene calls across callerList call sets is: 50
+Sorting gene calls for each caller
+Processing a callSet
+Before sorting, Length of callerList for caller  is 0
+After sorting, Length of callerList for caller  is 0
+Processing a callSet
+Before sorting, Length of callerList for caller  is 0
+After sorting, Length of callerList for caller  is 0
+Processing a callSet
+Before sorting, Length of callerList for caller glimmer is 17
+After sorting, Length of callerList for caller glimmer is 17
+Processing a callSet
+Before sorting, Length of callerList for caller phanotate is 18
+After sorting, Length of callerList for caller phanotate is 18
+Processing a callSet
+Before sorting, Length of callerList for caller prodigal is 15
+After sorting, Length of callerList for caller prodigal is 15
+Processing a callSet
+Before sorting, Length of callerList for caller  is 0
+After sorting, Length of callerList for caller  is 0
+callSet processing complete
+Comparing across the call sets...
+Merging the geneCall sets....
+Final merged genes:
+
+***************Merge List
+1	Gene No. 1, gene caller: phanotate, leftEnd: 1, rightEnd: 363, strand: +, length: 363, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+2	Gene No. 1, gene caller: prodigal, leftEnd: 1, rightEnd: 363, strand: +, length: 363, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+3	Gene No. 1, gene caller: glimmer, leftEnd: 16, rightEnd: 363, strand: +, length: 348, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+4	Gene No. 2, gene caller: phanotate, leftEnd: 390, rightEnd: 527, strand: +, length: 138, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+5	Gene No. 2, gene caller: glimmer, leftEnd: 396, rightEnd: 527, strand: +, length: 132, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+6	Gene No. 3, gene caller: phanotate, leftEnd: 565, rightEnd: 660, strand: -, length: 96, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+7	Gene No. 3, gene caller: glimmer, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+8	Gene No. 4, gene caller: phanotate, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+9	Gene No. 2, gene caller: prodigal, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+10	Gene No. 4, gene caller: glimmer, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+11	Gene No. 5, gene caller: phanotate, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+12	Gene No. 3, gene caller: prodigal, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+13	Gene No. 5, gene caller: glimmer, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+14	Gene No. 6, gene caller: phanotate, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+15	Gene No. 4, gene caller: prodigal, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+16	Gene No. 6, gene caller: glimmer, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+17	Gene No. 7, gene caller: phanotate, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+18	Gene No. 5, gene caller: prodigal, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+19	Gene No. 7, gene caller: glimmer, leftEnd: 4946, rightEnd: 5251, strand: +, length: 306, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+20	Gene No. 8, gene caller: phanotate, leftEnd: 4946, rightEnd: 5251, strand: +, length: 306, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+21	Gene No. 6, gene caller: prodigal, leftEnd: 4955, rightEnd: 5251, strand: +, length: 297, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+22	Gene No. 8, gene caller: glimmer, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+23	Gene No. 9, gene caller: phanotate, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+24	Gene No. 7, gene caller: prodigal, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+25	Gene No. 9, gene caller: glimmer, leftEnd: 5518, rightEnd: 5685, strand: +, length: 168, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+26	Gene No. 10, gene caller: phanotate, leftEnd: 5548, rightEnd: 5685, strand: +, length: 138, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+27	Gene No. 8, gene caller: prodigal, leftEnd: 5548, rightEnd: 5685, strand: +, length: 138, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+28	Gene No. 10, gene caller: glimmer, leftEnd: 5678, rightEnd: 5842, strand: +, length: 165, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+29	Gene No. 11, gene caller: phanotate, leftEnd: 5678, rightEnd: 5842, strand: +, length: 165, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+30	Gene No. 11, gene caller: glimmer, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+31	Gene No. 12, gene caller: phanotate, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+32	Gene No. 9, gene caller: prodigal, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+33	Gene No. 12, gene caller: glimmer, leftEnd: 6188, rightEnd: 6532, strand: +, length: 345, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+34	Gene No. 10, gene caller: prodigal, leftEnd: 6188, rightEnd: 6532, strand: +, length: 345, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+35	Gene No. 13, gene caller: phanotate, leftEnd: 6218, rightEnd: 6532, strand: +, length: 315, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+36	Gene No. 11, gene caller: prodigal, leftEnd: 6565, rightEnd: 6861, strand: -, length: 297, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+37	Gene No. 13, gene caller: glimmer, leftEnd: 6565, rightEnd: 6870, strand: -, length: 306, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+38	Gene No. 14, gene caller: phanotate, leftEnd: 6565, rightEnd: 6870, strand: -, length: 306, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+39	Gene No. 14, gene caller: glimmer, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+40	Gene No. 15, gene caller: phanotate, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+41	Gene No. 12, gene caller: prodigal, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+42	Gene No. 15, gene caller: glimmer, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+43	Gene No. 16, gene caller: phanotate, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+44	Gene No. 13, gene caller: prodigal, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+45	Gene No. 16, gene caller: glimmer, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+46	Gene No. 17, gene caller: phanotate, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+47	Gene No. 14, gene caller: prodigal, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+48	Gene No. 17, gene caller: glimmer, leftEnd: 9971, rightEnd: 10462, strand: -, length: 492, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+49	Gene No. 18, gene caller: phanotate, leftEnd: 9971, rightEnd: 10465, strand: -, length: 495, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+50	Gene No. 15, gene caller: prodigal, leftEnd: 9971, rightEnd: 10465, strand: -, length: 495, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Comparing across geneCall sets....
+Scoring gene calls....
+Identifying common core...
+This is the Common Core List:
+
+***************Common Core
+CC-gene 1	Gene No. 1, gene caller: All_callers, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 2	Gene No. 1, gene caller: All_callers, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 3	Gene No. 1, gene caller: All_callers, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 4	Gene No. 1, gene caller: All_callers, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 5	Gene No. 1, gene caller: All_callers, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 6	Gene No. 1, gene caller: All_callers, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 7	Gene No. 1, gene caller: All_callers, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 8	Gene No. 1, gene caller: All_callers, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+CC-gene 9	Gene No. 1, gene caller: All_callers, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Printing gene-call superset, consensus, and common_core in GFF and CGC formats
+Printing report....
+The following gene callers were considered: glimmer, phanotate, prodigal, The number of distinct gene calls over all gene callers is 25
+The number of gene calls in common among all callers is 9
+The number of unique (non-matching) gene calls is9
+Caller glimmer produced 17 gene calls.
+Caller glimmer gene-call length stats:  min: 132, max: 2091, ave: 597.8823529411765
+Caller phanotate produced 18 gene calls.
+Caller phanotate gene-call length stats:  min: 96, max: 2091, ave: 568.0
+Caller prodigal produced 15 gene calls.
+Caller prodigal gene-call length stats:  min: 138, max: 2091, ave: 655.8
+
+Gene-call Scores:
+Caller	Contig	Gene No.	Left End	Right End	Strand	gcScore
+phanotate	contig_1648	1	1	363	+	0.83
+prodigal	contig_1648	1	1	363	+	0.83
+glimmer	contig_1648	1	16	363	+	0.50
+phanotate	contig_1648	2	390	527	+	0.50
+glimmer	contig_1648	2	396	527	+	0.50
+phanotate	contig_1648	3	565	660	-	0.33
+glimmer	contig_1648	3	697	1845	+	1.00
+phanotate	contig_1648	4	697	1845	+	1.00
+prodigal	contig_1648	2	697	1845	+	1.00
+glimmer	contig_1648	4	1838	2392	+	1.00
+phanotate	contig_1648	5	1838	2392	+	1.00
+prodigal	contig_1648	3	1838	2392	+	1.00
+glimmer	contig_1648	5	2407	4497	+	1.00
+phanotate	contig_1648	6	2407	4497	+	1.00
+prodigal	contig_1648	4	2407	4497	+	1.00
+glimmer	contig_1648	6	4521	4955	+	1.00
+phanotate	contig_1648	7	4521	4955	+	1.00
+prodigal	contig_1648	5	4521	4955	+	1.00
+glimmer	contig_1648	7	4946	5251	+	0.83
+phanotate	contig_1648	8	4946	5251	+	0.83
+prodigal	contig_1648	6	4955	5251	+	0.50
+glimmer	contig_1648	8	5262	5459	+	1.00
+phanotate	contig_1648	9	5262	5459	+	1.00
+prodigal	contig_1648	7	5262	5459	+	1.00
+glimmer	contig_1648	9	5518	5685	+	0.50
+phanotate	contig_1648	10	5548	5685	+	0.83
+prodigal	contig_1648	8	5548	5685	+	0.83
+glimmer	contig_1648	10	5678	5842	+	0.83
+phanotate	contig_1648	11	5678	5842	+	0.83
+glimmer	contig_1648	11	5814	6206	+	1.00
+phanotate	contig_1648	12	5814	6206	+	1.00
+prodigal	contig_1648	9	5814	6206	+	1.00
+glimmer	contig_1648	12	6188	6532	+	0.83
+prodigal	contig_1648	10	6188	6532	+	0.83
+phanotate	contig_1648	13	6218	6532	+	0.50
+prodigal	contig_1648	11	6565	6861	-	0.50
+glimmer	contig_1648	13	6565	6870	-	0.83
+phanotate	contig_1648	14	6565	6870	-	0.83
+glimmer	contig_1648	14	6861	7295	-	1.00
+phanotate	contig_1648	15	6861	7295	-	1.00
+prodigal	contig_1648	12	6861	7295	-	1.00
+glimmer	contig_1648	15	7319	9409	-	1.00
+phanotate	contig_1648	16	7319	9409	-	1.00
+prodigal	contig_1648	13	7319	9409	-	1.00
+glimmer	contig_1648	16	9424	9978	-	1.00
+phanotate	contig_1648	17	9424	9978	-	1.00
+prodigal	contig_1648	14	9424	9978	-	1.00
+glimmer	contig_1648	17	9971	10462	-	0.50
+phanotate	contig_1648	18	9971	10465	-	0.83
+prodigal	contig_1648	15	9971	10465	-	0.83
+
+Gene-call Consensus Scores:
+Caller glimmer average gene-call score: 0.84
+Caller phanotate average gene-call score: 0.85
+Caller prodigal average gene-call score: 0.89
+
+***************Unique List
+Unique gene call 1
+  --  Gene No. 1, gene caller: phanotate, leftEnd: 1, rightEnd: 363, strand: +, length: 363, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 1, gene caller: prodigal, leftEnd: 1, rightEnd: 363, strand: +, length: 363, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 2
+  --  Gene No. 1, gene caller: glimmer, leftEnd: 16, rightEnd: 363, strand: +, length: 348, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 3
+  --  Gene No. 2, gene caller: phanotate, leftEnd: 390, rightEnd: 527, strand: +, length: 138, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 4
+  --  Gene No. 2, gene caller: glimmer, leftEnd: 396, rightEnd: 527, strand: +, length: 132, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 5
+  --  Gene No. 3, gene caller: phanotate, leftEnd: 565, rightEnd: 660, strand: -, length: 96, contig: contig_1648, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 6
+  --  Gene No. 3, gene caller: glimmer, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 4, gene caller: phanotate, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 2, gene caller: prodigal, leftEnd: 697, rightEnd: 1845, strand: +, length: 1149, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 7
+  --  Gene No. 4, gene caller: glimmer, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 5, gene caller: phanotate, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 3, gene caller: prodigal, leftEnd: 1838, rightEnd: 2392, strand: +, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 8
+  --  Gene No. 5, gene caller: glimmer, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 6, gene caller: phanotate, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 4, gene caller: prodigal, leftEnd: 2407, rightEnd: 4497, strand: +, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 9
+  --  Gene No. 6, gene caller: glimmer, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 7, gene caller: phanotate, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 5, gene caller: prodigal, leftEnd: 4521, rightEnd: 4955, strand: +, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 10
+  --  Gene No. 7, gene caller: glimmer, leftEnd: 4946, rightEnd: 5251, strand: +, length: 306, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 8, gene caller: phanotate, leftEnd: 4946, rightEnd: 5251, strand: +, length: 306, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 11
+  --  Gene No. 6, gene caller: prodigal, leftEnd: 4955, rightEnd: 5251, strand: +, length: 297, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 12
+  --  Gene No. 8, gene caller: glimmer, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 9, gene caller: phanotate, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 7, gene caller: prodigal, leftEnd: 5262, rightEnd: 5459, strand: +, length: 198, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 13
+  --  Gene No. 9, gene caller: glimmer, leftEnd: 5518, rightEnd: 5685, strand: +, length: 168, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 14
+  --  Gene No. 10, gene caller: phanotate, leftEnd: 5548, rightEnd: 5685, strand: +, length: 138, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 8, gene caller: prodigal, leftEnd: 5548, rightEnd: 5685, strand: +, length: 138, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 15
+  --  Gene No. 10, gene caller: glimmer, leftEnd: 5678, rightEnd: 5842, strand: +, length: 165, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 11, gene caller: phanotate, leftEnd: 5678, rightEnd: 5842, strand: +, length: 165, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 16
+  --  Gene No. 11, gene caller: glimmer, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 12, gene caller: phanotate, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 9, gene caller: prodigal, leftEnd: 5814, rightEnd: 6206, strand: +, length: 393, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 17
+  --  Gene No. 12, gene caller: glimmer, leftEnd: 6188, rightEnd: 6532, strand: +, length: 345, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 10, gene caller: prodigal, leftEnd: 6188, rightEnd: 6532, strand: +, length: 345, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 18
+  --  Gene No. 13, gene caller: phanotate, leftEnd: 6218, rightEnd: 6532, strand: +, length: 315, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 19
+  --  Gene No. 11, gene caller: prodigal, leftEnd: 6565, rightEnd: 6861, strand: -, length: 297, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 20
+  --  Gene No. 13, gene caller: glimmer, leftEnd: 6565, rightEnd: 6870, strand: -, length: 306, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 14, gene caller: phanotate, leftEnd: 6565, rightEnd: 6870, strand: -, length: 306, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 21
+  --  Gene No. 14, gene caller: glimmer, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 15, gene caller: phanotate, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 12, gene caller: prodigal, leftEnd: 6861, rightEnd: 7295, strand: -, length: 435, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 22
+  --  Gene No. 15, gene caller: glimmer, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 16, gene caller: phanotate, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 13, gene caller: prodigal, leftEnd: 7319, rightEnd: 9409, strand: -, length: 2091, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 23
+  --  Gene No. 16, gene caller: glimmer, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 17, gene caller: phanotate, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 14, gene caller: prodigal, leftEnd: 9424, rightEnd: 9978, strand: -, length: 555, contig: contig_1648, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 24
+  --  Gene No. 17, gene caller: glimmer, leftEnd: 9971, rightEnd: 10462, strand: -, length: 492, contig: contig_1648, protein: unknown, score1: 0.5, score2: 0.0
+Unique gene call 25
+  --  Gene No. 18, gene caller: phanotate, leftEnd: 9971, rightEnd: 10465, strand: -, length: 495, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 15, gene caller: prodigal, leftEnd: 9971, rightEnd: 10465, strand: -, length: 495, contig: contig_1648, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Code complete at 2021-04-21 09:07:20.829001

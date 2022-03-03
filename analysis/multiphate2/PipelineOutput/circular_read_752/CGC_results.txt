@@ -1,0 +1,156 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1	glimmer	+	242	775	534	circular_read_752	phanotate	+	242	775	534	circular_read_752	prodigal	+	242	775	534	circular_read_752	
+2													prodigal	+	727	1089	363	circular_read_752	
+3							phanotate	+	808	1089	282	circular_read_752							
+4							phanotate	+	1041	1298	258	circular_read_752	prodigal	+	1041	1298	258	circular_read_752	
+5							phanotate	+	1295	1669	375	circular_read_752	prodigal	+	1295	1669	375	circular_read_752	
+6							phanotate	+	1747	1863	117	circular_read_752							
+7							phanotate	+	1947	2045	99	circular_read_752							
+8							phanotate	+	2074	2178	105	circular_read_752							
+9							phanotate	+	2525	2854	330	circular_read_752							
+10													prodigal	-	2537	2836	300	circular_read_752	
+11	glimmer	+	2943	3209	267	circular_read_752	phanotate	+	2943	3209	267	circular_read_752							
+12	glimmer	+	3203	4009	807	circular_read_752	phanotate	+	3203	4009	807	circular_read_752	prodigal	+	3203	4009	807	circular_read_752	
+13							phanotate	+	3984	4376	393	circular_read_752	prodigal	+	3984	4376	393	circular_read_752	
+14							phanotate	-	4347	4454	108	circular_read_752							
+15							phanotate	-	4550	4645	96	circular_read_752							
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 15
+The number of gene calls in common among all callers is 2
+The number of unique (non-matching) gene calls is 9
+Caller glimmer produced 3 gene calls.
+Caller glimmer gene-call length stats:  min: 267 , max: 807 , ave: 536.0
+Caller phanotate produced 13 gene calls.
+Caller phanotate gene-call length stats:  min: 96 , max: 807 , ave: 290.0769230769231
+Caller prodigal produced 7 gene calls.
+Caller prodigal gene-call length stats:  min: 258 , max: 807 , ave: 432.85714285714283
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+glimmer	+	242	775	534	circular_read_752	
+phanotate	+	242	775	534	circular_read_752	
+prodigal	+	242	775	534	circular_read_752	
+
+2 	
+						
+						
+prodigal	+	727	1089	363	circular_read_752	
+
+3 	
+						
+phanotate	+	808	1089	282	circular_read_752	
+						
+
+4 	
+						
+phanotate	+	1041	1298	258	circular_read_752	
+prodigal	+	1041	1298	258	circular_read_752	
+
+5 	
+						
+phanotate	+	1295	1669	375	circular_read_752	
+prodigal	+	1295	1669	375	circular_read_752	
+
+6 	
+						
+phanotate	+	1747	1863	117	circular_read_752	
+						
+
+7 	
+						
+phanotate	+	1947	2045	99	circular_read_752	
+						
+
+8 	
+						
+phanotate	+	2074	2178	105	circular_read_752	
+						
+
+9 	
+						
+phanotate	+	2525	2854	330	circular_read_752	
+						
+
+10 	
+						
+						
+prodigal	-	2537	2836	300	circular_read_752	
+
+11 	
+glimmer	+	2943	3209	267	circular_read_752	
+phanotate	+	2943	3209	267	circular_read_752	
+						
+
+12 	
+glimmer	+	3203	4009	807	circular_read_752	
+phanotate	+	3203	4009	807	circular_read_752	
+prodigal	+	3203	4009	807	circular_read_752	
+
+13 	
+						
+phanotate	+	3984	4376	393	circular_read_752	
+prodigal	+	3984	4376	393	circular_read_752	
+
+14 	
+						
+phanotate	-	4347	4454	108	circular_read_752	
+						
+
+15 	
+						
+phanotate	-	4550	4645	96	circular_read_752	
+						
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+glimmer 	 circular_read_752 	 2 	 242 	 775 	 + 	 1.00
+phanotate 	 circular_read_752 	 1 	 242 	 775 	 + 	 1.00
+prodigal 	 circular_read_752 	 1 	 242 	 775 	 + 	 1.00
+prodigal 	 circular_read_752 	 2 	 727 	 1089 	 + 	 0.50
+phanotate 	 circular_read_752 	 2 	 808 	 1089 	 + 	 0.50
+phanotate 	 circular_read_752 	 3 	 1041 	 1298 	 + 	 0.83
+prodigal 	 circular_read_752 	 3 	 1041 	 1298 	 + 	 0.83
+phanotate 	 circular_read_752 	 4 	 1295 	 1669 	 + 	 0.83
+prodigal 	 circular_read_752 	 4 	 1295 	 1669 	 + 	 0.83
+phanotate 	 circular_read_752 	 5 	 1747 	 1863 	 + 	 0.33
+phanotate 	 circular_read_752 	 6 	 1947 	 2045 	 + 	 0.33
+phanotate 	 circular_read_752 	 7 	 2074 	 2178 	 + 	 0.33
+phanotate 	 circular_read_752 	 8 	 2525 	 2854 	 + 	 0.33
+prodigal 	 circular_read_752 	 5 	 2537 	 2836 	 - 	 0.33
+glimmer 	 circular_read_752 	 3 	 2943 	 3209 	 + 	 0.83
+phanotate 	 circular_read_752 	 9 	 2943 	 3209 	 + 	 0.83
+glimmer 	 circular_read_752 	 4 	 3203 	 4009 	 + 	 1.00
+phanotate 	 circular_read_752 	 10 	 3203 	 4009 	 + 	 1.00
+prodigal 	 circular_read_752 	 6 	 3203 	 4009 	 + 	 1.00
+phanotate 	 circular_read_752 	 11 	 3984 	 4376 	 + 	 0.83
+prodigal 	 circular_read_752 	 7 	 3984 	 4376 	 + 	 0.83
+phanotate 	 circular_read_752 	 12 	 4347 	 4454 	 - 	 0.33
+phanotate 	 circular_read_752 	 13 	 4550 	 4645 	 - 	 0.33
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.94
+Caller phanotate gene-call consensus score: 0.60
+Caller prodigal gene-call consensus score: 0.76
+CGC_main says, Processing complete.

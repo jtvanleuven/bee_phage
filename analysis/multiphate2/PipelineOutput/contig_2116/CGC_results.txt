@@ -1,0 +1,109 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1							phanotate	+	3	215	213	contig_2116	prodigal	+	3	215	213	contig_2116	
+2	glimmer	-	35	184	150	contig_2116													
+3							phanotate	+	212	382	171	contig_2116	prodigal	+	212	382	171	contig_2116	
+4	glimmer	+	404	880	477	contig_2116	phanotate	+	404	880	477	contig_2116	prodigal	+	404	880	477	contig_2116	
+5	glimmer	+	867	1379	513	contig_2116	phanotate	+	867	1379	513	contig_2116	prodigal	+	867	1379	513	contig_2116	
+6	glimmer	+	1372	1734	363	contig_2116	phanotate	+	1372	1734	363	contig_2116	prodigal	+	1372	1734	363	contig_2116	
+7							phanotate	+	1751	1855	105	contig_2116	prodigal	+	1751	1855	105	contig_2116	
+8							phanotate	+	1919	2236	318	contig_2116	prodigal	+	1919	2236	318	contig_2116	
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 8
+The number of gene calls in common among all callers is 3
+The number of unique (non-matching) gene calls is 1
+Caller glimmer produced 4 gene calls.
+Caller glimmer gene-call length stats:  min: 150 , max: 513 , ave: 375.75
+Caller phanotate produced 7 gene calls.
+Caller phanotate gene-call length stats:  min: 105 , max: 513 , ave: 308.57142857142856
+Caller prodigal produced 7 gene calls.
+Caller prodigal gene-call length stats:  min: 105 , max: 513 , ave: 308.57142857142856
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+						
+phanotate	+	3	215	213	contig_2116	
+prodigal	+	3	215	213	contig_2116	
+
+2 	
+glimmer	-	35	184	150	contig_2116	
+						
+						
+
+3 	
+						
+phanotate	+	212	382	171	contig_2116	
+prodigal	+	212	382	171	contig_2116	
+
+4 	
+glimmer	+	404	880	477	contig_2116	
+phanotate	+	404	880	477	contig_2116	
+prodigal	+	404	880	477	contig_2116	
+
+5 	
+glimmer	+	867	1379	513	contig_2116	
+phanotate	+	867	1379	513	contig_2116	
+prodigal	+	867	1379	513	contig_2116	
+
+6 	
+glimmer	+	1372	1734	363	contig_2116	
+phanotate	+	1372	1734	363	contig_2116	
+prodigal	+	1372	1734	363	contig_2116	
+
+7 	
+						
+phanotate	+	1751	1855	105	contig_2116	
+prodigal	+	1751	1855	105	contig_2116	
+
+8 	
+						
+phanotate	+	1919	2236	318	contig_2116	
+prodigal	+	1919	2236	318	contig_2116	
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+phanotate 	 contig_2116 	 1 	 3 	 215 	 + 	 0.83
+prodigal 	 contig_2116 	 1 	 3 	 215 	 + 	 0.83
+glimmer 	 contig_2116 	 2 	 35 	 184 	 - 	 0.33
+phanotate 	 contig_2116 	 2 	 212 	 382 	 + 	 0.83
+prodigal 	 contig_2116 	 2 	 212 	 382 	 + 	 0.83
+glimmer 	 contig_2116 	 3 	 404 	 880 	 + 	 1.00
+phanotate 	 contig_2116 	 3 	 404 	 880 	 + 	 1.00
+prodigal 	 contig_2116 	 3 	 404 	 880 	 + 	 1.00
+glimmer 	 contig_2116 	 4 	 867 	 1379 	 + 	 1.00
+phanotate 	 contig_2116 	 4 	 867 	 1379 	 + 	 1.00
+prodigal 	 contig_2116 	 4 	 867 	 1379 	 + 	 1.00
+glimmer 	 contig_2116 	 5 	 1372 	 1734 	 + 	 1.00
+phanotate 	 contig_2116 	 5 	 1372 	 1734 	 + 	 1.00
+prodigal 	 contig_2116 	 5 	 1372 	 1734 	 + 	 1.00
+phanotate 	 contig_2116 	 6 	 1751 	 1855 	 + 	 0.83
+prodigal 	 contig_2116 	 6 	 1751 	 1855 	 + 	 0.83
+phanotate 	 contig_2116 	 7 	 1919 	 2236 	 + 	 0.83
+prodigal 	 contig_2116 	 7 	 1919 	 2236 	 + 	 0.83
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.83
+Caller phanotate gene-call consensus score: 0.90
+Caller prodigal gene-call consensus score: 0.90
+CGC_main says, Processing complete.

@@ -1,0 +1,676 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "MN856076" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 5804 ,
+            seq-data
+              iupacna "TCAAAGTTATTAAGAGGGATGCAATCGTTGAAGCTAAAAGTGCCGAAATTAATAG
+TAGTCAAATTGAAAACATTAAATACCTGCTTAACATCTATTTACCTGCGAATATGATCTATGAAATTAGAGTAGCATT
+GAACAGAGCTGAAATTAGCAATGACTTTAAAGTTGGTCTTGGAATGTGGTCTAAAGCAACAACTACAGTGCAAGCCAA
+TGTGTCTCAGTTTAATAATTAGAAAGGAGTGGTGATTTTGTCAAAATATAATAAGACGATATTAACCAGTGCAGGGCT
+TGATTTAGCTGCTAGAGCCAGTTCTGGGAAAGCCAAGTTCACAATTACCAGAGCAGCTACTTCAACCGAAAAACTAGC
+AGACAAGAGTATCAGCGAATTGCAACAGTTAACGGCACTGCCTAGCCTGATGCAATATGGTGAAATTAACAATGTCGC
+AGATTCTGCTCAGGATAAAAGCATTGTCATTGGCGCAGAGCTAGTATTTAACAACAAAGATTTGACTACAGGCTACAA
+CGTGAACACTATTGGCTTGTTTGCCAAAGAAGAGGGCGCTAGTAAAGAGATTCTTTACGCACTGACTACAGCAGTAGA
+GCCTGAAATGATGCCTGACTTCAAAGACAAAGTATTGTTCAAGTTTAATCTAACCATGTTTGTTGTTGTTGGCCAGAC
+TGATAACGTAACTGTGAATGTTACTCAAAATGGAGTAGTTACGCAGCAACAGTTGTCTGGTATTGTTGCTAAATTTCC
+GACTAAAGAAGATTTAGCAAAAGTCCGTAAGGATAGCAATGCTTTAGCAGTACTTTCTAACCCTGATAGCATAGTAGC
+TAATCAAACGATTAACTTGGATACATTTACAGTAAAGGGAATTACCAAATTCCAAAATGCCCAGTTGTCGTCTACTGG
+TTACATGCAGGCATTTGACCAGTCGACCACTGGGCTAAATGGTTGGATTTTCAACGTATACAGTAATGATGGTGCTAG
+CTATATCCAGATTGTGCATATTACTAATACTACGTACAACCAAGGTGCTATGTACTTTTTAAGAGCCAAGTCTAATGG
+CACGAGTACAGAGGATTTTGCGCGTATGTCGACTGTGAAAGACCACGCTCAATTCTTTTCACTTACTGAAAAAGATGC
+AAAAGAGGTTGTTGCGCGTGACGAAAATAAGAGCTTCAATCCTGACAACGTGGTTGATTCTGGTGTTCACCGTATTAG
+TAGCACTAAAATCAATGCCAAGTATGATGTGACCGACCCTAAAGATGCAAACAGTAGTTATAGCTTTTCGGGATTCTA
+CTGGGGTTGGTTGTTTAATTTAAATTTCGATGACAGCCAAAATAGTAATGCAGTCTATCAATTGTTAGTAGTTAATAG
+TGGTATCTATTACCGTGAAATATCGGTCAAAACCAATGACTTCCCAGCTTTCAACAGTTTCAGCTTTACCAAAGATAT
+TGCCAGTCTTCAAACAGCAATCGATAACAAATTAAAAGCAAAAGTTAATTTTTCTGATTTAATCGGTTATATATCAGA
+TCATAATGGTAACCATTTAGCAGAAACTACAGGTAATGCTAATGCTATTGGCGAACCTGGTATTTACTTTACCAAAGG
+TGGTATAAAAAATCTGCCGCTGACTAATTGGGGTATATTGCAGGTCATTGGTATTACAGCTACAGATAGTGACAGTGC
+GCATCGAAAAGTGCAGATATATTATCCAGATGACCTAGGCATAATGCCGTATTATCGCAATATTACCAATACTAGTAT
+CAGTCTCTGGAAGCAGTTTGCGTCACAAGACGATATAACCAGCCTTATTAATAAAGTTAATACACTCGGCGCTGTAAA
+AAAGGTTAACAATAGATTACCAAGTGCTGATGGTAACGTCACTTTGGCGTCATTCGAAAATCCAGACTTTGTTTACAC
+AAAAAAAGACACGCTGGACGTTGATAAGGCTACTACACCGGGCATCTACTCGTTAATGGATACTACATTGACCAGTTC
+AATTAACAAAGATGCGTTAAGCGCAGTGCCGGGTAACACAGACGGGAAAACATATACGGGATATTTAGTTGTGTATAA
+GCATGATGCTGCAAACATTACGCAAGAGTTAAGGATCTATACAGGTCGCACTGTGCCAGATTTCACAACTAGCACGAG
+ATGCATCTATGGTACAACTAACTACCGCCCTAATTTTCAACGGTTGATAACTGATTACGATTACAAGAACATTATGGG
+CTACGTCGATAGCAAAGAAGTAGTCCATCAATGTGATGACCTAGCAAGTGGCATTGCTTATTCGAAAGCCCATCCCAA
+TGTATTTGTGGCAACACCATAAGGGGAGATAATTTGATGTTAATGAATGGCAAAGAAGTGAATAATCTGATTATTAGT
+GGTGAAGTTTTCACAAAAGAAAATCATATAGGTAAAAAAGGCACAGCCTATGGTGATGGTGAAACTGAAACAATCGAT
+GGAAAAACAGTTCAATATTTTTCTGCTATTGAATTAAAAAAAGGTAATATTGTTGGCTTTGATCCGCATAATATTTGG
+AGTGAAGCTACTTTTATACCAAATGGGACTAAATTTATAGTTAGAGGAGAAACAGATAATGATTGGCTGCTAGTTGAA
+TTAATGGAAGATACAAAAATAAGTCATGCTTCTGGAAATATATCTTTTGGAACAAAGGGATATTTATATTGGCTAAAT
+AAAAAGAACAATAATGGAGAAAACACAAAAATAATATATAGCAATTAGATGGGAGAATCAAAATGGAAGAAGATAAGG
+AAACTAAAGGCTTTGTTCAGGTTTATAAATCAACGAACACAATAACATGTGAACCGTGGTTTGCACCTGCTGATGCAG
+AGATTGCATACCCGTATGTGAAGGATGCACCTGATCCTAAATTAAACTTACCAAAATATGACTGGAATAATTATCGTT
+GGTACGAAGCTGATGGGGCTGTTCAAGGCGAGCAGATATCAGAGATGGCGCAAAACCTGGATAAATTAAAAAACGATG
+TGGCAACCGGTAAGCTTAGCGATGAGGCTATCAACAAGCAGATCGGCACATTAGTAGGCTTAGTTTCGCAAGGTGCTA
+TTGCACAACAGACATCAAGCGAAAAAGCTGACAGTACAGCTAAATCTGATGGAGGTGCGAAATAATGAATATGATGAG
+TATGTTTGAATCGCTCTATCAATATCTATTAAGCGTCAATGTGTACAGCAAGACAACGATTGCAGGATATGTGGGCAA
+GACCATTGACGCAGATTGTTACAAGAGAATCACAGGTGATGACTATGTGGCACCGTCTGCTTAGTAATATTAATGAGA
+ACCACGATCAGACCCTAGCAGGTTCAGCAATTGTAGCAATTGGCACCGCATTGCTCCGCGATAGAAACTACTTTTTCT
+GGCCACCAGAGTGGACACTTTTCATGAACGATAAAAGACTAGACCTAGCAATAATATTACTAGGTCTTTTAATTGCCT
+TTGATTCTATGTTAATAAAAAGGCATAGGGGTTGGCGTATGTTTATTTTGATTGTTGGTGCTTGGACTATGTGGTGCT
+TAATCGGCATTCAGCTGGGTCATGCTATAGGTGCTGGAGAATTTCGTATGGATTTGACAGTTATAGGTGAAGCCGTAA
+TATCAATATTATGTCTATATGGTATATATCAAAGTTAGAGAGGTGGTAGCGTGCATGATGTTAGTACCATAATTTATG
+TACTAGGAACACTAATCGAAGCAGCTGCTACCTTTTTAGCTGTGACGCACACATCACATAGGGAGGACACGGATGATG
+TTATAAAAAACCTAAAAATCGAACGAGATAATTTTAAACAGGACTATCTTTTCGAACGAAAAAGGCGCTTAGAACTCG
+AAAGTAAGTACGAAGAATTAAAAAAGAAGTTGGAGAACACTGTCTAGTGTTCTTTTTTTGTTGAAAGGAAACTTTAAA
+ATGACTCAAATTATTAACTTTTTAAATTCATTATTGCCATACATTATCCTATTGGCAGTCGGCATTGTTGCCGTCTAT
+CAATATGCTAAACAACACAATCCAGCATTTGCCGAAAAAATGAAGTGGCTGTATGACGTAGCACAATATATCGTTACG
+CAACAAGCAACGCATACCAATGCTTCTGGAGCAGAGAAGAAGCAGGCAGCAACTGCCGCATTGCTTGAACAGGCTAAG
+GCATCTAAGGCGAATATAACCAAAGAGACTGCTGAAGGCATGGTAGAGAAAGCATACCAAGAAGGGGTTAAAAATGAA
+GCTAAATAAAAAGTACGCATTGTCCGCTAATGAAGGTGCATCTGCTTTTGCTAAAAGAGATATTATTGTGGCTCACTC
+TACAGCCACACCTAATGGTGAAGCGTGGGCGATTGCCCACAATATGAAGGCTGGCATTAACACCGCACAGACCTACGT
+GCATTTGGTTGTTGATGACAAAGAATGCTACCTAGTAGGTGGTCTAGGATATGTAGCGTGGGGATGTGGTTACTACGG
+TAATCAGCTATCACCTATGCAGATCGAGCTGTGTGAGTTTTCTGATAAGACACGAGCCAAAAAAGCCTATCGTAACTA
+TATCGGCCTGATCCGTGAGTATGCTAAAAAGTACGGTATTCCGTTAACGCTGGATACGTCTGCTAAGCGTGGCGTTAA
+AACGCACAACTGGATCACTCAGCACTTAGGCAACACTGACCATACTGACCCTTACGGCTATCTATCTAGCATTGGCAT
+TAGTAAGGCACAGTTTGCACATGATATTGCTCACGGTGTAGGCGGTTCAGTAGCTGCCGCAAAGAAACCTACTAAAAG
+TGACGGGAAAAAATCTAGCTGGATTAAAAAGCCCGGAACCTTCATTTTAGGTAAAGCTCTCAAGCTTCACACTTCGCC
+ACACATAAGGGCCACGGCGATTGCTAAACTGCCTAAAGGCAGTGCAATTAAATATGATGCTGTTCTGCAAGGTTCTAA
+ACGATTGTGGTTGAGACAGCCACGAGCTAATGGCTACGGCTATATAGTTGGTAAAGATAAATATGGCAAGGCAATGGG
+TAAATTTCAATAATATTAATTAAGCCACTCAGATTAAGTTCTGGGTGGCTTATTTTTATATTTCATGATAATAGAATA
+ATTAAATAAAAATTAATTTTTTGCTTTGTATGTATAAAAAGTCTTATAATTTATGTAAAGAGTAAAAGGAAGTGGTAA
+GCATTATGAATAATAAAGATATGATTAAGTTAGAGCGACCATACAATGCTATGGATGTTGCTAATCATGTTGTACAAT
+ACTTTATTGATACAAACCATAAAATTCCTAATCTACTACTATTAAAGATATTGTATTATTTACAAGCTGATAGTTTAC
+GGCAACTTGGAACTCCTTTGTTTAACGGAAAAATTGAAAAATGGGGTTATGGTCCTGTTGAGCCAGAAGTTTATTCTT
+ATTTTAAATCATATGGAGCAGCTCCTATTGATTCCACTGCACAATACGTAGAAATTGGTAACGATGGGTCGTGGCATC
+TGATAAATCCTATAAATAGACAATTACAAAGTCAAGATGTAAGTGTAATTAATAAACTTGCTAATGAAATCTATAATA
+AATATGGTGATAAGCCATTTCAATTAGTTAGTAAAACGCACAAGGAGCCAATGTGGAGTAAAGATGAATCAAAAATTA
+GGAGTGGAGCCATGCATATTCCTTATGATAATGAAGAAATTAGAGAATATTTTAGCAATCAAGGCAATTGGCCATGGG
+AGAATTAAGCAAAAACCAAAATAAAGTACCAGATTTGGATCTAATAGTTAATTCC" } } ,
+        seq {
+          id {
+            local
+              str "MN856076_1" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 698 ,
+            seq-data
+              ncbieaa "MILSKYNKTILTSAGLDLAARASSGKAKFTITRAATSTEKLADKSISELQQLTAL
+PSLMQYGEINNVADSAQDKSIVIGAELVFNNKDLTTGYNVNTIGLFAKEEGASKEILYALTTAVEPEMMPDFKDKVLF
+KFNLTMFVVVGQTDNVTVNVTQNGVVTQQQLSGIVAKFPTKEDLAKVRKDSNALAVLSNPDSIVANQTINLDTFTVKG
+ITKFQNAQLSSTGYMQAFDQSTTGLNGWIFNVYSNDGASYIQIVHITNTTYNQGAMYFLRAKSNGTSTEDFARMSTVK
+DHAQFFSLTEKDAKEVVARDENKSFNPDNVVDSGVHRISSTKINAKYDVTDPKDANSSYSFSGFYWGWLFNLNFDDSQ
+NSNAVYQLLVVNSGIYYREISVKTNDFPAFNSFSFTKDIASLQTAIDNKLKAKVNFSDLIGYISDHNGNHLAETTGNA
+NAIGEPGIYFTKGGIKNLPLTNWGILQVIGITATDSDSAHRKVQIYYPDDLGIMPYYRNITNTSISLWKQFASQDDIT
+SLINKVNTLGAVKKVNNRLPSADGNVTLASFENPDFVYTKKDTLDVDKATTPGIYSLMDTTLTSSINKDALSAVPGNT
+DGKTYTGYLVVYKHDAANITQELRIYTGRTVPDFTTSTRCIYGTTNYRPNFQRLITDYDYKNIMGYVDSKEVVHQCDD
+LASGIAYSKAHPNVFVATP" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 9 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 697 ,
+                        id
+                          local
+                            str "MN856076_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_2" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 133 ,
+            seq-data
+              ncbieaa "MLMNGKEVNNLIISGEVFTKENHIGKKGTAYGDGETETIDGKTVQYFSAIELKKG
+NIVGFDPHNIWSEATFIPNGTKFIVRGETDNDWLLVELMEDTKISHASGNISFGTKGYLYWLNKKNNNGENTKIIYSN
+" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 132 ,
+                        id
+                          local
+                            str "MN856076_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_3" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 130 ,
+            seq-data
+              ncbieaa "MEEDKETKGFVQVYKSTNTITCEPWFAPADAEIAYPYVKDAPDPKLNLPKYDWNN
+YRWYEADGAVQGEQISEMAQNLDKLKNDVATGKLSDEAINKQIGTLVGLVSQGAIAQQTSSEKADSTAKSDGGAK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 129 ,
+                        id
+                          local
+                            str "MN856076_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_4" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 155 ,
+            seq-data
+              ncbieaa "MCTARQRLQDMWARPLTQIVTRESQVMTMWHRLLSNINENHDQTLAGSAIVAIGT
+ALLRDRNYFFWPPEWTLFMNDKRLDLAIILLGLLIAFDSMLIKRHRGWRMFILIVGAWTMWCLIGIQLGHAIGAGEFR
+MDLTVIGEAVISILCLYGIYQS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 154 ,
+                        id
+                          local
+                            str "MN856076_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_5" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 76 ,
+            seq-data
+              ncbieaa "MHDVSTIIYVLGTLIEAAATFLAVTHTSHREDTDDVIKNLKIERDNFKQDYLFER
+KRRLELESKYEELKKKLENTV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 75 ,
+                        id
+                          local
+                            str "MN856076_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_6" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 106 ,
+            seq-data
+              ncbieaa "MTQIINFLNSLLPYIILLAVGIVAVYQYAKQHNPAFAEKMKWLYDVAQYIVTQQA
+THTNASGAEKKQAATAALLEQAKASKANITKETAEGMVEKAYQEGVKNEAK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 105 ,
+                        id
+                          local
+                            str "MN856076_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_7" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 265 ,
+            seq-data
+              ncbieaa "MKLNKKYALSANEGASAFAKRDIIVAHSTATPNGEAWAIAHNMKAGINTAQTYVH
+LVVDDKECYLVGGLGYVAWGCGYYGNQLSPMQIELCEFSDKTRAKKAYRNYIGLIREYAKKYGIPLTLDTSAKRGVKT
+HNWITQHLGNTDHTDPYGYLSSIGISKAQFAHDIAHGVGGSVAAAKKPTKSDGKKSSWIKKPGTFILGKALKLHTSPH
+IRATAIAKLPKGSAIKYDAVLQGSKRLWLRQPRANGYGYIVGKDKYGKAMGKFQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 264 ,
+                        id
+                          local
+                            str "MN856076_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856076_8" } ,
+          descr {
+            title "hypothetical protein AEMIEFML_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 177 ,
+            seq-data
+              ncbieaa "MIKLERPYNAMDVANHVVQYFIDTNHKIPNLLLLKILYYLQADSLRQLGTPLFNG
+KIEKWGYGPVEPEVYSYFKSYGAAPIDSTAQYVEIGNDGSWHLINPINRQLQSQDVSVINKLANEIYNKYGDKPFQLV
+SKTHKEPMWSKDESKIRSGAMHIPYDNEEIREYFSNQGNWPWEN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 176 ,
+                        id
+                          local
+                            str "MN856076_8" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_1" ,
+                location
+                  int {
+                    from 242 ,
+                    to 2338 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_2" ,
+                location
+                  int {
+                    from 2353 ,
+                    to 2754 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_3" ,
+                location
+                  int {
+                    from 2769 ,
+                    to 3161 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_4" ,
+                location
+                  int {
+                    from 3213 ,
+                    to 3680 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_5" ,
+                location
+                  int {
+                    from 3693 ,
+                    to 3923 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_6" ,
+                location
+                  int {
+                    from 3955 ,
+                    to 4275 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_7" ,
+                location
+                  int {
+                    from 4262 ,
+                    to 5059 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856076_8" ,
+                location
+                  int {
+                    from 5223 ,
+                    to 5756 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856076" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "AEMIEFML_00008" } } } } } } } } } }

@@ -1,0 +1,949 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "MN856088" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 6564 ,
+            seq-data
+              iupacna "GGTACTGATACTCAAAAAGTATAGGTATCAAAAATATAAGAAAGTTGGGCAGGTG
+AAATAAAAATGTTAACTAGATGGACTATTTTTTAAACAAAAATTTTGATTTTGGGAGTTAAGGCGAAAAGCCACTCTC
+AAATGTTGGAGGATTATTAATGCTGTTATTTTTTGTAATCGCAGTAGCATTATTAGTCTTCTTATGCGCAAGCGAGCC
+TGAGGCAGAAATTTAGTGAGAAAAAAGCCCGACAATAAGTCGGACTTTGCCATAAGTAGTATGCAGTAAGTATAACAT
+GTTTTCTTACTGAAAGGAGAAAAATGATTCTTAGGAATGAAGTTCGTGAAATTAAAAGTGCTTGTGACAAACACATTA
+AAGAGTGTGAAAAGCTAGTTCAAAGAGTTTTACTTAACTTTAAATTAATGGCAATCGCACTTATAGCACACACTATTT
+GGTGTGACAAAATATCATTATTTTTTGCATTTTCATTTTTTTGTTGTTTTGGTATTGATTTAATAGAATCGCTATTCA
+AATACTATAAATTAAAAGAAGGACGGAGAAGAAATGAACATTAGGGATGCTATTGTTAAGGCTGAATTTTCTAATGCA
+AAAGGTATTAGCAGGAAAAGTGATCCTAGTTACTACATTCACGCAACAAATTCTGCGGATTGCTGTGTTTTTGTTAGC
+TATAAAGAAAAGATACCACACTGGGAGCCTTTGTACGATGATTTGGCCGCCAAAGACTGGTTTGTTGTCAACTACATT
+AATTATTCAAGTGGAAGGATACGTTGTTATGAATAGTACGCCAAGACAATTAGCTCATTTGCAATATTTAAAAGATAT
+ATCCAATCAATTGCCAATCTGGGTAGCAATTGATTACCGTGGTCAGCCAAAAACATTTGGTGGGTGGATTCAAACTGA
+TGTAAAAGTTGATTATACAAATGCACAAGATTTTATATTGTCACAGTTGGTACAGATGGATAGTATTAGTGCTTTTAC
+CAATTATATTGGAAGAGATGGCCAAGAAATTGCTTTCTTGAAAGAAATAGCAAAAAACGACCGCAACATGTTATTTTG
+GATTAATTTAGCAAAAAAATGGTTTAGCGCAGAATGGATGGCAGATTGCAATGAACAACTCTAAAAGCCTATTAATAT
+CAGAGCCACCACTGCAAGTAATACCCAGTTTAGCAGTGGCACTAAAAAATAGTGACAAAGCAATAATTTTGCAGCAAA
+TCCATTATTGGTTACAACGTTCTAATAATATCGTGGACGGTCACCGTTGGGTTTTTAACACAGCGAAGGGATGGCAAA
+AGCAGTTTCCATGGATTACTGCAAAAACAGTTCAGCGTTATCTCAAAGACCTATGTGATAGGGGTTTGTTGATAACTG
+CAAATTATAATAAAGCTAATTTTGACAGAACAAAATGGTACCGGATAGATTATGATGCGTTGGACAAATTGGGCAATT
+CGATTGGGACTGATAGTCCCAATGGAAAGGAACCGACAGTTCCAATGGAAGGGGACTCTCAGTACCAACCTATACCAA
+TAGACTACCCAGAGACTACACATAAGAATACTAATAAGGTCAAATCCAAAAATTTGACCGCTAGTGATTTAAAACAAG
+AATTTGAAAAAATTTGGGAGCAATATCCAAAATACAGAAAGCAAGGCAAACAACGTGCTTGCTCTAGCTACATACATT
+GGAGAAAGTCTAGCAAGGACAACACGTTTGAAAAAGCCCAGGAACAGCTTAAAAAATATCTAAATTATATCAAAGTTC
+AGCATGTCTCAACTCAATATATCAAAGCGGCCAAGACCTGGTTCGCCAATATTGACGATGAGTATGATCAGGAACCAG
+AACAGGCTAAAAAGAAGTGGCGAACGCAAAAATCAATCGAAAAAGGGACGGATTGGTCAAAACAGGTACCAAAGCATG
+AAGCCACCGATGACATAGATACAGGTGAACTTAAAAACTTTTTCGCTGATCTCGAAAAAAGCAATGGGATTGCTGATA
+AACGAAAGTCGGAGGGTATGGACGATGCATGACGTTAAATTATTTCAGTTTGAAAACCAAAAGGTCAGAACTTTGACA
+ATCAATGATGAGCCATACTTTGCAGGAAAAGACGTAGCTCTAATTTTGGGCTATGGGAATCCAACAAAAGCAATTAGA
+ACGCACGTTGATGATGAAGATAAAGGGGTGTCCGTTTTGGACTCCCCTGGTGGAAAGCAGCAAACCACAATAATTAAT
+GAGTCAGGGCTGTACAGTCTAATCATGAATAGCAAGTTACCAACTGCTAAAAGGTTCAAACATTGGGTAACTAATAAA
+GTTCTTCCAGAAATTCGCCAACATGGTGCCTATCTTTCAGATCAAAAAATCGAAGAAATATTAAGCGATCCTGACACA
+ATAATTAAGCTGGCAACTCAGTTAAAAGAAGAACACCAGGGCAGGTTAATTGCTGAACAGCAAGTTAATGAATTGAAG
+CCAAAGGTGACGTATTATGACACGATATTGTCAAATCCAGCATTAATGACAATTACTGTAATAGCTAAGGACTATGGC
+ATGAGTGGCGCTGAAATGAATGCCAAATTACACAATTTAGGCGTGCAGTACAAACAGGGTAGGATATGGCTCCTATAT
+GCTAAATATCAGCGGTTAGGATGGACACATTCTGAAACGCATATGGTTAAAAGACTTGACGGCTCAGAAAAGGCAGTT
+GTTAACACCAAATGGACACAAAAAGGTCGGTTAGGCTTATATGAATTACTTAAGCAAAATGATATTTTACCAACAATT
+GAGCGAGACTTAGTCAACTAATGTTAGAGGGATGTAAAAATGATTAGATTTGTACGGTGCGAAAATTGTAATAAACGG
+TTATATGGCTCGGATAAGTTGATTGTTGATAAATCAAGCAGAGTCGATGTGCTATTTTGTAGCAAGCATTGTATTAAA
+CAATATTATGGCGATGATTTAGGATCTAAGCTTGCAACTAAGCCAATCACCGTTAATCAATATTGGGAGTCATAGTAC
+ATGATTAATTTTTTATATTTTCTAACAGACACTATAGCCGCTGTATTAATTGTTTGGATTAATTTTAAAAATAAGAAA
+TGAAGAGGTATCAAATGGCAAGAGCAGTATATCGTAAAACTAAAGATGGCAAAGTAATCTATGTGGGACACGTACCAC
+CAGAATATGAGCTTCAAGAAAACGAATTTTTTGAATTACCAATTCGGGGAATAAAAAATGATAAATAGGGCAGTTTTA
+ACCGGGCGATTAACGAAAGACGCTGAATTAAGAACTACACAGAATGGCTTGTCAGTTGCTACATTCACTTTGGCGGTT
+AACAGACATTCAAAAACCAAAGGGGATGCAGATTTTATTAATTGTGTTATTTGGCGCAAAGCTGCAGAAAACTTCTGT
+AATTTCACGTCTAAAGGTTCGCTTGTTGGTATAGATGGCCGAATTCAAACTAGAAATTATGAAAATCAAAATGGTCAA
+AAAGTATATGTAACAGAAATAGTTGTTGACAGTTTTTCTTTGCTAGAGTCAAAAAAAGATAGATTGGCCAACAATAAT
+AACGGTAATAACAGCAATTATGATGCCAACACTAACAATAATGGCTTCAGCAATACCACAACGAACACTAATTATATC
+AGTAACAGTAGTAATGATAGTAAAGCATCTGATCCATTTGCTAATTCAGGCGATTCAATAGATATAACAGCTGACGAT
+TTACCGTTTTAGGAGGCAAAAAAATGGAAGAACCAGGAGCAACTTTAGTAAGGGCAATAAAAACAATTAAACAGTTGG
+TACCATCTGTAGAGGGCTGGCAGAATGGAAAGGATCACCCTATACCGCCAAAAAGTGAATTACCAGATTGCATTAAGA
+AAAGAGTTGCTTGGGTAAGAAACAACTGCATGGGTATTGATGATATTACTTTCACTGATTGTTTGCAGATAGCATTAC
+CTGGTCCTCTTGAAGAAAATAAGCTCAGAGAGAAATATCAGGACTTATGGTTACCAATGGGTGAGGATTATAAACAAT
+ATTTTCTCCATTTCTATGCACCATTGCTTAATATTCTTGGACAAGCAGTTGCAGTTGCTCTTATATACGGACTTAATG
+ATGGCTTGGAAGGGGATGCATGAAATGGAAAATAATCATGACTTAGAATATAAAAAAATATTGAGATCAATTTACAAA
+TGGAGCGTTACAAAAAGCAAAGCAACTCCACCGAAAAGTGAACTGCCTGAGTGTATTAAGGAACGAGTTCGATGGATT
+TTAAAATCACACCACGACTTCCCAATAACATTTATTGGCAGTCTAATATTTGCATTTCCAGATCCAGATTCTGAGGAA
+GAATTAAAAAAAGAATTCGAATTTGGTGGAGATACCTGGCTTCCAATTAGTCAGCAATATAAAGAATATTGGAAAGAA
+TATTATAGTTATAGGGCATTGCTAGAACAGGAAGTAGCAATAGCAATCATATATGGACTTAATGAATAGCCTGAAAGA
+GGGAAATGCAAAGTGATACATGTAAAAGATGAGCTGAAGAAAAAAATTAGTGATAAAGTAAGCAGCTGCATATTCTGG
+CTTATTGCAATCATAATAGCAACCGTTGCAACCTTTATCTGGCAGACAAAGATTGCATTGTTCATTTTATCAATAACA
+GTAATTTTCTTTATTCTGTCATTAATAGAATTATGTCTTGTCTGTCTAAAGTTGAAAAAAATACTAAGCGATGAAAAA
+CGAAAAGAACAAGAAAAAGCAGATAAAATTTTTGCGAGACAAGAGCCAGAAAAAAATCTATATGAGGTATTGCATAGC
+CTTAGAAATGAACATAGCGAGCGATTATGCGATATGGCCAAAAAAATTGGTGTAAAAACAGGGGACCTTTATCGGATA
+GAAAATGGGCTCGAAAAAAATCGCATAAAAGTAAAAGAAGTATTAACTAAAATCGAAAAAGTATATAACTTAGGCGGC
+ATAGAGATTGCAACATTGCAGTTTGGCTTTTTAACCACATATGGCGAAAAAAGTAAGGATGCTAATTAATGTACGGAA
+AATAGTCAGCATATCAGAGTATAAGCTTTGCTGTATCAGGTAATCCACTGATTCAACAATAAGAAATAAATAGTGGTA
+GGGATGAGTACAATGATTGGAGTTTTAGCATTGTTTGAAAATTCTAAATTGAATAAGACGAAAACTAAACAGAATGTT
+AAAGATTTTTTTGCTAATGACTTTAACCATTATCTTAACCTGGCTAATAAGCACTTGAGTGATATTTCTGCTCCAAAA
+TTGGATCCTAATGCAGTTGCTGTACATGATGGTCGAAACCATGCTGATGAAAAAATATTAGTCAACATGGATGCACGT
+TGCTGTGTACAGGCAGTGGACGATACTATTAGTAGTTGTAGTTATCCTAGCGGATTAATTATATATCTCTATTTCGTT
+AAAAAAATGACAGACGACAAAATTGCTGAACGTTTAACTTATTCAATGGCAAGATACTATCAATTGAAAAATGATGCT
+TTGATTGAATTTGCTGAAAGATTAGACTACTGGAGACAAATTGATCATGCTTCGCTAGACGATTTGAGAGTTTTTGAA
+AAAGCGAATGTAATTTAGAAAGTAGAGTTTTAGTAGAGGATTTATAAAGAAAAAGTAGAGAACAAGTAGATGGTTTTC
+ATTGTAATATGATATTGTCGAAAGATTTAGGTGATGGGAAAGCCTAGTCTTTTGGCACCTCCTTTCAGAACGACAAGA
+GAACAAATTAGTGTTAAAAACATTTGAGCGACGGCAATGGTTGTAGCTAGGTTCGAGTCCTAACGTCGTCATAGATAT
+GCAATGATCTATGTCTTGACATGAAAGAGATCAAGAAAGAGCTGCTTAGGGAGCATATCAGAAACGTGTTATTAGATG
+TGTTATTGAAAATCAAATTCACAACACATTATCTATGGTTTCAGTGGGTTCAAATCCCAGCACGTTTCTTAATTAAGT
+CTATGCAAATAGCATAGGCTTTTTGTTTTGGAGAAAAAATGAACAATCTATATCACCATTGTGGCTATCCTAATTGCA
+GAGAATGGGTGCAAGGCAATAACAGATACTGTGATAAGCACCATGCCATGAGACAAGCTGAATATCAACACGTTAAGG
+ATGAACGGCAGAAAATGAGAAATAGCTCTCTGTACAATGAGCTGATAGCTAACAGAGCCAGAGGCAAACAGAGACATT
+ACAATCAGACTAAAAGAGATGCTGAATCGGTAAGGTTTTATCGGTCTGGTCAATGGAAGCAGATACGAGACTATCGTA
+TTGCGTACGATCAATATACCTGTCAATGCTGTGGTAATAATTATCAAGCTAATAGATTAACAGCCGATCATGTTATTA
+TGCGTAAGCTTTTATCACCTAAACAGCAATTAGATTGGCATAATTTATGGACACTTTGCAATCGTTGCAATGCAATTA
+AGCAGCAAATAGAAACTAACTTTCAAAAAAATAAGAAATATGAAGAGCTTAAAAATATGACTAAGTCTGATTGGCAAA
+AATTGATTTTAGAAAAAGAAAAAATTAAAAATACC" } } ,
+        seq {
+          id {
+            local
+              str "MN856088_1" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 84 ,
+            seq-data
+              ncbieaa "MILRNEVREIKSACDKHIKECEKLVQRVLLNFKLMAIALIAHTIWCDKISLFFAF
+SFFCCFGIDLIESLFKYYKLKEGRRRNEH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 83 ,
+                        id
+                          local
+                            str "MN856088_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_2" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 78 ,
+            seq-data
+              ncbieaa "MNIRDAIVKAEFSNAKGISRKSDPSYYIHATNSADCCVFVSYKEKIPHWEPLYDD
+LAAKDWFVVNYINYSSGRIRCYE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 77 ,
+                        id
+                          local
+                            str "MN856088_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_3" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 115 ,
+            seq-data
+              ncbieaa "MNSTPRQLAHLQYLKDISNQLPIWVAIDYRGQPKTFGGWIQTDVKVDYTNAQDFI
+LSQLVQMDSISAFTNYIGRDGQEIAFLKEIAKNDRNMLFWINLAKKWFSAEWMADCNEQL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 114 ,
+                        id
+                          local
+                            str "MN856088_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_4" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 305 ,
+            seq-data
+              ncbieaa "MNNSKSLLISEPPLQVIPSLAVALKNSDKAIILQQIHYWLQRSNNIVDGHRWVFN
+TAKGWQKQFPWITAKTVQRYLKDLCDRGLLITANYNKANFDRTKWYRIDYDALDKLGNSIGTDSPNGKEPTVPMEGDS
+QYQPIPIDYPETTHKNTNKVKSKNLTASDLKQEFEKIWEQYPKYRKQGKQRACSSYIHWRKSSKDNTFEKAQEQLKKY
+LNYIKVQHVSTQYIKAAKTWFANIDDEYDQEPEQAKKKWRTQKSIEKGTDWSKQVPKHEATDDIDTGELKNFFADLEK
+SNGIADKRKSEGMDDA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 304 ,
+                        id
+                          local
+                            str "MN856088_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_5" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 258 ,
+            seq-data
+              ncbieaa "MHDVKLFQFENQKVRTLTINDEPYFAGKDVALILGYGNPTKAIRTHVDDEDKGVS
+VLDSPGGKQQTTIINESGLYSLIMNSKLPTAKRFKHWVTNKVLPEIRQHGAYLSDQKIEEILSDPDTIIKLATQLKEE
+HQGRLIAEQQVNELKPKVTYYDTILSNPALMTITVIAKDYGMSGAEMNAKLHNLGVQYKQGRIWLLYAKYQRLGWTHS
+ETHMVKRLDGSEKAVVNTKWTQKGRLGLYELLKQNDILPTIERDLVN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 257 ,
+                        id
+                          local
+                            str "MN856088_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_6" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 63 ,
+            seq-data
+              ncbieaa "MIRFVRCENCNKRLYGSDKLIVDKSSRVDVLFCSKHCIKQYYGDDLGSKLATKPI
+TVNQYWES" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 62 ,
+                        id
+                          local
+                            str "MN856088_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_7" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 43 ,
+            seq-data
+              ncbieaa "MARAVYRKTKDGKVIYVGHVPPEYELQENEFFELPIRGIKNDK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 42 ,
+                        id
+                          local
+                            str "MN856088_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_8" } ,
+          descr {
+            title "Single-stranded DNA-binding protein A [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 166 ,
+            seq-data
+              ncbieaa "MINRAVLTGRLTKDAELRTTQNGLSVATFTLAVNRHSKTKGDADFINCVIWRKAA
+ENFCNFTSKGSLVGIDGRIQTRNYENQNGQKVYVTEIVVDSFSLLESKKDRLANNNNGNNSNYDANTNNNGFSNTTTN
+TNYISNSSNDSKASDPFANSGDSIDITADDLPF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "Single-stranded DNA-binding protein A" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 165 ,
+                        id
+                          local
+                            str "MN856088_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_9" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 129 ,
+            seq-data
+              ncbieaa "MEEPGATLVRAIKTIKQLVPSVEGWQNGKDHPIPPKSELPDCIKKRVAWVRNNCM
+GIDDITFTDCLQIALPGPLEENKLREKYQDLWLPMGEDYKQYFLHFYAPLLNILGQAVAVALIYGLNDGLEGDA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 128 ,
+                        id
+                          local
+                            str "MN856088_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_10" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 126 ,
+            seq-data
+              ncbieaa "MAWKGMHEMENNHDLEYKKILRSIYKWSVTKSKATPPKSELPECIKERVRWILKS
+HHDFPITFIGSLIFAFPDPDSEEELKKEFEFGGDTWLPISQQYKEYWKEYYSYRALLEQEVAIAIIYGLNE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 125 ,
+                        id
+                          local
+                            str "MN856088_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_11" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 174 ,
+            seq-data
+              ncbieaa "MIHVKDELKKKISDKVSSCIFWLIAIIIATVATFIWQTKIALFILSITVIFFILS
+LIELCLVCLKLKKILSDEKRKEQEKADKIFARQEPEKNLYEVLHSLRNEHSERLCDMAKKIGVKTGDLYRIENGLEKN
+RIKVKEVLTKIEKVYNLGGIEIATLQFGFLTTYGEKSKDAN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 173 ,
+                        id
+                          local
+                            str "MN856088_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856088_12" } ,
+          descr {
+            title "hypothetical protein MGMIFLFK_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 157 ,
+            seq-data
+              ncbieaa "MIGVLALFENSKLNKTKTKQNVKDFFANDFNHYLNLANKHLSDISAPKLDPNAVA
+VHDGRNHADEKILVNMDARCCVQAVDDTISSCSYPSGLIIYLYFVKKMTDDKIAERLTYSMARYYQLKNDALIEFAER
+LDYWRQIDHASLDDLRVFEKANVI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 156 ,
+                        id
+                          local
+                            str "MN856088_12" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_1" ,
+                location
+                  int {
+                    from 312 ,
+                    to 566 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_2" ,
+                location
+                  int {
+                    from 556 ,
+                    to 792 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_3" ,
+                location
+                  int {
+                    from 785 ,
+                    to 1132 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_4" ,
+                location
+                  int {
+                    from 1119 ,
+                    to 2036 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_5" ,
+                location
+                  int {
+                    from 2029 ,
+                    to 2805 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_6" ,
+                location
+                  int {
+                    from 2824 ,
+                    to 3015 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_7" ,
+                location
+                  int {
+                    from 3111 ,
+                    to 3242 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_8" ,
+                location
+                  int {
+                    from 3232 ,
+                    to 3732 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P37455" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "ssbA" ,
+                        locus-tag "MGMIFLFK_00008" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0629" } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_9" ,
+                location
+                  int {
+                    from 3744 ,
+                    to 4133 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_10" ,
+                location
+                  int {
+                    from 4111 ,
+                    to 4491 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_11" ,
+                location
+                  int {
+                    from 4513 ,
+                    to 5037 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856088_12" ,
+                location
+                  int {
+                    from 5137 ,
+                    to 5610 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856088" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MGMIFLFK_00012" } } } } } } } } } }

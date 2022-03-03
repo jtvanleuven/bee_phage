@@ -1,0 +1,128 @@
+[12:14:42] This is prokka 1.14.6
+[12:14:42] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:14:42] Homepage is https://github.com/tseemann/prokka
+[12:14:42] Local time is Mon Aug 23 12:14:42 2021
+[12:14:42] You are james
+[12:14:42] Operating system is linux
+[12:14:42] You have BioPerl 1.007002
+[12:14:42] System has 12 cores.
+[12:14:42] Will use maximum of 8 cores.
+[12:14:42] Annotating as >>> Bacteria <<<
+[12:14:42] Generating locus_tag from 'MN855722_reorder.fasta' contents.
+[12:14:42] Setting --locustag DAJNBNBG from MD5 da37b7b0fdb06334556efe907203d142
+[12:14:42] Creating new output folder: prokkaMN855722_reorder
+[12:14:42] Running: mkdir -p prokkaMN855722_reorder
+[12:14:42] Using filename prefix: MN855722_reorder.XXX
+[12:14:42] Setting HMMER_NCPU=1
+[12:14:42] Writing log to: prokkaMN855722_reorder/MN855722_reorder.log
+[12:14:42] Command: /home/james/miniconda3/envs/prokka/bin/prokka MN855722_reorder.fasta --outdir prokkaMN855722_reorder --prefix MN855722_reorder --force
+[12:14:42] Appending to PATH: /home/james/miniconda3/envs/prokka/bin
+[12:14:42] Looking for 'aragorn' - found /home/james/miniconda3/envs/prokka/bin/aragorn
+[12:14:42] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[12:14:42] Looking for 'barrnap' - found /home/james/miniconda3/envs/prokka/bin/barrnap
+[12:14:42] Determined barrnap version is 000009 from 'barrnap 0.9'
+[12:14:42] Looking for 'blastp' - found /home/james/miniconda3/envs/prokka/bin/blastp
+[12:14:43] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[12:14:43] Looking for 'cmpress' - found /home/james/miniconda3/envs/prokka/bin/cmpress
+[12:14:43] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:14:43] Looking for 'cmscan' - found /home/james/miniconda3/envs/prokka/bin/cmscan
+[12:14:43] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:14:43] Looking for 'egrep' - found /bin/egrep
+[12:14:43] Looking for 'find' - found /usr/bin/find
+[12:14:43] Looking for 'grep' - found /bin/grep
+[12:14:43] Looking for 'hmmpress' - found /home/james/miniconda3/envs/prokka/bin/hmmpress
+[12:14:43] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:14:43] Looking for 'hmmscan' - found /home/james/miniconda3/envs/prokka/bin/hmmscan
+[12:14:43] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:14:43] Looking for 'java' - found /home/james/miniconda3/envs/prokka/bin/java
+[12:14:43] Looking for 'makeblastdb' - found /home/james/miniconda3/envs/prokka/bin/makeblastdb
+[12:14:43] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[12:14:43] Looking for 'minced' - found /home/james/miniconda3/envs/prokka/bin/minced
+[12:14:43] Determined minced version is 004002 from 'minced 0.4.2'
+[12:14:43] Looking for 'parallel' - found /home/james/miniconda3/envs/prokka/bin/parallel
+[12:14:43] Determined parallel version is 20210622 from 'GNU parallel 20210622'
+[12:14:43] Looking for 'prodigal' - found /home/james/miniconda3/envs/prokka/bin/prodigal
+[12:14:43] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[12:14:43] Looking for 'prokka-genbank_to_fasta_db' - found /home/james/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[12:14:43] Looking for 'sed' - found /bin/sed
+[12:14:43] Looking for 'tbl2asn' - found /home/james/miniconda3/envs/prokka/bin/tbl2asn
+[12:14:43] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[12:14:43] Using genetic code table 11.
+[12:14:43] Loading and checking input file: MN855722_reorder.fasta
+[12:14:43] Wrote 1 contigs totalling 32202 bp.
+[12:14:43] Predicting tRNAs and tmRNAs
+[12:14:43] Running: aragorn -l -gc11  -w prokkaMN855722_reorder\/MN855722_reorder\.fna
+[12:14:43] Found 0 tRNAs
+[12:14:43] Predicting Ribosomal RNAs
+[12:14:43] Running Barrnap with 8 threads
+[12:14:43] Found 0 rRNAs
+[12:14:43] Skipping ncRNA search, enable with --rfam if desired.
+[12:14:43] Total of 0 tRNA + rRNA features
+[12:14:43] Searching for CRISPR repeats
+[12:14:44] Found 0 CRISPRs
+[12:14:44] Predicting coding sequences
+[12:14:44] Contigs total 32202 bp, so using meta mode
+[12:14:44] Running: prodigal -i prokkaMN855722_reorder\/MN855722_reorder\.fna -c -m -g 11 -p meta -f sco -q
+[12:14:44] Found 43 CDS
+[12:14:44] Connecting features back to sequences
+[12:14:44] Not using genus-specific database. Try --usegenus to enable it.
+[12:14:44] Annotating CDS, please be patient.
+[12:14:44] Will use 8 CPUs for similarity searching.
+[12:14:44] There are still 43 unannotated CDS left (started with 43)
+[12:14:44] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[12:14:44] Running: cat prokkaMN855722_reorder\/MN855722_reorder\.IS\.tmp\.57685\.faa | parallel --gnu --plain -j 8 --block 617 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaMN855722_reorder\/MN855722_reorder\.IS\.tmp\.57685\.blast 2> /dev/null
+[12:14:45] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.IS.tmp.57685.faa
+[12:14:45] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.IS.tmp.57685.blast
+[12:14:45] There are still 43 unannotated CDS left (started with 43)
+[12:14:45] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[12:14:45] Running: cat prokkaMN855722_reorder\/MN855722_reorder\.AMR\.tmp\.57685\.faa | parallel --gnu --plain -j 8 --block 617 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaMN855722_reorder\/MN855722_reorder\.AMR\.tmp\.57685\.blast 2> /dev/null
+[12:14:47] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.AMR.tmp.57685.faa
+[12:14:47] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.AMR.tmp.57685.blast
+[12:14:47] There are still 43 unannotated CDS left (started with 43)
+[12:14:47] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[12:14:47] Running: cat prokkaMN855722_reorder\/MN855722_reorder\.sprot\.tmp\.57685\.faa | parallel --gnu --plain -j 8 --block 617 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaMN855722_reorder\/MN855722_reorder\.sprot\.tmp\.57685\.blast 2> /dev/null
+[12:14:48] Modify product: Uncharacterized protein HI_1410 => putative protein
+[12:14:48] Cleaned 1 /product names
+[12:14:48] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.sprot.tmp.57685.faa
+[12:14:48] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.sprot.tmp.57685.blast
+[12:14:48] There are still 42 unannotated CDS left (started with 43)
+[12:14:48] Will use hmmer3 to search against /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[12:14:48] Running: cat prokkaMN855722_reorder\/MN855722_reorder\.HAMAP\.hmm\.tmp\.57685\.faa | parallel --gnu --plain -j 8 --block 590 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokkaMN855722_reorder\/MN855722_reorder\.HAMAP\.hmm\.tmp\.57685\.hmmer3 2> /dev/null
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.HAMAP.hmm.tmp.57685.faa
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.HAMAP.hmm.tmp.57685.hmmer3
+[12:14:49] Labelling remaining 42 proteins as 'hypothetical protein'
+[12:14:49] Found 0 unique /gene codes.
+[12:14:49] Fixed 0 colliding /gene names.
+[12:14:49] Adding /locus_tag identifiers
+[12:14:49] Assigned 43 locus_tags to CDS and RNA features.
+[12:14:49] Writing outputs to prokkaMN855722_reorder/
+[12:14:49] Generating annotation statistics file
+[12:14:49] Generating Genbank and Sequin files
+[12:14:49] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokkaMN855722_reorder\/MN855722_reorder\.err -i prokkaMN855722_reorder\/MN855722_reorder\.fsa 2> /dev/null
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/errorsummary.val
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.dr
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.fixedproducts
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.ecn
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.val
+[12:14:49] Repairing broken .GBK output that tbl2asn produces...
+[12:14:49] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokkaMN855722_reorder\/MN855722_reorder\.gbf > prokkaMN855722_reorder\/MN855722_reorder\.gbk
+[12:14:49] Deleting unwanted file: prokkaMN855722_reorder/MN855722_reorder.gbf
+[12:14:49] Output files:
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.fsa
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.faa
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.log
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.tsv
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.err
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.gbk
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.ffn
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.gff
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.tbl
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.sqn
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.fna
+[12:14:49] prokkaMN855722_reorder/MN855722_reorder.txt
+[12:14:49] Annotation finished successfully.
+[12:14:49] Walltime used: 0.12 minutes
+[12:14:49] If you use this result please cite the Prokka paper:
+[12:14:49] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:14:49] Type 'prokka --citation' for more details.
+[12:14:49] Share and enjoy!

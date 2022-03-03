@@ -1,0 +1,128 @@
+[12:13:58] This is prokka 1.14.6
+[12:13:58] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:13:58] Homepage is https://github.com/tseemann/prokka
+[12:13:58] Local time is Mon Aug 23 12:13:58 2021
+[12:13:58] You are james
+[12:13:58] Operating system is linux
+[12:13:58] You have BioPerl 1.007002
+[12:13:58] System has 12 cores.
+[12:13:58] Will use maximum of 8 cores.
+[12:13:58] Annotating as >>> Bacteria <<<
+[12:13:58] Generating locus_tag from 'JAAOBB010000053.1_reorder.fasta' contents.
+[12:13:58] Setting --locustag MKHBHEAG from MD5 641b1ea010589df14da8b6ac64c4d0a7
+[12:13:58] Creating new output folder: prokkaJAAOBB010000053.1_reorder
+[12:13:58] Running: mkdir -p prokkaJAAOBB010000053\.1_reorder
+[12:13:58] Using filename prefix: JAAOBB010000053.1_reorder.XXX
+[12:13:58] Setting HMMER_NCPU=1
+[12:13:58] Writing log to: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.log
+[12:13:58] Command: /home/james/miniconda3/envs/prokka/bin/prokka JAAOBB010000053.1_reorder.fasta --outdir prokkaJAAOBB010000053.1_reorder --prefix JAAOBB010000053.1_reorder --force
+[12:13:58] Appending to PATH: /home/james/miniconda3/envs/prokka/bin
+[12:13:58] Looking for 'aragorn' - found /home/james/miniconda3/envs/prokka/bin/aragorn
+[12:13:58] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[12:13:58] Looking for 'barrnap' - found /home/james/miniconda3/envs/prokka/bin/barrnap
+[12:13:58] Determined barrnap version is 000009 from 'barrnap 0.9'
+[12:13:58] Looking for 'blastp' - found /home/james/miniconda3/envs/prokka/bin/blastp
+[12:13:58] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[12:13:58] Looking for 'cmpress' - found /home/james/miniconda3/envs/prokka/bin/cmpress
+[12:13:58] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:13:58] Looking for 'cmscan' - found /home/james/miniconda3/envs/prokka/bin/cmscan
+[12:13:58] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:13:58] Looking for 'egrep' - found /bin/egrep
+[12:13:58] Looking for 'find' - found /usr/bin/find
+[12:13:58] Looking for 'grep' - found /bin/grep
+[12:13:58] Looking for 'hmmpress' - found /home/james/miniconda3/envs/prokka/bin/hmmpress
+[12:13:58] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:13:58] Looking for 'hmmscan' - found /home/james/miniconda3/envs/prokka/bin/hmmscan
+[12:13:58] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:13:58] Looking for 'java' - found /home/james/miniconda3/envs/prokka/bin/java
+[12:13:58] Looking for 'makeblastdb' - found /home/james/miniconda3/envs/prokka/bin/makeblastdb
+[12:13:59] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[12:13:59] Looking for 'minced' - found /home/james/miniconda3/envs/prokka/bin/minced
+[12:13:59] Determined minced version is 004002 from 'minced 0.4.2'
+[12:13:59] Looking for 'parallel' - found /home/james/miniconda3/envs/prokka/bin/parallel
+[12:13:59] Determined parallel version is 20210622 from 'GNU parallel 20210622'
+[12:13:59] Looking for 'prodigal' - found /home/james/miniconda3/envs/prokka/bin/prodigal
+[12:13:59] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[12:13:59] Looking for 'prokka-genbank_to_fasta_db' - found /home/james/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[12:13:59] Looking for 'sed' - found /bin/sed
+[12:13:59] Looking for 'tbl2asn' - found /home/james/miniconda3/envs/prokka/bin/tbl2asn
+[12:13:59] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[12:13:59] Using genetic code table 11.
+[12:13:59] Loading and checking input file: JAAOBB010000053.1_reorder.fasta
+[12:13:59] Wrote 1 contigs totalling 32282 bp.
+[12:13:59] Predicting tRNAs and tmRNAs
+[12:13:59] Running: aragorn -l -gc11  -w prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.fna
+[12:13:59] Found 0 tRNAs
+[12:13:59] Predicting Ribosomal RNAs
+[12:13:59] Running Barrnap with 8 threads
+[12:13:59] Found 0 rRNAs
+[12:13:59] Skipping ncRNA search, enable with --rfam if desired.
+[12:13:59] Total of 0 tRNA + rRNA features
+[12:13:59] Searching for CRISPR repeats
+[12:13:59] Found 0 CRISPRs
+[12:13:59] Predicting coding sequences
+[12:13:59] Contigs total 32282 bp, so using meta mode
+[12:13:59] Running: prodigal -i prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.fna -c -m -g 11 -p meta -f sco -q
+[12:13:59] Found 51 CDS
+[12:13:59] Connecting features back to sequences
+[12:13:59] Not using genus-specific database. Try --usegenus to enable it.
+[12:13:59] Annotating CDS, please be patient.
+[12:13:59] Will use 8 CPUs for similarity searching.
+[12:13:59] There are still 51 unannotated CDS left (started with 51)
+[12:13:59] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[12:13:59] Running: cat prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.IS\.tmp\.53874\.faa | parallel --gnu --plain -j 8 --block 620 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.IS\.tmp\.53874\.blast 2> /dev/null
+[12:14:01] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.IS.tmp.53874.faa
+[12:14:01] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.IS.tmp.53874.blast
+[12:14:01] There are still 51 unannotated CDS left (started with 51)
+[12:14:01] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[12:14:01] Running: cat prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.AMR\.tmp\.53874\.faa | parallel --gnu --plain -j 8 --block 620 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.AMR\.tmp\.53874\.blast 2> /dev/null
+[12:14:02] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.AMR.tmp.53874.faa
+[12:14:02] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.AMR.tmp.53874.blast
+[12:14:02] There are still 51 unannotated CDS left (started with 51)
+[12:14:02] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[12:14:02] Running: cat prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.sprot\.tmp\.53874\.faa | parallel --gnu --plain -j 8 --block 620 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.sprot\.tmp\.53874\.blast 2> /dev/null
+[12:14:03] Modify product: Uncharacterized protein HI_1410 => putative protein
+[12:14:03] Cleaned 1 /product names
+[12:14:03] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.sprot.tmp.53874.faa
+[12:14:03] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.sprot.tmp.53874.blast
+[12:14:03] There are still 50 unannotated CDS left (started with 51)
+[12:14:03] Will use hmmer3 to search against /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[12:14:03] Running: cat prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.HAMAP\.hmm\.tmp\.53874\.faa | parallel --gnu --plain -j 8 --block 593 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.HAMAP\.hmm\.tmp\.53874\.hmmer3 2> /dev/null
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.HAMAP.hmm.tmp.53874.faa
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.HAMAP.hmm.tmp.53874.hmmer3
+[12:14:04] Labelling remaining 49 proteins as 'hypothetical protein'
+[12:14:04] Found 0 unique /gene codes.
+[12:14:04] Fixed 0 colliding /gene names.
+[12:14:04] Adding /locus_tag identifiers
+[12:14:04] Assigned 51 locus_tags to CDS and RNA features.
+[12:14:04] Writing outputs to prokkaJAAOBB010000053.1_reorder/
+[12:14:04] Generating annotation statistics file
+[12:14:04] Generating Genbank and Sequin files
+[12:14:04] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.err -i prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.fsa 2> /dev/null
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/errorsummary.val
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.dr
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.fixedproducts
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.ecn
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.val
+[12:14:04] Repairing broken .GBK output that tbl2asn produces...
+[12:14:04] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.gbf > prokkaJAAOBB010000053\.1_reorder\/JAAOBB010000053\.1_reorder\.gbk
+[12:14:04] Deleting unwanted file: prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.gbf
+[12:14:04] Output files:
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.sqn
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.tbl
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.gff
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.fna
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.log
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.err
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.ffn
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.faa
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.tsv
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.txt
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.fsa
+[12:14:04] prokkaJAAOBB010000053.1_reorder/JAAOBB010000053.1_reorder.gbk
+[12:14:04] Annotation finished successfully.
+[12:14:04] Walltime used: 0.10 minutes
+[12:14:04] If you use this result please cite the Prokka paper:
+[12:14:04] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:14:04] Type 'prokka --citation' for more details.
+[12:14:04] Thank you, come again.

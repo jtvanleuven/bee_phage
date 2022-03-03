@@ -1,0 +1,126 @@
+Opening log at 2021-04-21 09:54:18.033876
+Iterating through fileSet at 2021-04-21 09:54:18.034017
+fileSet is ['/home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/commoncore.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/consensus.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/glimmer.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/phanotate.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/prodigal.cgc', '/home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/superset.cgc']
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/commoncore.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/commoncore.cgc
+Appending call set  number of calls is: 0
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/consensus.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/consensus.cgc
+Appending call set  number of calls is: 0
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/glimmer.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/glimmer.cgc
+Appending call set  number of calls is: 1
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/phanotate.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/phanotate.cgc
+Appending call set  number of calls is: 7
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/prodigal.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/prodigal.cgc
+Appending call set  number of calls is: 5
+Opening geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/superset.cgc
+Adding calls from geneFile /home/james/Software/multiPhATE2/PipelineOutput/circular_read_940/superset.cgc
+Appending call set  number of calls is: 0
+All call sets have been added to caller list. Number of call sets in callerList: 6
+callerList is   glimmer phanotate prodigal  
+Total number of gene calls across callerList call sets is: 13
+Sorting gene calls for each caller
+Processing a callSet
+Before sorting, Length of callerList for caller  is 0
+After sorting, Length of callerList for caller  is 0
+Processing a callSet
+Before sorting, Length of callerList for caller  is 0
+After sorting, Length of callerList for caller  is 0
+Processing a callSet
+Before sorting, Length of callerList for caller glimmer is 1
+After sorting, Length of callerList for caller glimmer is 1
+Processing a callSet
+Before sorting, Length of callerList for caller phanotate is 7
+After sorting, Length of callerList for caller phanotate is 7
+Processing a callSet
+Before sorting, Length of callerList for caller prodigal is 5
+After sorting, Length of callerList for caller prodigal is 5
+Processing a callSet
+Before sorting, Length of callerList for caller  is 0
+After sorting, Length of callerList for caller  is 0
+callSet processing complete
+Comparing across the call sets...
+Merging the geneCall sets....
+Final merged genes:
+
+***************Merge List
+1	Gene No. 1, gene caller: phanotate, leftEnd: 2, rightEnd: 346, strand: +, length: 345, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+2	Gene No. 1, gene caller: prodigal, leftEnd: 2, rightEnd: 346, strand: +, length: 345, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+3	Gene No. 2, gene caller: prodigal, leftEnd: 306, rightEnd: 515, strand: -, length: 210, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+4	Gene No. 2, gene caller: phanotate, leftEnd: 373, rightEnd: 531, strand: +, length: 159, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+5	Gene No. 3, gene caller: phanotate, leftEnd: 539, rightEnd: 646, strand: -, length: 108, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+6	Gene No. 1, gene caller: glimmer, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+7	Gene No. 4, gene caller: phanotate, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+8	Gene No. 3, gene caller: prodigal, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+9	Gene No. 4, gene caller: prodigal, leftEnd: 1688, rightEnd: 1897, strand: -, length: 210, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+10	Gene No. 5, gene caller: phanotate, leftEnd: 1755, rightEnd: 1913, strand: +, length: 159, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+11	Gene No. 6, gene caller: phanotate, leftEnd: 1921, rightEnd: 2028, strand: -, length: 108, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+12	Gene No. 7, gene caller: phanotate, leftEnd: 2088, rightEnd: 2807, strand: +, length: 720, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+13	Gene No. 5, gene caller: prodigal, leftEnd: 2088, rightEnd: 2807, strand: +, length: 720, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+Comparing across geneCall sets....
+Scoring gene calls....
+Identifying common core...
+This is the Common Core List:
+
+***************Common Core
+CC-gene 1	Gene No. 1, gene caller: All_callers, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+Printing gene-call superset, consensus, and common_core in GFF and CGC formats
+Printing report....
+The following gene callers were considered: glimmer, phanotate, prodigal, The number of distinct gene calls over all gene callers is 9
+The number of gene calls in common among all callers is 1
+The number of unique (non-matching) gene calls is6
+Caller glimmer produced 1 gene calls.
+Caller glimmer gene-call length stats:  min: 1023, max: 1023, ave: 1023.0
+Caller phanotate produced 7 gene calls.
+Caller phanotate gene-call length stats:  min: 108, max: 1023, ave: 374.57142857142856
+Caller prodigal produced 5 gene calls.
+Caller prodigal gene-call length stats:  min: 210, max: 1023, ave: 501.6
+
+Gene-call Scores:
+Caller	Contig	Gene No.	Left End	Right End	Strand	gcScore
+phanotate	circular_read_940	1	2	346	+	0.83
+prodigal	circular_read_940	1	2	346	+	0.83
+prodigal	circular_read_940	2	306	515	-	0.33
+phanotate	circular_read_940	2	373	531	+	0.33
+phanotate	circular_read_940	3	539	646	-	0.33
+glimmer	circular_read_940	1	706	1728	+	1.00
+phanotate	circular_read_940	4	706	1728	+	1.00
+prodigal	circular_read_940	3	706	1728	+	1.00
+prodigal	circular_read_940	4	1688	1897	-	0.33
+phanotate	circular_read_940	5	1755	1913	+	0.33
+phanotate	circular_read_940	6	1921	2028	-	0.33
+phanotate	circular_read_940	7	2088	2807	+	0.83
+prodigal	circular_read_940	5	2088	2807	+	0.83
+
+Gene-call Consensus Scores:
+Caller glimmer average gene-call score: 1.00
+Caller phanotate average gene-call score: 0.57
+Caller prodigal average gene-call score: 0.67
+
+***************Unique List
+Unique gene call 1
+  --  Gene No. 1, gene caller: phanotate, leftEnd: 2, rightEnd: 346, strand: +, length: 345, contig: circular_read_940, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 1, gene caller: prodigal, leftEnd: 2, rightEnd: 346, strand: +, length: 345, contig: circular_read_940, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Unique gene call 2
+  --  Gene No. 2, gene caller: prodigal, leftEnd: 306, rightEnd: 515, strand: -, length: 210, contig: circular_read_940, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 3
+  --  Gene No. 2, gene caller: phanotate, leftEnd: 373, rightEnd: 531, strand: +, length: 159, contig: circular_read_940, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 4
+  --  Gene No. 3, gene caller: phanotate, leftEnd: 539, rightEnd: 646, strand: -, length: 108, contig: circular_read_940, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 5
+  --  Gene No. 1, gene caller: glimmer, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 4, gene caller: phanotate, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+  --  Gene No. 3, gene caller: prodigal, leftEnd: 706, rightEnd: 1728, strand: +, length: 1023, contig: circular_read_940, protein: unknown, score1: 1.0, score2: 0.0
+Unique gene call 6
+  --  Gene No. 4, gene caller: prodigal, leftEnd: 1688, rightEnd: 1897, strand: -, length: 210, contig: circular_read_940, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 7
+  --  Gene No. 5, gene caller: phanotate, leftEnd: 1755, rightEnd: 1913, strand: +, length: 159, contig: circular_read_940, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 8
+  --  Gene No. 6, gene caller: phanotate, leftEnd: 1921, rightEnd: 2028, strand: -, length: 108, contig: circular_read_940, protein: unknown, score1: 0.3333333333333333, score2: 0.0
+Unique gene call 9
+  --  Gene No. 7, gene caller: phanotate, leftEnd: 2088, rightEnd: 2807, strand: +, length: 720, contig: circular_read_940, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+  --  Gene No. 5, gene caller: prodigal, leftEnd: 2088, rightEnd: 2807, strand: +, length: 720, contig: circular_read_940, protein: unknown, score1: 0.8333333333333333, score2: 0.0
+Code complete at 2021-04-21 09:54:18.036322

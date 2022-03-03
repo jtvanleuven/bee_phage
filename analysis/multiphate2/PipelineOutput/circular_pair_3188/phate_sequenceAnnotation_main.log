@@ -1,0 +1,105 @@
+Processing begun 2021-04-21 13:09:58.731537
+sys.argv is ['/home/james/Software/multiPhATE2/SequenceAnnotation/phate_sequenceAnnotation_main.py', '-o', '/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/', '-G', '/home/james/Software/multiPhATE2/PipelineInput/circular_pair_3188.fasta', '-g', '/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/gene.fnt', '-p', '/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/protein.faa', '-T', 'True', '-v', '/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/circular_pair_3188_cgp_gene.fnt', '-w', '/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/circular_pair_3188_cgp_protein.faa', '-c', 'phanotate', '-f', '/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/phanotate.cgc', '-t', 'phage', '-n', 'circular_pair_3188', '-s', '-i', '50', '-j', '50', '-h', '5', '-H', '5', '-B', '_blastp', '-b', '_pvogs_phantome', '-M', '_phmmer', '-m', '_pvogs_phantome', '-R', 'none', '-r', 'none', '-z', '4']
+Opening primary calls file, /home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/phanotate.cgc
+Parameters recorded at 2021-04-21 13:09:58.731660
+outputDir is/home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/
+outfile is /home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/phate_sequenceAnnotation_main.out
+gfffile is /home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/phate_sequenceAnnotation_main.gff
+infile_genome is /home/james/Software/multiPhATE2/PipelineInput/circular_pair_3188.fasta
+geneticCode is 11
+primaryCalls is phanotate
+infile_primaryCalls is /home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/phanotate.cgc
+infile_gene is /home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/gene.fnt
+infile_protein is /home/james/Software/multiPhATE2/PipelineOutput/circular_pair_3188/protein.faa
+genomeType is phage
+genomeName is circular_pair_3188
+genomeSpecies is -i
+blastpIdentity is 50
+blastnIdentity is 50
+blastpHitCount is 5
+blastnHitCount is 5
+blastThreads is 4
+Annotating
+RUN_TRNASCAN is True
+RUN_BLAST is True
+RUN_GENOME_BLAST is False
+RUN_GENE_BLAST is False
+RUN_PROTEIN_BLAST is True
+BLASTP_SEARCH is True
+RUN_HMM_SEARCH is True
+PHMMER_SEARCH is True
+JACKHMMER_SEARCH is False
+NCBI_VIRUS_GENOME_BLAST is False
+NCBI_VIRUS_PROTEIN_BLAST is False
+REFSEQ_PROTEIN_BLAST is False
+REFSEQ_GENE_BLAST is False
+PVOGS_BLAST is True
+VOGS_BLAST is False
+VOG_GENE_BLAST is False
+VOG_PROTEIN_BLAST is False
+PHANTOME_BLAST is True
+PHAGE_ENZYME_BLAST is False
+KEGG_VIRUS_BLAST is False
+PFAM_BLAST is False
+SMART_BLAST is False
+SWISSPROT_BLAST is False
+UNIPROT_BLAST is False
+NR_BLAST is False
+CAZY_BLAST is False
+CUSTOM_GENOME_BLAST is False
+CUSTOM_GENE_BLAST is False
+CUSTOM_PROTEIN_BLAST is False
+RUN_PROFILE_SEARCH is False
+HMMSCAN is False
+NCBI_VIRUS_GENOME_HMM is False
+NCBI_VIRUS_PROTEIN_HMM is False
+REFSEQ_PROTEIN_HMM is False
+REFSEQ_GENE_HMM is False
+PVOGS_HMM is False
+VOGS_HMM is False
+PHANTOME_HMM is False
+PHAGE_ENZYME_HMM is False
+KEGG_VIRUS_HMM is False
+PFAM_HMM is False
+SMART_HMM is False
+SWISSPROT_HMM is False
+UNIPROT_HMM is False
+NR_HMM is False
+Setting parameters for genome at 2021-04-21 13:09:58.731724
+Reading sequence into genome object
+Processing gene calls at 2021-04-21 13:09:58.968385
+Writing genes file
+Writing peptides file
+Gene and protein files created at 2021-04-21 13:09:59.306504
+Creating a blast object
+2021-04-21 13:09:59.306560 Preparing to run blastp at the following settings:
+Parameters:
+   blast flavor blastp
+   identity min 50
+   evalue min 0.01
+   identity select: 70
+   evalue select: 0.01
+   topHitCount: 3
+   scoreEdge: 1.0
+   overhang 100
+   outputFormat: 5
+Creating an hmm object
+Checking RUN_GENOME_BLAST False
+Preparing for protein blast at 2021-04-21 13:09:59.306646
+Running Blast against protein database(s) at the following settings:
+Parameters:
+   blast flavor blastp
+   identity min 50
+   evalue min 10.0
+   identity select: 50
+   evalue select: 10.0
+   topHitCount: 5
+   scoreEdge: 0.1
+   overhang 0.1
+   outputFormat: 5
+Protein blast complete at 2021-04-21 13:10:08.360436
+Preparing for hmm search
+Running phmmer search against protein database(s) at 2021-04-21 13:10:08.360636
+HMM phmmer search complete at 2021-04-21 13:10:20.790165
+Reporting final annotations at 2021-04-21 13:10:20.790258
+Sequence annotation processing complete at 2021-04-21 13:10:20.792157

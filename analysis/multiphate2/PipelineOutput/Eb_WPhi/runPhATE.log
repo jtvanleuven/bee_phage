@@ -1,0 +1,86 @@
+Opening runLog at 2021-04-18 20:45:02.908666
+Input parameters:
+   PIPELINE_INPUT_DIR: /home/james/Software/multiPhATE2/PipelineInput/
+   PIPELINE_OUTPUT_DIR: /home/james/Software/multiPhATE2/PipelineOutput/
+   PIPELINE_OUTPUT_SUBDIR: /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/
+   genomeFile: Eb_WPhi.fasta
+   geneFile: gene.fnt
+   proteinFile: protein.faa
+   genomeType is phage
+   genomeName is Eb_WPhi
+   genomeSpecies is Eb_WPhi_phage
+   geneticCode: 11
+   trnascan: True
+   Status of boolean translateOnly is False
+   phanotateCalls is True
+   prodigalCalls is True
+   glimmerCalls is True
+   genemarksCalls is False
+   primaryCalls is phanotate
+   primaryCallsFile is phanotate.cgc
+   customGeneCalls is False
+   customGeneCallerName is custom
+   blastpSearch is True
+   phmmerSearch is False
+   jackhmmerSearch is False
+   blastpIdentity is 40
+   blastnIdentity is 40
+   blastpHitCount is 5
+   blastnHitCount is 5
+   blastThreads is 4
+   ncbiVirusGenomeBlast is False
+   ncbiVirusProteinBlast is False
+   refseqProteinBlast is False
+   refseqGeneBlast is False
+   pvogsBlast is True
+   vogGeneBlast is False
+   vogProteinBlast is False
+   phantomeBlast is True
+   phageEnzymeBlast is False
+   keggVirusBlast is False
+   pfamBlast is False
+   smartBlast is False
+   swissprotBlast is False
+   uniprotBlast is False
+   nrBlast is False
+   cazyBlast is False
+   hmmscan is False
+   ncbiVirusGenomeHmm is False
+   ncbiVirusProteinHmm is False
+   refseqProteinHmm is False
+   refseqGeneHmm is False
+   pvogsHmm is False
+   vogsHmm is False
+   phantomeHmm is False
+   phageEnzymeHmm is False
+   keggVirusHmm is False
+   pfamHmm is False
+   smartHmm is False
+   swissprotHmm is False
+   uniprotHmm is False
+   nrHmm is False
+   customGenomeBlast is False
+   customGenomeDBname is unknown
+   customGenomeDBpath is pathNotSet
+   customGeneBlast is False
+   customGeneDBname is unknown
+   customGeneDBpath is pathNotSet
+   customProteinBlast is False
+   customProteinDBname is unknwon
+   customProteinDBpath is pathNotSet
+   checkpointPhate is False
+inputDir is /home/james/Software/multiPhATE2/PipelineInput/
+genomeFile is /home/james/Software/multiPhATE2/PipelineInput/Eb_WPhi.fasta
+primaryCallsPathFile is /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/phanotate.cgc
+geneFile is /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/gene.fnt
+proteinFile is /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/protein.faa
+cgpGeneFile is /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/Eb_WPhi_cgp_gene.fnt
+cgpProteinFile is /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/Eb_WPhi_cgp_protein.faa
+Checking files...
+Preparing to run genecall module...
+Calling the gene-call module. Command is python3 /home/james/Software/multiPhATE2/GeneCalling/phate_genecallPhage.py /home/james/Software/multiPhATE2/PipelineInput/Eb_WPhi.fasta /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi prodigal_glimmer_phanotate_ /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/phanotate.cgc
+Gene-call processing complete at 2021-04-18 20:45:10.826489
+Preparing to call sequence annotation module...
+Calling the sequence annotation module. Command is python3 /home/james/Software/multiPhATE2/SequenceAnnotation/phate_sequenceAnnotation_main.py -o /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/ -G /home/james/Software/multiPhATE2/PipelineInput/Eb_WPhi.fasta -g /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/gene.fnt -p /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/protein.faa -T True -v /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/Eb_WPhi_cgp_gene.fnt -w /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/Eb_WPhi_cgp_protein.faa -c phanotate -f /home/james/Software/multiPhATE2/PipelineOutput/Eb_WPhi/phanotate.cgc -t phage -n Eb_WPhi -s Eb_WPhi_phage -i 40 -j 40 -h 5 -H 5 -B _blastp -b _pvogs_phantome -M none -m _pvogs_phantome -R none -r none -z 4
+Sequence annotation processing complete at 2021-04-18 20:45:33.291377
+Execution complete at 2021-04-18 20:45:33.291466

@@ -1,0 +1,1192 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "contig_2104" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 6360 ,
+            seq-data
+              iupacna "GCTGAACACGAATTTGGGACGGATTACATGTGTCATCTCACAATGAAAGTAGGTG
+CAGAATGGCTGGAGACCTCTTAATTAAGATGTTAAAAAGTCGTGGTGGTAAAGATAGTGACTATGCGGATGTTGTTTA
+CGGTATCGTTATTAGCATTGAGCCTTTGAAGGTGCAGCTATCTAACAATATGGTGATTGACGACAATTTTATTATTTT
+AGGAAAGCATATTGGCAAGTTCAAGCTACCGGGCAAGGCTACCATTGAGGTTCAATCGCACAGCGACCAAATCGGCAA
+CGTGTCAGGCAACAGGCCCACGGTTAGTGAGAAGATTACTTTCAAGGAGATGGAATTTGACAATAGCCTTAAAAAGGG
+CGATAAAGTGACCATGATCCGCATGGATGGTGGTCAGCAGTTTTACTTATTTGAACGAGAGGAGGGATAAGATGGATG
+ATGACGACAATATTATTGTCACTGAAGATGACGACAATGAAGTTACAGATCCCAACCTGGATGATGAAGATCTGGATG
+GTGACGATGATGAAGACTTAGATGATGAGCCTACCCTAACATTCAGAGTTGAAAATGGCCGAATACGCGGCAAAGTTG
+ACGAATTGCCGGCAATGGTACAAGCCAGTTGATAAAATACTAAGGACAGAACGTCTAGTCTATCCCATTTACTCCGAC
+CAATATGGCAATGATCTTAATGATTTAATCGGCAAAGATATTGGCTATGCCAAAGTGGAAGCTGAACGTATGATCAAA
+GAAGCACTACTAGCGCGATGACCGAGTAACAGATGTTGAGATTGACTCAATTGACCAGAAAAATAAAGATACCCTAGT
+GGTTACGGGTACCTGTTTTACAGTTTTCGGCAAAATTGCGATAGATAGTGAGGTGAGTGTCGATGAATCCTGAAGAAT
+ACGCGGCGGAATATACCAGCCGTAATTATGATTACTGGCTAGATAAGATGCTGGATAATGTACCAGACGATATTGATC
+AGCGAGAAGGCTCGATTGTCTTTGATGCTCTGGCTCCGACAGCCATGGCGATGGCACAGCAGTCACTAACTATGGCTA
+ACATTATCAGACAGAGTTATATTAAAACGACTCAGGGTGAGTTTTTGGACTACCGTGCAGTTGAACATGGCACAGCCA
+GATATCACAGCCACACAGACAGAAGTTAAGGCTAAGTTCTTAGATTCTGATGGTAATGCGATTAACAACGTACAGATA
+GGCGACCAATTCGCAAGTATTGGCGAAACGCCTATTTTTTATACGTGCAGAAAATTAATGATGATTTAACAGGGGAAT
+TAACGGCAGATGATCCAGGGACGACAGCCAACTCATATATTGGGCAGATTTTACCAGTAACGAGTAATGATAGTCTTT
+CTTGGGCAGAAATACCGAAATCGTTGCACCTGCTCGAGATGAAGAAACAGACGACCACTTGCGAGACCGTTTGCTTAA
+AGCGGATGACTGGGTAGCATATGGCGGCAATGTGGCGACTACTTAAGCATGCTCAGTAAGATCAATGAAGTAGGAGCC
+GGACAAGTTTATCCAGTCTGGAATGGACCAGGTACGTTAAGTTGTGTTTTTAAACAATGACTGATGCCAGCTAGTGCC
+GACTTGGTCAAGAAAGTTAAAAATATCATTGATCCGGAAGATCGTGAAGCATTGGGTTATGGCCTGGCACCAATTGAC
+CACCAAGTAACAGTAGTAGCACCATCTATTCTGACCGTTGATGTAGCGTCAGCAGTGACTATTGACACTAAGCAGAAT
+GCGGAAACGGTAAAAGCCAAGATTAAAGAGGCAATAGAAAACTACTTTCAACTGTTACGCCAAAGTTGGAACACAGTT
+GATCAAAAAACTGGCCGAGGCTATTCCCAAACCGTTTACAGGTCAAAAATCTTGTCGCAAATAATGAGTGTTGAAGGG
+GTAATTAATGCCTCAGTGCCTGTTTTAAACGGCACAGACGGAGACATTACACTAACTTTCAATAATCAGACTTCACAA
+TTGCCAATTCTAGGGGAGGTCGTTTTAGATGGCTAACAATCTAATGGACTATCTACCCGACTATTACGATGACGTCTA
+TGAAATGCAGGCTATCATGCACGCCCAAGGTGGCGTACTGGATGAGATGGACGATAGACAGATGCGGACATTGCTCAA
+TGAGTTCGTCATTCAGACTGATTTACGTGGTATATCTGTTTTTGAAGACCAGATTGGTGTCATTCCTGAACCAGGCGA
+TAGCTTACAAGACCGACAAAATCGGGTATTAATGCGACTATTGCCACCGCATCCGATCACGATCAGATATTTGCGCGA
+GCTTTTTAAAACGTTAAAAATACCCGCTGAAGTCTCTGTTTTTCGCCCGAAACGAGAAGCTATCGTTGAAGCTAACAA
+AGGTGAGATCACTAATAAGCAGATAGACAATGTTAAATATATTCTCAATGTCTATTTACCGGCCAACATGATCTATCA
+GATCCAGATCAAGTTACCTGATACCAAGATTTCTGATCAACTAAAAATCGGTATTGGTATTTTAGCTGGTGTACCATC
+TAATAGCACCAGTTAATTCTGACTATATTGACCAGATAACTAATACTAAATCTGATATTAGTAATGAAGCTAACTTAT
+GGTTTTGGTCAATGGTACAAAGTTGACGCTTTGGTATTGGCTGATATGACTCAATATGAAAACAAAGGGAAGTGATAA
+ATAGTGTCCAAATATAATAAAACGGTATTAACTACCGCGGGCTTAGATTTAGCGATCAAAGCAGCTAGAGGCAAGACT
+AAGTTTACAATTACGAAAACAGCTGCTTCGGCTGATAACTTGGCTGACAAAAAAATTGACGAATTGCAGGAACTGACC
+GAGCTACCCAACATTGTGCAGTACGGTCAGATTGTTGATGTAGCTGATTCAACGCAGGATAAAAACGTTGTCATTGGA
+GTGGGTCTTTATTTTAATAATCAAGACTTGACACAAAGCTTACGATCTCAACACAATTGCTCTTTATGCAAAAGAGGA
+GGCTCAAGTGACAAGAAGTCCTTTACGGGTTAACTACGGCAGTAGAGCCAGAAACAATGCCTGACTATCAAGACGAGG
+TGTTGTTTAAATTCAACCTCACTATGTATGTTGTAGTTGGTCGGACAGATAATGTAACTGTCAAAGTAGTTGAAGATG
+GCGTTGTTACGGATAAGAAATTGGAAGAAAGACTCCAGGTTTTTGCCACCAAAGCCGACCTCGATATTTTCGCAAAGT
+TTGATTAATAACGATATTAGAGATTTAGCAGCTTTAAACGCAGCAGATGGCAATAACATTTACAATACAACGGTTAAT
+CTTGATACCTATTCTAAAGTAGGAATTAGTAAGTTTCTAGGCTGCAAGCTGCAGTCTACCGGCAATATGCCAGGTTTT
+GACCAGAGTACAGAGGGACTATATGGTTGGATTCTTAATATTCCAAAATGGAACGGAGCTGTTGAAATCGATCAGTTG
+GTGTTAATAGACGACTTTGGTCAAGGTAACATGCAATTTACTCGTGACCGTGAAACGGCTGACGGTTCCAAAGTAAAA
+GACTTTGACAAGATCGCAACTACACGTGATTTAGAAAAGCTCAAAGGACAAATACCCACTGATTATTACACCAAAGCT
+CAAATCGACAAAATCATAACTGATATTACTAGCCGCATTAGTGCAATTGAAAATCGAGAAATAACCCACGTTTGTGAC
+GACTATGACACTGGGGTTGAATATTCGAAAAATCACAAAGACGTGTTTGTTGCAGTAACCGGGAACTGAGAGGTGATG
+ACATGTTAGCTAATGGCAAGGAGGTTAATTATCTAATGATAAATGGCGATGTGTTTATCAAGGATTTAGCATTGCCAA
+GATATTATAAATTTAATAAAGATAGTAAGGCACCTAGCTATGCTTATAGTCGCGATAGCAATAATAAGCCTGTTTTTA
+CAGTTGAAATGGATACGGGTGATCAAAAAAAAGTACAGCTTGATAAATATCAAAAAACTTTAGTTTTGCAAATAATAA
+AGTCGGATAATTATACATATTGTTTGGCCAAAGGCATGGTAAGTTATTGGACGGTAGTCGTCTCTAATGATGGGACTG
+GTTCTACCCAATGGATAACAGAAAACCGATTAGCCTGGTTTAGAATGGAAGACTTTGGCGGTGGAACGCCAATTGTAG
+AAAATGGGGGGGTAAATAGTCTCTCCTATTTACTATTCATTTATTGTATAGGGGAGGTGACTCCCTATGTTAGCTAAT
+GGCAAAGAAGTTAATTATCTAATGCTGAATGCGGGAAGTATTTGGCTCGCAAAAAGTTCATTGGCGAATATGATTTTG
+GAAAAGATTATAGACTCATGTAGTCAAAGTTATTCAATCAGTTATGACGATAAAAAGGTTTAAAATTCGTGCTTGTCA
+CAATCTAATAACCCTGGCTCAACCGGATCATATTATCCATCAACAGCAGAATTTAATCGTATTAGTATTGTTTTTTGT
+GAAGCAATTTATCTAAAAGAATATTGAATATGCCTAGTTAGTTGCGTAATGAAATCAACAATTGGTGCAAATACTCAA
+CAAGTTGGATATATTGCGATATCGTTTGGATAAAACTAAAAGATGTAGGCGGGGTATTGAACCCTGCACAGTAAAATG
+AAAGGAAAAAATTATGACAGAAACAACAAGTAATAATAATGGCTTTAAACAAGTATACAAGTCAACGGCAAAAGTGCC
+ATTTGAGGTCTGGTTTGCGCCAAAAGATGCAGAGGTAAGCTATCCCTTCTGTGAGATGCACCGGATCCTAAATTCAAG
+TCTCCAATGTTTGATTGGAATAAATACTGCTGGTTTGAATCTGACAGTAAAGTCCAAGGCGAACAGATATCAGAGATG
+TCGCAAAGTTTGGAAAAATTAAAGAACGATGTAGCAACCGGTAAGCTTAGCGATGAAGCCATTAACAAACAGATCGGC
+ACATTAGTAGGATTGGTATCGCAAAGTGCTATCGCACAACAAGCGGCTAGTCCAACCACTGATAATAAGGATGATAGC
+GCAACAGATGGAGGTGCTAAATAATGAACATGATGGGTATGTTTGAATCGCTTTATCAATATCTTTTTAGCGTCAGCG
+TATACACTAAGGCAACGATTGCGGGGTATGTTGGCAAGACCATTGATGAGGCGGCATATAAGAGAATTACAGGTGATG
+ACTATGTGGCACCGTCTGCTTAGTAATATTAATGAAAACCATGACCAGACCATAGCAGGTGTAGCCATCGCTGCAATT
+GGTACCGCATTGCTCCGCGACAGAAACTACTTTTTCTGGCCACCAGAGTGGACACTTTTCATGAACGATAAAAGACTA
+GACCTAGCAATAATATTACTAGGTCTTTTAATTGCCTTTGATTCTATGTTAATAAAAAGGCATAGGGGCTGGCGTATG
+TTTATCTTAATAGTCGGTGCTTGGACTATGTGGTGCTTAATCGGCATTCAGCTAGGTCATGCTATAGGTGCTGGAGAA
+TTTCGTATGGACTTAACAGTAATTGGTGAAGCCGTGATATCAATATTATGCTTATATGGCATATATCAAAGTTAGAGA
+GGTGGTAGCGTGCATGATGTGACTAGCCTAATCTATGTTTTTGGGACACTGATCGAAGCAGCTGCTACCTTTTTAGCG
+GTAACTCATACGTCGCACAAAGAAGATACGGAAGATGTTATTAAAAACCTGAAAGTCGAACGAGATAATTTTAAGCAG
+GACTATCTTTTAGAGCGAAAAAGGCGTTAGAACTTGAAGTAAGTACGAAGAATTAAAAAAGAAGTTAGAGAACACTGT
+GTAGTGTTCTTTTTTTGTTGAAAGGAACTTTTAAAATGGCTCAAATTATTAATTTGTTAAATTCATTATTACCCTATG
+TTGTCCTATTGGCTGTCGGCATTGTCGCTGTTTATCAATATGCCAAACAACACAATCCAGTCTTTGCCGAAAAAATGA
+AATGGCTGTATGACGTAGCGCAATATATCGTTACTCAACAGGCAACACACACCGATGCTTCTGGAGCAGAGAAGAAGC
+AGGCAGCCAACTGACGCATTGCTTGAACAGGCGAAAGCATCTAAAGCGAAGATAAACGAAAGAGACTTGCTGAAGGGA
+TGGTAGAGAAAGTTACCAAGAAGGTGTAAAAAATGAAACTAAATAAGAAAATACGATCATTGACTCCTGCGGTGGCTC
+ATATGACGCACGGCTCTTCATGTCAACCAAATCGCCACATTGCTCATACCAAAACAGATTAAAATATAATAACGATTT
+TTATTGTGGCATCACGACTCAACCCGCATACACCAAACGGTGAGGCGTGGGCAATTGCTCACAAT" } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_1" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 125 ,
+            seq-data
+              ncbieaa "MAGDLLIKMLKSRGGKDSDYADVVYGIVISIEPLKVQLSNNMVIDDNFIILGKHI
+GKFKLPGKATIEVQSHSDQIGNVSGNRPTVSEKITFKEMEFDNSLKKGDKVTMIRMDGGQQFYLFEREEG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 124 ,
+                        id
+                          local
+                            str "contig_2104_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_2" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 64 ,
+            seq-data
+              ncbieaa "MDDDDNIIVTEDDDNEVTDPNLDDEDLDGDDDEDLDDEPTLTFRVENGRIRGKVD
+ELPAMVQAS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 63 ,
+                        id
+                          local
+                            str "contig_2104_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_3" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 66 ,
+            seq-data
+              ncbieaa "MAEYAAKLTNCRQWYKPVDKILRTERLVYPIYSDQYGNDLNDLIGKDIGYAKVEA
+ERMIKEALLAR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 65 ,
+                        id
+                          local
+                            str "contig_2104_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_4" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 92 ,
+            seq-data
+              ncbieaa "MNPEEYAAEYTSRNYDYWLDKMLDNVPDDIDQREGSIVFDALAPTAMAMAQQSLT
+MANIIRQSYIKTTQGEFLDYRAVEHGTARYHSHTDRS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 91 ,
+                        id
+                          local
+                            str "contig_2104_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_5" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 146 ,
+            seq-data
+              ncbieaa "MPASADLVKKVKNIIDPEDREALGYGLAPIDHQVTVVAPSILTVDVASAVTIDTK
+QNAETVKAKIKEAIENYFQLLRQSWNTVDQKTGRGYSQTVYRSKILSQIMSVEGVINASVPVLNGTDGDITLTFNNQT
+SQLPILGEVVLDG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 145 ,
+                        id
+                          local
+                            str "contig_2104_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_6" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 177 ,
+            seq-data
+              ncbieaa "MANNLMDYLPDYYDDVYEMQAIMHAQGGVLDEMDDRQMRTLLNEFVIQTDLRGIS
+VFEDQIGVIPEPGDSLQDRQNRVLMRLLPPHPITIRYLRELFKTLKIPAEVSVFRPKREAIVEANKGEITNKQIDNVK
+YILNVYLPANMIYQIQIKLPDTKISDQLKIGIGILAGVPSNSTS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 176 ,
+                        id
+                          local
+                            str "contig_2104_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_7" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 113 ,
+            seq-data
+              ncbieaa "MSKYNKTVLTTAGLDLAIKAARGKTKFTITKTAASADNLADKKIDELQELTELPN
+IVQYGQIVDVADSTQDKNVVIGVGLYFNNQDLTQSLRSQHNCSLCKRGGSSDKKSFTG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 112 ,
+                        id
+                          local
+                            str "contig_2104_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_8" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 61 ,
+            seq-data
+              ncbieaa "MPDYQDEVLFKFNLTMYVVVGRTDNVTVKVVEDGVVTDKKLEERLQVFATKADLD
+IFAKFD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 60 ,
+                        id
+                          local
+                            str "contig_2104_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_9" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 190 ,
+            seq-data
+              ncbieaa "MPPKPTSIFSQSLINNDIRDLAALNAADGNNIYNTTVNLDTYSKVGISKFLGCKL
+QSTGNMPGFDQSTEGLYGWILNIPKWNGAVEIDQLVLIDDFGQGNMQFTRDRETADGSKVKDFDKIATTRDLEKLKGQ
+IPTDYYTKAQIDKIITDITSRISAIENREITHVCDDYDTGVEYSKNHKDVFVAVTGN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 189 ,
+                        id
+                          local
+                            str "contig_2104_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_10" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 154 ,
+            seq-data
+              ncbieaa "MLANGKEVNYLMINGDVFIKDLALPRYYKFNKDSKAPSYAYSRDSNNKPVFTVEM
+DTGDQKKVQLDKYQKTLVLQIIKSDNYTYCLAKGMVSYWTVVVSNDGTGSTQWITENRLAWFRMEDFGGGTPIVENGG
+VNSLSYLLFIYCIGEVTPYVS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 153 ,
+                        id
+                          local
+                            str "contig_2104_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_11" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 50 ,
+            seq-data
+              ncbieaa "MLANGKEVNYLMLNAGSIWLAKSSLANMILEKIIDSCSQSYSISYDDKKV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 49 ,
+                        id
+                          local
+                            str "contig_2104_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_12" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 83 ,
+            seq-data
+              ncbieaa "MFDWNKYCWFESDSKVQGEQISEMSQSLEKLKNDVATGKLSDEAINKQIGTLVGL
+VSQSAIAQQAASPTTDNKDDSATDGGAK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 82 ,
+                        id
+                          local
+                            str "contig_2104_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_13" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 51 ,
+            seq-data
+              ncbieaa "MNMMGMFESLYQYLFSVSVYTKATIAGYVGKTIDEAAYKRITGDDYVAPSA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 29 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 50 ,
+                        id
+                          local
+                            str "contig_2104_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_14" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 127 ,
+            seq-data
+              ncbieaa "MWHRLLSNINENHDQTIAGVAIAAIGTALLRDRNYFFWPPEWTLFMNDKRLDLAI
+ILLGLLIAFDSMLIKRHRGWRMFILIVGAWTMWCLIGIQLGHAIGAGEFRMDLTVIGEAVISILCLYGIYQS" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 30 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 126 ,
+                        id
+                          local
+                            str "contig_2104_14" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_15" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00015 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 58 ,
+            seq-data
+              ncbieaa "MHDVTSLIYVFGTLIEAAATFLAVTHTSHKEDTEDVIKNLKVERDNFKQDYLLER
+KRR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 31 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 57 ,
+                        id
+                          local
+                            str "contig_2104_15" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2104_16" } ,
+          descr {
+            title "hypothetical protein EDFAHPGE_00016 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 70 ,
+            seq-data
+              ncbieaa "MAQIINLLNSLLPYVVLLAVGIVAVYQYAKQHNPVFAEKMKWLYDVAQYIVTQQA
+THTDASGAEKKQAAN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 32 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 69 ,
+                        id
+                          local
+                            str "contig_2104_16" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_1" ,
+                location
+                  int {
+                    from 59 ,
+                    to 436 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_2" ,
+                location
+                  int {
+                    from 438 ,
+                    to 632 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_3" ,
+                location
+                  int {
+                    from 577 ,
+                    to 777 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_4" ,
+                location
+                  int {
+                    from 897 ,
+                    to 1175 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_5" ,
+                location
+                  int {
+                    from 1600 ,
+                    to 2040 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_6" ,
+                location
+                  int {
+                    from 2033 ,
+                    to 2566 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_7" ,
+                location
+                  int {
+                    from 2710 ,
+                    to 3051 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_8" ,
+                location
+                  int {
+                    from 3075 ,
+                    to 3260 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_9" ,
+                location
+                  int {
+                    from 3217 ,
+                    to 3789 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_10" ,
+                location
+                  int {
+                    from 3801 ,
+                    to 4265 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_11" ,
+                location
+                  int {
+                    from 4255 ,
+                    to 4407 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_12" ,
+                location
+                  int {
+                    from 4819 ,
+                    to 5070 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_13" ,
+                location
+                  int {
+                    from 5070 ,
+                    to 5225 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_14" ,
+                location
+                  int {
+                    from 5206 ,
+                    to 5589 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00014" } } } } ,
+              {
+                id
+                  local
+                    id 15 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_15" ,
+                location
+                  int {
+                    from 5602 ,
+                    to 5778 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00015" } } } } ,
+              {
+                id
+                  local
+                    id 16 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2104_16" ,
+                location
+                  int {
+                    from 5862 ,
+                    to 6074 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2104" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "EDFAHPGE_00016" } } } } } } } } } }

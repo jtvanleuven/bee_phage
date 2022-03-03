@@ -1,0 +1,1041 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 7646 ,
+            seq-data
+              iupacna "CTTCTAGACGAAGGGGGCGGGGGTATTTTTTCTTTTTCTAAAATCATTTTTTTCC
+AATCTGACTTGCTCATACTTTTTAACTGTTCAACTTTACCTTTTTTTTGAAATTTGATTTCCAGCTGTTGTTTGACTG
+CATTACAACGATTGCACAGAGTCCATAGATTATGCCAATCTAGCTGCTGCTTAGGTGACAGAAGTTTGCGCATAACAA
+TATGATCAGCAGTTAATCTGCTAGCCTGATAGTTATTACCGCAGCATTGACATGTATATTGATCGTAAGCTATCCGAT
+AATCTCTTATCTGCTTCCATTGGCCTGACCTGTAGAATCTAATTGACTCTGCATCTCGTCTGGTTAGATTGTAATGCC
+TCTGCTTGCCTCTGGTTCTGTTAGCTATCAGCTCATTGTACAGAGAGCTATTCCTCATTTTCTGCCGCTCGTCCTTGA
+CGTGCTGATATTCGGCTTGTCTCATGGCATGGTGCTTATCGCAATATCTGTTATTGCCCTGTACCCATTCTCTACAAT
+TGGGGTAGCCACAATGGTGAAATAGATTGTTCATTTTTTCTCTCCAAAACAAAAAGCCTATGCGATTTTGCATAGACT
+TAATTAAGAAACGTGCTGGGATTTGAACCCACTGTAGCCATGATAATATGTTATGGATTTGATTTTAAATAACACATT
+AAACAACACGTTTCTGATATGCTCACTAAGCAGCTCATTCTTGATCTCTTTCATATCAAGACATAGGTCATCGCATAT
+CTATGACGACGTTAGGATTCGAACCTAGCTACAACCATTGCCGTCGCTCATATGTTTTTTCAACTAAATTTTTCAGTT
+CTTGCATAATAATTTGAAAGGAGGTGCCAAAAGCTAGGTTTTTCCATCACCTAAATCTTTCGACAATATCATAATATA
+ATATAATCTCTCTACTTGTTCTCTACTATTTCTCTACCATCTCTCTACTTTTTAAATTACATCTGTTTTTTCAAAAGC
+TCTCAAATCATTGAGTGAAGCATGATCAATTTGTCTCCAGTAATCTAAGCGTTCAGCAAATTCAATCAAAGCATCATT
+TTTTAATTGATAGTATCTTGCTGGAGAATAAGTTAGACGCTCAGCTATCTTGTCATCTGTCATTCTTTTAATAAAATA
+GAGATATATTATTAATCCACTGGGATAGCTGCAGCTACTAATAGTATCATCTACTGCTTGTACACAGCATCGTGCATC
+CATGTTGACTAATATTTTTTCATCAGCATGATTTCGACCATCGTGTACTGCAACTGCATTAGGATCCAATTTTGGAGC
+AGAAATATCACTCAAGTGCTTATTAGCCAGGTTAAGATAATGGTTAAAGTCATTAGCAAAAAAATCTTTAACATTATG
+TTTAGTTTTTGTCTTATTTAATTTTGAATTTTCAAACAATGCTAAAACCTCAATCATTATGCTCATCCCTACCACAAT
+TTACTTTTTAATTTGCTGACTCATATTTCTTCCAAGCGTTTTCGAATTTTTGCTTGTCAAAGTGCTCTTCAATAAACC
+GATCTTCTCCAAAGTCCCAAAACCAATCGTTAGACAGAATCAATTTTTCAGCTATTTCCATTTTTGACAGATTTTCGC
+AATTATCTAAGTTTTTGCGCCGATATAGCTTGACTTCTGACTTGCTACAATTATTTTCAGGATCCAAAAGCCAATTTT
+TTAGCAAGCTTTGGCCTAAAAAGAAGTTATTCCGGGCATCTTTTTCATCTGTTCCAAAAACAAAATCAGAAACTATGC
+CACACTCGCTTGTTTCTCCAGGAAACTCAACTTCGTAACCTTTCATTATGCATCCCTTCCTAGCTAATTCTTACTTTA
+GTTTATTGCTTAAAATTTTCTATTCATGATCCCACATAGTAGCTTTGGCGTTAAAATATCTATTAAGTTTTTCGCTAA
+CGGAATTCTTTGTTTCAAGACTAATAATATAGGAGCCAAGGGGATAAAGATCGGCGTCACAAAATTGTATCCTATTAA
+CTTGATCTCTTTCGCAGATTTGTACGACTGAAACAAGTGACAAATCAATCCACTGCTTTTTGCCCGTTATATTTTTAA
+AATATAGTTTATTCATTTTTCATCCCTTTCTGGCTCATCATTAAGTCCATAGATTAGTGCTACCGCAACTGCTTGTCC
+TAGAATATTAAGCAATCTTGCATTGAAATGGTAACAATATTGCTTATAATCATCACCCATTGGAAGCCAAAGGTCGCG
+ATATTCTTTTTTGAGCTTGTTTTCATCAACGGGAGTAGGTAATGCTATTTGCATACAATCAATAAAAGTTACATCATC
+GATATCCATGAGATTGTTTCTAACCCAAATCACTCTTTTCTTAATGCAGTCTGGCAATTCACTCTTTGGCGCCATAGG
+CTTATCCTTACCATTTTTCCAGCCTTCTACAGATAGCAGCAATTGTTTAAATGTTATTATTGATTTGACTAAAAATGC
+TTCTGTTTCATCCATTTCTGTGTCTCCTAAGCTATTCCCTATATGTATCCTTCCAAGCCTTTTCGAATTCCTGCTTGG
+CAAAATTGTCCTTATCATATTGCTTACCGTTTAAGCCCCAGTACCATCCACACTTCATAATCAATTTTTCAGCCATTT
+CCATATTTGATAGATTTTCGCAATTATCCAATTCTGGAGCGCGCACAACTCTAATATCTGTATACGAAGCACCATTCT
+CTTTAGCATTGTTAAAAGAATCGTTAAATACTGTTTCTCCATTCGCTACAGCTTTTTTAGCTTTAGCAACATTTTTGG
+CAAAAACAATGTCGACGTTTCCTCCATCATCTAAATCTAACCAGCCATTAAAACTAGCCTCATAAGCTTTCATTTCTA
+ATCCCTCCTAAAATGGTAAATCGTCATCCGTAATATCAATAGTGTCTCCGGAACCGACAAATGGATCAGGTGCTTGGC
+TTTGAGTGCTACTGTTGTTGGTATAATTAGTGCCGTTATTGTTATTCCCATAGGCATTATTGTTACCATTGCCGCCGT
+TGCTGTTACTTAACCGATCCTTTTTTGAATCAAGCAATGCAAAATTTTCAACCAATACTTCTGTTACGTATACTTTCT
+TTCCGTCGTTGTCCTGGTAATTTCTGGTTTGAATGCGGCCGTCAATACCAACAAGTGAACCTTTAGACGTGAAATCGC
+AGAAGTTTTCTGCTGCTTTACGCCAAATGACACAGCTGATAAAATCGGCGCCATAGTTGCCATTGTTATCCTTGAACG
+GTCGATCAACTGCTAAGTTAAACGAAACTACAGACAGCCCGCTCTGTGTTTTTCTTAATTCTGGGTCTTTAGTAAGGC
+GCCCAGTTAAAACTGCTCTATTAATCATTTTCTTGCCTCCTTAGGATTTGCAAATGATTTAAGAGCCGCTAAAAGTAT
+GTAATATGTTTTGGAACTTACTTGCATTGAGTAATAGCCTTCGCTGAAAAGTTCTACAAAATACTCCAAATGGTTACC
+AAATTTTGCAAGACTTAATCCTTGAACATCTTTAGCAGAAACTGTATGTTCCTCTCCATCTGCGTCAATAAATGCAAT
+TTCTTTGGAGCTAGTTTCCCACGTTTCCATTACTGGCTTTTTTAAACAAACAACAACACTTTCTTTTATTAGTGCAAG
+AAGAAAATTGTAAGTATCATGATCTATACCGATCACACCTGGGAAGTTCGCTAGATTTACAAAATATTCTAATTTTTT
+ACCATCTCTTTCAATTAGGCACTCTTCAATATCTTCAACAAGCGCTGTATGTTCGCGATTATCAATATCAATTAACCT
+AACTGCCTTAGCATTAATTATTTCTGCTTTCATTTTTGCATCCCTTCGACTCATTATCATCAGCAATCCCATTATTTC
+GTTCAAAATTAGTGAAGAAGTCTTTCAATTCCCCTGTATCTGCTGTACTGGTACTTTCTGGCTTAGCTTTAATATTTG
+ACCAATCTGTTCCCTTTTCGACTGACTTGTGTGTTTGCCAATTATTATTAGCTTGCCCTGGTGTCTGATCATACTCAT
+CATCAATGTTTGCAAACCAAGTTTTAGCTGCTTTAATAAATTGAATGGGTACATGCTGAACCTTGATATGGTGGAGAT
+ACTTATTCAACTGTTCTTGTGCTTTTTCAAACGTGTTGTCCTTACTAGACTTCCTCCAATGAGTGTAGCTAGAACAGG
+CACGTTGCTTACCTTGCTTTCTGTATTTAGGATATTGTTCCCAGAGTTTTTCGAATTCTTGCTTTAAATCACTGACGG
+TCAAATTTTTAGATTTGACCTTATTAGTATTCTTATGTGTATTCTCTGTGTAGTCTATTGGTATAGGTTGGTACTGAG
+AGTCCCTTTCCATTGGTACTGTCGGTCCCTTTCCATTGGGACTATCAGTCCCAATCGAGTTGCCCAAATTGTCCAACG
+CGTCATAGTCAATCCGATACCATTTTGTGCGATCAAAATTGGCCTTGTTATAGTTTGCAGTAATCAGCAAACCCCTAT
+CACATAGGTCTCTGAGATAGCGTTGAACAGTTTTTTCAGTTATCCACGGAAATTGTTTTTGCCAACCTTTCGCCGTGT
+TGAAAACCCAACGGTGACCGTCCACAATATTGTTAGAACGTTGCAGCCAGTAATGGATTTGCTGCAGAATAATTGCCT
+TGTCGCTATTTTTCAGTGCCACTGCTAAACTAGGTATTACTTGTAGTGGTGGCTCTGATATTAATAAGCTTTTAGAGT
+TGTTCATATACAACCACCTTGCCATTCTGCATTGAACCATTTCTTGGCTAAATCCACCCAAAAAGACATATTACGGTC
+ATTTTCAACAATCATTTTTAAAATACTCGCGCTCTGACCGTCTTCACCGATTAATTCTGCAAATTTGCTGATACTATC
+TAGTTCGATTATTTGGGAATATATAAAACTTTTTGCGTTTTTAAAATCGCATTGTGTATTAGTAGCAATCAAACCGCC
+AAACGTTACTGGTCGGCTATTTACGTCATGGGCTAACCAGACAGGTTGCCCTTTATATTGTGCATCCCTAATATTCAT
+ATTTTTCTCCCTTCAGCAAGAAAATCATGTTATACTTACTGCAATACTACTTATGGTAAGTCCGACATTGTGCCGGGC
+TTTTTTCTGTTATAATTCTGGTTCAGGCTCACTAGCACAGAGGAATATTAATATTGCAAGTGTCACTACAACTATTAG
+CAGCACTATTAGTCCTCCTGTATTAGATAATTGATGGTCTAAATCAAAATTTTTGTTTACGAAATTCGTCCATCTTGT
+TAACATTTTTAACCCTCTTATTTATTTCAACAGACCTAAACAGCTATACTTTTTCAGTATCAGTACCAAAATGGTAAT
+CTCTAGGCAAAAAAATTTCATCAATTGGTTTTTGAAAATACTTTGACAAGGCAAACATTTCATCTTGTGTAAATTCAC
+GCCTACCTTTTTCCTTATCTCTATAGCTACTAGTGCTTATACCTAGGTAGTCAGCAATTTGTTTTTGTGTTACCTTTT
+TTTCCTGTTTACGTAAATTGAAAAGAATCAACTGCATTATATGCGCTTCCCTTCTGTACCAATTCGGTACACTAATAA
+TATTACCATTCTGGAAAATATGCAACCATTTTTAAGGCTTTTATTCCAAAAATGTTCCTTTTCGGTAATTTTTGTACT
+ATAATACTTAATAATCGGAGATGTAAAAAAATGGATTTATCAAAATATATCGGAACACAAATTAAAAAATTGCGAGAA
+AGTCGTGGCATGGATCGACAGACTCTTGCCGAAAAATTAGATACGTCTAGGGTTACAATTAGCAGATATGAAAGTGGC
+ACAAGAAAAGCTAACCAAGACGTGCTTTTCCAGATGGCTAAAATCTTTAACGTCAGCATTAATTATTTTTTCCCAAAA
+ATTGAAAATGCGACTTCGATTAACCCAGATAATTTTAGAAAAGTACCCCTTCTTGGTGAAATAGCTTGTGGAACTCCT
+ATACTTGCTGAACAGAATATTGAAGGGTATGTTCCGATGTATTTTGTTGATGGAACAAGGGGCGATACTGTTTTTGCT
+TTAACTTGTAAAGGAAAATCTATGGAGCCAACCTTAAAAAATGGTGACATTGTTTTTGTTAAAAAGCAGCCAACAGTA
+GAAGACGGTGAAATTGCAGCTGTATTGGTAGACAATGACAATTCAGCAACATTAAAGAGAGTTAAACATGTGGGAAAG
+CAAGTGCTTTTAATGCCGGACAACACTGATGGCTACAGTCCAATTATTCTTAATAAAGAAAATCCTGGTACCATTTTA
+GGAAAAGTTGTTGAAGTTAGAAGACGCTTTTAATTTTCCATTTCTATTTAGATTGATTTAGTATATAGACTAGATGAA
+ATAATTGCTTATAAATCAGTCCTTCTATTAGAATTTGTTGCTTATAACTATATAAAAATATATTGACCTTGCACATTA
+TTCAGTAAATCGACTAAAAAGTCAATTAATATAAAAATGTTTACATTTTTTTAAGAAGGGAAGCCTTGAATGAATCTT
+TTCGAAACAATTAAAAAATTAGCTAAAGAACAAGGTATGTCATTGTTACAAGTTAATGAAAAAGCCGGTCTAGGCAAG
+ATGAGCATTTATAACTGGAAAAGTAAAACACCAAGTATTAACGCATTAAAGAAAGTTGCAAAAGTTTTAAATACAAAT
+GTCAATGATCTGATCAATGAGTCATCGGAAGCTACGGATAAAACTGAGAGCTCATCCCAGGTAGTTAATGTCTATCCA
+CTAGGAGCAGACCCTGTGAGTATGCAAAATCCTAATATGATAATAGCTTCAAGCCCTACTTACTATCAGATTAGAATT
+CCCGTAATAAAAAATAAAATAGTGGGCCAAAAAATTCTTGACCCCAAAAATATTGTTGATTATAGAGATCTAACCCTT
+ACACATCAGCCTAGCGGTACCCTTTTTCTTTTTAAAGTTAAAGAAAAAGCCATGTTGCCAGCTATCCCACCTAACTCA
+GTTGCTACTGTTAGAATGCAAAATAGTGTGAAAAACGGAGAAATTGCTGCTGTGCTAATTGATAATACTGTTACAATT
+AGACGTGTCAGGTATATTAATAGTACAGCCTTTCTAATGGCAGATAACCAAGAGTATGATCTCATTGCTGCTAGTAAT
+TCAGCTAGAATAGTTGGACGATTAGTACACCTAGATGTTAATTTCTAGGAGGTTAATTATGAAAATTAGGAAAATAAT
+AGTTGCATCTCTAACTTCAATAGTTCTACTGAGTACATGCGTTATACCCACTAATGCTTCAGTATACAAAAGCTACTC
+CTATTGGTATAAAAAAGATAGCAAACGCACAAAGCCTAGAACGGTCGTTTTAACAAAAAAAATTACAATTAGAAGAAT
+AGCTTGGTCTAAAAATAGTATTAGTCACCATCTTGGCAAATCTGAAACTTTAAAAAAGGGTACAGAGGTCAGTATCTT
+AGCTTATAATCCGAAATATTGTTGGGCCTTTTTTAATTCTCATAAAAACTGGGTATATCCACATAAAACAGCAAATTG
+GTTTAAAAGTCCAAAACAATATTCTGAAGATGAAATAAAAAATAAATTTAGTATGTTTTTAGACAAAAAAACATATCA
+TATTAAAAATAAAGGCAGGGGGTGG" } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_1" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 157 ,
+            seq-data
+              ncbieaa "MIEVLALFENSKLNKTKTKHNVKDFFANDFNHYLNLANKHLSDISAPKLDPNAVA
+VHDGRNHADEKILVNMDARCCVQAVDDTISSCSYPSGLIIYLYFIKRMTDDKIAERLTYSPARYYQLKNDALIEFAER
+LDYWRQIDHASLNDLRAFEKTDVI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 156 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_2" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 116 ,
+            seq-data
+              ncbieaa "MKGYEVEFPGETSECGIVSDFVFGTDEKDARNNFFLGQSLLKNWLLDPENNCSKS
+EVKLYRRKNLDNCENLSKMEIAEKLILSNDWFWDFGEDRFIEEHFDKQKFENAWKKYESAN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 115 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_3" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 76 ,
+            seq-data
+              ncbieaa "MNKLYFKNITGKKQWIDLSLVSVVQICERDQVNRIQFCDADLYPLGSYIISLETK
+NSVSEKLNRYFNAKATMWDHE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 75 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_4" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 130 ,
+            seq-data
+              ncbieaa "MDETEAFLVKSIITFKQLLLSVEGWKNGKDKPMAPKSELPDCIKKRVIWVRNNLM
+DIDDVTFIDCMQIALPTPVDENKLKKEYRDLWLPMGDDYKQYCYHFNARLLNILGQAVAVALIYGLNDEPERDEK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 129 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_5" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 117 ,
+            seq-data
+              ncbieaa "MKAYEASFNGWLDLDDGGNVDIVFAKNVAKAKKAVANGETVFNDSFNNAKENGAS
+YTDIRVVRAPELDNCENLSNMEMAEKLIMKCGWYWGLNGKQYDKDNFAKQEFEKAWKDTYRE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 116 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_6" } ,
+          descr {
+            title "Single-stranded DNA-binding protein A [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 162 ,
+            seq-data
+              ncbieaa "MINRAVLTGRLTKDPELRKTQSGLSVVSFNLAVDRPFKDNNGNYGADFISCVIWR
+KAAENFCDFTSKGSLVGIDGRIQTRNYQDNDGKKVYVTEVLVENFALLDSKKDRLSNSNGGNGNNNAYGNNNNGTNYT
+NNSSTQSQAPDPFVGSGDTIDITDDDLPF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "Single-stranded DNA-binding protein A" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 161 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_7" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 167 ,
+            seq-data
+              ncbieaa "MIMSRRDAKMKAEIINAKAVRLIDIDNREHTALVEDIEECLIERDGKKLEYFVNL
+ANFPGVIGIDHDTYNFLLALIKESVVVCLKKPVMETWETSSKEIAFIDADGEEHTVSAKDVQGLSLAKFGNHLEYFVE
+LFSEGYYSMQVSSKTYYILLAALKSFANPKEARK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 166 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_8" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 309 ,
+            seq-data
+              ncbieaa "MNNSKSLLISEPPLQVIPSLAVALKNSDKAIILQQIHYWLQRSNNIVDGHRWVFN
+TAKGWQKQFPWITEKTVQRYLRDLCDRGLLITANYNKANFDRTKWYRIDYDALDNLGNSIGTDSPNGKGPTVPMERDS
+QYQPIPIDYTENTHKNTNKVKSKNLTVSDLKQEFEKLWEQYPKYRKQGKQRACSSYTHWRKSSKDNTFEKAQEQLNKY
+LHHIKVQHVPIQFIKAAKTWFANIDDEYDQTPGQANNNWQTHKSVEKGTDWSNIKAKPESTSTADTGELKDFFTNFER
+NNGIADDNESKGCKNESRNN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 308 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_9" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 102 ,
+            seq-data
+              ncbieaa "MNIRDAQYKGQPVWLAHDVNSRPVTFGGLIATNTQCDFKNAKSFIYSQIIELDSI
+SKFAELIGEDGQSASILKMIVENDRNMSFWVDLAKKWFNAEWQGGCI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 101 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_10" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 50 ,
+            seq-data
+              ncbieaa "MLTRWTNFVNKNFDLDHQLSNTGGLIVLLIVVVTLAILIFLCASEPEPEL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 49 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_11" } ,
+          descr {
+            title "hypothetical protein GCFMIFAJ_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 75 ,
+            seq-data
+              ncbieaa "MQLILFNLRKQEKKVTQKQIADYLGISTSSYRDKEKGRREFTQDEMFALSKYFQK
+PIDEIFLPRDYHFGTDTEKV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 74 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_12" } ,
+          descr {
+            title "LexA repressor [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 208 ,
+            seq-data
+              ncbieaa "MDLSKYIGTQIKKLRESRGMDRQTLAEKLDTSRVTISRYESGTRKANQDVLFQMA
+KIFNVSINYFFPKIENATSINPDNFRKVPLLGEIACGTPILAEQNIEGYVPMYFVDGTRGDTVFALTCKGKSMEPTLK
+NGDIVFVKKQPTVEDGEIAAVLVDNDNSATLKRVKHVGKQVLLMPDNTDGYSPIILNKENPGTILGKVVEVRRRF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "LexA repressor" } ,
+                        ec {
+                          "3.4.21.88" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 207 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000098.1_13" } ,
+          descr {
+            title "LexA repressor [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 226 ,
+            seq-data
+              ncbieaa "MNLFETIKKLAKEQGMSLLQVNEKAGLGKMSIYNWKSKTPSINALKKVAKVLNTN
+VNDLINESSEATDKTESSSQVVNVYPLGADPVSMQNPNMIIASSPTYYQIRIPVIKNKIVGQKILDPKNIVDYRDLTL
+THQPSGTLFLFKVKEKAMLPAIPPNSVATVRMQNSVKNGEIAAVLIDNTVTIRRVRYINSTAFLMADNQEYDLIAASN
+SARIVGRLVHLDVNF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "LexA repressor" } ,
+                        ec {
+                          "3.4.21.88" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 225 ,
+                        id
+                          local
+                            str "JAAOBB010000098.1_13" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_1" ,
+                location
+                  int {
+                    from 964 ,
+                    to 1437 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_2" ,
+                location
+                  int {
+                    from 1466 ,
+                    to 1816 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_3" ,
+                location
+                  int {
+                    from 1868 ,
+                    to 2098 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_4" ,
+                location
+                  int {
+                    from 2095 ,
+                    to 2487 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_5" ,
+                location
+                  int {
+                    from 2504 ,
+                    to 2857 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_6" ,
+                location
+                  int {
+                    from 2870 ,
+                    to 3358 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P37455" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "ssbA" ,
+                        locus-tag "GCFMIFAJ_00006" } } } ,
+                dbxref {
+                  {
+                    db "COG" ,
+                    tag
+                      str "COG0629" } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_7" ,
+                location
+                  int {
+                    from 3355 ,
+                    to 3858 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_8" ,
+                location
+                  int {
+                    from 3812 ,
+                    to 4741 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_9" ,
+                location
+                  int {
+                    from 4738 ,
+                    to 5046 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_10" ,
+                location
+                  int {
+                    from 5134 ,
+                    to 5286 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_11" ,
+                location
+                  int {
+                    from 5324 ,
+                    to 5551 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "GCFMIFAJ_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_12" ,
+                location
+                  int {
+                    from 5701 ,
+                    to 6327 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "protein motif:HAMAP:MF_00015" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "lexA_1" ,
+                        locus-tag "GCFMIFAJ_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000098.1_13" ,
+                location
+                  int {
+                    from 6520 ,
+                    to 7200 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000098.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } ,
+                  {
+                    qual "inference" ,
+                    val "protein motif:HAMAP:MF_00015" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "lexA_2" ,
+                        locus-tag "GCFMIFAJ_00013" } } } } } } } } } }

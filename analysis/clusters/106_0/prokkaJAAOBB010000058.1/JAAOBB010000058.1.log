@@ -1,0 +1,126 @@
+[16:41:08] This is prokka 1.14.6
+[16:41:08] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:41:08] Homepage is https://github.com/tseemann/prokka
+[16:41:08] Local time is Mon Aug  9 16:41:08 2021
+[16:41:08] You are james
+[16:41:08] Operating system is linux
+[16:41:08] You have BioPerl 1.007002
+[16:41:08] System has 12 cores.
+[16:41:08] Will use maximum of 8 cores.
+[16:41:08] Annotating as >>> Bacteria <<<
+[16:41:08] Generating locus_tag from 'JAAOBB010000058.1.fasta' contents.
+[16:41:08] Setting --locustag LPLMKGPK from MD5 59564094fd91699275676dffac48a3fa
+[16:41:08] Creating new output folder: prokkaJAAOBB010000058.1
+[16:41:08] Running: mkdir -p prokkaJAAOBB010000058\.1
+[16:41:08] Using filename prefix: JAAOBB010000058.1.XXX
+[16:41:08] Setting HMMER_NCPU=1
+[16:41:08] Writing log to: prokkaJAAOBB010000058.1/JAAOBB010000058.1.log
+[16:41:08] Command: /home/james/miniconda3/envs/prokka/bin/prokka JAAOBB010000058.1.fasta --outdir prokkaJAAOBB010000058.1 --prefix JAAOBB010000058.1 --force
+[16:41:08] Appending to PATH: /home/james/miniconda3/envs/prokka/bin
+[16:41:08] Looking for 'aragorn' - found /home/james/miniconda3/envs/prokka/bin/aragorn
+[16:41:08] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[16:41:08] Looking for 'barrnap' - found /home/james/miniconda3/envs/prokka/bin/barrnap
+[16:41:08] Determined barrnap version is 000009 from 'barrnap 0.9'
+[16:41:08] Looking for 'blastp' - found /home/james/miniconda3/envs/prokka/bin/blastp
+[16:41:09] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[16:41:09] Looking for 'cmpress' - found /home/james/miniconda3/envs/prokka/bin/cmpress
+[16:41:09] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[16:41:09] Looking for 'cmscan' - found /home/james/miniconda3/envs/prokka/bin/cmscan
+[16:41:09] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[16:41:09] Looking for 'egrep' - found /bin/egrep
+[16:41:09] Looking for 'find' - found /usr/bin/find
+[16:41:09] Looking for 'grep' - found /bin/grep
+[16:41:09] Looking for 'hmmpress' - found /home/james/miniconda3/envs/prokka/bin/hmmpress
+[16:41:09] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:41:09] Looking for 'hmmscan' - found /home/james/miniconda3/envs/prokka/bin/hmmscan
+[16:41:09] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:41:09] Looking for 'java' - found /home/james/miniconda3/envs/prokka/bin/java
+[16:41:09] Looking for 'makeblastdb' - found /home/james/miniconda3/envs/prokka/bin/makeblastdb
+[16:41:09] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[16:41:09] Looking for 'minced' - found /home/james/miniconda3/envs/prokka/bin/minced
+[16:41:10] Determined minced version is 004002 from 'minced 0.4.2'
+[16:41:10] Looking for 'parallel' - found /home/james/miniconda3/envs/prokka/bin/parallel
+[16:41:10] Determined parallel version is 20210622 from 'GNU parallel 20210622'
+[16:41:10] Looking for 'prodigal' - found /home/james/miniconda3/envs/prokka/bin/prodigal
+[16:41:10] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[16:41:10] Looking for 'prokka-genbank_to_fasta_db' - found /home/james/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[16:41:10] Looking for 'sed' - found /bin/sed
+[16:41:10] Looking for 'tbl2asn' - found /home/james/miniconda3/envs/prokka/bin/tbl2asn
+[16:41:10] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[16:41:10] Using genetic code table 11.
+[16:41:10] Loading and checking input file: JAAOBB010000058.1.fasta
+[16:41:10] Wrote 1 contigs totalling 21746 bp.
+[16:41:10] Predicting tRNAs and tmRNAs
+[16:41:10] Running: aragorn -l -gc11  -w prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.fna
+[16:41:10] Found 0 tRNAs
+[16:41:10] Predicting Ribosomal RNAs
+[16:41:10] Running Barrnap with 8 threads
+[16:41:10] Found 0 rRNAs
+[16:41:10] Skipping ncRNA search, enable with --rfam if desired.
+[16:41:10] Total of 0 tRNA + rRNA features
+[16:41:10] Searching for CRISPR repeats
+[16:41:10] Found 0 CRISPRs
+[16:41:10] Predicting coding sequences
+[16:41:10] Contigs total 21746 bp, so using meta mode
+[16:41:10] Running: prodigal -i prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.fna -c -m -g 11 -p meta -f sco -q
+[16:41:10] Found 27 CDS
+[16:41:10] Connecting features back to sequences
+[16:41:10] Not using genus-specific database. Try --usegenus to enable it.
+[16:41:10] Annotating CDS, please be patient.
+[16:41:10] Will use 8 CPUs for similarity searching.
+[16:41:10] There are still 27 unannotated CDS left (started with 27)
+[16:41:10] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[16:41:10] Running: cat prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.IS\.tmp\.245248\.faa | parallel --gnu --plain -j 8 --block 380 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.IS\.tmp\.245248\.blast 2> /dev/null
+[16:41:12] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.IS.tmp.245248.faa
+[16:41:12] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.IS.tmp.245248.blast
+[16:41:12] There are still 27 unannotated CDS left (started with 27)
+[16:41:12] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[16:41:12] Running: cat prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.AMR\.tmp\.245248\.faa | parallel --gnu --plain -j 8 --block 380 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.AMR\.tmp\.245248\.blast 2> /dev/null
+[16:41:13] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.AMR.tmp.245248.faa
+[16:41:13] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.AMR.tmp.245248.blast
+[16:41:13] There are still 27 unannotated CDS left (started with 27)
+[16:41:13] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[16:41:13] Running: cat prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.sprot\.tmp\.245248\.faa | parallel --gnu --plain -j 8 --block 380 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.sprot\.tmp\.245248\.blast 2> /dev/null
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.sprot.tmp.245248.faa
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.sprot.tmp.245248.blast
+[16:41:16] There are still 27 unannotated CDS left (started with 27)
+[16:41:16] Will use hmmer3 to search against /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[16:41:16] Running: cat prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.HAMAP\.hmm\.tmp\.245248\.faa | parallel --gnu --plain -j 8 --block 380 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.HAMAP\.hmm\.tmp\.245248\.hmmer3 2> /dev/null
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.HAMAP.hmm.tmp.245248.faa
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.HAMAP.hmm.tmp.245248.hmmer3
+[16:41:16] Labelling remaining 27 proteins as 'hypothetical protein'
+[16:41:16] Found 0 unique /gene codes.
+[16:41:16] Fixed 0 colliding /gene names.
+[16:41:16] Adding /locus_tag identifiers
+[16:41:16] Assigned 27 locus_tags to CDS and RNA features.
+[16:41:16] Writing outputs to prokkaJAAOBB010000058.1/
+[16:41:16] Generating annotation statistics file
+[16:41:16] Generating Genbank and Sequin files
+[16:41:16] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.err -i prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.fsa 2> /dev/null
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/errorsummary.val
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.dr
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.fixedproducts
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.ecn
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.val
+[16:41:16] Repairing broken .GBK output that tbl2asn produces...
+[16:41:16] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.gbf > prokkaJAAOBB010000058\.1\/JAAOBB010000058\.1\.gbk
+[16:41:16] Deleting unwanted file: prokkaJAAOBB010000058.1/JAAOBB010000058.1.gbf
+[16:41:16] Output files:
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.fsa
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.gbk
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.tbl
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.fna
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.err
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.ffn
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.txt
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.gff
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.log
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.faa
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.sqn
+[16:41:16] prokkaJAAOBB010000058.1/JAAOBB010000058.1.tsv
+[16:41:16] Annotation finished successfully.
+[16:41:16] Walltime used: 0.13 minutes
+[16:41:16] If you use this result please cite the Prokka paper:
+[16:41:16] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:41:16] Type 'prokka --citation' for more details.
+[16:41:16] Thank you, come again.

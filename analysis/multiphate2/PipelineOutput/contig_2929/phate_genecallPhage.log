@@ -1,0 +1,58 @@
+Input parameters are:['/home/james/Software/multiPhATE2/GeneCalling/phate_genecallPhage.py', '/home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2929', 'prodigal_glimmer_phanotate_', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/phanotate.cgc']
+output folder is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/
+working folder is /home/james/Software/multiPhATE2
+results file is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/results.txt
+GENEMARKS_CALLS is False
+PRODIGAL_CALLS is True
+GLIMMER_CALLS is True
+PHANOTATE_CALLS is True
+CUSTOM_CALLS is False
+DEBUG is False
+CGC log file is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGC_main.log
+cgcGff is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGCcallSummary.gff
+supersetCgc is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/superset.cgc
+consensusCgc is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/consensus.cgc
+commoncoreCgc is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/commoncore.cgc
+customCallsGff is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/contig_2929.custom.gff
+customCallsCgc is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/custom.cgc
+Processing Prodigal
+command is prodigal -q -i /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta -o /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/prodigal.gff -f gff -p meta
+command is prodigal -i /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta -o /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/prodigal.genes.sco -f sco -p meta -d /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/prodigal.proteins.faa -s /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/prodigal.genes.potential
+Prodigal processing complete.
+Preparing to process Glimmer calls
+GLIMMER_CALLS is True
+Processing Glimmer
+glimmerPath is 
+fastaFileName is /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta
+outputFolder is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/
+command is long-orfs -n -t 1.15 /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.longorfs
+command is extract -t /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.longorfs > /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.train
+command is build-icm -r /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.icm < /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.train
+command is glimmer3 -o50 -g110 -t30 /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.icm /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer
+command is tail -n +2 /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.predict > /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.coords
+Raw Glimmer Output is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.predict
+Processing Glimmer complete.
+Preparing to process Genemarks calls
+GENEMARKS_CALLS is False
+Not running GeneMarkS gene calling
+Preparing to process PHANOTATE calls
+PHANOTATE_CALLS is True
+Processing PHANOTATE
+command is phanotate.py /home/james/Software/multiPhATE2/PipelineInput/contig_2929.fasta > /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/phanotateOutput.txt
+Processing PHANOTATE complete.
+Preparing to process CUSTOM calls
+CUSTOM_CALLS is False
+customCallsGff is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/contig_2929.custom.gff
+customCallsCgc is /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/custom.cgc
+Preparing results
+Writing genecall data to results file...
+Printing tallied genecall method call counts...
+Printing file info...
+Parsing genecall files into CGC format...
+command is python3 /home/james/Software/multiPhATE2/CompareCalls//CGC_parser.py Prodigal /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/prodigal.genes.sco /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/prodigal.cgc
+command is python3 /home/james/Software/multiPhATE2/CompareCalls//CGC_parser.py Glimmer /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.predict /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/glimmer.cgc
+command is python3 /home/james/Software/multiPhATE2/CompareCalls//CGC_parser.py PHANOTATE /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/phanotateOutput.txt /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/phanotate.cgc
+callerCount is 3
+phate_genecallPhage says, Calling CGC, cgcLog is/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGC_main.log
+phate_genecallPhage says, command is python3 /home/james/Software/multiPhATE2/CompareCalls/CGC_main.py log=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGC_main.log cgc=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGCcallSummary.gff superset=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/superset.cgc consensus=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/consensus.cgc commoncore=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/commoncore.cgc /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/*.cgc > /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGC_results.txt
+command is python3 /home/james/Software/multiPhATE2/CompareCalls/CGC_main.py log=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGC_main.log cgc=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGCcallSummary.gff superset=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/superset.cgc consensus=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/consensus.cgc commoncore=/home/james/Software/multiPhATE2/PipelineOutput/contig_2929/commoncore.cgc /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/*.cgc > /home/james/Software/multiPhATE2/PipelineOutput/contig_2929/CGC_results.txt

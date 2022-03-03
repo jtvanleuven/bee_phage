@@ -1,0 +1,1201 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 14169 ,
+            seq-data
+              iupacna "TATGCCATGGATTTGAAAGAAAATGTGGACATCTATTTTTACGATGGTGATAAAT
+ATCTTGAAAAATGGATCGCATATATGTTGCATATTTTCAGGCCTAAGCATACGGGCGGGAAAAATACGTTCAACGTTT
+TGTGTGGAGTGAATCGTGTATTATACCACGCGACCTATACCAATCCAGACGGTTTGAAATTTAGGGTCATGACTTTTG
+AGAATCTGATCCCCACTGCGCGCCCGGCCTTGGCCGGTGACTTTGGCGGAATAGGCGGTGCCGACAGCGCTATGCGGG
+CGATACGAATGGCCGATAGGATGGGCATACACGGTCTGACTATCGGATCGTACGCCATGCAAAACTTTCGTAATGATT
+TTGGCGTAAAAAAATATTTTGAAAAGTTCCCAAGCCTTGACGAAAAATTGTCAACTGATCTGAGAGCTGGATACATAG
+GCGGCTATGTGATGGCTTTGCCGGGAGACTATGATAGGTGTGTGGACATTGATTGTAACGGCATGTATTCAAGTATTC
+TTAGAGACGAATTTTTGCCTTTCGGGCCGCCTGAACCGTATGATGGGAAATATGAGTATGATAAAACAATGCCATATC
+ACATAGACGTGATGACATTCAGAGCAGACTTGAAAGAGGACGGATACGCTTTTCTGTCATCTCCGCACTTTGTATACT
+CGGATGACAGGGATCGCATGATCTCAACACATGGATACATTACCATGCCGCTCACTGATATAGATCAAGAGCTTTTAC
+AGGAAAATTATGAAGTCAGCATATACGAATACGAGCATGGATGGAAATTTGCGCGATCCAAAGGTTTTTTCAAACTTT
+GGGTAGATGGTTGGGATACCGTCAAAGAAAAGTCCACCGGCGGTCAAAGAACTCTCGCGAAATGGATACCAAACTCTA
+TGGTCGGCAAGTTTGGCACAGTGCCAAGAAAGTCATGTCTTGAACCTTATCTTGATCCCGAAAATGACGAAAAAGTGG
+ACTGGCGAGTAGAACAATATGACAAAACGGGCGCGTCGTATCTGCCGGTGTCCATGTATGTGACCGCCTTAGGAAGAC
+GTAAGATCATGGGCGCTATGCGAAAGCAGAAAAACAGGATCATCTATGCCAATACTGATGGGTTTATGATGGTAGGGT
+CGAAAAAGGATATTATAGGACTGGACTTGGACAAGCGCAAGACCGGCAAGTGGAAAATAGAGGGGGATTACAAAAAAG
+TCAGAATACTTGGGGTCGGATTGTATCAGGGAGAGAAGACGACAGGCGGCTTTGACCTTATATCATCAGGAATATCGC
+GAAACACGCCGGTACCGTGGGAGCAGTTTTTTGAAGGAAAACACATTTTGGATGACTACGGGGATGACATTGTGCTAT
+AATGGGATTGGATCAGGCGGGGTGTACCTTGATTTGGCTTGCCGGACCGGGGATCACACGCTGAGACCGTGCCGGTGC
+CGGATGTAGAGCGTAGCGGTGAGCGTTGCGGGGTCATGCGATGTACAAATTTGACTCGCCCATATCCATAGTGGTATT
+GTCGCGTGATTGCGGCAATACCACGCTTTAAATTTTTAAGAAAAGGAGACAACATGGCAGACGAAGACACCACAGAGG
+AGACCAAAACCGATACCCCGGCAGAGGAATCGGAGCCTACTAATCAGGATGATACCAGCAACCAGCCCGATCCGCAAC
+CCGAACAGGAGGAAAAACAGGAGGATAACGGATTGGAGAAAAGAATCTCAAGTTTGGAACAGTCGGTGCGTGAAATGC
+GTGCTATGATGGACGCTTTAGGGATCGACGACGACACGCCGGATGTTAAAACGGCAGAGGATACTGCGACTGACGGTG
+ATTCTGACGGGGACGGTGAACCCGACCCAACCGATATCACTATTGATGATCTTTTTGAAACAAAAAAGTAAGATAAGG
+GAGAATTATTATGGCAGATGTGGAACAGCGTAATCAGAACGGCGAGATCGTGCGGCCGCTGACCGAATGGTCGAATGT
+GGAATTTTTGAATGCGATCCGAAATCAGGCAAGCCAGGACTTTCAGCGTAGGGTTCCAGCCGCGACCAAGGGAAATGT
+ACGCCAATCTCTTGAAAATATGTTGAATTTTCCCGCTTTGCGCAATGAGTTTTACGACGCACTTATTAACAGAATTGC
+CGGAGTATATGTCAATCAGCTTTCCTGGAATAATCCTCTCGCAGAATTCAAGCGAACAGCGCAAAGCTACGGTAAGAC
+TTACGAAGAAGCGGCGATCGGTCTTATTAATGCTCGCGTGTACGATCCAAAACAGGAATATCTCGGTGATGAAATTTA
+CGGGACGTATGCTCCGCACGTCGAAACGGCGTTCCACACCGTTAATCGCGAGGAATATTATCCGCTGACAGTGAACGA
+AACGCAATTACGATACGCTTTCCTGGAGGAAAACGGCTTAGGATCGTTTACCGCTCAGCTGATGGATCGTCCAAGAAC
+TTCGGATGAATATGACGAATATCTTCATATGGTGAATCTTTTTCCGGAGTATGCTCACCTTGGCGGGTATTATCGTGT
+CCATGCTGATGACGTGACTGATGAAAACATTGATGACACCGAGGCACAGGCCCGTGCACGAAAACTTTTGCGCAAGAT
+TCGTCAATGGGTAAACACTTTACCGATCAAGCCGAGCACTCGGTATAATGCTCGCCACATGCCAAGTGTAGTTAATAA
+AGAAAATTTGATTCTCTTTATGACACCAGAAGTTCATGCGGCTATCGATGTGAACGCCTTGGCAGTGCTGTTTAATGA
+AGATTATGCAAAAACTAATCAAAGAATTATTGATATTACTGGACAGGATGTCGGAATCAATGGTTTCCAGTGCATTCT
+AACGACGCGGGAATTCTTCTTTTGTTGGGATTACTATTATGGTACTCAGGGTGGGGTCGTCAATCCCATTTCCCTTGG
+TACAAATTATTTTCTACACCACAAGGAAGCTATCTCGCTTTCGCCGTTTGTGCCGGCGATTCTTTTCTGGACGGGTGA
+TAGTACTAGGGAGGATGTCGAAGTGCCAGCGGGAGCGACAGCAAGCAAGCCTGATTTTCAAATTCGTTTGCAAAAGTA
+CGGTAATCCGGCAGTCATGCCGACTAATGTCACTCGCGGGGACGTGGTACAGGTCGTTTCCTCTATATCCATGGACGG
+TTACCCTGATTTTGCGCCAAAGGGCGGCATTGTCTACGAGATCGCAAGCGATGTGAAGTCGCAGTTTACGCGGATTAG
+CAATACAGGAATTCTGCGTGTCGGTCTTGATGAAACTGCAAATTATGTTGATGTTCGGGCGCGGGCGACCTATACGAA
+TCCTCGAATTCCGGAAGTTCCATCCGTGGCGAGTGATACGCTTCGCGTGCCGATTGTCGGTGACGGTCTGCTTGGTTT
+CAATCCTGGATTTGTGACAGAACTTGAATTTAGTCCAAGAACTCCTGTTGAAATTCAGGTAGGCGCGGATCAGCAACT
+GCATGTCATCGCCACGATGACTGACGGGCGTATGCCGGACGTGACCAATATGGTGACTTGGTCTTCAAGCAACGAAAA
+TGTTGTCAAGGTCAGTCCGGTCGGCAAGATCACCGGCGTGAGCGCTGGAACCGCGACAATCGAAGTCACCGTGTTTGC
+GGTTACTCAGCAGATTCAGGTGACCGTAACCGCTGGCGGCCGGACATTCGACTTTCAAAAGTTATTGAAGACTGATGA
+TAAGCCGGAAGTTGCAGACGACAGCGAAAAGTAGTATACTGACAGTAGTGTTCCGGCTGGTCCTACGGGGCCAGCCGG
+TTTTTCATAAGGACAAAAACAATGGCAGAAAAAACGCTTACATGGGCCTCATGGCCGCCGAATTCTACAATCTCCCTA
+TGTAACGTAACATGGGACGCTTCATACCGCGATATTGTAAAATTTTCAGATAATGCGGATCAGGAAAAATATTTTAAT
+CGTCTTGAAAAAGATGTAATAAAAAATTCGACAATGGTGAAATTCGGTCTGCCGGTCGATCTGCCGATAGCATTCAAT
+CGCGCGTCAAAATATAATTACATGATTGTAGATAATGATTACGATTTTGACGATAAGCGCAAATGGTATTACTTTATA
+CAATCCGTTGATTATGTCAATGCTAATGTCACACGTTTTCACATTATGCTGGACGTATGGCAGAGTTTTCAATTTGAC
+GTGAAACTTGGACGTTGTTTTGTGGAACGCGGACATATCAGCATAGCCAACGACAGGCAGAACGAAAACTATGGTCTA
+AATTATCTTGACATTCCAGAGGGGCTGGATATAGGAAATACTCCACAGATTCAAGAGGATCATGAGCACACTTTTATG
+GCACCTCTTGCTGACACTGATCCAGAAACACCCGGAGTGCTTGTGATATCATCCACTGATCTGGCAACAAAACCGCAA
+ACTCAGGAAAACCCGAGATTGAAAACAGCTACAGGATCATACATAAACGGAGTGGTAAACGGCGTTTCAATTTATTTT
+CTAGAAAGTACAAATTCTTTCATGAACTTTATGTTGCTTATATCAAGCTATCCATGGATATCAGAAGGAATAATCGGC
+ATTTGGATGGTACCAAAGAGATCAATAAACTTTAATTCATCAAACAAAATAATTCCACTTGGTGGCGAAACAGGAGAA
+AGTGATCCATCTATACTCAATAGTATAAAAATGTATCAAATATACAGTGCAACGTATGATAAAGTTTCATACACAGAC
+AAAAACTTTAGAGCAGTTTTTTCAAGACACATACCGCAACGATATCACAATCTTAAAAAACTTCAACTTTATCCGTAT
+TCGTATGTTGAAATGACCATGCAGAATGGGAGTTCGCTGATCATCCAACCGCAATACGTAAATGAAGATAATCTTGAA
+ATTCACGAATCGATTTGGTCAAGCGCGCCAGGTCCTCGCAGTATGTACTACCCTGAACATTATGCTGGCGGTGAAGAC
+ATGAACATGGCTGTCGGCGTGGTAGATTGGCCCCGGCTAGTCATGGTCAACAATCAGGGAATTGCCTATCTTGCGTCA
+AATGCACATAGCATACAGTACCAGTATAACACGGCTGACTGGGCACAGCAAAAAACCCAAATGGGAATCAATAATGCA
+TACGCTCAAGCTAACGCGGGGGCGAGCTATAACAGTCAGCAAACACGGCTGGGTAATCAGAACCGCAATGCGTCAAAT
+GCTATCACATCATCTAGCTTACAGCAAGGCAACGACATTGCCGCGCAACAGCAGAACACCGACTATATCCTAAGTCAG
+GTAAATGCTGGGGTAAACGGAGCAATGGGGGCAGTAGGCCAGCTTGCTGGCGGGAACCTTGGCGGGGCGGCCGGTGCG
+GTCGTAGGAACAGGCCTGAATATTGGTTCAAATTTTGTTGCCAATGAGCAGAGGACTGCAACAAGAAACGCCAATCTT
+GCGAACACACTCGCCACAAATTCTGCACAAGTAAGTCAGGCCAATAATTATAGCACGGCTTCTACAAATCTGTCAAAC
+CAGCAAACTATGCAATTTGCGGACATGAATAGGTCCCTAGGTCTTGCTGTCGCGTCCGGCGATTATGCCAACACAATA
+GCGGGGATCAATGCGCACGTCCAAGACGCTCAATTAAGCCAGCCGTCTCTATCGGGAGGCATGGGCGGCGACGCTTTT
+CTTTTCGCTTTGAGTAAGTGGAATCTACACTTACGCTATAAGATGATCAGCCCGGCCGCCATGCGAAACGTCGGCGAA
+TTTTGGCTACGATACGGCTACTATGTTCAAAGATTTTTGATCCCGCCCGAGTCACTCATGTGCATGGAAAAATTCACG
+TACTGGAAAATGCATGAGCTATACATCAGATCATCAACATGCCCCGAGGAGTTCAGGCTCACGATCAAAGGAATTTTT
+GAAAAAGGCGTGACCGTCTGGAAGAATCCTGACGATATCGGGGTGACCGATTATGCAGACAATGAACCGCTTAAAGGA
+ATCTCATACTAGGAAAGGTTTTGAACAATGAGCAGAAGCAGAGGACGGCAACGCAACAACGCATTCAAGCGAATGATG
+TCAAACGACTGGCGTAATGTTCAGTATAATTACGGCGACCTACAGCAGACTACGCGCGTCAGGATGTATCAGCGTCTG
+ATTGAAATGCTGGCGATAAGCCGATTCAAATGGATCAATTTGCCAAAAGGCATGGACGAGCGTTTTATTGAAATGACA
+TTATTTGAAAGAGGACTCGTCATATTTTTTCCAGACAAGAGAAAACACCGTTGGATGGCAACACAAGCAACCTATAAC
+GGAAAGATTAATAATTATTATAATCCAACAAAATTTATGCCAGTTGCAGTAAATTATACATACAAGGAAATGGGGTCG
+CGAGAGTGCGTTCCAATTTGGGATAATCAACTACGCTCTCCTATGATCGACATTATGGTCACATATGCTGAAAGACTG
+GCGCTAGTGGATCGTGCGCTGGATGTAAATTTGGACAATCAGTCAGTTCCTTTGATTATCCAGTGTGACGAAAAACAG
+AAGCAAACCATGGAAAATGTCATGCAACAGCGCGGCCAGGGACTGCCGGTGATTTACATTACCGGGAACAATGCTATT
+CTGGACGTGTTCAAACAATTCCCAAATACTTCACAGTATCTGATCGATAAATTATTGCATGATAAGGCGACGATCTGG
+AACGAATGCGTGAAATTCTTAGGGATTGAGAACAACAATTCCGAGAAAAAGGAGCGTGTGGTAGTCGATGAAGTCAAG
+TCGGGCGAGTCTGCTACAAATGTTTTTCGTCTAAGTTTTTTGAAGTCCCGCCAACAGGCTGTGGATCAGATCAACAGC
+CTTTGGCCTAATCTTGACCTTGGTATATCATGGGGTGACGACAGCAGTAGCGGCATACTGGACGCTGATGAGAGGACG
+GTGAGCGACGATGACGGATTACAGTGATCTTGCCATGCCGGACCGTGCGGCTGACTTCACACTAACGTTGGGAAATGT
+CATTGCCTTAGGGTATGATACGGACGAAAAGCTTCATCTTGACCCGGCGCATTATCCGATTTTTGATGAAAAACACCG
+CCCGGAGCTCAATCATAAGATAGCCGCACATTATGCTTTGCGCGAAATAGGCCAGGAGACGGTAGAGCAGTTCGTTTT
+CTACCTTGGCCGCACGATGAACGAAATCATGCCATACTATAATCAGCTTTACATGTCTGAACAGAAAAAATTTGATCC
+GCTTTTGACCACTGACATGACTTCAAAGATTGATTCAAATAATGTTTCAGAATCATCCGGCAAGTCGAACGGCGACCA
+GTCGTCCAAAGTGACCGGCACGAGCGACACCAAGTCATCGTCCGATTCGGACGCGACTTCTTTCCACTCGGAAAACCC
+GCAGACGCAGAGTGATTTTACACATAATGCGACTACGGCGGATCGTACGCAATCGCACGCTGAAACAAACACGCAAAA
+TTCACAATCAAGCGATACGGAATCAGTCTCGCATTCTGCCACTGATTTCAATCATTCAAATGATGTTGGAAACACTTT
+ACAGCATTCTTCCGGCTTTTCGGGCGTGTCGGGCGCACAACTGATCACGGAATGGCGTTCTGCCATGCTGAATATTGA
+CATGATGGTTGTGAATGAATTGGAAAGCTGTTTCATGGGAATTTGGGGGACGGCCGACCAAATGCGACGCGACTACAT
+GCCATTATACCACATAGAGGACAGGATATAGAAATGGATAATTATACATGGGGAGGCAGTCTTCCCCTAAGCATTTTG
+GACGACCGTCCGCGCCGGTACACGACTTCACAACCGTTCACCTACCGCGACACACTCACTACTTTGAGAGAAATTGAA
+GAACTTAAACGCAATTTGAATAAAATTGTATGCTATCTCAATGATATGTCTGACGATCTTGACGATTTTGAAAAACAA
+GTCAAGAATGCGCTTGATCTGCTGTCGGTATCACTGCAAAAGGCTTTGGATGATCTTGAAGCAAGACTGCGCGATCTT
+ATCAGCGGTGCCGAGCAGTCGGGGGTTGCTTTCAGTCCAGTCAGAGGCAAAACGCAATCCATCAATTTTGTCCTTGGT
+GACATGTACGATAATCTTAGATATTTTGGACTATTTGCGCAGGATTATGACAACATGGGTCTTACGGCGAAAGAGTAT
+GACGACATGCAGATACCAGCGCGCCGTTATGATCTCAACACCAGCAAACGGCTTAATCCAGTGCCCGGCGATTTTCAA
+GGGAGAGACGACCTTTGGTCAAATAATCCTGAATGATAACGTTTTCTTAAAAATGTGGTACAGTTTTACCGACAAGCA
+AAGGATGGAACAATGGCAAGCACCAACAAGACCGTAAATTACAATCTATCGCAATTTTCTGATGACGACAAGCCATCA
+TGGCGCGGCGACTACAACGGCGACATGACACGGATCGACAAGGCCATCGACACCGTGGCGACAGACACCAATACTAAT
+AAAAAAAGAATTGAAGAAGTAGACAACAAGGCAAAGGCCGCGCAGACATCGGCAGACAATGCGCAGAAAACAGCTCAA
+GAGGGTGTTGATTCAGCGGCTTCCGCACAAAGCTCGGCGAACAATGCTTTGAATATTCTTAAAGGAGCCAGCCTGAAT
+TCCGCGAACGACGGAACGCAAATGCGCGATGAGATCAAAGCCAAGGCCAATACGACAGACGTGTATAGCCGCGACCAA
+GCCGATACACGTTTTGCGACAAAAGTTGAACTCAATGGCAAGGCCGACAGCGGAACATCCTACACTAAAGCCGAATCT
+GATCTAAGATTCGTCAAAGTAAATGTATTTCAAAAGCCTAACATTATTGCGATTGGCGATTCTTTCGGGCAAGGATAC
+GGCACTAGCGATGAGAAAAACAAGAACTTCTACGCTGTTATGGGCAGTCTTATTAATGCAAATGTTTTCAACTATAGC
+GTTGGCGGTTCGGGGTTTATCCACACGGCTGACGGCAACACCAATGACACATACACTGGACAGTTGAACCGTGCGAAA
+GCTGATCATTCCGGTGACGCTGATGATATTAATTATGTTGTAGTAACGGGCGGGCAGAATGATAACAAGGTCGGCGAC
+AACAACGTCGTCTCAGCGATGAAGAACTTCTTTGTCTCAGCGCACGCTTATTTTAAAAATGCTGAAATAATCTACTAT
+CCCATGCAGTACGGCGCAAACCCCCTACCCATGACGCTTTACGCACTGTACGCCAAGCTGATTCGCGAGGCACAGATG
+GGGCCTTGGGTCAGGGTGATCCGTTTCGGCTACACTGCACTGCGAGGACGGTACGATCTTTGCACAAGCTCCACACAT
+CCGAACGATGAAGGAGCCTATCTTTTGGGGCACCGGTTGGCTGACATTGTTCAAGGATCGTCAGACGGTGATTTCCCT
+CAGCTTGAAGGGTTCCGCGCCGGTCCAAACGTGACGCTGGACGGCGAAAACTGGGCGAGCTATGAGGGCGGCATTATA
+TCACTACGTGGTGCCATTAAGGCAAAAGCCGGACACGCCGATTGGACGATGAATGAAAAAGTTTGTTGGTTGCCCGCA
+TTCTGCAAGGCAGTCAACCCCACCGGATATTTCCCGGGGGCGACCACGTCCGGCGAACTTCTGCTCATGGGGGTCAAC
+AATGAAGCGGACGGCGAACAGCCGACGCTGATAATCGGTGCGGGAAGCCATGCGAACAATGAACTGATCTTCAATGTT
+TCATTAGGCCCAACATTCTGAAAAATAGTTGAAACGGCCCCGTCTGATTTGACGGGGCCTATTGCGTATGTTAGACTA
+AACACAGGAGATCATCATGTCGAATCAATCATTATACGCCATGTACGTTATAGGAAAAGTTGAATCAAACAACAACTG
+GTCTTCCGTAAATTTTCACGATCCCATCACTATCGGAATGATGCAATGGTATGGCACAAGGGCATACGGTCTGCTCAA
+TCGTGGGCGTTCTGCTGATCCTACAGGATGGTCTAGTTTCAAAAATTCCGCAAGCAATCTCGCAAGCCAAGTGGAGTC
+GAACTCAGCGAACTGGAATCTACGATACTTGACGCAAGCCGAGGGGAACGCTTGGATCGAATGGTCGAAAAGAGTTGA
+GAATCATGCGTTTCAGCAAGCACAGTGGGAGGACGATTATCACGATTATTCTGGCGTTTGTGACAGGTACGGTTTCCC
+CGCTTCAAATATTAAAGAGCGAATATTTTTTATGAGCATGTATCACCAGTCGCCAGTGTCGGCTTTTCGTGTGATCGG
+TTCAGTAAGCTCTACGGCGAATCTTGATCTTCTGCATTCAGCCGCCCTGAACGATTCGATCTTGGGAAATTACAAGAA
+TCGTTATAATACTGTTTACGATCTGCTGAAAAATTGGGACGGCCAAAGCGCGCCACCTGATTTCGGACAATCGGGAGA
+CGTAGACACAAGTCCGGGAGGCAACTCGCCGACGATCAGCGGAACGAGCGATAAGACTGCATGGATACACGTCAAGCA
+GAATACGATATACTTGCATGATAACGGGAAAATTCGTACATTTTATCCATCATCCGCACAGAATTATATTGAAAAATT
+CAACCAAGGCACACCGGTAGACAACAACAATCAAACCGAGCACGGATCGGACACAGGATCGGGTTCAAGTTCAAAAGT
+CGTTGAATGGGTAAAGGCAAGAATAGGAAAATACGACTACTCGCAAGGACCCGGACGGCTTAATCCTGACTCTACAGG
+ATACACGGACTGTTCTGGACTATGGTGGCGAGCTTACATGGATGTCACTGGCGTAGATGTCGGCACTTATACCGGTGC
+AATGGCCACAAAAGGGAACATTATTGCAGATTCCTTAAACACGAGTATACGGGACGCTATAAAAAAAGTCAAGTCCGG
+CGATCTTCTGCTTTTAGGAACACGCCCCATTTTTGACCATGTAGAGGGGTTCGTTGCTGACGGTCAGGCGCAAACACT
+TTCCCACGGAGGCCCCGGCAAGGGACCAAACTACCAAAACGCCATAGAGGAAATACCATATTTTAACAATTCTTGGCA
+GATCAGGAGATACGTCTGATGGAATTCAAAGAGGAGGACTACTATAGTCTGCATAGAATACTCTCGTACAATGCTGTT
+TGGAATTTTATCATAGGCGCGCGAGGCTTGGGTAAAACATTTGACGCAAAACGCCACGTCCTTAGAGATTCGATAAAA
+ACTGGCGCACAGTTCATTTATCTTAGAAGAACCGATGTTGAAATAAAGGGTGGTGCTAAAGAGAAGTGGATGGACGAC
+ATTTTATTTGAGTTCAAGAATTTTGAATTCAGGATAAACGGAAATACTCTACAATGGCGGCGCAACAAGAAGAAAGAT
+GAAAAGGAAAACAACAACGAGTGGCATACTGCTGGGTATTTTCTCGCTCTTTCGCAGTCAGGCGGCAAAAAGTCCATA
+CCGTATCCTAATGTTCGCTGGATTATTTTTGATGAAGTTTTCCCGGACAACCTGAGATTCCTGAGCAATGAAGTAACC
+CTATTCGAAGAATTTTACAATACAGTAGATCGAACGCACGATCATACTCGCGTGCTTTTCCTGTCGAATGCAGTCAGT
+CAGGCCAACCCGTACTTTTCAAAATTCCATATTGACATCAACGATCAGCAGAAGAAACACGAGCAGTTCAAAACATAT
+TGCGACGGTTTTATTGGCATTGAGTTTGCTGATTATGCTGGTTTTTCAGCAAAAGTTGAAAAGTCAAGATACGGAAAG
+TTCCTGAGAAAATATGATCCAGACTATGCGGATTACGCTATCAGCAACAGATTCTTGGACGATATCAATGGACTGGTG
+GAACCTTTCAATCCGAAGCTCGGCTACATGTTCACACTTGAAACCGAGGATAGCGGAACGTTCGGAATATGGTCAAAG
+ATCGGGGATTCGATCTCATATTTTGTCAGCCGTCGTGTCAAAAAACATGCCGAATATCATTATACTCTTGACTACAGA
+AAAGTCAACGAACATACTATATATGTCAAAAAGTCTGATAATGTTGTTGCAAATTTGCTGGCGGCTTACCGGACTGGC
+GACGTTCGTTTCGACACTCGCCAGTGCAAGGCTGATTTTATGCAAGTGGTAGGATCGCTGATTGGAAAGTGAGGATAA
+CAAATGGACTTTGTAGGAATCGGAAAGATCGTAGTGATTACGCTTCTTTTCATGATACTGGATATCATCACCGGATAT
+GTCGGCGCTTGGCTGTCCGGCACCATATCATCGTCGGTTATGCGCAAAGGCTTGGGTCATAAATTTGCGTTCATCGCC
+TTTATCGCCATGGCCGCTCTTATTGATTTTGCTCAAGGCGAAAACATCATCAATCTTGGCGTGACGATCCAGCTTACC
+GCACTGACATGCATTTACGTCATCATTACCGAGATAAACTCTATACTGGAAAACATCATCATCATTTTTCCAGAGCTA
+GAGAACACGCCAGTAATCAACATTTTCAAAAATTCTACGAACGTTATGGAGAAATTCGCAGAAGACAAAGGAAAGGAC
+GTGACCAATGGAAAGCACGTGGATCGGAAGCCCTAATTTTACCAATGGCAGAAAGGGTGTCGATCATATCACACTGCA
+TGTCATGGGCGGCTATCTTGCTGGAACGGACGCGACTTTCAAAGACCCGAGCGTGCAAGCATCAGCCACATACGGGGT
+AGGATCAGACGGCACGATCCATCAGTATGTCAGCGAACAGGACACGGCATGGGCCGATTCAAACTCTATTTCAAATTC
+CACTGGAATATCCATCGAACACGAGGGGGGCATACCGAAAGCGCAGTTCACCGACGCTTGCGCAGAAGCAAGCGCACA
+GCTATGCGCGGATATCAGCAAACGATACCATCTAGGGCCACTCGTACACAACGGCACGATAGGCAACGTATATCTGCA
+CAGAGAGATTCCCGGCACAGATCATCCAGACTGTCCCGACCGCGCACCAAACGGCATAAATGTCGAACAAATAATCAC
+AAGAGCAAACGAAATATTGCAAGGAGAAGACGAATTGTCAGCTAAAGACATTTACGACACCAGAGATCAAGACGGACG
+AAACTTGTTTGACCACGCGCACCAGATATTAGACGATCTGCCGATACAGACAAGAAATGCACTGATCGAAACAAGAGG
+AAACGACGGCCGAAACGTCCTAGACGGCGTGATCCAAGCACGAAACCAGATTCAAACACTACAGGAATCAGTCAATCA
+GCTTACACGACTAGTCAAACAGTTGCAGAAATAACAAACAAGCCCCGGCACTTGCCGGGGCCTTTATTTTACCTCTTG
+AAACCAAAACGCTTACCCAAAGCCACAGCTACAGCTTCTGCAAAATTCTCACCCACAGTGCCATAAGGCCGCCAATTC
+GTATGCACACAGCCAGCCTGATCGATATACGTCTTATTGAAGCAACGATTGTAAAAGCGGCCATGAGCTACAGTAACC
+ATATCGCCGTCAGCGTTCATATACTGAACACCGTTCACATTACCGCTCTTATAGTATGTTTGCTTCAAGCACAGCTTC
+TGTAGATCATCAATATTCAGATAATACCGAACGTCATTCTGATTGTATCTGCTGGTCCAAGGCATGATATCCATTCCA
+TCGGCCACAGCCTTGACATTGACCCTTGCGTCGCTTTCGATATAATCACTGTTCATCATCATAACCACCTTTGCCTTT
+CAATACTTAGTATAGCACTAATCTTCGAAAAGTCCAACCAATCCAGAAAAAATTCTGGCCATTTTTATTATCCATTTG
+GAAAGACTTTCTACAGTATAATCAGACATTTTCCATTCAGCTTTAACACCCCTATCCTCAGAGCCGCCAAACAGAATT
+TTCACCATTTTCTTAGACCATTCAAAACCAATGCCAACTAAAACATATTTTTTCTTATTATCGTTCATATATACTTTA
+CATACAACATTATAATCATCTTCTCCTGATCGCCTAGCCCAAACATTCTTATCGTCATATTCTAGCTGTTTAGCAAAC
+AGCTTATACATTCCATTATGTAAATAATCACTGCTACTATAATCGGAAAACTTTGTCATCTTCACCACCAAACCTTTC
+ACCCCCCTAATATACCACACCACCACACCACGACACGCCCGAAATGATTACGACACGGCAGGTCGCGGGACTCA" } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_1" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 458 ,
+            seq-data
+              ncbieaa "MDLKENVDIYFYDGDKYLEKWIAYMLHIFRPKHTGGKNTFNVLCGVNRVLYHATY
+TNPDGLKFRVMTFENLIPTARPALAGDFGGIGGADSAMRAIRMADRMGIHGLTIGSYAMQNFRNDFGVKKYFEKFPSL
+DEKLSTDLRAGYIGGYVMALPGDYDRCVDIDCNGMYSSILRDEFLPFGPPEPYDGKYEYDKTMPYHIDVMTFRADLKE
+DGYAFLSSPHFVYSDDRDRMISTHGYITMPLTDIDQELLQENYEVSIYEYEHGWKFARSKGFFKLWVDGWDTVKEKST
+GGQRTLAKWIPNSMVGKFGTVPRKSCLEPYLDPENDEKVDWRVEQYDKTGASYLPVSMYVTALGRRKIMGAMRKQKNR
+IIYANTDGFMMVGSKKDIIGLDLDKRKTGKWKIEGDYKKVRILGVGLYQGEKTTGGFDLISSGISRNTPVPWEQFFEG
+KHILDDYGDDIVL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 457 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_2" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 109 ,
+            seq-data
+              ncbieaa "MADEDTTEETKTDTPAEESEPTNQDDTSNQPDPQPEQEEKQEDNGLEKRISSLEQ
+SVREMRAMMDALGIDDDTPDVKTAEDTATDGDSDGDGEPDPTDITIDDLFETKK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 108 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_3" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 605 ,
+            seq-data
+              ncbieaa "MADVEQRNQNGEIVRPLTEWSNVEFLNAIRNQASQDFQRRVPAATKGNVRQSLEN
+MLNFPALRNEFYDALINRIAGVYVNQLSWNNPLAEFKRTAQSYGKTYEEAAIGLINARVYDPKQEYLGDEIYGTYAPH
+VETAFHTVNREEYYPLTVNETQLRYAFLEENGLGSFTAQLMDRPRTSDEYDEYLHMVNLFPEYAHLGGYYRVHADDVT
+DENIDDTEAQARARKLLRKIRQWVNTLPIKPSTRYNARHMPSVVNKENLILFMTPEVHAAIDVNALAVLFNEDYAKTN
+QRIIDITGQDVGINGFQCILTTREFFFCWDYYYGTQGGVVNPISLGTNYFLHHKEAISLSPFVPAILFWTGDSTREDV
+EVPAGATASKPDFQIRLQKYGNPAVMPTNVTRGDVVQVVSSISMDGYPDFAPKGGIVYEIASDVKSQFTRISNTGILR
+VGLDETANYVDVRARATYTNPRIPEVPSVASDTLRVPIVGDGLLGFNPGFVTELEFSPRTPVEIQVGADQQLHVIATM
+TDGRMPDVTNMVTWSSSNENVVKVSPVGKITGVSAGTATIEVTVFAVTQQIQVTVTAGGRTFDFQKLLKTDDKPEVAD
+DSEK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 604 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_4" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 724 ,
+            seq-data
+              ncbieaa "MAEKTLTWASWPPNSTISLCNVTWDASYRDIVKFSDNADQEKYFNRLEKDVIKNS
+TMVKFGLPVDLPIAFNRASKYNYMIVDNDYDFDDKRKWYYFIQSVDYVNANVTRFHIMLDVWQSFQFDVKLGRCFVER
+GHISIANDRQNENYGLNYLDIPEGLDIGNTPQIQEDHEHTFMAPLADTDPETPGVLVISSTDLATKPQTQENPRLKTA
+TGSYINGVVNGVSIYFLESTNSFMNFMLLISSYPWISEGIIGIWMVPKRSINFNSSNKIIPLGGETGESDPSILNSIK
+MYQIYSATYDKVSYTDKNFRAVFSRHIPQRYHNLKKLQLYPYSYVEMTMQNGSSLIIQPQYVNEDNLEIHESIWSSAP
+GPRSMYYPEHYAGGEDMNMAVGVVDWPRLVMVNNQGIAYLASNAHSIQYQYNTADWAQQKTQMGINNAYAQANAGASY
+NSQQTRLGNQNRNASNAITSSSLQQGNDIAAQQQNTDYILSQVNAGVNGAMGAVGQLAGGNLGGAAGAVVGTGLNIGS
+NFVANEQRTATRNANLANTLATNSAQVSQANNYSTASTNLSNQQTMQFADMNRSLGLAVASGDYANTIAGINAHVQDA
+QLSQPSLSGGMGGDAFLFALSKWNLHLRYKMISPAAMRNVGEFWLRYGYYVQRFLIPPESLMCMEKFTYWKMHELYIR
+SSTCPEEFRLTIKGIFEKGVTVWKNPDDIGVTDYADNEPLKGISY" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 723 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_5" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 311 ,
+            seq-data
+              ncbieaa "MSRSRGRQRNNAFKRMMSNDWRNVQYNYGDLQQTTRVRMYQRLIEMLAISRFKWI
+NLPKGMDERFIEMTLFERGLVIFFPDKRKHRWMATQATYNGKINNYYNPTKFMPVAVNYTYKEMGSRECVPIWDNQLR
+SPMIDIMVTYAERLALVDRALDVNLDNQSVPLIIQCDEKQKQTMENVMQQRGQGLPVIYITGNNAILDVFKQFPNTSQ
+YLIDKLLHDKATIWNECVKFLGIENNNSEKKERVVVDEVKSGESATNVFRLSFLKSRQQAVDQINSLWPNLDLGISWG
+DDSSSGILDADERTVSDDDGLQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 310 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_6" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 266 ,
+            seq-data
+              ncbieaa "MTDYSDLAMPDRAADFTLTLGNVIALGYDTDEKLHLDPAHYPIFDEKHRPELNHK
+IAAHYALREIGQETVEQFVFYLGRTMNEIMPYYNQLYMSEQKKFDPLLTTDMTSKIDSNNVSESSGKSNGDQSSKVTG
+TSDTKSSSDSDATSFHSENPQTQSDFTHNATTADRTQSHAETNTQNSQSSDTESVSHSATDFNHSNDVGNTLQHSSGF
+SGVSGAQLITEWRSAMLNIDMMVVNELESCFMGIWGTADQMRRDYMPLYHIEDRI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 265 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_7" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 182 ,
+            seq-data
+              ncbieaa "MDNYTWGGSLPLSILDDRPRRYTTSQPFTYRDTLTTLREIEELKRNLNKIVCYLN
+DMSDDLDDFEKQVKNALDLLSVSLQKALDDLEARLRDLISGAEQSGVAFSPVRGKTQSINFVLGDMYDNLRYFGLFAQ
+DYDNMGLTAKEYDDMQIPARRYDLNTSKRLNPVPGDFQGRDDLWSNNPE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 181 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_8" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 470 ,
+            seq-data
+              ncbieaa "MASTNKTVNYNLSQFSDDDKPSWRGDYNGDMTRIDKAIDTVATDTNTNKKRIEEV
+DNKAKAAQTSADNAQKTAQEGVDSAASAQSSANNALNILKGASLNSANDGTQMRDEIKAKANTTDVYSRDQADTRFAT
+KVELNGKADSGTSYTKAESDLRFVKVNVFQKPNIIAIGDSFGQGYGTSDEKNKNFYAVMGSLINANVFNYSVGGSGFI
+HTADGNTNDTYTGQLNRAKADHSGDADDINYVVVTGGQNDNKVGDNNVVSAMKNFFVSAHAYFKNAEIIYYPMQYGAN
+PLPMTLYALYAKLIREAQMGPWVRVIRFGYTALRGRYDLCTSSTHPNDEGAYLLGHRLADIVQGSSDGDFPQLEGFRA
+GPNVTLDGENWASYEGGIISLRGAIKAKAGHADWTMNEKVCWLPAFCKAVNPTGYFPGATTSGELLLMGVNNEADGEQ
+PTLIIGAGSHANNELIFNVSLGPTF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 469 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_9" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 416 ,
+            seq-data
+              ncbieaa "MSNQSLYAMYVIGKVESNNNWSSVNFHDPITIGMMQWYGTRAYGLLNRGRSADPT
+GWSSFKNSASNLASQVESNSANWNLRYLTQAEGNAWIEWSKRVENHAFQQAQWEDDYHDYSGVCDRYGFPASNIKERI
+FFMSMYHQSPVSAFRVIGSVSSTANLDLLHSAALNDSILGNYKNRYNTVYDLLKNWDGQSAPPDFGQSGDVDTSPGGN
+SPTISGTSDKTAWIHVKQNTIYLHDNGKIRTFYPSSAQNYIEKFNQGTPVDNNNQTEHGSDTGSGSSSKVVEWVKARI
+GKYDYSQGPGRLNPDSTGYTDCSGLWWRAYMDVTGVDVGTYTGAMATKGNIIADSLNTSIRDAIKKVKSGDLLLLGTR
+PIFDHVEGFVADGQAQTLSHGGPGKGPNYQNAIEEIPYFNNSWQIRRYV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 415 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_10" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 355 ,
+            seq-data
+              ncbieaa "MEFKEEDYYSLHRILSYNAVWNFIIGARGLGKTFDAKRHVLRDSIKTGAQFIYLR
+RTDVEIKGGAKEKWMDDILFEFKNFEFRINGNTLQWRRNKKKDEKENNNEWHTAGYFLALSQSGGKKSIPYPNVRWII
+FDEVFPDNLRFLSNEVTLFEEFYNTVDRTHDHTRVLFLSNAVSQANPYFSKFHIDINDQQKKHEQFKTYCDGFIGIEF
+ADYAGFSAKVEKSRYGKFLRKYDPDYADYAISNRFLDDINGLVEPFNPKLGYMFTLETEDSGTFGIWSKIGDSISYFV
+SRRVKKHAEYHYTLDYRKVNEHTIYVKKSDNVVANLLAAYRTGDVRFDTRQCKADFMQVVGSLIGK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 354 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_11" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 140 ,
+            seq-data
+              ncbieaa "MDFVGIGKIVVITLLFMILDIITGYVGAWLSGTISSSVMRKGLGHKFAFIAFIAM
+AALIDFAQGENIINLGVTIQLTALTCIYVIITEINSILENIIIIFPELENTPVINIFKNSTNVMEKFAEDKGKDVTNG
+KHVDRKP" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 139 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_12" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 242 ,
+            seq-data
+              ncbieaa "MESTWIGSPNFTNGRKGVDHITLHVMGGYLAGTDATFKDPSVQASATYGVGSDGT
+IHQYVSEQDTAWADSNSISNSTGISIEHEGGIPKAQFTDACAEASAQLCADISKRYHLGPLVHNGTIGNVYLHREIPG
+TDHPDCPDRAPNGINVEQIITRANEILQGEDELSAKDIYDTRDQDGRNLFDHAHQILDDLPIQTRNALIETRGNDGRN
+VLDGVIQARNQIQTLQESVNQLTRLVKQLQK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 241 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_13" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 126 ,
+            seq-data
+              ncbieaa "MMNSDYIESDARVNVKAVADGMDIMPWTSRYNQNDVRYYLNIDDLQKLCLKQTYY
+KSGNVNGVQYMNADGDMVTVAHGRFYNRCFNKTYIDQAGCVHTNWRPYGTVGENFAEAVAVALGKRFGFKR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 125 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JAAOBB010000124.1_14" } ,
+          descr {
+            title "hypothetical protein HKBNCMPH_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 117 ,
+            seq-data
+              ncbieaa "MTKFSDYSSSDYLHNGMYKLFAKQLEYDDKNVWARRSGEDDYNVVCKVYMNDNKK
+KYVLVGIGFEWSKKMVKILFGGSEDRGVKAEWKMSDYTVESLSKWIIKMARIFSGLVGLFED" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 116 ,
+                        id
+                          local
+                            str "JAAOBB010000124.1_14" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_1" ,
+                location
+                  int {
+                    from 6 ,
+                    to 1382 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_2" ,
+                location
+                  int {
+                    from 1590 ,
+                    to 1919 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_3" ,
+                location
+                  int {
+                    from 1937 ,
+                    to 3754 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_4" ,
+                location
+                  int {
+                    from 3820 ,
+                    to 5994 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_5" ,
+                location
+                  int {
+                    from 6010 ,
+                    to 6945 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_6" ,
+                location
+                  int {
+                    from 6929 ,
+                    to 7729 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_7" ,
+                location
+                  int {
+                    from 7732 ,
+                    to 8280 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_8" ,
+                location
+                  int {
+                    from 8335 ,
+                    to 9747 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_9" ,
+                location
+                  int {
+                    from 9821 ,
+                    to 11071 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_10" ,
+                location
+                  int {
+                    from 11071 ,
+                    to 12138 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_11" ,
+                location
+                  int {
+                    from 12148 ,
+                    to 12570 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_12" ,
+                location
+                  int {
+                    from 12542 ,
+                    to 13270 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_13" ,
+                location
+                  int {
+                    from 13305 ,
+                    to 13685 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JAAOBB010000124.1_14" ,
+                location
+                  int {
+                    from 13722 ,
+                    to 14075 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JAAOBB010000124.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HKBNCMPH_00014" } } } } } } } } } }

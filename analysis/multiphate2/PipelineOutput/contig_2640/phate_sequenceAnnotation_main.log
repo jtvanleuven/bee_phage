@@ -1,0 +1,105 @@
+Processing begun 2021-04-21 12:56:27.241188
+sys.argv is ['/home/james/Software/multiPhATE2/SequenceAnnotation/phate_sequenceAnnotation_main.py', '-o', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/', '-G', '/home/james/Software/multiPhATE2/PipelineInput/contig_2640.fasta', '-g', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/gene.fnt', '-p', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/protein.faa', '-T', 'True', '-v', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/contig_2640_cgp_gene.fnt', '-w', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/contig_2640_cgp_protein.faa', '-c', 'phanotate', '-f', '/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/phanotate.cgc', '-t', 'phage', '-n', 'contig_2640', '-s', '-i', '50', '-j', '50', '-h', '5', '-H', '5', '-B', '_blastp', '-b', '_pvogs_phantome', '-M', '_phmmer', '-m', '_pvogs_phantome', '-R', 'none', '-r', 'none', '-z', '4']
+Opening primary calls file, /home/james/Software/multiPhATE2/PipelineOutput/contig_2640/phanotate.cgc
+Parameters recorded at 2021-04-21 12:56:27.241316
+outputDir is/home/james/Software/multiPhATE2/PipelineOutput/contig_2640/
+outfile is /home/james/Software/multiPhATE2/PipelineOutput/contig_2640/phate_sequenceAnnotation_main.out
+gfffile is /home/james/Software/multiPhATE2/PipelineOutput/contig_2640/phate_sequenceAnnotation_main.gff
+infile_genome is /home/james/Software/multiPhATE2/PipelineInput/contig_2640.fasta
+geneticCode is 11
+primaryCalls is phanotate
+infile_primaryCalls is /home/james/Software/multiPhATE2/PipelineOutput/contig_2640/phanotate.cgc
+infile_gene is /home/james/Software/multiPhATE2/PipelineOutput/contig_2640/gene.fnt
+infile_protein is /home/james/Software/multiPhATE2/PipelineOutput/contig_2640/protein.faa
+genomeType is phage
+genomeName is contig_2640
+genomeSpecies is -i
+blastpIdentity is 50
+blastnIdentity is 50
+blastpHitCount is 5
+blastnHitCount is 5
+blastThreads is 4
+Annotating
+RUN_TRNASCAN is True
+RUN_BLAST is True
+RUN_GENOME_BLAST is False
+RUN_GENE_BLAST is False
+RUN_PROTEIN_BLAST is True
+BLASTP_SEARCH is True
+RUN_HMM_SEARCH is True
+PHMMER_SEARCH is True
+JACKHMMER_SEARCH is False
+NCBI_VIRUS_GENOME_BLAST is False
+NCBI_VIRUS_PROTEIN_BLAST is False
+REFSEQ_PROTEIN_BLAST is False
+REFSEQ_GENE_BLAST is False
+PVOGS_BLAST is True
+VOGS_BLAST is False
+VOG_GENE_BLAST is False
+VOG_PROTEIN_BLAST is False
+PHANTOME_BLAST is True
+PHAGE_ENZYME_BLAST is False
+KEGG_VIRUS_BLAST is False
+PFAM_BLAST is False
+SMART_BLAST is False
+SWISSPROT_BLAST is False
+UNIPROT_BLAST is False
+NR_BLAST is False
+CAZY_BLAST is False
+CUSTOM_GENOME_BLAST is False
+CUSTOM_GENE_BLAST is False
+CUSTOM_PROTEIN_BLAST is False
+RUN_PROFILE_SEARCH is False
+HMMSCAN is False
+NCBI_VIRUS_GENOME_HMM is False
+NCBI_VIRUS_PROTEIN_HMM is False
+REFSEQ_PROTEIN_HMM is False
+REFSEQ_GENE_HMM is False
+PVOGS_HMM is False
+VOGS_HMM is False
+PHANTOME_HMM is False
+PHAGE_ENZYME_HMM is False
+KEGG_VIRUS_HMM is False
+PFAM_HMM is False
+SMART_HMM is False
+SWISSPROT_HMM is False
+UNIPROT_HMM is False
+NR_HMM is False
+Setting parameters for genome at 2021-04-21 12:56:27.241400
+Reading sequence into genome object
+Processing gene calls at 2021-04-21 12:56:27.477602
+Writing genes file
+Writing peptides file
+Gene and protein files created at 2021-04-21 12:56:28.644339
+Creating a blast object
+2021-04-21 12:56:28.644504 Preparing to run blastp at the following settings:
+Parameters:
+   blast flavor blastp
+   identity min 50
+   evalue min 0.01
+   identity select: 70
+   evalue select: 0.01
+   topHitCount: 3
+   scoreEdge: 1.0
+   overhang 100
+   outputFormat: 5
+Creating an hmm object
+Checking RUN_GENOME_BLAST False
+Preparing for protein blast at 2021-04-21 12:56:28.645117
+Running Blast against protein database(s) at the following settings:
+Parameters:
+   blast flavor blastp
+   identity min 50
+   evalue min 10.0
+   identity select: 50
+   evalue select: 10.0
+   topHitCount: 5
+   scoreEdge: 0.1
+   overhang 0.1
+   outputFormat: 5
+Protein blast complete at 2021-04-21 12:57:04.492343
+Preparing for hmm search
+Running phmmer search against protein database(s) at 2021-04-21 12:57:04.492643
+HMM phmmer search complete at 2021-04-21 12:57:48.068490
+Reporting final annotations at 2021-04-21 12:57:48.068545
+Sequence annotation processing complete at 2021-04-21 12:57:48.072156

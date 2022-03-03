@@ -1,0 +1,92 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1							phanotate	-	2	382	381	contig_1205	prodigal	-	2	382	381	contig_1205	
+2							phanotate	-	379	903	525	contig_1205							
+3	glimmer	-	379	915	537	contig_1205							prodigal	-	379	915	537	contig_1205	
+4	glimmer	-	915	1985	1071	contig_1205	phanotate	-	915	1985	1071	contig_1205	prodigal	-	915	1985	1071	contig_1205	
+5	glimmer	-	1982	3283	1302	contig_1205	phanotate	-	1982	3283	1302	contig_1205	prodigal	-	1982	3283	1302	contig_1205	
+6							phanotate	-	3319	5202	1884	contig_1205	prodigal	-	3319	5202	1884	contig_1205	
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 6
+The number of gene calls in common among all callers is 2
+The number of unique (non-matching) gene calls is 1
+Caller glimmer produced 3 gene calls.
+Caller glimmer gene-call length stats:  min: 537 , max: 1302 , ave: 970.0
+Caller phanotate produced 5 gene calls.
+Caller phanotate gene-call length stats:  min: 381 , max: 1884 , ave: 1032.6
+Caller prodigal produced 5 gene calls.
+Caller prodigal gene-call length stats:  min: 381 , max: 1884 , ave: 1035.0
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+						
+phanotate	-	2	382	381	contig_1205	
+prodigal	-	2	382	381	contig_1205	
+
+2 	
+						
+phanotate	-	379	903	525	contig_1205	
+						
+
+3 	
+glimmer	-	379	915	537	contig_1205	
+						
+prodigal	-	379	915	537	contig_1205	
+
+4 	
+glimmer	-	915	1985	1071	contig_1205	
+phanotate	-	915	1985	1071	contig_1205	
+prodigal	-	915	1985	1071	contig_1205	
+
+5 	
+glimmer	-	1982	3283	1302	contig_1205	
+phanotate	-	1982	3283	1302	contig_1205	
+prodigal	-	1982	3283	1302	contig_1205	
+
+6 	
+						
+phanotate	-	3319	5202	1884	contig_1205	
+prodigal	-	3319	5202	1884	contig_1205	
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+phanotate 	 contig_1205 	 1 	 2 	 382 	 - 	 0.83
+prodigal 	 contig_1205 	 1 	 2 	 382 	 - 	 0.83
+phanotate 	 contig_1205 	 2 	 379 	 903 	 - 	 0.50
+glimmer 	 contig_1205 	 1 	 379 	 915 	 - 	 0.83
+prodigal 	 contig_1205 	 2 	 379 	 915 	 - 	 0.83
+glimmer 	 contig_1205 	 2 	 915 	 1985 	 - 	 1.00
+phanotate 	 contig_1205 	 3 	 915 	 1985 	 - 	 1.00
+prodigal 	 contig_1205 	 3 	 915 	 1985 	 - 	 1.00
+glimmer 	 contig_1205 	 3 	 1982 	 3283 	 - 	 1.00
+phanotate 	 contig_1205 	 4 	 1982 	 3283 	 - 	 1.00
+prodigal 	 contig_1205 	 4 	 1982 	 3283 	 - 	 1.00
+phanotate 	 contig_1205 	 5 	 3319 	 5202 	 - 	 0.83
+prodigal 	 contig_1205 	 5 	 3319 	 5202 	 - 	 0.83
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.94
+Caller phanotate gene-call consensus score: 0.83
+Caller prodigal gene-call consensus score: 0.90
+CGC_main says, Processing complete.

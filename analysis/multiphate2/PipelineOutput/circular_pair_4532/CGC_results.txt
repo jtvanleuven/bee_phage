@@ -1,0 +1,177 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1							phanotate	-	91	192	102	circular_pair_4532							
+2	glimmer	-	182	349	168	circular_pair_4532													
+3							phanotate	-	207	353	147	circular_pair_4532	prodigal	-	207	353	147	circular_pair_4532	
+4	glimmer	-	359	595	237	circular_pair_4532													
+5							phanotate	-	359	1240	882	circular_pair_4532	prodigal	-	359	1240	882	circular_pair_4532	
+6	glimmer	-	574	1251	678	circular_pair_4532													
+7							phanotate	-	1317	1418	102	circular_pair_4532							
+8	glimmer	-	1419	1637	219	circular_pair_4532	phanotate	-	1419	1637	219	circular_pair_4532							
+9	glimmer	-	1645	2481	837	circular_pair_4532	phanotate	-	1645	2481	837	circular_pair_4532	prodigal	-	1645	2481	837	circular_pair_4532	
+10	glimmer	-	2471	2638	168	circular_pair_4532													
+11							phanotate	-	2496	2642	147	circular_pair_4532	prodigal	-	2496	2642	147	circular_pair_4532	
+12	glimmer	-	2647	2883	237	circular_pair_4532													
+13							phanotate	-	2647	3528	882	circular_pair_4532	prodigal	-	2647	3528	882	circular_pair_4532	
+14	glimmer	-	2862	3659	798	circular_pair_4532													
+15							phanotate	-	3604	3705	102	circular_pair_4532							
+16							phanotate	-	3706	3798	93	circular_pair_4532							
+17	glimmer	-	3924	4691	768	circular_pair_4532													
+18							phanotate	-	3924	4718	795	circular_pair_4532	prodigal	-	3924	4718	795	circular_pair_4532	
+The following gene callers were considered:
+, glimmer
+, phanotate
+, prodigal
+
+The number of distinct gene calls over all gene callers is 18
+The number of gene calls in common among all callers is 1
+The number of unique (non-matching) gene calls is 11
+Caller glimmer produced 9 gene calls.
+Caller glimmer gene-call length stats:  min: 168 , max: 837 , ave: 456.6666666666667
+Caller phanotate produced 11 gene calls.
+Caller phanotate gene-call length stats:  min: 93 , max: 882 , ave: 391.6363636363636
+Caller prodigal produced 6 gene calls.
+Caller prodigal gene-call length stats:  min: 147 , max: 882 , ave: 615.0
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+						
+phanotate	-	91	192	102	circular_pair_4532	
+						
+
+2 	
+glimmer	-	182	349	168	circular_pair_4532	
+						
+						
+
+3 	
+						
+phanotate	-	207	353	147	circular_pair_4532	
+prodigal	-	207	353	147	circular_pair_4532	
+
+4 	
+glimmer	-	359	595	237	circular_pair_4532	
+						
+						
+
+5 	
+						
+phanotate	-	359	1240	882	circular_pair_4532	
+prodigal	-	359	1240	882	circular_pair_4532	
+
+6 	
+glimmer	-	574	1251	678	circular_pair_4532	
+						
+						
+
+7 	
+						
+phanotate	-	1317	1418	102	circular_pair_4532	
+						
+
+8 	
+glimmer	-	1419	1637	219	circular_pair_4532	
+phanotate	-	1419	1637	219	circular_pair_4532	
+						
+
+9 	
+glimmer	-	1645	2481	837	circular_pair_4532	
+phanotate	-	1645	2481	837	circular_pair_4532	
+prodigal	-	1645	2481	837	circular_pair_4532	
+
+10 	
+glimmer	-	2471	2638	168	circular_pair_4532	
+						
+						
+
+11 	
+						
+phanotate	-	2496	2642	147	circular_pair_4532	
+prodigal	-	2496	2642	147	circular_pair_4532	
+
+12 	
+glimmer	-	2647	2883	237	circular_pair_4532	
+						
+						
+
+13 	
+						
+phanotate	-	2647	3528	882	circular_pair_4532	
+prodigal	-	2647	3528	882	circular_pair_4532	
+
+14 	
+glimmer	-	2862	3659	798	circular_pair_4532	
+						
+						
+
+15 	
+						
+phanotate	-	3604	3705	102	circular_pair_4532	
+						
+
+16 	
+						
+phanotate	-	3706	3798	93	circular_pair_4532	
+						
+
+17 	
+glimmer	-	3924	4691	768	circular_pair_4532	
+						
+						
+
+18 	
+						
+phanotate	-	3924	4718	795	circular_pair_4532	
+prodigal	-	3924	4718	795	circular_pair_4532	
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+phanotate 	 circular_pair_4532 	 1 	 91 	 192 	 - 	 0.33
+glimmer 	 circular_pair_4532 	 1 	 182 	 349 	 - 	 0.33
+phanotate 	 circular_pair_4532 	 2 	 207 	 353 	 - 	 0.83
+prodigal 	 circular_pair_4532 	 1 	 207 	 353 	 - 	 0.83
+glimmer 	 circular_pair_4532 	 2 	 359 	 595 	 - 	 0.50
+phanotate 	 circular_pair_4532 	 3 	 359 	 1240 	 - 	 0.83
+prodigal 	 circular_pair_4532 	 2 	 359 	 1240 	 - 	 0.83
+glimmer 	 circular_pair_4532 	 3 	 574 	 1251 	 - 	 0.33
+phanotate 	 circular_pair_4532 	 4 	 1317 	 1418 	 - 	 0.33
+glimmer 	 circular_pair_4532 	 4 	 1419 	 1637 	 - 	 0.83
+phanotate 	 circular_pair_4532 	 5 	 1419 	 1637 	 - 	 0.83
+glimmer 	 circular_pair_4532 	 5 	 1645 	 2481 	 - 	 1.00
+phanotate 	 circular_pair_4532 	 6 	 1645 	 2481 	 - 	 1.00
+prodigal 	 circular_pair_4532 	 3 	 1645 	 2481 	 - 	 1.00
+glimmer 	 circular_pair_4532 	 6 	 2471 	 2638 	 - 	 0.33
+phanotate 	 circular_pair_4532 	 7 	 2496 	 2642 	 - 	 0.83
+prodigal 	 circular_pair_4532 	 4 	 2496 	 2642 	 - 	 0.83
+glimmer 	 circular_pair_4532 	 7 	 2647 	 2883 	 - 	 0.50
+phanotate 	 circular_pair_4532 	 8 	 2647 	 3528 	 - 	 0.83
+prodigal 	 circular_pair_4532 	 5 	 2647 	 3528 	 - 	 0.83
+glimmer 	 circular_pair_4532 	 8 	 2862 	 3659 	 - 	 0.33
+phanotate 	 circular_pair_4532 	 9 	 3604 	 3705 	 - 	 0.33
+phanotate 	 circular_pair_4532 	 10 	 3706 	 3798 	 - 	 0.33
+glimmer 	 circular_pair_4532 	 9 	 3924 	 4691 	 - 	 0.50
+phanotate 	 circular_pair_4532 	 11 	 3924 	 4718 	 - 	 0.83
+prodigal 	 circular_pair_4532 	 6 	 3924 	 4718 	 - 	 0.83
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.52
+Caller phanotate gene-call consensus score: 0.67
+Caller prodigal gene-call consensus score: 0.86
+CGC_main says, Processing complete.

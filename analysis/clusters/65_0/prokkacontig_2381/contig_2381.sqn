@@ -1,0 +1,1841 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "contig_2381" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 14545 ,
+            seq-data
+              iupacna "TAGATATTTCACTGGCTTTAGAAGCATCAACACCTATTTTTATTAAAAATTCCTC
+TAAAATTCATATTATGCCTCACTCTGTTTTTTTTCGGCTAATTTCAGCTCTGCTATGACGTTTATGCATATCAATGAC
+ATCATCAAGAGAATAGACAGTCCTCAGTTCGTGAAGCGTTGCGTATTTATATAACGACAACGCCCCATAAAAACCAAT
+CTATATCGCTTTCTTGGTTATTTCCGCCAAGCTGAGCGTACTTAGATTGGACAATATGCCATTTGGTAAGAAAACCCA
+AAAAATGGAATTTTAAACCCCTCGATAATAATTTGATAATAATGGCTTCGATGTGTATTAAAAAATTCACCTTGCTCT
+TTAGGATTTTGAAATAAAATCGTGTTTAACCGTTTTCATCAACCGCGGATAACATAATCCATAACAAAACTTTTTGCA
+ATCTCAACATCAAATTCTTCACTATCCAATAATTGGATGCGAGCTGACCAATATCAAAGCCTGTTTGATTACCTTCCA
+ATGAAAAACAGCCCTTTAAAAGAGCTGTTAATTTTTTAAGATATTTGTTAGCTTTAAAAAAATCGGCTTGTTTGAATG
+TATAGGTTACATCATCAACTATAAAATCTTTGTTTTGCATTATAATCCACCTTTGATATTTATTTCTGCTTTAGTTTG
+CTACAAATGTCCATGTCATACCATTGTGTGACGTTCCACGACTGATAGTTGGCGGTGTGGAAAACCAACATCCCGATA
+ATAAAAATTCATCACCATTACGCAGATCTTTATAGGTAATTAATTTTGCTGTTGCTTTACTCGGACTACTAATTTGTT
+CGTTACGTAATCTATTCAGTGTTTCGTTAATTTCACTGTGCTGTAATGTTTTAATCGTAACAGTCGCACCACGATTAC
+TTGAGTGGACAAAAACACCTTGCCCATTAATACCATAGGTGATACCGCCATCATCACCAGCGGGAGCGATTGAGATTG
+AATCTTGTGCATTCTCGTAACCTGTTATTTCAATACCATCAATGGTCAAGATTGCATCTTCTAAAGAAAATGATTTAG
+ACATTTAACCTCCTTATCGATTAAATTGGACAATAATATCAACGCTATGACCTGCACCAGCGAGTTTTAACGCACAAT
+TGATTGGCATCATTTTGCGTGCTTCACGGTCAGCTATATCTTGCGTATCAAATGAATCAGAATAAAAATAATAGCCAT
+TGATTTGGTCACCATAAGACAAGCCACCCAAATCGCCTAATGTCCATTTACCTGAACCTAAAAAGCCATTATTGATAA
+ACTGCTCACCAATCACTTTGATAGAACTGATGAGAATTTCTTGACCTCTGTCGGTTTGAGGAATTTTAGTAGGCTGAC
+CTTGTAACGTATTGAAAGCTTGAATCTGGACGGCATTAATAAATGCATCTAATCCGGTTGTTTCATCAATGAACGTAC
+CACCTAGCATTACACCTTCCGCCAACATATTGACACCCGCATAATCGGTATAATAGTTAATACCTAAACGGCGGCATT
+TGTTAGCCTCATTTATGGTGATTTTATCGTCAGATGTTACGCTAACTTGCTGTTTAAATTTAACTGTTTTTGCAGTAT
+TGATTCCATTCCAAACTGTAGTTAATGCAATACCCATTAATTCCGCAGCAGCATGTGTATTACCTTTATTGTTATATT
+GAACCATTAAACGACCACTGTTGCGCTTAGAGAGCGTTTTGAGTACATTCGTATCAATGTATTCAATGTTAGCCGGTC
+GCGTCTCAGTAAATGCCATAACCTTCGCATTTTCGCTCCCTTGAGCAATGATCCAATCGTGTGCTTCGATTAATTCAG
+CATCATTAATCGTATTTGCAAAATAAACACCATACCAGTTCTGGTATTGATTTTGTAATTTACTCAGTGCTTCGGCCG
+GGGTTTCTTTGTTATAACTTGCCGCGTCTTCACCATTAATTAACGTACATTTACCGTCAATCAAGTTAGTTAAATGAC
+CGATATAAGTACCTTCTAATTCAGCATTAAAAACATAACCAAAATTAGATCCTTTACCTTCTGTTTTAGACGATAAAA
+TAAAACGGCTACCAACCGCATCATAAATGAAATTAACGCCCACATTGTCGAGTTTTACATTAATAACGCTGATAACAT
+CATTCATGCTCGATACCGAAGAAAAATCAAGCTCTGCGATATCGACTTTTACACCGCCATAATAAAAGGATAGATAGC
+CATCGGTGATAGTTTTGAAATGAATATAACTTACCGCTAAGGCTGAGCCATTAATTTTAGAATAGGTAGCGGGGATCG
+TTACTGTTTCTTGAACATATCTAGCAATGATCGCTGTTTTAGGCTTAGGTTTTGCTGAAAATAATGCTGATGCTGCTC
+TATATGCATCCGAATTAGTACCGAATAGTGATGCAACCTGATTCGCATCAGACACAACAATATAACGTGAATCAGGGT
+TGTTATACTCGTCGCACATTTCATTAGTAAAGATTGCTACAACGCTTAAATCGCGTTTCTGTGCACCTTGTGGCGTCT
+GTTGTAGAATTACATCCACAACCTGACTAATTGGTAAACTCATTGTTAACCTCGTATTAAATTTAAATTTACTGTTTT
+GCCACGTTTAACGTTGGCTTTAATGATTGGATTAATTGAAAAAGTAAGATCAACCTGTGCACGTTGTTCTTTACCACC
+AGCGATAGCAGTCGGCAGGCTTCGAATCTGTGAACATCGTAAATAACCCATATCCAAACGCTTTAATCGTTGCCAAAC
+TGACGTTAATCGCATGGATTGTGTTAATTTACACAGTAGCTGATAGGAATTTTTACCGTAGGCATTAATCGAGATGTT
+GACCTCTTTCAATGTTGATGCGATTTCCTCTTCATCTTCACCGTTAAACTTTATTTCAGTACCGATATCCGACTGATA
+TGAATCTAAAACGGTAACAAAATAATCCAGTTCTGAAACATCTTGCATATTGTTAGCGTCAAATACTCGCTCATTAGG
+TAACGTTAAAACCTCCGCTATCATGTGCCTGACTTCCATCATATCGAGTTGCCAAACAGTCGTAATAGCCATAATCAC
+TCCATATTGAATTAGATATAATTTTGTATCTCATGCCGTGATGATGAAATAGCAACCCGTTGGTTAATTCAGTTTTAG
+AAATCACTCGAACTGTGGGATTAAACCTTTCACCCTCGGGCAAAATTTGCAAATCATCATTACTAGCGGGCTGAATAA
+TGCATGTGATATTACCTAACCCGTCAATATTAACTTTATTTGCGAAAAACGGGTCACTTAGGAATTGTGATATAAATT
+CACGTTTCATTTTTCTCTAACCTCGTACGTTATTGACGCACGCAATTGACCAGTATCGATCAAGGGCTTGCTGGAGCC
+TTTACGTTTAACTGTATTTTCATTATTAGGTTCAAACTCTCCATCAGTGATTTTTTCTACAATTCTCCCTTGAAAATA
+TGCGCCAATCGTTGCATAAGCATCATAAGGGGAAATATTACCGGCTAAACATTCATTTAATACCTGTTTACTTAACTG
+ACCTAAATTATTTGACTCCTCCGAAGCGGTAGAGCGCATGAATGATCGTTCTGGAATTCCTCTTTCAGGTACGCCAAA
+CTCATGAATCATAGCTAATTCTGCATTAGTTATCCCTTCTGATTCTTCTCGCGAATTTTCATTATTCGGAATACCTAC
+CACTAATTGCATTTGGTTGATCTGCTTAGCTCGCTCCATCACCTGTTTTAGTTTTTTGCATATTTCAAGCTCATTCAT
+CCAATAACACCTATGGGAGTAATCAAGCGACGCAATCGTAAATATTCCTGACCGTATGACGTCGATGTCAAATCGTAG
+TCGCTAGGATTACCTTGAGATGTGTTTTGTGATGTGTACCCAATAGATAAGCCACCGGCTGATTTACTCGATACTGAT
+TTGAAATTTTCGCCATTATTAAAAATGGTGTTACCGTCTAAATCCTGATTTAAAAAGCCTTTGACAGCCAATCTGTGC
+GCCGTGTAAGCGAAAAGTCCAAGCTCGTACAACTTACCCCAAACTTTTTTGCTTACAACTAGCGCACTACTTTCTAAA
+AAAAGATTAATTATGTTGTCATCGACCTTTTTAAATTCAGGGTATTCATTGCTAAACTGCATAAATACCCCCATTTCT
+AGGCGTTAGATTCAGCGTTAGATTCAGCGGCGGATTTTTTAGTAGTTGTTTTTTTAGTGATAGATTTAGTATCAGATT
+TAGTATCAGATTTATAATCCAAATATTGCGCAGACTGAGGCTCTTTCCACATCACGCCGCTAAATGCTGAGCGGTAAC
+CGCTTTGATATGTAAGCAAATCTTTTCTATGAGTTTCTAAAAGTTCAGGCATGTGTACGTTCATTTCCAAATAATCTT
+CGTCATAGGTATAAACTGCTAATCGAGCCTTCCCCTTATTAATTGTTTTAGCGTAATCAGCAGGAATTTTTACAAACT
+CAATATTGAATTTGTCATTTTCTGAGGCTTTACGCAATGCTGCCATGATTTTATCAATTGCAGCGATCGGCATCAAAT
+CAACACCAACAATAGTTGAGTTTGGGTCGAATTTTTGCATTAAATCCATAAAATCTGACGCATCCATAGCAATATGAG
+TTGGCTGTACTGTAAAATTAGATCGCTCCCAAACTTTCCTATATACTAACAAAATCAAATCCACGCATTCGGTACAGG
+TCATCTCCTTAAATGATTTGTTTATAGTATGAATATCAATATCTTTCCCTGTTAATAAACCCTCTTGCCCAATTGCTT
+GTTCATGACCTAAATAACCACTATATTGAATGGTTGCCAGCGCATTAGAATATAGGTCATTTTGTTTTTTCAGTGGCA
+AATTAATACCTAACCGCAAGGCTTTTTCGACTTCTTGTTGTGTGTAAGTTAACCCTTTACCCCACTGAACAACTGGAG
+CTTTTTTGTATATAATTTCACTATCAATGGTTTCTAATGACGTTGTTTTAATACCAAGTACACCATTTTTAACAGAGC
+CGCGAACCTCTGTTACACCGTATTCACATTCATCAACACCAAACTCCAGATCCTCTGTGACGGGCACAGCCTTGCCGA
+TGTTAATTTCTGGTAATTCTTTTTCCTGTAACTTTTTATCACGTTCTAATAACTGTTCTGTGATAATTTCACTATAAT
+CTACATTTTTATAAGCCATTATGCTTTAGCTCCTTTTGTACTAATTTTTACCGATTGAAAATAACCTAACGTGATCGC
+AGCACAGTGATTACCATTGCTAACACGCTCAACCCAATAACCTAAATCTAGGTTACCTTCAGCTACATTAGTAATTTT
+CCCTGCGTCATCACCTGAAGCGACAACATAAACACGATCACCTCGTTTTAGCTCCACCTCATCGACAGCTAAAGCAAC
+GACAGAATCACCATGTGAGAAATGACCAATATTGATTTGACGATTAGCAGGATGTACATCACCATAAATATCACGAAC
+AACAATGCCGTGAATTAAATCATTAGCCGATTCGATAGGCTTTATACCCCCTTCAGGATTAACTGCTACAAACGTGCC
+ACTTAATAATTCTTTTCCAGTTGAATTTTCCTCACCCCAGACTTTATTGTCAGAACTGGATACACGATAAATCGCACC
+AGCTAACATTGTGCCAGTATCGGCATCCCAACTCGTAAAACTGTAACCCATTATTTACCTCCTAAACGTGCACTTGCT
+GATTTTGTTGGTTTGCTCTGACTGTCATTAAGTAAGCTTGAAACAGTACTGTTCTTTTTCGCACTTGTAGCAACAAGT
+CCTGCATAAGCTGCTCTAATTTCAGCATCAGTTAATTTCGCCGTTTGCTCTCTACTGTAGATACCATGATCAATTAGC
+ACATTAATACGAACATCACGACCGTTTTTAGCGTCATTAAGATTCACTTTCGGGAATCGGGTTTTAGCATCATTAATA
+ACGCTCTCCTTATCCTTTTCCGCTTCCAGTTCTTCGACCCTAGCCTTTAACTCGTCACGCTCTTTTTTGACTTCTTCA
+AGCTCTTGAGTTAACGCCACAATTTGGGCAAGAGGGTTTATTAACAGGAAAGATATTGATATTCATACTATAAACAAA
+TCAATTTAAGGGAGATGACCTGTACAGAATGCGTGAATTTGTTTTTTAGTATATAACAAATCAAATCCACGCATTCGG
+TACAGGTCATCTCCTTAAATGATTTTTTATAAGTATGAATATCAATATCTTTCCCTGTTAATAAACCCTCTTGCCAAA
+TTGTGGCGTTAACTCAAGAGCTTGAAGAAGTCAAAAAAGAGCGTGACGAGTTAAAGGCTAGGGTCGAAGAACTGGAAG
+CGGAAAAGGATAAGGAGAGCGTTATTAATGATGCTAAAACCCGATTCCCGAAAGTGAATCTTAATGACGCTAAAAACG
+GTCGTGATGTTCGTATTAATGTGCTAATTGATCATGGTATCTACAGTAGAGAGCAAACGGCGAAATTAACTGATGCTG
+AAATTAGAGCAGCTTATGCAGGACTTGTTGCTACAAGTGCGAAAAAGAACAGTACTGTTTCAAGCTTACTTAATGACA
+GTCAGAGCAAACCAACAAAATCAGCAAGTGCACGTTTAGGAGGTAAATAATGGGTTACAGTTTTACGAGTTGGGATGC
+CGATACTGGCACAATGTTAGCTGGTGCGATTTATCGTGTATCCAGTTCTGACAATAAAGTCTGGGGTGAGGAAAATTC
+AACTGGAAAAGAATTATTAAGTGGCACGTTTGTAGCAGTTAATCCTGAAGGGGGTATAAAGCCTATCGAATCGGCTAA
+TGATTTAATTCACGGCATTGTTGTTCGTGATATTTATGGTGATGTACATCCTGCTAATCGTCAAATCAATATTGGTCA
+TTTCTCACATGGTGATTCTGTCGTTGCTTTAGCTGTCGATGAGGTGGAGCTAAAACGAGGTGATCGTGTTTATGTTGT
+CGCTTCAGGTGATGACGCAGGGAAAATTACTAATGTAGCTGAAGGTAACCTAGATTTAGGTTATTGGGTTGAGCGTGT
+TAGCAATGGTAATCACTGTGCTGCGATCACGTTAGGTTATTTTCAATCGGTAAAAATTAGTACAAAAGGAGCTAAAGC
+ATAATGGCTTATAAAAATGTAGATTATAGTGAAATTATCACAGAACAGTTATTAGAACGTGATAAAAAGTTACAGGAA
+AAAGAATTACCAGAAATTAACATCGGCAAGGCTGTGCCCGTCACAGAGGATCTGGAGTTTGGTGTTGATGAATGTGAA
+TACGGTGTAACAGAGGTTCGCGGCTCTGTTAAAAATGGTGTACTTGGTATTAAAACAACGTCATTAGAAACCATTGAT
+AGTGAAATTATATACAAAAAAGCTCCAGTTGTTCAGTGGGGTAAAGGGTTAACTTACACACAACAAGAAGTCGAAAAA
+GCCTTGCGGTTAGGTATTAATTTGCCACTGAAAAAACAAAATGACCTATATTCTAATGCGCTGGCAACCATTCAATAT
+AGTGGTTATTTAGGTCATGAACAAGCAATTGGGCAAGAGGGTTTATTAACAGGGAAAGATATTGATATTCATACTATA
+AACAAATCATTTAAGGAGATGACCTGTACCGAATGCGTGGATTTGATTTTGTTAGTATATAGGAAAGTTTGGGAGCGA
+TCTAATTTTACAGTACAGCCAACTCATATTGCTATGGATGCGTCAGATTTTATGGATTTAATGCAAAAATTCGACCCA
+AACTCAACTATTGTTGGTGTTGATTTGATGCCGATCGCTGCAATTGATAAAATCATGGCAGCATTGCGTAAAGCCTCA
+GAAAATGACAAATTCAATATTGAGTTTGTAAAAATTCCTGCTGATTACGCTAAAACAATTAATAAGGGGAAGGCTCGA
+TTAGCAGTTTATACCTATGACGAAGATTATTTGGAAATGAACGTACACATGCCTGAACTTTTAGAAACTCATAGAAAA
+GATTTGCTTACATATCAAAGCGGTTACCGCTCAGCATTTAGCGGCGTGATGTGGAAAGAGCCTCAGTCTGCGCAATAT
+TTGGATTATAAATCTGATACTAAATCTGATACTAAATCTATCACTAAAAAAACAACTACTAAAAAATCCGCCGCTGAA
+TCTAACGCTGAATCTAACGCCTAGAAATGGGGGTATTTATGCAGTTTAGCAATGAATACCCTGAATTTAAAAAGGTCG
+ATGACAACATAATTAATCTTTTTTTAGAAAGTAGTGCGCTAGTTGTAAGCAAAAAAGTTTGGGGTAAGTTGTACGAGC
+TTGGACTTTTCGCTTACACGGCGCACAGATTGGCTGTCAAAGGCTTTTTAAATCAGGATTTAGACGGTAACACCATTT
+TTAATAATGGCGAAAATTTCAAATCAGTATCGAGTAAATCAGCCGGTGGCTTATCTATTGGGTACACATCACAAAACA
+CATCTCAAGGTAATCCTAGCGACTACGATTTGACATCGACGTCATACGGTCAGGAATATTTACGATTGCGTCGCTTGA
+TTACTCCCATAGGTGTTATTGGATGAATGAGCTTGAAATATGCAAAAAACTAAAACAGGTGATGGAGCGAGCTAAGCA
+GATCAACCAAATGCAATTAGTGGTAGGTATTCCGAATAATGAAAATTCGCGAGAAGAATCAGAAGGGATAACTAATGC
+AGAATTAGCTATGATTCATGAGTTTGGCGTACCTGAAAGAGGAATTCCAGAACGATCATTCATGCGCTCTACCGCTTC
+GGAGGAGTCAAATAATTTAGGTCAGTTAAGTAAACAGGTATTAAATGAATGTTTAGCCGGTAATATTTCCCCTTATGA
+TGCTTATGCAACGATTGGCGCATATTTTCAAGGGAGAATTGTAGAAAAAATCACTGATGGAGAGTTTGAACCTAATAA
+TGAAAATACAGTTAAACGTAAAGGCTCCAGCAAGCCCTTGATCGATACTGGTCAATTGCGTGCGTCAATAACGTACGA
+GGTTAGAGAAAAATGAAACGTGAATTTATATCACAATTCCTAAGTGACCCGTTTTTCGCAAATAAAGTTAATATTGAC
+GGGTTAGGTAATATCACATGCATTATTCAGCCCGCTAGTAATGATGATTTGCAAATTTTGCCCGAGGGTGAAAGGTTT
+AATCCCACAGTTCGAGTGATTTCTAAAACTGAATTAACCAACGGGTTGCTATTTCATCATCACGGCATGAGATACAAA
+ATTATATCTAATTCAATATGGAGTGATTATGGCTATTACGACTGTTTGGCAACTCGATATGATGGAAGTCAGGCACAT
+GATAGCGGAGGTTTTAACGTTACCTAATGAGCGAGTATTTGACGCTAACAATATGCAAGATGTTTCAGAACTGGATTA
+TTTTGTTACCGTTTTAGATTCATATCAGTCGGATATCGGTACTGAAATAAAGTTTAACGGTGAAGATGAAGAGGAAAT
+CGCATCAACATTGAAAGAGGTCAACATCTCGATTAATGCCTACGGTAAAAATTCCTATCAGCTACTGTGTAAATTAAC
+ACAATCCATGCGATTAACGTCAGTTTGGCAACGATTAAAGCGTTTGGATATGGGTTATTTACGATGTTCACAGATTCG
+AAGCCTGCCGACTGCTATCGCTGGTGGTAAAGAACAACGTGCACAGGTTGATCTTACTTTTTCAATTAATCCAATCAT
+TAAAGCCAACGTTAAACGTGGCAAAACAGTAAATTTAAATTTAATACGAGGTTAACAATGAGTTTACCAATTAGTCAG
+GTTGTGGATGTAATTCTACAACAGACGCCACAAGGTGCACAGAAACGCGATTTAAGCGTTGTAGCAATCTTTACTAAT
+GAAATGTGCGACGAGTATAACAACCCTGATTCACGTTATATTGTTGTGTCTGATGCGAATCAGGTTGCATCACTATTC
+GGTACTAATTCGGATGCATATAGAGCAGCATCAGCATTATTTTCAGCAAAACCTAAGCCTAAAACAGCGATCATTGCT
+AGATATGTTCAAGAAACAGTAACGATCCCCGCTACCTATTCTAAAATTAATGGCTCAGCCTTAGCGGTAAGTTATATT
+CATTTCAAAACTATCACCGATGGCTATCTATCCTTTTATTATGGCGGTGTAAAAGTCGATATCGCAGAGCTTGATTTT
+TCTTCGGTATCGAGCATGAATGATGTTATCAGCGTTATTAATGTAAAACTCGACAATGTGGGCGTTAATTTCATTTAT
+GATGCGGTTGGTAGCCGTTTTATTTTATCGTCTAAAACAGAAGGTAAAGGATCTAATTTTGGTTATGTTTTTAATGCT
+GAATTAGAAGGTACTTATATCGGTCATTTAACTAACTTGATTGACGGTAAATGTACGTTAATTAATGGTGAAGACGCG
+GCAAGTTATAACAAAGAAACCCCGGCCGAAGCACTGAGTAAATTACAAAATCAATACCAGAACTGGTATGGTGTTTAT
+TTTGCAAATACGATTAATGATGCTGAATTAATCGAAGCACACGATTGGATCATTGCTCAAGGGAGCGAAAATGCGAAG
+GTTATGGCATTTACTGAGACGCGACCGGCTAACATTGAATACATTGATACGAATGTACTCAAAACGCTCTCTAAGCGC
+AACAGTGGTCGTTTAATGGTTCAATATAACAATAAAGGTAATACACATGCTGCTGCGGAATTAATGGGTATTGCATTA
+ACTACAGTTTGGAATGGAATCAATACTGCAAAAACAGTTAAATTTAAACAGCAAGTTAGCGTAACATCTGACGATAAA
+ATCACCATAAATGAGGCTAACAAATGCCGCCGTTTAGGTATTAACTATTATACCGATTATGCGGGTGTCAATATGTTG
+GCGGAAGGTGTAATGCTAGGTGGTACGTTCATTGATGAAACAACCGGATTAGATGCATTTATTAATGCCGTCCAGATT
+CAAGCTTTCAATACGTTACAAGGTCAGCCTACTAAAATTCCTCAAACCGACAGAGGTCAAGAAATTCTCATCAGTTCT
+ATCAAAGTGATTGGTGAGCAGTTTATCAATAATGGCTTTTTAGGTTCAGGTAAATGGACATTAGGCGATTTGGGTGGC
+TTGTCTTATGGTGACCAAATCAATGGCTATTATTTTTATTCTGATTCATTTGATACGCAAGATATAGCTGACCGTGAA
+GCACGCAAAATGATGCCAATCAATTGTGCGTTAAAACTCGCTGGTGCAGGTCATAGCGTTGATATTATTGTCCAATTT
+AATCGATAAGGAGGTTAAATGTCTAAATCATTTTCTTTAGAAGATGCAATCTTGACCATTGATGGTATTGAAATAACA
+GGTTACGAGAATGCACAAGATTCAATCTCAATCGCTCCCGCTGGTGATGATGGCGGTATCACCTATGGTATTAATGGG
+CAAGGTGTTTTTGTCCACTCAAGTAATCGTGGTGCGACTGTTACGATTAAAACATTACAGCACAGTGAAATTAACGAA
+ACACTGAATAGATTACGTAACGAACAAATTAGTAGTCCGAGTAAAGCAACAGCAAAATTAATTACCTATAAAGATCTG
+CGTAATGGTGATGAATTTTTATTATCGGGATGTTGGTTTTCCACACCGCCAACTATCAGTCGTGGAACGTCACACAAT
+GGTATGACATGGACATTTGTAGCAACTAAAGCAGAAATAAATATCAAAGGTGGATTATAATGCAAAACAAAGATTTTA
+TAGTTGATGATGTAACCTATACATTCAAACAAGCCGATTTTTTTAAAGCTAACAAATATCTTAAAAAATTAACAGCTC
+TTTTAAAGGGCTGTTTTTCATTGGAAGGTAATCAAACAGGCTTTGATATTGGTCAGCTCGCATCCAATATTGGTAGTG
+AAGAATTTGTTGAGATTGAAAAGTTTGTTCTGGATTATGTATCCGCGGTTGATGAAAACGGTAAAACGATTTTATTTC
+AAAATCCTAAAGAGCAAGGTGAATTTTTTAATACACATCGAAGCCATTATTATCAAATTATTATCGAGGGGTTAAAAT
+TCCATTTTTTGGGTTTTTTACCAAATGGCATATTGTCCAATCTAAGTACGCTCAGCTTGGCGGAAATAACCAAGAAAG
+CGATATAGATTGGTTTTTATGGGGCGTTGTCGTTAATAAATACGCAACGCTTCACGAACTGAGGACTGTCTATTCTCT
+TGATGATGTCATTGATATGCATAACGTCATAGCAGAGCTGAAATTAGCCGAAAAAAAACAGAGTGAGGCATAATATGA
+TTTTAGAGGAATTTTTAATAAAAATAGGTGTTGATGCTTCTAAAGCCAGTGAAATATCTAAGGTCATTCATTTACTCC
+AAAATGGTGTTAATCGGCTTTCCGACTCTTCTCGTGAGATAAAAAAACAATACAGACAGAGCAATAAAAGAAACGAAT
+AAATCGGTAAAAGAAGCAGGTAAGGCAACCAATGAAACACAATCAAAAGTCAGTAAATTAAAATTAGGCTTATTAGCG
+TTGATTAGTGTAGCCGTTTTGTCTGGTAAAAAAATGTGGGGCGCATTTAATGAGGTAATAGATAAAGCGAAAGAACTC
+GCTTTACGAAAAGATGCACTTTTTAACATCTCTAAAAAAGAACTGATTCAAGCAGAACAGTACCAGCGAGAAATGAGC
+AGGGTAGGCGTAGCGTTTGACAGTATCAAAACTAAAATTGCGCTTAATCTTGCACCGGCTGTGACTGATTTAATTTCC
+GGTTTCCGTAATTGGCTCACTGTCAATAAAGAATTGATTGCGGGAGGGATAACCAAAATCATTAAAATGATTGGTAAT
+ATCATTCAGGTTTTTATTAATTATTATGAATTCCTGAATTTGATTATTACTAATACGATTGGTTGGAAAAATGCAATT
+ATTGCTCTCATCGCTGTATGGGCGGTGTTTAATAGTGCTTTTTTATTAAGTCCTGTGGGGCTTGTGATTGGGGCAATT
+ACGGTTTTACTGTTACTTATTGATGACTTAATGGTCTATATGAAGGGTGGTAAAAGTCTTTTTGGCAGTTATTGGCAA
+CCGCTCATTGATGGTGCAAAAGCTCTATGGGAGCATATTAATTTAAGTTTTCAATTTATAAAAGCTCTTTGGCGTGGT
+GATTCAGAAGCTATCAAATCAATATCGAAAAAAGTCATTAGTTCTGTTATGAAAGCGCTCAAAGCCATCATAAATGGA
+ATTAAAACCGTACTATCAAGTTTGTTAAAAAATATTCTTGTTTTTTTCGGTATGTCAGAAAGTAAAGCCAGTAAAACA
+GTAGACAGAATAGGGAAAATATTTAGCTTTATATTTGATGTGATTACGTTACCTTTTCGTAAGTCCTACGAAGGAATT
+TGTAATATCATGGATATGCTCGGGCTTGATGTCGGTGATGTTATAAATGGTATTTGTTTTGCATTGCGGGTAATTTGG
+GCAGCAATAATTGCACCTTTCAAAGCAGCATGGGAATTTGTCAATTCGCTGTTTGATATTTGGGAGGATGACACCAAA
+ACGATCATCGATAAAATTGGTGATACATTTAAAGCTATTTTTTACTCTCATTACTTCTCCTTTTACCGAATCTTGGCA
+GCATGTTAAAGAAGAGTTTGAATTTTGGGGAAAGGATGTTGAAACCTTTATTGAAGGCGTTGGCGATACCTTTGCAGA
+TCTATTTGAACCGTTCATTAGTCCATTTAGGGATGGTATAAATTGGATAGAAAAAAGTTTTTCCAGTTTAACTAAAAA
+TTTCAAATCCAAATTCAAAAAATATTTTTCTTGGACAGGATTTTTTGATGATGATGAGGACAAAGAACAGATTAAAAC
+TACTTTAATCGAGCAAAACTGACTCGTTAAATACTAATACCGCAAGCGCAGGCATGGGTAGTGTTTCATCAAAGGTAA
+ATAATAATGCTGTGACAATTAATAACACCATGAACGTCACCACACCGCAAGAAGGGTTTGATAATTTGAATAATCTTG
+CCAAAAATGAGATTCAAAATGTCGCTGATAATGCACAAACCGCACTAGGAGCAAATTAATGTATAAATCTATACTGAA
+TGAATCATCCTTAAATTCTGGTTTAATCATTACCGATGATTTTACTTTTAATTTGGATATAAATACGGTAGAACAGCA
+TACATCAAAGCTAAGATTGACAGAAAATCCGATAGAGAACGGGGCAAATATCGCAGATCATGCCGTATTAGAGCCTAA
+AGAGGTAACAATTTACGGCATGGTGGTAAGTTATAAACCAAACAATAGTATTATCAAAAGCGTAACGGGTTATAACAT
+TGAAGAATATCCGTTACCTATACCGGTTAAAGCAATCACTGAACAAGCTGAAAAAAAAAATTATGCGGTACTATGCAT
+TACTTAACCAGACTAAGAAGAAAACTTAGAGCAGCTTATAGGTGACTTTTTGCCGGATTACCAATTACCTCAATTCAA
+AAATCTATCGTCAGATAGGATCGCGGATGCTCATGAGAAATTATTAGCTATTCAGCGAAG" } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_1" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 82 ,
+            seq-data
+              ncbieaa "MQNKDFIVDDVTYTFKQADFFKANKYLKKLTALLKGCFSLEGNQTGFDIGQLASN
+YWIVKNLMLRLQKVLLWIMLSAVDENG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 81 ,
+                        id
+                          local
+                            str "contig_2381_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_2" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 133 ,
+            seq-data
+              ncbieaa "MSKSFSLEDAILTIDGIEITGYENAQDSISIAPAGDDGGITYGINGQGVFVHSSN
+RGATVTIKTLQHSEINETLNRLRNEQISSPSKATAKLITYKDLRNGDEFLLSGCWFSTPPTISRGTSHNGMTWTFVAN
+" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 132 ,
+                        id
+                          local
+                            str "contig_2381_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_3" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 503 ,
+            seq-data
+              ncbieaa "MSLPISQVVDVILQQTPQGAQKRDLSVVAIFTNEMCDEYNNPDSRYIVVSDANQV
+ASLFGTNSDAYRAASALFSAKPKPKTAIIARYVQETVTIPATYSKINGSALAVSYIHFKTITDGYLSFYYGGVKVDIA
+ELDFSSVSSMNDVISVINVKLDNVGVNFIYDAVGSRFILSSKTEGKGSNFGYVFNAELEGTYIGHLTNLIDGKCTLIN
+GEDAASYNKETPAEALSKLQNQYQNWYGVYFANTINDAELIEAHDWIIAQGSENAKVMAFTETRPANIEYIDTNVLKT
+LSKRNSGRLMVQYNNKGNTHAAAELMGIALTTVWNGINTAKTVKFKQQVSVTSDDKITINEANKCRRLGINYYTDYAG
+VNMLAEGVMLGGTFIDETTGLDAFINAVQIQAFNTLQGQPTKIPQTDRGQEILISSIKVIGEQFINNGFLGSGKWTLG
+DLGGLSYGDQINGYYFYSDSFDTQDIADREARKMMPINCALKLAGAGHSVDIIVQFNR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 502 ,
+                        id
+                          local
+                            str "contig_2381_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_4" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 148 ,
+            seq-data
+              ncbieaa "MIAEVLTLPNERVFDANNMQDVSELDYFVTVLDSYQSDIGTEIKFNGEDEEEIAS
+TLKEVNISINAYGKNSYQLLCKLTQSMRLTSVWQRLKRLDMGYLRCSQIRSLPTAIAGGKEQRAQVDLTFSINPIIKA
+NVKRGKTVNLNLIRG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 147 ,
+                        id
+                          local
+                            str "contig_2381_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_5" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 108 ,
+            seq-data
+              ncbieaa "MKREFISQFLSDPFFANKVNIDGLGNITCIIQPASNDDLQILPEGERFNPTVRVI
+SKTELTNGLLFHHHGMRYKIISNSIWSDYGYYDCLATRYDGSQAHDSGGFNVT" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 29 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 107 ,
+                        id
+                          local
+                            str "contig_2381_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_6" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 153 ,
+            seq-data
+              ncbieaa "MNELEICKKLKQVMERAKQINQMQLVVGIPNNENSREESEGITNAELAMIHEFGV
+PERGIPERSFMRSTASEESNNLGQLSKQVLNECLAGNISPYDAYATIGAYFQGRIVEKITDGEFEPNNENTVKRKGSS
+KPLIDTGQLRASITYEVREK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 30 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 152 ,
+                        id
+                          local
+                            str "contig_2381_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_7" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 129 ,
+            seq-data
+              ncbieaa "MGVFMQFSNEYPEFKKVDDNIINLFLESSALVVSKKVWGKLYELGLFAYTAHRLA
+VKGFLNQDLDGNTIFNNGENFKSVSSKSAGGLSIGYTSQNTSQGNPSDYDLTSTSYGQEYLRLRRLITPIGVIG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 31 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 128 ,
+                        id
+                          local
+                            str "contig_2381_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_8" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 344 ,
+            seq-data
+              ncbieaa "MAYKNVDYSEIITEQLLERDKKLQEKELPEINIGKAVPVTEDLEFGVDECEYGVT
+EVRGSVKNGVLGIKTTSLETIDSEIIYKKAPVVQWGKGLTYTQQEVEKALRLGINLPLKKQNDLYSNALATIQYSGYL
+GHEQAIGQEGLLTGKDIDIHTINKSFKEMTCTECVDLILLVYRKVWERSNFTVQPTHIAMDASDFMDLMQKFDPNSTI
+VGVDLMPIAAIDKIMAALRKASENDKFNIEFVKIPADYAKTINKGKARLAVYTYDEDYLEMNVHMPELLETHRKDLLT
+YQSGYRSAFSGVMWKEPQSAQYLDYKSDTKSDTKSITKKTTTKKSAAESNAESNA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 32 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 343 ,
+                        id
+                          local
+                            str "contig_2381_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_9" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 166 ,
+            seq-data
+              ncbieaa "MGYSFTSWDADTGTMLAGAIYRVSSSDNKVWGEENSTGKELLSGTFVAVNPEGGI
+KPIESANDLIHGIVVRDIYGDVHPANRQINIGHFSHGDSVVALAVDEVELKRGDRVYVVASGDDAGKITNVAEGNLDL
+GYWVERVSNGNHCAAITLGYFQSVKISTKGAKA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 33 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 165 ,
+                        id
+                          local
+                            str "contig_2381_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_10" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 119 ,
+            seq-data
+              ncbieaa "MALTQELEEVKKERDELKARVEELEAEKDKESVINDAKTRFPKVNLNDAKNGRDV
+RINVLIDHGIYSREQTAKLTDAEIRAAYAGLVATSAKKNSTVSSLLNDSQSKPTKSASARLGGK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 34 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 118 ,
+                        id
+                          local
+                            str "contig_2381_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_11" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 119 ,
+            seq-data
+              ncbieaa "MALTQELEEVKKERDELKARVEELEAEKDKESVINDAKTRFPKVNLNDAKNGRDV
+RINVLIDHGIYSREQTAKLTDAEIRAAYAGLVATSAKKNSTVSSLLNDSQSKPTKSASARLGGK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 35 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 118 ,
+                        id
+                          local
+                            str "contig_2381_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_12" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 166 ,
+            seq-data
+              ncbieaa "MGYSFTSWDADTGTMLAGAIYRVSSSDNKVWGEENSTGKELLSGTFVAVNPEGGI
+KPIESANDLIHGIVVRDIYGDVHPANRQINIGHFSHGDSVVALAVDEVELKRGDRVYVVASGDDAGKITNVAEGNLDL
+GYWVERVSNGNHCAAITLGYFQSVKISTKGAKA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 36 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 165 ,
+                        id
+                          local
+                            str "contig_2381_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_13" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 344 ,
+            seq-data
+              ncbieaa "MAYKNVDYSEIITEQLLERDKKLQEKELPEINIGKAVPVTEDLEFGVDECEYGVT
+EVRGSVKNGVLGIKTTSLETIDSEIIYKKAPVVQWGKGLTYTQQEVEKALRLGINLPLKKQNDLYSNALATIQYSGYL
+GHEQAIGQEGLLTGKDIDIHTINKSFKEMTCTECVDLILLVYRKVWERSNFTVQPTHIAMDASDFMDLMQKFDPNSTI
+VGVDLMPIAAIDKIMAALRKASENDKFNIEFVKIPADYAKTINKGKARLAVYTYDEDYLEMNVHMPELLETHRKDLLT
+YQSGYRSAFSGVMWKEPQSAQYLDYKSDTKSDTKSITKKTTTKKSAAESNAESNA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 37 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 343 ,
+                        id
+                          local
+                            str "contig_2381_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_14" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 129 ,
+            seq-data
+              ncbieaa "MGVFMQFSNEYPEFKKVDDNIINLFLESSALVVSKKVWGKLYELGLFAYTAHRLA
+VKGFLNQDLDGNTIFNNGENFKSVSSKSAGGLSIGYTSQNTSQGNPSDYDLTSTSYGQEYLRLRRLITPIGVIG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 38 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 128 ,
+                        id
+                          local
+                            str "contig_2381_14" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_15" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00015 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 153 ,
+            seq-data
+              ncbieaa "MNELEICKKLKQVMERAKQINQMQLVVGIPNNENSREESEGITNAELAMIHEFGV
+PERGIPERSFMRSTASEESNNLGQLSKQVLNECLAGNISPYDAYATIGAYFQGRIVEKITDGEFEPNNENTVKRKGSS
+KPLIDTGQLRASITYEVREK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 39 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 152 ,
+                        id
+                          local
+                            str "contig_2381_15" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_16" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00016 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 108 ,
+            seq-data
+              ncbieaa "MKREFISQFLSDPFFANKVNIDGLGNITCIIQPASNDDLQILPEGERFNPTVRVI
+SKTELTNGLLFHHHGMRYKIISNSIWSDYGYYDCLATRYDGSQAHDSGGFNVT" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 40 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 107 ,
+                        id
+                          local
+                            str "contig_2381_16" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_17" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00017 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 148 ,
+            seq-data
+              ncbieaa "MIAEVLTLPNERVFDANNMQDVSELDYFVTVLDSYQSDIGTEIKFNGEDEEEIAS
+TLKEVNISINAYGKNSYQLLCKLTQSMRLTSVWQRLKRLDMGYLRCSQIRSLPTAIAGGKEQRAQVDLTFSINPIIKA
+NVKRGKTVNLNLIRG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 41 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 147 ,
+                        id
+                          local
+                            str "contig_2381_17" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_18" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00018 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 503 ,
+            seq-data
+              ncbieaa "MSLPISQVVDVILQQTPQGAQKRDLSVVAIFTNEMCDEYNNPDSRYIVVSDANQV
+ASLFGTNSDAYRAASALFSAKPKPKTAIIARYVQETVTIPATYSKINGSALAVSYIHFKTITDGYLSFYYGGVKVDIA
+ELDFSSVSSMNDVISVINVKLDNVGVNFIYDAVGSRFILSSKTEGKGSNFGYVFNAELEGTYIGHLTNLIDGKCTLIN
+GEDAASYNKETPAEALSKLQNQYQNWYGVYFANTINDAELIEAHDWIIAQGSENAKVMAFTETRPANIEYIDTNVLKT
+LSKRNSGRLMVQYNNKGNTHAAAELMGIALTTVWNGINTAKTVKFKQQVSVTSDDKITINEANKCRRLGINYYTDYAG
+VNMLAEGVMLGGTFIDETTGLDAFINAVQIQAFNTLQGQPTKIPQTDRGQEILISSIKVIGEQFINNGFLGSGKWTLG
+DLGGLSYGDQINGYYFYSDSFDTQDIADREARKMMPINCALKLAGAGHSVDIIVQFNR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 42 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 502 ,
+                        id
+                          local
+                            str "contig_2381_18" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_19" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00019 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 143 ,
+            seq-data
+              ncbieaa "MSKSFSLEDAILTIDGIEITGYENAQDSISIAPAGDDGGITYGINGQGVFVHSSN
+RGATVTIKTLQHSEINETLNRLRNEQISSPSKATAKLITYKDLRNGDEFLLSGCWFSTPPTISRGTSHNGMTWTFVAT
+KAEINIKGGL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 43 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 142 ,
+                        id
+                          local
+                            str "contig_2381_19" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_20" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00020 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 138 ,
+            seq-data
+              ncbieaa "MQNKDFIVDDVTYTFKQADFFKANKYLKKLTALLKGCFSLEGNQTGFDIGQLASN
+IGSEEFVEIEKFVLDYVSAVDENGKTILFQNPKEQGEFFNTHRSHYYQIIIEGLKFHFLGFLPNGILSNLSTLSLAEI
+TKKAI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 44 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 137 ,
+                        id
+                          local
+                            str "contig_2381_20" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_21" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00021 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 53 ,
+            seq-data
+              ncbieaa "MILEEFLIKIGVDASKASEISKVIHLLQNGVNRLSDSSREIKKQYRQSNKRNE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 45 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 52 ,
+                        id
+                          local
+                            str "contig_2381_21" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_22" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00022 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 366 ,
+            seq-data
+              ncbieaa "MISVAVLSGKKMWGAFNEVIDKAKELALRKDALFNISKKELIQAEQYQREMSRVG
+VAFDSIKTKIALNLAPAVTDLISGFRNWLTVNKELIAGGITKIIKMIGNIIQVFINYYEFLNLIITNTIGWKNAIIAL
+IAVWAVFNSAFLLSPVGLVIGAITVLLLLIDDLMVYMKGGKSLFGSYWQPLIDGAKALWEHINLSFQFIKALWRGDSE
+AIKSISKKVISSVMKALKAIINGIKTVLSSLLKNILVFFGMSESKASKTVDRIGKIFSFIFDVITLPFRKSYEGICNI
+MDMLGLDVGDVINGICFALRVIWAAIIAPFKAAWEFVNSLFDIWEDDTKTIIDKIGDTFKAIFYSHYFSFYRILAAC" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 46 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 365 ,
+                        id
+                          local
+                            str "contig_2381_22" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_23" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00023 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 53 ,
+            seq-data
+              ncbieaa "MGSVSSKVNNNAVTINNTMNVTTPQEGFDNLNNLAKNEIQNVADNAQTALGAN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 47 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 52 ,
+                        id
+                          local
+                            str "contig_2381_23" } } } } } } ,
+        seq {
+          id {
+            local
+              str "contig_2381_24" } ,
+          descr {
+            title "hypothetical protein CNACNEFO_00024 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 112 ,
+            seq-data
+              ncbieaa "MYKSILNESSLNSGLIITDDFTFNLDINTVEQHTSKLRLTENPIENGANIADHAV
+LEPKEVTIYGMVVSYKPNNSIIKSVTGYNIEEYPLPIPVKAITEQAEKKNYAVLCIT" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 48 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 111 ,
+                        id
+                          local
+                            str "contig_2381_24" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_1" ,
+                location
+                  int {
+                    from 392 ,
+                    to 640 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_2" ,
+                location
+                  int {
+                    from 671 ,
+                    to 1072 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_3" ,
+                location
+                  int {
+                    from 1082 ,
+                    to 2593 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_4" ,
+                location
+                  int {
+                    from 2596 ,
+                    to 3042 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_5" ,
+                location
+                  int {
+                    from 3014 ,
+                    to 3340 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_6" ,
+                location
+                  int {
+                    from 3337 ,
+                    to 3798 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_7" ,
+                location
+                  int {
+                    from 3795 ,
+                    to 4184 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_8" ,
+                location
+                  int {
+                    from 4187 ,
+                    to 5221 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_9" ,
+                location
+                  int {
+                    from 5221 ,
+                    to 5721 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_10" ,
+                location
+                  int {
+                    from 5721 ,
+                    to 6080 ,
+                    strand minus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_11" ,
+                location
+                  int {
+                    from 6297 ,
+                    to 6656 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_12" ,
+                location
+                  int {
+                    from 6656 ,
+                    to 7156 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_13" ,
+                location
+                  int {
+                    from 7156 ,
+                    to 8190 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_14" ,
+                location
+                  int {
+                    from 8193 ,
+                    to 8582 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00014" } } } } ,
+              {
+                id
+                  local
+                    id 15 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_15" ,
+                location
+                  int {
+                    from 8579 ,
+                    to 9040 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00015" } } } } ,
+              {
+                id
+                  local
+                    id 16 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_16" ,
+                location
+                  int {
+                    from 9037 ,
+                    to 9363 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00016" } } } } ,
+              {
+                id
+                  local
+                    id 17 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_17" ,
+                location
+                  int {
+                    from 9335 ,
+                    to 9781 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00017" } } } } ,
+              {
+                id
+                  local
+                    id 18 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_18" ,
+                location
+                  int {
+                    from 9784 ,
+                    to 11295 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00018" } } } } ,
+              {
+                id
+                  local
+                    id 19 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_19" ,
+                location
+                  int {
+                    from 11305 ,
+                    to 11736 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00019" } } } } ,
+              {
+                id
+                  local
+                    id 20 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_20" ,
+                location
+                  int {
+                    from 11736 ,
+                    to 12152 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00020" } } } } ,
+              {
+                id
+                  local
+                    id 21 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_21" ,
+                location
+                  int {
+                    from 12297 ,
+                    to 12458 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00021" } } } } ,
+              {
+                id
+                  local
+                    id 22 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_22" ,
+                location
+                  int {
+                    from 12535 ,
+                    to 13635 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00022" } } } } ,
+              {
+                id
+                  local
+                    id 23 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_23" ,
+                location
+                  int {
+                    from 13914 ,
+                    to 14075 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00023" } } } } ,
+              {
+                id
+                  local
+                    id 24 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "contig_2381_24" ,
+                location
+                  int {
+                    from 14075 ,
+                    to 14413 ,
+                    strand plus ,
+                    id
+                      local
+                        str "contig_2381" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "CNACNEFO_00024" } } } } } } } } } }

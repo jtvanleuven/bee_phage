@@ -1,0 +1,126 @@
+[16:48:54] This is prokka 1.14.6
+[16:48:54] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:48:54] Homepage is https://github.com/tseemann/prokka
+[16:48:54] Local time is Mon Aug  9 16:48:54 2021
+[16:48:54] You are james
+[16:48:54] Operating system is linux
+[16:48:54] You have BioPerl 1.007002
+[16:48:54] System has 12 cores.
+[16:48:54] Will use maximum of 8 cores.
+[16:48:54] Annotating as >>> Bacteria <<<
+[16:48:54] Generating locus_tag from 'MN855845.fasta' contents.
+[16:48:54] Setting --locustag PPMAOLOM from MD5 996a858670e8a2f45b244d1ca0e55542
+[16:48:54] Creating new output folder: prokkaMN855845
+[16:48:54] Running: mkdir -p prokkaMN855845
+[16:48:54] Using filename prefix: MN855845.XXX
+[16:48:54] Setting HMMER_NCPU=1
+[16:48:54] Writing log to: prokkaMN855845/MN855845.log
+[16:48:54] Command: /home/james/miniconda3/envs/prokka/bin/prokka MN855845.fasta --outdir prokkaMN855845 --prefix MN855845 --force
+[16:48:54] Appending to PATH: /home/james/miniconda3/envs/prokka/bin
+[16:48:54] Looking for 'aragorn' - found /home/james/miniconda3/envs/prokka/bin/aragorn
+[16:48:54] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[16:48:54] Looking for 'barrnap' - found /home/james/miniconda3/envs/prokka/bin/barrnap
+[16:48:54] Determined barrnap version is 000009 from 'barrnap 0.9'
+[16:48:54] Looking for 'blastp' - found /home/james/miniconda3/envs/prokka/bin/blastp
+[16:48:55] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[16:48:55] Looking for 'cmpress' - found /home/james/miniconda3/envs/prokka/bin/cmpress
+[16:48:55] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[16:48:55] Looking for 'cmscan' - found /home/james/miniconda3/envs/prokka/bin/cmscan
+[16:48:55] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[16:48:55] Looking for 'egrep' - found /bin/egrep
+[16:48:55] Looking for 'find' - found /usr/bin/find
+[16:48:55] Looking for 'grep' - found /bin/grep
+[16:48:55] Looking for 'hmmpress' - found /home/james/miniconda3/envs/prokka/bin/hmmpress
+[16:48:55] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:48:55] Looking for 'hmmscan' - found /home/james/miniconda3/envs/prokka/bin/hmmscan
+[16:48:55] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:48:55] Looking for 'java' - found /home/james/miniconda3/envs/prokka/bin/java
+[16:48:55] Looking for 'makeblastdb' - found /home/james/miniconda3/envs/prokka/bin/makeblastdb
+[16:48:55] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[16:48:55] Looking for 'minced' - found /home/james/miniconda3/envs/prokka/bin/minced
+[16:48:55] Determined minced version is 004002 from 'minced 0.4.2'
+[16:48:55] Looking for 'parallel' - found /home/james/miniconda3/envs/prokka/bin/parallel
+[16:48:55] Determined parallel version is 20210622 from 'GNU parallel 20210622'
+[16:48:55] Looking for 'prodigal' - found /home/james/miniconda3/envs/prokka/bin/prodigal
+[16:48:55] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[16:48:55] Looking for 'prokka-genbank_to_fasta_db' - found /home/james/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[16:48:55] Looking for 'sed' - found /bin/sed
+[16:48:55] Looking for 'tbl2asn' - found /home/james/miniconda3/envs/prokka/bin/tbl2asn
+[16:48:55] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[16:48:55] Using genetic code table 11.
+[16:48:55] Loading and checking input file: MN855845.fasta
+[16:48:56] Wrote 1 contigs totalling 9684 bp.
+[16:48:56] Predicting tRNAs and tmRNAs
+[16:48:56] Running: aragorn -l -gc11  -w prokkaMN855845\/MN855845\.fna
+[16:48:56] Found 0 tRNAs
+[16:48:56] Predicting Ribosomal RNAs
+[16:48:56] Running Barrnap with 8 threads
+[16:48:56] Found 0 rRNAs
+[16:48:56] Skipping ncRNA search, enable with --rfam if desired.
+[16:48:56] Total of 0 tRNA + rRNA features
+[16:48:56] Searching for CRISPR repeats
+[16:48:56] Found 0 CRISPRs
+[16:48:56] Predicting coding sequences
+[16:48:56] Contigs total 9684 bp, so using meta mode
+[16:48:56] Running: prodigal -i prokkaMN855845\/MN855845\.fna -c -m -g 11 -p meta -f sco -q
+[16:48:56] Found 11 CDS
+[16:48:56] Connecting features back to sequences
+[16:48:56] Not using genus-specific database. Try --usegenus to enable it.
+[16:48:56] Annotating CDS, please be patient.
+[16:48:56] Will use 8 CPUs for similarity searching.
+[16:48:56] There are still 11 unannotated CDS left (started with 11)
+[16:48:56] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[16:48:56] Running: cat prokkaMN855845\/MN855845\.IS\.tmp\.294059\.faa | parallel --gnu --plain -j 8 --block 197 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaMN855845\/MN855845\.IS\.tmp\.294059\.blast 2> /dev/null
+[16:48:56] Deleting unwanted file: prokkaMN855845/MN855845.IS.tmp.294059.faa
+[16:48:56] Deleting unwanted file: prokkaMN855845/MN855845.IS.tmp.294059.blast
+[16:48:56] There are still 11 unannotated CDS left (started with 11)
+[16:48:56] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[16:48:56] Running: cat prokkaMN855845\/MN855845\.AMR\.tmp\.294059\.faa | parallel --gnu --plain -j 8 --block 197 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaMN855845\/MN855845\.AMR\.tmp\.294059\.blast 2> /dev/null
+[16:48:57] Deleting unwanted file: prokkaMN855845/MN855845.AMR.tmp.294059.faa
+[16:48:57] Deleting unwanted file: prokkaMN855845/MN855845.AMR.tmp.294059.blast
+[16:48:57] There are still 11 unannotated CDS left (started with 11)
+[16:48:57] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[16:48:57] Running: cat prokkaMN855845\/MN855845\.sprot\.tmp\.294059\.faa | parallel --gnu --plain -j 8 --block 197 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkaMN855845\/MN855845\.sprot\.tmp\.294059\.blast 2> /dev/null
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.sprot.tmp.294059.faa
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.sprot.tmp.294059.blast
+[16:48:58] There are still 11 unannotated CDS left (started with 11)
+[16:48:58] Will use hmmer3 to search against /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[16:48:58] Running: cat prokkaMN855845\/MN855845\.HAMAP\.hmm\.tmp\.294059\.faa | parallel --gnu --plain -j 8 --block 197 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokkaMN855845\/MN855845\.HAMAP\.hmm\.tmp\.294059\.hmmer3 2> /dev/null
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.HAMAP.hmm.tmp.294059.faa
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.HAMAP.hmm.tmp.294059.hmmer3
+[16:48:58] Labelling remaining 11 proteins as 'hypothetical protein'
+[16:48:58] Found 0 unique /gene codes.
+[16:48:58] Fixed 0 colliding /gene names.
+[16:48:58] Adding /locus_tag identifiers
+[16:48:58] Assigned 11 locus_tags to CDS and RNA features.
+[16:48:58] Writing outputs to prokkaMN855845/
+[16:48:58] Generating annotation statistics file
+[16:48:58] Generating Genbank and Sequin files
+[16:48:58] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokkaMN855845\/MN855845\.err -i prokkaMN855845\/MN855845\.fsa 2> /dev/null
+[16:48:58] Deleting unwanted file: prokkaMN855845/errorsummary.val
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.dr
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.fixedproducts
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.ecn
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.val
+[16:48:58] Repairing broken .GBK output that tbl2asn produces...
+[16:48:58] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokkaMN855845\/MN855845\.gbf > prokkaMN855845\/MN855845\.gbk
+[16:48:58] Deleting unwanted file: prokkaMN855845/MN855845.gbf
+[16:48:58] Output files:
+[16:48:58] prokkaMN855845/MN855845.gbk
+[16:48:58] prokkaMN855845/MN855845.tsv
+[16:48:58] prokkaMN855845/MN855845.tbl
+[16:48:58] prokkaMN855845/MN855845.fsa
+[16:48:58] prokkaMN855845/MN855845.sqn
+[16:48:58] prokkaMN855845/MN855845.gff
+[16:48:58] prokkaMN855845/MN855845.fna
+[16:48:58] prokkaMN855845/MN855845.faa
+[16:48:58] prokkaMN855845/MN855845.ffn
+[16:48:58] prokkaMN855845/MN855845.txt
+[16:48:58] prokkaMN855845/MN855845.err
+[16:48:58] prokkaMN855845/MN855845.log
+[16:48:58] Annotation finished successfully.
+[16:48:58] Walltime used: 0.07 minutes
+[16:48:58] If you use this result please cite the Prokka paper:
+[16:48:58] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:48:58] Type 'prokka --citation' for more details.
+[16:48:58] Thank you, come again.

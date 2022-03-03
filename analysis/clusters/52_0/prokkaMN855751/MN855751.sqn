@@ -1,0 +1,1130 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "MN855751" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 9805 ,
+            seq-data
+              iupacna "CCCAATTGTAAATTTCCAAAAGCTGGGATCTTAGCCATACTATGCACCCCCGCCG
+CCGCCAGCACCGCCCTTGCCCCCGCCCATAATGCTAGATGCTGACATAGCGTTAGCGGCATTGTTAGCCCAAGTTCCG
+ATAGAACCTAGAATAAATCCTTTTTTCAATTGCTTAGCGTTGTATTTCGCCATTTTGGCATTAATCAAATTTTGATTT
+GCTTCTTTGGCCGAGCTGTACATTGTCGCAAAAACATCATCATTAATATTTTTCTGCAATGTACTTTGTGCACTAGCC
+ACAGTCTGTGAATCATTAACATCAACACCTGAAGACCCATAACCTTGAACCACGGTACCCTGTGCTTGTTCACCTTCC
+CGAGATACCTTATCGGCGTTCTGTTGACCCTCCCATAAAGCGTTTTCTGCGTTTTGTTTATACAGTTTTGCTTGGGCT
+TTAAGCAAACCGCTTTGCGTTTTGTAGTCTACATAGTCCGCTAAATAATTAGCCGTGTCCGCTGTGCCTTTTGCCGCC
+CAATACCACCAATTAGACAATTTTAAAGCTCCTTAATATAAGTAACTGACGATGGCGCGTAACCCAAAAATGAATACA
+TTGATAGCGTCCTTTCGGTATCGACACCTGACGATACCCCTAATTCAATATGCGTGGCGCCCTTTGATCTGGCCCACG
+CTTCGTACCTTTTGATCAAACGTAATGCCGTGGCGCCCCCTTGTGATTCATGTCTAACATAAAATGCGATATCGCTAG
+CTATTAAGTTTTGACCTGCGGGGGGCTTTGATAAGTTGGCGATAATAAAACCGTTTAGCATTCCCTTTTGTTCGTCAA
+TTAATATCGTTGAGTTAGCACTTGTAATAAGTATTTTTAGGGACTGGAGGGCGCTAGTATTATCCCATGTATATACTT
+TTTTGTGATTGATAGCTTTTGAATATAGTTCTTTACTGATTTCAAAAACTTTTGGCAAATCAAATAGTGTCGCTTCTT
+TAATCATCCGGATGTCACCACATACGAAACCGCCAATAAATGGAAAGGCAATGGTTGTTCTTGTTCAATAGTTAAATT
+AATGTCGTTAATATCCCAACCTATAGAATTAAGCTGAATTGAAGATTCCAATTCTGGGGGGGCTTTATCTAACAAGTT
+GTTACCGAATTTACGGGATGTTATTATCTGCCCACTGTCTGGCCCATAAAGATAGATTGTTGCCCCCCGGGTCTTATG
+AAACCTGAGGGTAACATCACTTAAAGTTATGCGTGAACCTACGATCGTGCCGGCATTAACTGGAAAATCTTGAAATAG
+GAGTTCAAGCTTAGTTTTATAATTAAGCCCTACTTCGATATCTACCGCGCTACGATTTAATGTTATCATACCGTTAAC
+TACTTTTTGCGGTGGCATAACCACCCCGTCCGCCACAATTGAAACCGTCTGTCTCTCAAGATGGTTAAAACCTTGCCA
+AGTTTTAGCGCCATTGGCATCATAACCGGTTACCGCGCAATCGGTGTTTAGTTCAGGATCGAATATCTCTATTGTTAC
+AACTTGCTCGTAATTGATGCTCCGACGGACCGCGGTATAAACAACATCTTTAGTTTTTTCTGGTATGCAACATGCATA
+GATATACTGCCCCTCTGTCTCAAAAGAACCCCACCCGGCAATTTCTTGTTCTGAGTTATATGTAAGGGAAGCAATCTT
+CCCATCGTTACAAACAACATAAATCATCGAGTTAGGATCTTGTTGATACGTAAGAGCCTTAACCCCGCTAGTTAATAG
+GTGTCTTGATATTTCAGATAATGTCATCCATTCAACGTCTGTTCCATAGTAACCACCGTTAGATACCGCTTTTAATTG
+TTTTCCGGCCCGCTGTACAAACAGCATGGAAGCGTCAATATTAATAGGGCGTACATGTGAACACCCAAACGCAGACTG
+GAGCCGGATATTAATGTTGTTCGGTTTTATGCCGTTCTCATACCCGCCAGTAATAGAAAATTCGTTCCCGGCGGTAAG
+CGCAAGTAATACTTGGTCTTGGGCCAAATGTATAATTTTATTACCGTGATTATCGTCGATACCAACCGAAAGAGCATC
+ATCGTCGCTACTGTCGGCTGTGTCAAAATTGTAGGGGTTGCCTGTTGTTGACATCCAGATCTTACGTGGGAATTTTTT
+AGATGATGCAAATATCAATCGTTGTTGGTGTATGTACGTCGCCGATGGGTAACCTAGCTCGTCACTCCAACCAGGATG
+TAAAATTGTCCACGAATTTGGTATCGCGGTGATCACTGAAGATAGCGCATAAACGATTTTGCCTGTGGCGGTACAAGC
+TTTACCATTAACTATTTCACCTATATTGGTAATTTTAAACACACCGCTATTAACGGATATGCGCGCGCCAATATCAGC
+TTGCGTAAAACCATAAAATTTATTAGTGCATTCATCATTACTAAAACATGAGACGGAAACGGTTTTATCGACCTCTTT
+ATCCTCCGTTAAAAATTTCAAGTACGCGCGGGGGGTGGGTACCGTTTCCTCGTACGGTACCGGGTCAAATACTGCGGG
+CTTTAACGTCCAGTTAGCATCGCCATAGCGTTTTAACTCCATTACCGGATGGTCCCCATGAACTAAGAACATGGTATC
+TTGGCGCTGAGTGTATTTAATGTCTTGTAAATCAGATTCGCGATAGGGTGTGAACACTTCGTAAATGTTGTTATTACT
+GTCACGTATTACATGGCCATTAATATAAAAGCGTATGTATCGCTCGCCCAGTTCGAGCATATAAGACTGATCAACGCT
+AAAAACAAATTTAACGAGTATTAATTCTTTATCGCTATATTTGGCTTTGTTTATGAATCGTGAACCATTACGCCGAAC
+CACGCCCCCAAAGGGTGATATCGCCGCATTAACTGATTTTTTTAATCCGTTTTGATGTTTGGCAGTGTCTGTTCTACC
+GCGCATTTCTGGGGATATTTCACCCGCCGAAAAACTTGTTTGAACTACACGAAATTGAGCGGGCACGCTAGTACCTCG
+CTTGCAACAAAGGGTTGCTTTTGAAATGCTGTGATGGTGTTTCCATCGCGTTATTAGCTTTGGCTACTATCAGCTTGT
+ATTGTGCCTTTTGCTCTAATGTTTGCCGTAAGGTATCTGATTTGGCAATAGGATATGCGATTTGTGACGCTAGCTCAT
+ATTTAACGGCATTAACAAAATCAGGCGGCCAAGTGCCGACGTCGGTATTACGAAACACATAACATAAATCTAATGCAG
+ATACATTTGCTAGAATTTTATTACCTTCTAGTTTGAAATCCTGCCCGATATGAAAACTATCAATACTTAGCAATCGTA
+CCATATCCGATGGTGTGTTAAATTCATACTTAAAACCGTAGGCGGGTTTACTTGCTAACGGTGACAACTTAACGCGCT
+TGGTTGCAAAACTCCAAGGATGTGCTCTTAACAAGTCATCTTGCACATCATCAAATAAGTTTAATGTTAACCTCGCAG
+GCGTTGAGTTATCATTAATATCGGAAAGAGGGGCGGCACCTACTAAGAGAGATGCACCCGAACAAATACTGACCTTAG
+ATGACATTTGCCGCTCCCTATTAACCTTTATACCGGTAGATGAATTTCTACGACTTTTTGCTCGTTAGCTCGGCCTGC
+CGCCATGGAGGAATCTACATAAATCTGAGTCGTATTGTTCTTATCACGGCGTTTACCAATATCAACTTCATAGCTAGA
+GCCTTGGCCATAGTGCACCGCGGTACCTGTATACATGGGGACCCGCTTATAAGAACCGTCCGCGCTACGTAATAGCTT
+ATTGTATGGCACCCATGTAACCCCGCCCCAGTTAACAACGTGCCCTTCTTGAAGCATTTTAACGCTCATATAATCCCC
+GCTAGTTAGTGTCGGATCACAAAGAATCTGAGTTAACATAGACGAATCGTAAGTAATATAAAGCTTTTCGCCATCTTG
+TTCATCGCAATCATTCGCACGGAAAATACCTTTAGCCGTAGCGATAATATCTTTAATACTACCATTACCGCCTGTAGT
+GATGATTTGCGTATTTGGTAAAGCAACATTAGTAACACTACCGTTATAGCTATCCACGCGGGGGATCTCACCAAGTAG
+AGCATTATAAATGACTTCATCCACCTTACGTTGGTATGCATACAGACAAGCATTCATGTAAGGCCCTTGCACACTTGC
+AAGTAGTCTATGCTCGTCCCCTTTATCAACTGGTACCGCTAAGTCGAAGTCGTGAAGCGTTACACGACGGGTACCCGC
+ATCTGGTACATCCCATTCAGTATTACCAAAACGTGTACGGTCTCGCATTTCAAGCCCGCCCATATCATTAATGGTGAA
+TGTGTTACCTGTAATTTTCCCGCGATTAACTACGGTTTTTAATAAACGAGATTCTTTTTGCTGGCAAAGGATCTCAAA
+CGTATCGTGAAACTGTTCTACAAATGCCGCTGTAATTTTATTTTGATTAGCTGTAAAAGACATTGTTATATATCCTAA
+AAATACACCGAAAAGAGTTATCGCGTTTGCGGCTCTAAAAACTTAACGCGATCGGCTTAGCGTTAAGTGCATTTCGTG
+GGGTATCCAACCGCCATTGGGCCCAATTTTTAGGAAATATAAATGCTCTAGCGGTGCGTTTTCGCACCATTTGCAATA
+TATTAAAAAACCGCTACGGATAGCGGTTTGCTTAGGGGTTTGAGGGGTGTATATCTGATACTTAATAATACTCAGTAT
+CGCCGTACGCTTGTTGGTAGTACTGGCTTACTTGTTGCATGACTTTTGCATGATCGGGATGCTTATCATCTAGGTACG
+CCGGGGATTGCATTATTGATTTAATAGTCTCCCTAGATTCGGATGGTTGAACATTCCGCGCGGGGGCATCTTCTTTCA
+TCAACGCGCCAACGTTGGCGAGTAGTCGCACAATTATAGGGTTATTACCAATGGTATCAATAAGCCCTTTGTCTTGTT
+CAGATGCAAAACGATTAAATGCTCTTTGTGCATTCTGTATGCCCTTATTTAGTTCGTCGGGGTTTTTCCAAGTTTCTG
+CTAAAGCTTTTTGGCACTCGGCCATGTCACTTTCATCACGACGCTCTATTAGCGTTTGAGCCATAGTGACGTAACGCG
+TGGCTATTAAGTTGATCTGCTCATTAGTAAACCCCGCTTTGTGTGCCTCTTCGGCGAACGCTTTAAAATCCGCATCAT
+TTTGTACTAATTCTGGCGTAATGCTCTCCGGTAACCCCAATTCCTGTGCATTGAAATCAATCTTATAACCTTCCGCAG
+AATCCGGAACAACCCCGCCCGTTTCCCCCATTTTTTTGGCCAAATGGTTATACCCTTCGGCCAACTTACGGCTCGATG
+CATCGGTGTCGATTGACCCGTCATCTTTTTTTACTAAAAATTTTTCAGGAAACGGTGTAATTTCCGGAGTTTCGGTAT
+TATTACCTGATTCAGTTTGCGAATTAGACAATAACGACGATTCAGAGCTTTTAGTTTCAACCCCTTGAGCGTTGGCAC
+TTGCGACCGCATCGACCAATGAAGTTGGCGCGCTCTCGGCGGGTGCGCCACCAACACTACCACCATTAATATCAACAT
+TTTGTAATACATAACGTATGCCTTTAAACACTATTCAACCCCTTTACGTTTAGCAATATTCAATTGCGCTATAATATA
+TTTGATTACCGAAGCTTGGCCTAGATTATAAGCGGTTTGTCTGCCGCCCTCGTCATCAGCGACAAACTCACCATTAGC
+GTGGCTGAAGCGACAAAGTAAATCTTTGAAAACTTCCCCGCCTTGAGAATGTGGCAACCCGAATAATTTCTCGTAATC
+AAAACAAATATTATTTTTAGTTCTCATTCGCTCGTACCTTTGCTTGTTCTGTAGCTTGAATCATATTCAGCTGATCTT
+GCATCGCTTGTTGCCGTTGCGCTTCTTCCGCCTCAGCTCTTTCTTCTCGCAGTTTTTTAACGTCTTCGGGCTTGCGCA
+AAATACCAATAACATTTTGCTTTTCAGCCAATTGCTTGGCCACCTCATCGATATTTACGTTATCAACTACCGATGGTG
+ATATTTGCGCTACGCCCCCGATTTGGCTAATGTATCGCTCAATAGATACTATTTCCGATTCACGTTGAGCCTGCGCCA
+ACGGCGATAAATACTTAACCGTGTATGCCCGGTTAGATAACGTTTGTGGTAGTTCGATCCAACCATTACGAAATGCGA
+TACCAAAACAGCGCAACACCAATACTTGTAGCCATTCTGAATTCAGACGACCGAATACTGGGCCAAGTAACTGGCGTA
+GATATTGTAATCTGACATGAAACTCTGTAGCTGTTCGGACGCCGCTATCAACGGGCGGCAATTGGTCTGCCATCAACA
+CTGCCCTAATTTCATTTTGTAGCCTATCTTCTTGCGAAAATGTGACATTAAAATTACTTGCAGAGCCTAAGGGCTTAA
+TACTCTCTGATGTTGAAGCTACCGTGATAATCCCGCCCGGCTCTATTGTCAACATACTAGGATTAATTACCCCATCAT
+CTTGAGCTACATACATCCCCGCCGCGGCTATACCCAAGCCCAGTTTTTCTAGGCGTTTAAGCTCGTTTAACTCTTTGA
+TTGCAGGTAAAGCATCGTAAACAAGACCAACGCCATACGCGCTCCCTTTTTGTTTTTGCCAACGAGGAAAACATACCG
+GGAACTCGTGATACCCGCTATTACGAATAATCGCTTTGCTATCTACATCGATGTGGTAACTCAAAAATGGCAATGCAT
+CGCTAAAAGGTGAGCCGGGGATATAATCGGTGCGAGGAGCGATGTAGTGGATGAATTTATAGATAGTGTTGGGCTGTT
+TTTGTGCATCTGTTTTAATCTTATCACTAACAGCATCACCGAATTCAGTAACGGCTTGCTCTGCCGTCATTGAATAAC
+AATGATAAACGGTATCAATAACAGCATCGCGACGCGTTGATGAAACATACACATCTGCGAGATTCCATTGCTCAAAAC
+TGTAACCTGTGCCATCTTCGTTATCTGTAATGTACGTTGCGGACTGCCCCGCAATCACATTATCTAGCATACTTTCGA
+CCGCTTCACTATCATAGTTAGACGCGTGTATTTTCTCGAAAATAACATCAGACGCTTTTTTTAGCGCCTCGGCTTCTT
+CGTTTTCTGCCTCGTCAATAATCAATTCAAACCACTTGGCATTAGCCGGTGTCATTCCGCCAACGATAATTGACGCAA
+TATCTCGCGCTCCGCGGGTGCCTTCGGTAGTTAGCAAGTCAGCTACTTTATCGCGCGCTTGATCCGCCGTAAATACAT
+TACCTGACAACCCGGATGCGCGAAGCGGGAAAGTGTGGTTATAGCACTCTTTCCATACTGATTCGAGCGATGCGCGCT
+CACTGCGCATCTTATCCGCTCTTTCAATAACCTTACGCGCAATGCTGTTATCAGTCATCTATTCACCCAACAATTTTT
+TAGCCTGTTGCGCTGTGCCCGTATCCATGCTAGACGCGCCAGTACTTAAAACACTACGATTTTTTTTACGCGCTAACG
+CGGCGTTAGTAGCTTGTTGCTTTTTATCAACTTCTTGTTGCGCTGTGTCTTTCGCCGGAGTGACGTTATTAACAATTT
+TAGAAGGCTCTTTACCGCCGCCAAAAATTCCGCCCACAGCGTCTACAACCCCGCCGATGACTTTACCTATTCCGCCGC
+CACTCATTACTTAGCCCCCTTCGGTGCATCAACAACATAACCCCTGTCGGTCAATCTAACGTTACTCGCCTCAATTGT
+GTTGTTTGTTTGTTTGTTAATGTTAACCGCTGTTAAATCCGTTTTACGCGCCGTTGCGGCTTTCATCTGCGCTTGTGC
+TTTGATAGCATCTAGCGATGTTTGTGCTTCTTCTAGCGCTGAATTAATTATTGTTTGCGTTGCTAACAGCGCGTCGAT
+CTTAAGTTGTGCTTGTTCTTTCTCATCCGGCAATGCTTTATCATCAGCGATAATCGCTTGATTACGCGCGATGGCTTC
+GTTGATATCTTTAGCTTTGTTTTCGATATTAGTTAAATTATCTTGTGCTGTAGTTTGTTCGTCAGATGTGACGCCGGG
+GGTTTCGATTTTTTTCTTAGTAGCCATATTGTTATCTCATTAGTGTAGGTGGGTTAGCTTTAGGTTGATTAGTCTTTC
+TACGCCAAAGTTTGATAAGTGCATCTCCGGTGTAGTATTTCGGTTCTGATTCGCATATGCGCAAACGAACAATTGACG
+ACTTGTCAACGCCGACTTTGCGAGCGATAGCGCTAATAGATATATCGCGATCGCTATTCAATATGTCGTTAATTAATT
+GTGTCCAGTCTATACGTCTAATCATGCAACCGTTTGCTAGTAGAATTTTGCAGGTTGGTTATAGCATAGGTGGGCGTT
+CGTAATCCCGATCATTTGATGAAAGAAGTTTGTGTAAGGAATTTAATTTGCTAGATATTTATTTACAATACAATCAGT
+TAAAAAAGTAATGAAATATAAATACCGTGATTATACCGTTTTTATTGATTGTATTTTGAGCAATAAGCCGGTGGCGGA
+ATTCCACCACCAAAATATCTAAACGCGCGCACGCGCGAGAGGAGAGGCATTTAATTAAAATAATGCACCAGTTTTAAT
+TAAAAATAATTCGTAAACATTCCGGCCCATTTTTCTAGTTCCCGCTTCCCAATGTTGCCAAGTTCTTTCCTCGACATA
+CACGAGTGCGGCGCTTTCTTTCTGTGTTAACCCCGCTTTGTTTCTTGCATCTATAACCATTTCAGGTGTAATGGTCTT
+TTCATCGAACGGGAAAGTGTGCGTACGTAGCATTGCCTCTCTAACCGCGAAACGATCGAGCGGTTTTTTGTCATAATC
+CTCACCATCAACACTGCTTTGTAACATCATCACATCATCAACTATTGTTAATGCATTAATTTTTAGTTTATTATTGCG
+TATGGTTTTCAATAGCTGAATTGTATTTTCATAAAAACTGAATAAGGTGTCTGATTTTACCCAGCGATCAAACCGATA
+AAAACCTATGTTTGTTCTATCGTTGATTATGCCGAACGCGCCAGCAATAGTTTTTTCACCAAGGATATGGATATCCAA
+TTGTAGACAGTTTTTAATTAAACCTAATATACACGCGGCTTTAAGTCCGTCCATCTGAGTTTCAAATGTTATTCCATT
+TTTATTTAAAAAATTAAGAATATCATTATCCATTAGCGCCTCCTCTAATGATTTCGGCGCCCTGACTAGATTTCTAGA
+ATTAGTTTGAGTAAATTTTATTAATAAATTGTTATCTATCATATTTTTTATCCTATGCCCATATTGCAGAATCATCAT
+CATAATAAGCTATTAAGTTTTTTAAACTCAACGGTTTAGATTTAAGTCGCAACTCTCTACGCGATTTCGCATCGTCGA
+TATACGCCAACAGTGTTGACGCCTCAAAAATCATCTCGCCATTTTTAAAAACATAGCCAAAATACACGATATGAGAAT
+CACTATTGTGTAGGATGTAACTTTTAACCTCCGCAAAAGTAGAAAAATTTATAGAAGGCCCCACGTATTCATCTTTAC
+CAGTGTAGCTGTTGTATTGATATTTTCTAATTTCATATTTAGCCATTTTTATTTACCCCCGTGTTGTGTATGTCTACA
+TATTAAAACACGAACAATGTGCATGTCAACATTTTTTTTATTTTTTTTAAATTTTAATTTAATTATATGATTTAAAAG
+CATTTTTAAACTAGAAACAAAAAAAATAAAAAAATTTTTAAAATTATTATTGACACGAACAATGTTCATGTATTAGAT
+" } } ,
+        seq {
+          id {
+            local
+              str "MN855751_1" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 167 ,
+            seq-data
+              ncbieaa "MSNWWYWAAKGTADTANYLADYVDYKTQSGLLKAQAKLYKQNAENALWEGQQNAD
+KVSREGEQAQGTVVQGYGSSGVDVNDSQTVASAQSTLQKNINDDVFATMYSSAKEANQNLINAKMAKYNAKQLKKGFI
+LGSIGTWANNAANAMSASSIMGGGKGGAGGGGGA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 166 ,
+                        id
+                          local
+                            str "MN855751_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_2" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 150 ,
+            seq-data
+              ncbieaa "MIKEATLFDLPKVFEISKELYSKAINHKKVYTWDNTSALQSLKILITSANSTILI
+DEQKGMLNGFIIANLSKPPAGQNLIASDIAFYVRHESQGGATALRLIKRYEAWARSKGATHIELGVSSGVDTERTLSM
+YSFLGYAPSSVTYIKEL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 149 ,
+                        id
+                          local
+                            str "MN855751_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_3" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 670 ,
+            seq-data
+              ncbieaa "MPAQFRVVQTSFSAGEISPEMRGRTDTAKHQNGLKKSVNAAISPFGGVVRRNGSR
+FINKAKYSDKELILVKFVFSVDQSYMLELGERYIRFYINGHVIRDSNNNIYEVFTPYRESDLQDIKYTQRQDTMFLVH
+GDHPVMELKRYGDANWTLKPAVFDPVPYEETVPTPRAYLKFLTEDKEVDKTVSVSCFSNDECTNKFYGFTQADIGARI
+SVNSGVFKITNIGEIVNGKACTATGKIVYALSSVITAIPNSWTILHPGWSDELGYPSATYIHQQRLIFASSKKFPRKI
+WMSTTGNPYNFDTADSSDDDALSVGIDDNHGNKIIHLAQDQVLLALTAGNEFSITGGYENGIKPNNINIRLQSAFGCS
+HVRPINIDASMLFVQRAGKQLKAVSNGGYYGTDVEWMTLSEISRHLLTSGVKALTYQQDPNSMIYVVCNDGKIASLTY
+NSEQEIAGWGSFETEGQYIYACCIPEKTKDVVYTAVRRSINYEQVVTIEIFDPELNTDCAVTGYDANGAKTWQGFNHL
+ERQTVSIVADGVVMPPQKVVNGMITLNRSAVDIEVGLNYKTKLELLFQDFPVNAGTIVGSRITLSDVTLRFHKTRGAT
+IYLYGPDSGQIITSRKFGNNLLDKAPPELESSIQLNSIGWDINDINLTIEQEQPLPFHLLAVSYVVTSG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 669 ,
+                        id
+                          local
+                            str "MN855751_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_4" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 187 ,
+            seq-data
+              ncbieaa "MSSKVSICSGASLLVGAAPLSDINDNSTPARLTLNLFDDVQDDLLRAHPWSFATK
+RVKLSPLASKPAYGFKYEFNTPSDMVRLLSIDSFHIGQDFKLEGNKILANVSALDLCYVFRNTDVGTWPPDFVNAVKY
+ELASQIAYPIAKSDTLRQTLEQKAQYKLIVAKANNAMETPSQHFKSNPLLQARY" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 186 ,
+                        id
+                          local
+                            str "MN855751_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_5" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 297 ,
+            seq-data
+              ncbieaa "MSFTANQNKITAAFVEQFHDTFEILCQQKESRLLKTVVNRGKITGNTFTINDMGG
+LEMRDRTRFGNTEWDVPDAGTRRVTLHDFDLAVPVDKGDEHRLLASVQGPYMNACLYAYQRKVDEVIYNALLGEIPRV
+DSYNGSVTNVALPNTQIITTGGNGSIKDIIATAKGIFRANDCDEQDGEKLYITYDSSMLTQILCDPTLTSGDYMSVKM
+LQEGHVVNWGGVTWVPYNKLLRSADGSYKRVPMYTGTAVHYGQGSSYEVDIGKRRDKNNTTQIYVDSSMAAGRANEQK
+VVEIHLPV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 296 ,
+                        id
+                          local
+                            str "MN855751_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_6" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 301 ,
+            seq-data
+              ncbieaa "MFKGIRYVLQNVDINGGSVGGAPAESAPTSLVDAVASANAQGVETKSSESSLLSN
+SQTESGNNTETPEITPFPEKFLVKKDDGSIDTDASSRKLAEGYNHLAKKMGETGGVVPDSAEGYKIDFNAQELGLPES
+ITPELVQNDADFKAFAEEAHKAGFTNEQINLIATRYVTMAQTLIERRDESDMAECQKALAETWKNPDELNKGIQNAQR
+AFNRFASEQDKGLIDTIGNNPIIVRLLANVGALMKEDAPARNVQPSESRETIKSIMQSPAYLDDKHPDHAKVMQQVSQ
+YYQQAYGDTEYY" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 300 ,
+                        id
+                          local
+                            str "MN855751_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_7" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 76 ,
+            seq-data
+              ncbieaa "MRTKNNICFDYEKLFGLPHSQGGEVFKDLLCRFSHANGEFVADDEGGRQTAYNLG
+QASVIKYIIAQLNIAKRKGVE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 75 ,
+                        id
+                          local
+                            str "MN855751_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_8" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 533 ,
+            seq-data
+              ncbieaa "MTDNSIARKVIERADKMRSERASLESVWKECYNHTFPLRASGLSGNVFTADQARD
+KVADLLTTEGTRGARDIASIIVGGMTPANAKWFELIIDEAENEEAEALKKASDVIFEKIHASNYDSEAVESMLDNVIA
+GQSATYITDNEDGTGYSFEQWNLADVYVSSTRRDAVIDTVYHCYSMTAEQAVTEFGDAVSDKIKTDAQKQPNTIYKFI
+HYIAPRTDYIPGSPFSDALPFLSYHIDVDSKAIIRNSGYHEFPVCFPRWQKQKGSAYGVGLVYDALPAIKELNELKRL
+EKLGLGIAAAGMYVAQDDGVINPSMLTIEPGGIITVASTSESIKPLGSASNFNVTFSQEDRLQNEIRAVLMADQLPPV
+DSGVRTATEFHVRLQYLRQLLGPVFGRLNSEWLQVLVLRCFGIAFRNGWIELPQTLSNRAYTVKYLSPLAQAQRESEI
+VSIERYISQIGGVAQISPSVVDNVNIDEVAKQLAEKQNVIGILRKPEDVKKLREERAEAEEAQRQQAMQDQLNMIQAT
+EQAKVRANEN" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 532 ,
+                        id
+                          local
+                            str "MN855751_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_9" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 86 ,
+            seq-data
+              ncbieaa "MSGGGIGKVIGGVVDAVGGIFGGGKEPSKIVNNVTPAKDTAQQEVDKKQQATNAA
+LARKKNRSVLSTGASSMDTGTAQQAKKLLGE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 85 ,
+                        id
+                          local
+                            str "MN855751_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_10" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 136 ,
+            seq-data
+              ncbieaa "MATKKKIETPGVTSDEQTTAQDNLTNIENKAKDINEAIARNQAIIADDKALPDEK
+EQAQLKIDALLATQTIINSALEEAQTSLDAIKAQAQMKAATARKTDLTAVNINKQTNNTIEASNVRLTDRGYVVDAPK
+GAK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 135 ,
+                        id
+                          local
+                            str "MN855751_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_11" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00011 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 75 ,
+            seq-data
+              ncbieaa "MIRRIDWTQLINDILNSDRDISISAIARKVGVDKSSIVRLRICESEPKYYTGDAL
+IKLWRRKTNQPKANPPTLMR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 74 ,
+                        id
+                          local
+                            str "MN855751_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_12" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 229 ,
+            seq-data
+              ncbieaa "MIDNNLLIKFTQTNSRNLVRAPKSLEEALMDNDILNFLNKNGITFETQMDGLKAA
+CILGLIKNCLQLDIHILGEKTIAGAFGIINDRTNIGFYRFDRWVKSDTLFSFYENTIQLLKTIRNNKLKINALTIVDD
+VMMLQSSVDGEDYDKKPLDRFAVREAMLRTHTFPFDEKTITPEMVIDARNKAGLTQKESAALVYVEERTWQHWEAGTR
+KMGRNVYELFLIKTGALF" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 228 ,
+                        id
+                          local
+                            str "MN855751_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_13" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00013 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 101 ,
+            seq-data
+              ncbieaa "MAKYEIRKYQYNSYTGKDEYVGPSINFSTFAEVKSYILHNSDSHIVYFGYVFKNG
+EMIFEASTLLAYIDDAKSRRELRLKSKPLSLKNLIAYYDDDSAIWA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 27 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 100 ,
+                        id
+                          local
+                            str "MN855751_13" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN855751_14" } ,
+          descr {
+            title "hypothetical protein IOOCODDP_00014 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 58 ,
+            seq-data
+              ncbieaa "MNIVRVNNNFKNFFIFFVSSLKMLLNHIIKLKFKKNKKNVDMHIVRVLICRHTQH
+GGK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 28 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 57 ,
+                        id
+                          local
+                            str "MN855751_14" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_1" ,
+                location
+                  int {
+                    from 39 ,
+                    to 542 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_2" ,
+                location
+                  int {
+                    from 545 ,
+                    to 997 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_3" ,
+                location
+                  int {
+                    from 994 ,
+                    to 3006 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_4" ,
+                location
+                  int {
+                    from 3008 ,
+                    to 3571 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_5" ,
+                location
+                  int {
+                    from 3592 ,
+                    to 4485 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_6" ,
+                location
+                  int {
+                    from 4718 ,
+                    to 5623 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_7" ,
+                location
+                  int {
+                    from 5623 ,
+                    to 5853 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_8" ,
+                location
+                  int {
+                    from 5843 ,
+                    to 7444 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_9" ,
+                location
+                  int {
+                    from 7445 ,
+                    to 7705 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_10" ,
+                location
+                  int {
+                    from 7705 ,
+                    to 8115 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_11" ,
+                location
+                  int {
+                    from 8120 ,
+                    to 8347 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_12" ,
+                location
+                  int {
+                    from 8611 ,
+                    to 9300 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_13" ,
+                location
+                  int {
+                    from 9311 ,
+                    to 9616 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00013" } } } } ,
+              {
+                id
+                  local
+                    id 14 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN855751_14" ,
+                location
+                  int {
+                    from 9619 ,
+                    to 9795 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN855751" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IOOCODDP_00014" } } } } } } } } } }

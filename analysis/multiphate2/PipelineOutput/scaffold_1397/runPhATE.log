@@ -1,0 +1,86 @@
+Opening runLog at 2021-04-21 13:17:55.707766
+Input parameters:
+   PIPELINE_INPUT_DIR: /home/james/Software/multiPhATE2/PipelineInput/
+   PIPELINE_OUTPUT_DIR: /home/james/Software/multiPhATE2/PipelineOutput/
+   PIPELINE_OUTPUT_SUBDIR: /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/
+   genomeFile: scaffold_1397.fasta
+   geneFile: gene.fnt
+   proteinFile: protein.faa
+   genomeType is phage
+   genomeName is scaffold_1397
+   genomeSpecies is 
+   geneticCode: 11
+   trnascan: True
+   Status of boolean translateOnly is False
+   phanotateCalls is True
+   prodigalCalls is True
+   glimmerCalls is True
+   genemarksCalls is False
+   primaryCalls is phanotate
+   primaryCallsFile is phanotate.cgc
+   customGeneCalls is False
+   customGeneCallerName is custom
+   blastpSearch is True
+   phmmerSearch is True
+   jackhmmerSearch is False
+   blastpIdentity is 50
+   blastnIdentity is 50
+   blastpHitCount is 5
+   blastnHitCount is 5
+   blastThreads is 4
+   ncbiVirusGenomeBlast is False
+   ncbiVirusProteinBlast is False
+   refseqProteinBlast is False
+   refseqGeneBlast is False
+   pvogsBlast is True
+   vogGeneBlast is False
+   vogProteinBlast is False
+   phantomeBlast is True
+   phageEnzymeBlast is False
+   keggVirusBlast is False
+   pfamBlast is False
+   smartBlast is False
+   swissprotBlast is False
+   uniprotBlast is False
+   nrBlast is False
+   cazyBlast is False
+   hmmscan is False
+   ncbiVirusGenomeHmm is False
+   ncbiVirusProteinHmm is False
+   refseqProteinHmm is False
+   refseqGeneHmm is False
+   pvogsHmm is False
+   vogsHmm is False
+   phantomeHmm is False
+   phageEnzymeHmm is False
+   keggVirusHmm is False
+   pfamHmm is False
+   smartHmm is False
+   swissprotHmm is False
+   uniprotHmm is False
+   nrHmm is False
+   customGenomeBlast is False
+   customGenomeDBname is unknown
+   customGenomeDBpath is pathNotSet
+   customGeneBlast is False
+   customGeneDBname is unknown
+   customGeneDBpath is pathNotSet
+   customProteinBlast is False
+   customProteinDBname is unknwon
+   customProteinDBpath is pathNotSet
+   checkpointPhate is True
+inputDir is /home/james/Software/multiPhATE2/PipelineInput/
+genomeFile is /home/james/Software/multiPhATE2/PipelineInput/scaffold_1397.fasta
+primaryCallsPathFile is /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/phanotate.cgc
+geneFile is /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/gene.fnt
+proteinFile is /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/protein.faa
+cgpGeneFile is /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/scaffold_1397_cgp_gene.fnt
+cgpProteinFile is /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/scaffold_1397_cgp_protein.faa
+Checking files...
+Preparing to run genecall module...
+Calling the gene-call module. Command is python3 /home/james/Software/multiPhATE2/GeneCalling/phate_genecallPhage.py /home/james/Software/multiPhATE2/PipelineInput/scaffold_1397.fasta /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397 prodigal_glimmer_phanotate_ /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/phanotate.cgc
+Gene-call processing complete at 2021-04-21 13:17:55.709916
+Preparing to call sequence annotation module...
+Calling the sequence annotation module. Command is python3 /home/james/Software/multiPhATE2/SequenceAnnotation/phate_sequenceAnnotation_main.py -o /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/ -G /home/james/Software/multiPhATE2/PipelineInput/scaffold_1397.fasta -g /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/gene.fnt -p /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/protein.faa -T True -v /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/scaffold_1397_cgp_gene.fnt -w /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/scaffold_1397_cgp_protein.faa -c phanotate -f /home/james/Software/multiPhATE2/PipelineOutput/scaffold_1397/phanotate.cgc -t phage -n scaffold_1397 -s  -i 50 -j 50 -h 5 -H 5 -B _blastp -b _pvogs_phantome -M _phmmer -m _pvogs_phantome -R none -r none -z 4
+Sequence annotation processing complete at 2021-04-21 13:19:21.246368
+Execution complete at 2021-04-21 13:19:21.246464

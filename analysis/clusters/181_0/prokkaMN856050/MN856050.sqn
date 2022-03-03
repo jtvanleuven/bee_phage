@@ -1,0 +1,727 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14.6 from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 9 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2021 } } } ,
+        create-date
+          std {
+            year 2021 ,
+            month 8 ,
+            day 9 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "MN856050" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 5294 ,
+            seq-data
+              iupacna "CCCCACGTTAGCGTCCGTATGGAACCTGACTTAATCAATGCTATTGATAAGTGGC
+TCCTAACTTTATCGCCAAAAGACCTGTCCAGATCGGAAGCAATTCGTCGAATTTTGCGCGAGTGGCTTTCTGATAAAG
+GGTATCTTAGATAATAATAATCTAATATTTTTGTACGCCATAAGATGATTTCATGCTTTGAAGATATTCATCGGGTTT
+TTCTGCCATTTTTTTGCACTTCAAGCCCAGATTTATATATTTATCTTGGTTATTTCCCTGTGTTAACTCTTTGTTAAA
+ATCCTCGTAAATTTTTGCTATTTTGTGTTCTGTGGCTTCTGGGTTTAGCCCCGCCATTTCGCCAAATTTTTTTGCAGC
+AAACATTGTGTCATACGTTTTTTGCTGTAAATCTTTGAGTTCGGCACTTTCCCCACGTGTGCGTTCCGCTACCATCGC
+GAAATTCAAGAATATGGCGGCACAATCAGAATATTCTTTCGACATATTAATCAGCATAGCTTTAAGTTTTATAATGTC
+ATCGCCGTCCGCCTTAGCGACGCACGTGCTGCACAACAATAAAAATGAGTATAAAAAAATATTCAAACGCATCAGTAA
+CTCCCCTTCAAAGTGCCGTTTGTATTAGAAATTACTAACACCTCACTGAATATGGACACAATAAAAACATTTTAATAA
+TTAGACCAGTCAACATCACCTTTACCCTTGTAGATCAAGAAGCCCGCCCGGACGCAACGCACCGTATCCTCAAAGAAC
+ATTTGACTGAAAGCTGATTTCAAAATAATTCTTCCATAAATATTTTTAAGGAGGGAAAAATGAACAGCTTGTTATTGA
+TCGGTGGCTTTGTAATTTTACTTGGCATTATCTTTGCAATTTATTCTTTGGTCAGTAGTCCTGCGACAGTAAAATCTA
+AAATCTCCTCGTTGGGGGCATCTACTCAGACGAACGTTACAGAACTTTCAAAAAGCGCTGGAACGCAAATTCCGGTAG
+GCTCACGAATTGTCACGAAGCAAAAATTCAATGCAATAGGTTGGGTTGGCGTTGTGTTAATGTTCATATGCCCTATCA
+TGACTGGGATTGTTATGAATATCCACTTTAGTTTTTTGTCTCGCCCAATGAGATACGGTTATGACCAAACCAATTTTG
+GTTTCCTATATTTGGCACTTGGTTTTGCCAGTATTTTAGCGTTTATCTTCGTCATAATTGGTCGTGATTTTTATTCGG
+TTGCATCAGATCGGTAGTAGTTGTTTGCGGCTTGAATGTATTTTCTAATCTGTTACAACCCGTCCAGAGGCTATAAGG
+GTTCTCCTCAAAATTGAGGAGACGCCCCATCTCCATTCATTAGCCGGTTTTGCGGGGGTAAATTGTAATAAGGGGGTG
+TGCCCAATTTTGGGCATACCCCCTAAGATCATGTTTTCACTGCTTCTGGACATCAACATAGGAGGTCGGCTGAATTTT
+CAGCTTACCTCTTTGTCGGAATAACCAACGGGCTGAAAATTCAGCCCGTTAATAAGCCGCAAGATAGGTTCCTCAATT
+TTGAGGAGCCTCTCGATAGACAGTCACCTTTAGGTTTTTTGGTATTTTCCGAAAAACTCCTTGTCTGTCGTTCGTTTT
+AAAAATTCTAGTTTTGCACTCGTTTGGTTATCCAATTTTGAATTACCGACACTTTTGCTCAAAAATGAGCTAAAGTCT
+TTTTCTTATTTAAAATCAGAATGTTGTACTCACCTGTTCTTCTGTTTTTTGGTGACTAAACACCACTTTTGCTCAAAA
+ATGAGCTAAAGTTTTTTAGCCGTTTTCTACGTACTTGGCCGTCCAATTATGGACGACCTTATTTTTCAATATGTTATC
+GTATTCGATAAGGGGTATCCCCAAAATTGGGGACACCCCTGACGGTTAGATTTTCACTGTTCCAAAAGCCTTGTTCGT
+TTCGTTTTTATAATATCGGATTTTCCGACAATTAAAGATAAACAGTTGCGGCTTGAACGTGTTTTATAATCTGTTACA
+ACGTACCGTATAAAGAACAACTCTATTATGCGGTTGCGGCTTGACCGCATTTTCTAATCTGTTACAAGGCCAAGCCGG
+AAATTTTCCGGTTTGGTCTAATGTTATCTAGTGGGCGGGTAATAAATCCTTAGTGCAGCAAGGGGTCATCGTTTATCC
+TGTAAACGGTTACGCTATCTAGTGGGGGGGTATTTAAATTATCGCCCTTGGTATGCCATTAAATCAGCGATCAGCATT
+TCGCTTTCTTCGTCCGTCAATCGGTTATTTTTCTCGTCTTCGGGCGTATTTGCATCAATCCAGCCATCGAGAACCGCA
+TCGAATTCCCAAACCGACATTGCGTCAATCTGGGCTGGCGAAAAGCCCATTACGGCTCCGGCTCCGTATAGCTGTGCA
+AATCTTATTTTTCCTTTTTCGAGCGGCGCGGAAATTTCGCCCCCGCCGTTTCGTTTTTTTTTCCGACATCTTCCTCTG
+GAGCGCCCATGAGTGCAGCATTAAGAATGGCAGCCGCTATCAAAACATTGGCTCGGATTGGGTAGTTTTCAACGTCTT
+CAACATAGGTTTTCACCATGTGGATTGCGTCGATGCCCGACATTCCGCCACCAACAAGGCCGCACCGGATTGTTTCCC
+TCACATATTCGATTTTCCACGTGTTTTTGAGTAAGCTGTCGAAAATAACAAAAGGGCCAGCATCGACTGTGTCTTGCA
+GTTCTTTGATCTGTCCGTAACCGAGCTTGAACACATGCGTATCATCGCCAAAAGGCAACGTAATTTTGCCGCTTCTAT
+TCGCCATGTTTAATCACCGCTTTTTTGTGCAGTCGGTGCTTTGGACATAACCATTTCACCGTCGCTTTTCATACTAAT
+TGACGCCTTAACTGTTTCTCCGTTTGGTGCGGTGACTTTGAAACTGTCAACCAACATTTTTCCCGTCCACGTGAAGGT
+GTTGTCCGGAAAAACTAATTCAATTTTCACCGGTACAGGGTCAACGCTTTGCCATGCTTCATACCATGTTGTGTAGCT
+TTGAGCGGCTAGTACGCCTTCTCCATCAATGTCAATTGAAAGGCTTGTAGCATTGCGTCCTAGCCAGTCCACTTTGTC
+CGGGTCGTCGCAATCGGGAATTCGTTCGTCCGACGTGGCTTTGTTAAAATTGATTGATCGAGACGTTAGTCCGCAAGG
+GTTTGAATAAACGATCGGATCCGCACCATTTCCGATAAAAACGCGAACCTTGCCGCCCTTAATAGTAGTCGCTTGAGC
+CATATTTTTCTCCATAAAAAAAGCCGCACTGGGAAGGCGGCTGTTGGTTGTTAAAATGTGGGGTGGTTATTAATCGAA
+ACGTTGCACGACCGCTTCGAAATTAACGGCTGCGTGGGATGTCAGCCCGTCCGGGTCGCGTAATTCTCTCGTACTTTC
+GTGAATGAACAGCACAAGGCCGTTCTTCTCCAATGTTAGATCGGATTTCGTTAGAGCCTGTCGTACTGCATTGGCGAG
+TTCTCGCATTTCTTCGGAAGAGACTTCACGTGACCAAACGTCTATTTGGATAGAGATATTATCGAGTTCCAGACAATT
+GGCAAGCGTCGTTTCGCTTGTTATTGGACCTAGCGAAACATAAGGATATTCGGCGTCGGACGAAACTCTGTCAAAAAC
+GCGACCGTCAGCGATTTCGTTGACATCGGCATCATTTGAAAGCGTTTGTACAATGGCCTGTTGAAGTTCGCTCGTCGC
+AGATTTCATCATTGGGTTGCCTTTACTGCTTTTTTCACAGCGCTACGAACTTTCGACTTGACGCGTTTTCTTTCCGTC
+TTCCAGACTGGCCGGAAATATGGTTGGGCAGGGGTTCTTGACGTGCCAAACTCTACTATCCAAGCTTTTTGGAGGTAT
+GGCCGCCGCCCATTCGCACTTCTGACCAGTGTTGCTTCGTTACCTGCATAGATTGTCAACGTCATCTCGCTTCCGAGC
+GTGTTTTTCGCCACCGCAAAAGCGGTCGAGCCTTTCGGCGGGCGTCCCCACGTCCAGCCAATGGAGTCTCGCAATGCA
+CCAGTGTCGACCGGCACAATCGCCTTCATCTTGTCCACAATCTCTTGGGCAATTTGCTCCATATCTTTCTTGACGAGT
+TCTTTTGTCGCTTTTGGTATGGCATTGAGACGGCGTTCCAAACGGGCGCGACCGAGCAATGTTACTTTGAAGCCCATT
+GTTCGCGCTCGCTTTTGCTAGGGGCGGGGATTTTAACAGCACAACCGCTTTCTATGGCAAGCTTCCCGCATACGTGTG
+TCACTGAATAGGTGTTGCCGACCTTGTAAACATAAATCTGCCGCGCGTTCGGCTGCCATTGGAACGGGGCGGTTATTT
+TTATCCACATGAGCTTTCCTAAACTGCGACACCGCTTTCAATTGTCAGCCGATAATATTGGCGGCTTATCGGGTCGCG
+ATTGATTGCCCGAATGTTGTAAACCCGACCGCTAAACTTACCCTTGCCGGCGTCGAATGTCGTTTCTCGAGCATCGCA
+ACAGCACCATTCGGTTGTTATTTCTTTTGCGGCTTGAAAGCTACGGATTGTGAGGAAAGCGGGCTGTTTTCCTTCCAG
+CCGTGCCGCCTGGACCGTCTCGCTACCCTGTCGAAATGTTATGGCTGCTTTCGTCGTGAACTTCTGAACCCATTTCCC
+GCGTGTGTTCCCCATGCCGTCGTTCACCTTTTCGCGGGCAAAAAAAGCGAAATTACAGATGAATGAAGCTGCCCCGTT
+AGCCATTTTTTGTCCTTCTAATAACAAATTCTCCGGTATGGAGCGATCAACGCATCAACAGCAAATGGCAGTTTAGTT
+TGTACCGTGCTTGTGGCTGCCTCGCGGTGTTCATACCAATGGCAGGCGAGTAGCAATATTGCGACTTTAATAGCGTTC
+GGAACGTCTTTCGCGGCATCCCCGAAACCAGTCGTGAATGTTACTGTTAATGGCACCAAAAGCGGTTCGGTTTGGTTT
+AAATAAATCTCGGTGCCATTTACTGTAGCTACAATTCTGTAATCGTCTGTCGATACTGTGCAAACATTGCCATCGCGG
+GAGTATGTTATCGCCACGTCGCTGATCGGCGAGAAGGGGATGTCTATCAGCCTGCCGCACAACTCACTGATAGTTAAT
+TCATACGTTTGTTTAAGAATTGCGCGGCCTAATATGCCGTTCCATCCGTCCAAATATTCAACGGCGGCTTTAAGATAT
+GTTTCTAACAATACGTCATCATCGGGAAAATCGACATTGGCAGCTTTTTTCAATTCATCAAGCGAAACAGGAAGGCCG
+GATGGTGGTTTGA" } } ,
+        seq {
+          id {
+            local
+              str "MN856050_1" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 146 ,
+            seq-data
+              ncbieaa "MRLNIFLYSFLLLCSTCVAKADGDDIIKLKAMLINMSKEYSDCAAIFLNFAMVAE
+RTRGESAELKDLQQKTYDTMFAAKKFGEMAGLNPEATEHKIAKIYEDFNKELTQGNNQDKYINLGLKCKKMAEKPDEY
+LQSMKSSYGVQKY" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 145 ,
+                        id
+                          local
+                            str "MN856050_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_2" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 141 ,
+            seq-data
+              ncbieaa "MNSLLLIGGFVILLGIIFAIYSLVSSPATVKSKISSLGASTQTNVTELSKSAGTQ
+IPVGSRIVTKQKFNAIGWVGVVLMFICPIMTGIVMNIHFSFLSRPMRYGYDQTNFGFLYLALGFASILAFIFVIIGRD
+FYSVASDR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 140 ,
+                        id
+                          local
+                            str "MN856050_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_3" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 55 ,
+            seq-data
+              ncbieaa "MGFSPAQIDAMSVWEFDAVLDGWIDANTPEDEKNNRLTDEESEMLIADLMAYQGR
+" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 54 ,
+                        id
+                          local
+                            str "MN856050_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_4" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 130 ,
+            seq-data
+              ncbieaa "MANRSGKITLPFGDDTHVFKLGYGQIKELQDTVDAGPFVIFDSLLKNTWKIEYVR
+ETIRCGLVGGGMSGIDAIHMVKTYVEDVENYPIRANVLIAAAILNAALMGAPEEDVGKKNETAGAKFPRRSKKEK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 129 ,
+                        id
+                          local
+                            str "MN856050_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_5" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 153 ,
+            seq-data
+              ncbieaa "MAQATTIKGGKVRVFIGNGADPIVYSNPCGLTSRSINFNKATSDERIPDCDDPDK
+VDWLGRNATSLSIDIDGEGVLAAQSYTTWYEAWQSVDPVPVKIELVFPDNTFTWTGKMLVDSFKVTAPNGETVKASIS
+MKSDGEMVMSKAPTAQKSGD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 152 ,
+                        id
+                          local
+                            str "MN856050_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_6" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 136 ,
+            seq-data
+              ncbieaa "MMKSATSELQQAIVQTLSNDADVNEIADGRVFDRVSSDAEYPYVSLGPITSETTL
+ANCLELDNISIQIDVWSREVSSEEMRELANAVRQALTKSDLTLEKNGLVLFIHESTRELRDPDGLTSHAAVNFEAVVQ
+RFD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 135 ,
+                        id
+                          local
+                            str "MN856050_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_7" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 152 ,
+            seq-data
+              ncbieaa "MGFKVTLLGRARLERRLNAIPKATKELVKKDMEQIAQEIVDKMKAIVPVDTGALR
+DSIGWTWGRPPKGSTAFAVAKNTLGSEMTLTIYAGNEATLVRSANGRRPYLQKAWIVEFGTSRTPAQPYFRPVWKTER
+KRVKSKVRSAVKKAVKATQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 151 ,
+                        id
+                          local
+                            str "MN856050_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_8" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 60 ,
+            seq-data
+              ncbieaa "MWIKITAPFQWQPNARQIYVYKVGNTYSVTHVCGKLAIESGCAVKIPAPSKSERE
+QWASK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 59 ,
+                        id
+                          local
+                            str "MN856050_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "MN856050_9" } ,
+          descr {
+            title "hypothetical protein HEGGNEME_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 125 ,
+            seq-data
+              ncbieaa "MANGAASFICNFAFFAREKVNDGMGNTRGKWVQKFTTKAAITFRQGSETVQAARL
+EGKQPAFLTIRSFQAAKEITTEWCCCDARETTFDAGKGKFSGRVYNIRAINRDPISRQYYRLTIESGVAV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 124 ,
+                        id
+                          local
+                            str "MN856050_9" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_1" ,
+                location
+                  int {
+                    from 154 ,
+                    to 594 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_2" ,
+                location
+                  int {
+                    from 816 ,
+                    to 1241 ,
+                    strand plus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_3" ,
+                location
+                  int {
+                    from 2199 ,
+                    to 2366 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_4" ,
+                location
+                  int {
+                    from 2399 ,
+                    to 2791 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_5" ,
+                location
+                  int {
+                    from 2794 ,
+                    to 3255 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_6" ,
+                location
+                  int {
+                    from 3322 ,
+                    to 3732 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_7" ,
+                location
+                  int {
+                    from 3729 ,
+                    to 4187 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_8" ,
+                location
+                  int {
+                    from 4172 ,
+                    to 4354 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "MN856050_9" ,
+                location
+                  int {
+                    from 4363 ,
+                    to 4740 ,
+                    strand minus ,
+                    id
+                      local
+                        str "MN856050" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:002006" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HEGGNEME_00009" } } } } } } } } } }

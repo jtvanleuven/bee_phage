@@ -1,0 +1,128 @@
+[12:13:45] This is prokka 1.14.6
+[12:13:45] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:13:45] Homepage is https://github.com/tseemann/prokka
+[12:13:45] Local time is Mon Aug 23 12:13:45 2021
+[12:13:45] You are james
+[12:13:45] Operating system is linux
+[12:13:45] You have BioPerl 1.007002
+[12:13:45] System has 12 cores.
+[12:13:45] Will use maximum of 8 cores.
+[12:13:45] Annotating as >>> Bacteria <<<
+[12:13:45] Generating locus_tag from 'contig_2080_reorder.fasta' contents.
+[12:13:45] Setting --locustag ANJIAAHI from MD5 a732aa12e099d00a5057b063fd521f92
+[12:13:45] Creating new output folder: prokkacontig_2080_reorder
+[12:13:45] Running: mkdir -p prokkacontig_2080_reorder
+[12:13:45] Using filename prefix: contig_2080_reorder.XXX
+[12:13:45] Setting HMMER_NCPU=1
+[12:13:45] Writing log to: prokkacontig_2080_reorder/contig_2080_reorder.log
+[12:13:45] Command: /home/james/miniconda3/envs/prokka/bin/prokka contig_2080_reorder.fasta --outdir prokkacontig_2080_reorder --prefix contig_2080_reorder --force
+[12:13:45] Appending to PATH: /home/james/miniconda3/envs/prokka/bin
+[12:13:45] Looking for 'aragorn' - found /home/james/miniconda3/envs/prokka/bin/aragorn
+[12:13:45] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[12:13:45] Looking for 'barrnap' - found /home/james/miniconda3/envs/prokka/bin/barrnap
+[12:13:45] Determined barrnap version is 000009 from 'barrnap 0.9'
+[12:13:45] Looking for 'blastp' - found /home/james/miniconda3/envs/prokka/bin/blastp
+[12:13:45] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[12:13:45] Looking for 'cmpress' - found /home/james/miniconda3/envs/prokka/bin/cmpress
+[12:13:45] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:13:45] Looking for 'cmscan' - found /home/james/miniconda3/envs/prokka/bin/cmscan
+[12:13:45] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:13:45] Looking for 'egrep' - found /bin/egrep
+[12:13:45] Looking for 'find' - found /usr/bin/find
+[12:13:45] Looking for 'grep' - found /bin/grep
+[12:13:45] Looking for 'hmmpress' - found /home/james/miniconda3/envs/prokka/bin/hmmpress
+[12:13:45] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:13:45] Looking for 'hmmscan' - found /home/james/miniconda3/envs/prokka/bin/hmmscan
+[12:13:45] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:13:45] Looking for 'java' - found /home/james/miniconda3/envs/prokka/bin/java
+[12:13:45] Looking for 'makeblastdb' - found /home/james/miniconda3/envs/prokka/bin/makeblastdb
+[12:13:46] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[12:13:46] Looking for 'minced' - found /home/james/miniconda3/envs/prokka/bin/minced
+[12:13:46] Determined minced version is 004002 from 'minced 0.4.2'
+[12:13:46] Looking for 'parallel' - found /home/james/miniconda3/envs/prokka/bin/parallel
+[12:13:46] Determined parallel version is 20210622 from 'GNU parallel 20210622'
+[12:13:46] Looking for 'prodigal' - found /home/james/miniconda3/envs/prokka/bin/prodigal
+[12:13:46] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[12:13:46] Looking for 'prokka-genbank_to_fasta_db' - found /home/james/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[12:13:46] Looking for 'sed' - found /bin/sed
+[12:13:46] Looking for 'tbl2asn' - found /home/james/miniconda3/envs/prokka/bin/tbl2asn
+[12:13:46] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[12:13:46] Using genetic code table 11.
+[12:13:46] Loading and checking input file: contig_2080_reorder.fasta
+[12:13:46] Wrote 1 contigs totalling 31343 bp.
+[12:13:46] Predicting tRNAs and tmRNAs
+[12:13:46] Running: aragorn -l -gc11  -w prokkacontig_2080_reorder\/contig_2080_reorder\.fna
+[12:13:46] Found 0 tRNAs
+[12:13:46] Predicting Ribosomal RNAs
+[12:13:46] Running Barrnap with 8 threads
+[12:13:46] Found 0 rRNAs
+[12:13:46] Skipping ncRNA search, enable with --rfam if desired.
+[12:13:46] Total of 0 tRNA + rRNA features
+[12:13:46] Searching for CRISPR repeats
+[12:13:46] Found 0 CRISPRs
+[12:13:46] Predicting coding sequences
+[12:13:46] Contigs total 31343 bp, so using meta mode
+[12:13:46] Running: prodigal -i prokkacontig_2080_reorder\/contig_2080_reorder\.fna -c -m -g 11 -p meta -f sco -q
+[12:13:46] Found 49 CDS
+[12:13:46] Connecting features back to sequences
+[12:13:46] Not using genus-specific database. Try --usegenus to enable it.
+[12:13:46] Annotating CDS, please be patient.
+[12:13:46] Will use 8 CPUs for similarity searching.
+[12:13:46] There are still 49 unannotated CDS left (started with 49)
+[12:13:46] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[12:13:46] Running: cat prokkacontig_2080_reorder\/contig_2080_reorder\.IS\.tmp\.52677\.faa | parallel --gnu --plain -j 8 --block 611 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkacontig_2080_reorder\/contig_2080_reorder\.IS\.tmp\.52677\.blast 2> /dev/null
+[12:13:48] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.IS.tmp.52677.faa
+[12:13:48] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.IS.tmp.52677.blast
+[12:13:48] There are still 49 unannotated CDS left (started with 49)
+[12:13:48] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[12:13:48] Running: cat prokkacontig_2080_reorder\/contig_2080_reorder\.AMR\.tmp\.52677\.faa | parallel --gnu --plain -j 8 --block 611 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkacontig_2080_reorder\/contig_2080_reorder\.AMR\.tmp\.52677\.blast 2> /dev/null
+[12:13:49] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.AMR.tmp.52677.faa
+[12:13:49] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.AMR.tmp.52677.blast
+[12:13:49] There are still 49 unannotated CDS left (started with 49)
+[12:13:49] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[12:13:49] Running: cat prokkacontig_2080_reorder\/contig_2080_reorder\.sprot\.tmp\.52677\.faa | parallel --gnu --plain -j 8 --block 611 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkacontig_2080_reorder\/contig_2080_reorder\.sprot\.tmp\.52677\.blast 2> /dev/null
+[12:13:51] Modify product: Uncharacterized protein HI_1410 => putative protein
+[12:13:51] Cleaned 1 /product names
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.sprot.tmp.52677.faa
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.sprot.tmp.52677.blast
+[12:13:51] There are still 48 unannotated CDS left (started with 49)
+[12:13:51] Will use hmmer3 to search against /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[12:13:51] Running: cat prokkacontig_2080_reorder\/contig_2080_reorder\.HAMAP\.hmm\.tmp\.52677\.faa | parallel --gnu --plain -j 8 --block 584 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokkacontig_2080_reorder\/contig_2080_reorder\.HAMAP\.hmm\.tmp\.52677\.hmmer3 2> /dev/null
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.HAMAP.hmm.tmp.52677.faa
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.HAMAP.hmm.tmp.52677.hmmer3
+[12:13:51] Labelling remaining 47 proteins as 'hypothetical protein'
+[12:13:51] Found 0 unique /gene codes.
+[12:13:51] Fixed 0 colliding /gene names.
+[12:13:51] Adding /locus_tag identifiers
+[12:13:51] Assigned 49 locus_tags to CDS and RNA features.
+[12:13:51] Writing outputs to prokkacontig_2080_reorder/
+[12:13:51] Generating annotation statistics file
+[12:13:51] Generating Genbank and Sequin files
+[12:13:51] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokkacontig_2080_reorder\/contig_2080_reorder\.err -i prokkacontig_2080_reorder\/contig_2080_reorder\.fsa 2> /dev/null
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/errorsummary.val
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.dr
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.fixedproducts
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.ecn
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.val
+[12:13:51] Repairing broken .GBK output that tbl2asn produces...
+[12:13:51] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokkacontig_2080_reorder\/contig_2080_reorder\.gbf > prokkacontig_2080_reorder\/contig_2080_reorder\.gbk
+[12:13:51] Deleting unwanted file: prokkacontig_2080_reorder/contig_2080_reorder.gbf
+[12:13:51] Output files:
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.gbk
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.fsa
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.tsv
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.txt
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.log
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.fna
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.gff
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.faa
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.tbl
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.sqn
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.err
+[12:13:51] prokkacontig_2080_reorder/contig_2080_reorder.ffn
+[12:13:51] Annotation finished successfully.
+[12:13:51] Walltime used: 0.10 minutes
+[12:13:51] If you use this result please cite the Prokka paper:
+[12:13:51] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:13:51] Type 'prokka --citation' for more details.
+[12:13:51] Thank you, come again.

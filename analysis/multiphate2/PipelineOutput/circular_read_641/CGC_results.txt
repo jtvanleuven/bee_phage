@@ -1,0 +1,149 @@
+CGC_main says, Iterating through fileSet...
+CGC_main says, Sorting gene calls for each caller...
+CGC_main says, Comparing accross the call sets....
+CGC_main says, Merging the gene call sets....
+CGC_main says, Comparing across gene call sets....
+CGC_main says, Scoring gene calls....
+CGC_main says, Identifying gene calls in common...
+CGC_main says, printing GFF formatted gene-call file....
+CGC_main says, printing report....
+
+GENE-CALL TABLE:
+
+number	caller	strand	leftEnd	rightEnd	length	contig	caller	strand	leftEnd	rightEnd	length	contig	
+1	glimmer	+	44	157	114	circular_read_641	phanotate	+	44	157	114	circular_read_641	
+2	glimmer	-	154	279	126	circular_read_641							
+3	glimmer	+	256	372	117	circular_read_641	phanotate	+	256	372	117	circular_read_641	
+4							phanotate	+	440	535	96	circular_read_641	
+5	glimmer	-	522	647	126	circular_read_641							
+6	glimmer	+	624	740	117	circular_read_641	phanotate	+	624	740	117	circular_read_641	
+7	glimmer	+	808	924	117	circular_read_641	phanotate	+	808	924	117	circular_read_641	
+8	glimmer	-	890	1015	126	circular_read_641							
+9							phanotate	+	963	1088	126	circular_read_641	
+10	glimmer	+	969	1088	120	circular_read_641							
+11	glimmer	+	1177	1293	117	circular_read_641	phanotate	+	1177	1293	117	circular_read_641	
+12							phanotate	+	1361	1456	96	circular_read_641	
+13	glimmer	-	1443	1568	126	circular_read_641							
+14	glimmer	+	1545	1661	117	circular_read_641	phanotate	+	1545	1661	117	circular_read_641	
+15	glimmer	+	1729	1845	117	circular_read_641	phanotate	+	1729	1845	117	circular_read_641	
+16	glimmer	+	1913	2029	117	circular_read_641	phanotate	+	1913	2029	117	circular_read_641	
+17	glimmer	+	2097	2213	117	circular_read_641	phanotate	+	2097	2213	117	circular_read_641	
+The following gene callers were considered:
+, glimmer
+, phanotate
+
+The number of distinct gene calls over all gene callers is 17
+The number of gene calls in common among all callers is 9
+The number of unique (non-matching) gene calls is 8
+Caller glimmer produced 14 gene calls.
+Caller glimmer gene-call length stats:  min: 114 , max: 126 , ave: 119.57142857142857
+Caller phanotate produced 12 gene calls.
+Caller phanotate gene-call length stats:  min: 96 , max: 126 , ave: 114.0
+
+Gene-call Table:
+count	
+caller	strand	leftEnd	rightEnd	length	contig	
+caller	strand	leftEnd	rightEnd	length	contig	
+
+1 	
+glimmer	+	44	157	114	circular_read_641	
+phanotate	+	44	157	114	circular_read_641	
+
+2 	
+glimmer	-	154	279	126	circular_read_641	
+						
+
+3 	
+glimmer	+	256	372	117	circular_read_641	
+phanotate	+	256	372	117	circular_read_641	
+
+4 	
+						
+phanotate	+	440	535	96	circular_read_641	
+
+5 	
+glimmer	-	522	647	126	circular_read_641	
+						
+
+6 	
+glimmer	+	624	740	117	circular_read_641	
+phanotate	+	624	740	117	circular_read_641	
+
+7 	
+glimmer	+	808	924	117	circular_read_641	
+phanotate	+	808	924	117	circular_read_641	
+
+8 	
+glimmer	-	890	1015	126	circular_read_641	
+						
+
+9 	
+						
+phanotate	+	963	1088	126	circular_read_641	
+
+10 	
+glimmer	+	969	1088	120	circular_read_641	
+						
+
+11 	
+glimmer	+	1177	1293	117	circular_read_641	
+phanotate	+	1177	1293	117	circular_read_641	
+
+12 	
+						
+phanotate	+	1361	1456	96	circular_read_641	
+
+13 	
+glimmer	-	1443	1568	126	circular_read_641	
+						
+
+14 	
+glimmer	+	1545	1661	117	circular_read_641	
+phanotate	+	1545	1661	117	circular_read_641	
+
+15 	
+glimmer	+	1729	1845	117	circular_read_641	
+phanotate	+	1729	1845	117	circular_read_641	
+
+16 	
+glimmer	+	1913	2029	117	circular_read_641	
+phanotate	+	1913	2029	117	circular_read_641	
+
+17 	
+glimmer	+	2097	2213	117	circular_read_641	
+phanotate	+	2097	2213	117	circular_read_641	
+
+
+Gene-call Scores:
+Caller	 Contig	 Gene No.	 Left End	 Right End	 Strand	 gcScore
+glimmer 	 circular_read_641 	 1 	 44 	 157 	 + 	 1.00
+phanotate 	 circular_read_641 	 1 	 44 	 157 	 + 	 1.00
+glimmer 	 circular_read_641 	 2 	 154 	 279 	 - 	 0.50
+glimmer 	 circular_read_641 	 3 	 256 	 372 	 + 	 1.00
+phanotate 	 circular_read_641 	 2 	 256 	 372 	 + 	 1.00
+phanotate 	 circular_read_641 	 3 	 440 	 535 	 + 	 0.50
+glimmer 	 circular_read_641 	 4 	 522 	 647 	 - 	 0.50
+glimmer 	 circular_read_641 	 5 	 624 	 740 	 + 	 1.00
+phanotate 	 circular_read_641 	 4 	 624 	 740 	 + 	 1.00
+glimmer 	 circular_read_641 	 6 	 808 	 924 	 + 	 1.00
+phanotate 	 circular_read_641 	 5 	 808 	 924 	 + 	 1.00
+glimmer 	 circular_read_641 	 7 	 890 	 1015 	 - 	 0.50
+phanotate 	 circular_read_641 	 6 	 963 	 1088 	 + 	 0.75
+glimmer 	 circular_read_641 	 8 	 969 	 1088 	 + 	 0.75
+glimmer 	 circular_read_641 	 9 	 1177 	 1293 	 + 	 1.00
+phanotate 	 circular_read_641 	 7 	 1177 	 1293 	 + 	 1.00
+phanotate 	 circular_read_641 	 8 	 1361 	 1456 	 + 	 0.50
+glimmer 	 circular_read_641 	 10 	 1443 	 1568 	 - 	 0.50
+glimmer 	 circular_read_641 	 11 	 1545 	 1661 	 + 	 1.00
+phanotate 	 circular_read_641 	 9 	 1545 	 1661 	 + 	 1.00
+glimmer 	 circular_read_641 	 12 	 1729 	 1845 	 + 	 1.00
+phanotate 	 circular_read_641 	 10 	 1729 	 1845 	 + 	 1.00
+glimmer 	 circular_read_641 	 13 	 1913 	 2029 	 + 	 1.00
+phanotate 	 circular_read_641 	 11 	 1913 	 2029 	 + 	 1.00
+glimmer 	 circular_read_641 	 14 	 2097 	 2213 	 + 	 1.00
+phanotate 	 circular_read_641 	 12 	 2097 	 2213 	 + 	 1.00
+
+Gene-call Consensus Scores:
+Caller glimmer gene-call consensus score: 0.84
+Caller phanotate gene-call consensus score: 0.90
+CGC_main says, Processing complete.

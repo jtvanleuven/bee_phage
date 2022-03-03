@@ -1,0 +1,135 @@
+[16:47:19] This is prokka 1.14.6
+[16:47:19] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:47:19] Homepage is https://github.com/tseemann/prokka
+[16:47:19] Local time is Mon Aug  9 16:47:19 2021
+[16:47:19] You are james
+[16:47:19] Operating system is linux
+[16:47:19] You have BioPerl 1.007002
+[16:47:19] System has 12 cores.
+[16:47:19] Will use maximum of 8 cores.
+[16:47:19] Annotating as >>> Bacteria <<<
+[16:47:19] Generating locus_tag from 'scaffold_828.fasta' contents.
+[16:47:19] Setting --locustag EIHECHFF from MD5 e21ec1ff517ecb193712e45b8dd55810
+[16:47:19] Creating new output folder: prokkascaffold_828
+[16:47:19] Running: mkdir -p prokkascaffold_828
+[16:47:19] Using filename prefix: scaffold_828.XXX
+[16:47:19] Setting HMMER_NCPU=1
+[16:47:19] Writing log to: prokkascaffold_828/scaffold_828.log
+[16:47:19] Command: /home/james/miniconda3/envs/prokka/bin/prokka scaffold_828.fasta --outdir prokkascaffold_828 --prefix scaffold_828 --force
+[16:47:19] Appending to PATH: /home/james/miniconda3/envs/prokka/bin
+[16:47:19] Looking for 'aragorn' - found /home/james/miniconda3/envs/prokka/bin/aragorn
+[16:47:19] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[16:47:19] Looking for 'barrnap' - found /home/james/miniconda3/envs/prokka/bin/barrnap
+[16:47:19] Determined barrnap version is 000009 from 'barrnap 0.9'
+[16:47:19] Looking for 'blastp' - found /home/james/miniconda3/envs/prokka/bin/blastp
+[16:47:19] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[16:47:19] Looking for 'cmpress' - found /home/james/miniconda3/envs/prokka/bin/cmpress
+[16:47:19] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[16:47:19] Looking for 'cmscan' - found /home/james/miniconda3/envs/prokka/bin/cmscan
+[16:47:19] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[16:47:19] Looking for 'egrep' - found /bin/egrep
+[16:47:19] Looking for 'find' - found /usr/bin/find
+[16:47:19] Looking for 'grep' - found /bin/grep
+[16:47:19] Looking for 'hmmpress' - found /home/james/miniconda3/envs/prokka/bin/hmmpress
+[16:47:19] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:47:19] Looking for 'hmmscan' - found /home/james/miniconda3/envs/prokka/bin/hmmscan
+[16:47:19] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[16:47:19] Looking for 'java' - found /home/james/miniconda3/envs/prokka/bin/java
+[16:47:19] Looking for 'makeblastdb' - found /home/james/miniconda3/envs/prokka/bin/makeblastdb
+[16:47:20] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[16:47:20] Looking for 'minced' - found /home/james/miniconda3/envs/prokka/bin/minced
+[16:47:20] Determined minced version is 004002 from 'minced 0.4.2'
+[16:47:20] Looking for 'parallel' - found /home/james/miniconda3/envs/prokka/bin/parallel
+[16:47:20] Determined parallel version is 20210622 from 'GNU parallel 20210622'
+[16:47:20] Looking for 'prodigal' - found /home/james/miniconda3/envs/prokka/bin/prodigal
+[16:47:20] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[16:47:20] Looking for 'prokka-genbank_to_fasta_db' - found /home/james/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[16:47:20] Looking for 'sed' - found /bin/sed
+[16:47:20] Looking for 'tbl2asn' - found /home/james/miniconda3/envs/prokka/bin/tbl2asn
+[16:47:20] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[16:47:20] Using genetic code table 11.
+[16:47:20] Loading and checking input file: scaffold_828.fasta
+[16:47:20] Wrote 1 contigs totalling 60140 bp.
+[16:47:20] Predicting tRNAs and tmRNAs
+[16:47:20] Running: aragorn -l -gc11  -w prokkascaffold_828\/scaffold_828\.fna
+[16:47:20] Found 0 tRNAs
+[16:47:20] Predicting Ribosomal RNAs
+[16:47:20] Running Barrnap with 8 threads
+[16:47:20] Found 0 rRNAs
+[16:47:20] Skipping ncRNA search, enable with --rfam if desired.
+[16:47:20] Total of 0 tRNA + rRNA features
+[16:47:20] Searching for CRISPR repeats
+[16:47:20] Found 0 CRISPRs
+[16:47:20] Predicting coding sequences
+[16:47:20] Contigs total 60140 bp, so using meta mode
+[16:47:20] Running: prodigal -i prokkascaffold_828\/scaffold_828\.fna -c -m -g 11 -p meta -f sco -q
+[16:47:20] Found 99 CDS
+[16:47:20] Connecting features back to sequences
+[16:47:20] Not using genus-specific database. Try --usegenus to enable it.
+[16:47:20] Annotating CDS, please be patient.
+[16:47:20] Will use 8 CPUs for similarity searching.
+[16:47:20] There are still 99 unannotated CDS left (started with 99)
+[16:47:20] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 8 CPUs
+[16:47:20] Running: cat prokkascaffold_828\/scaffold_828\.IS\.tmp\.282841\.faa | parallel --gnu --plain -j 8 --block 1113 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkascaffold_828\/scaffold_828\.IS\.tmp\.282841\.blast 2> /dev/null
+[16:47:22] Deleting unwanted file: prokkascaffold_828/scaffold_828.IS.tmp.282841.faa
+[16:47:22] Deleting unwanted file: prokkascaffold_828/scaffold_828.IS.tmp.282841.blast
+[16:47:22] There are still 99 unannotated CDS left (started with 99)
+[16:47:22] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 8 CPUs
+[16:47:22] Running: cat prokkascaffold_828\/scaffold_828\.AMR\.tmp\.282841\.faa | parallel --gnu --plain -j 8 --block 1113 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkascaffold_828\/scaffold_828\.AMR\.tmp\.282841\.blast 2> /dev/null
+[16:47:24] Deleting unwanted file: prokkascaffold_828/scaffold_828.AMR.tmp.282841.faa
+[16:47:24] Deleting unwanted file: prokkascaffold_828/scaffold_828.AMR.tmp.282841.blast
+[16:47:24] There are still 99 unannotated CDS left (started with 99)
+[16:47:24] Will use blast to search against /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 8 CPUs
+[16:47:24] Running: cat prokkascaffold_828\/scaffold_828\.sprot\.tmp\.282841\.faa | parallel --gnu --plain -j 8 --block 1113 --recstart '>' --pipe blastp -query - -db /home/james/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokkascaffold_828\/scaffold_828\.sprot\.tmp\.282841\.blast 2> /dev/null
+[16:47:26] Modify product: Uncharacterized HTH-type transcriptional regulator CBU_1416 => putative HTH-type transcriptional regulator
+[16:47:26] Modify product: Prophage tail fiber assembly protein homolog TfaE => Prophage tail fiber assembly protein TfaE
+[16:47:26] Modify product: Prophage tail fiber assembly protein homolog TfaE => Prophage tail fiber assembly protein TfaE
+[16:47:26] Cleaned 3 /product names
+[16:47:26] Deleting unwanted file: prokkascaffold_828/scaffold_828.sprot.tmp.282841.faa
+[16:47:26] Deleting unwanted file: prokkascaffold_828/scaffold_828.sprot.tmp.282841.blast
+[16:47:26] There are still 87 unannotated CDS left (started with 99)
+[16:47:26] Will use hmmer3 to search against /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 8 CPUs
+[16:47:26] Running: cat prokkascaffold_828\/scaffold_828\.HAMAP\.hmm\.tmp\.282841\.faa | parallel --gnu --plain -j 8 --block 961 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/james/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > prokkascaffold_828\/scaffold_828\.HAMAP\.hmm\.tmp\.282841\.hmmer3 2> /dev/null
+[16:47:27] Deleting unwanted file: prokkascaffold_828/scaffold_828.HAMAP.hmm.tmp.282841.faa
+[16:47:27] Deleting unwanted file: prokkascaffold_828/scaffold_828.HAMAP.hmm.tmp.282841.hmmer3
+[16:47:27] Labelling remaining 85 proteins as 'hypothetical protein'
+[16:47:27] Possible /pseudo 'Extracellular deoxyribonuclease' at scaffold_828 position 10067
+[16:47:27] Found 8 unique /gene codes.
+[16:47:27] Fixed 2 duplicate /gene - tfaE_1 tfaE_2
+[16:47:27] Fixed 2 duplicate /gene - recE_1 recE_2
+[16:47:27] Fixed 2 duplicate /gene - recT_1 recT_2
+[16:47:27] Fixed 2 duplicate /gene - dns_1 dns_2
+[16:47:27] Fixed 4 colliding /gene names.
+[16:47:27] Adding /locus_tag identifiers
+[16:47:27] Assigned 99 locus_tags to CDS and RNA features.
+[16:47:27] Writing outputs to prokkascaffold_828/
+[16:47:27] Generating annotation statistics file
+[16:47:27] Generating Genbank and Sequin files
+[16:47:27] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokkascaffold_828\/scaffold_828\.err -i prokkascaffold_828\/scaffold_828\.fsa 2> /dev/null
+[16:47:28] Deleting unwanted file: prokkascaffold_828/errorsummary.val
+[16:47:28] Deleting unwanted file: prokkascaffold_828/scaffold_828.dr
+[16:47:28] Deleting unwanted file: prokkascaffold_828/scaffold_828.fixedproducts
+[16:47:28] Deleting unwanted file: prokkascaffold_828/scaffold_828.ecn
+[16:47:28] Deleting unwanted file: prokkascaffold_828/scaffold_828.val
+[16:47:28] Repairing broken .GBK output that tbl2asn produces...
+[16:47:28] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokkascaffold_828\/scaffold_828\.gbf > prokkascaffold_828\/scaffold_828\.gbk
+[16:47:28] Deleting unwanted file: prokkascaffold_828/scaffold_828.gbf
+[16:47:28] Output files:
+[16:47:28] prokkascaffold_828/scaffold_828.tbl
+[16:47:28] prokkascaffold_828/scaffold_828.log
+[16:47:28] prokkascaffold_828/scaffold_828.gbk
+[16:47:28] prokkascaffold_828/scaffold_828.sqn
+[16:47:28] prokkascaffold_828/scaffold_828.txt
+[16:47:28] prokkascaffold_828/scaffold_828.faa
+[16:47:28] prokkascaffold_828/scaffold_828.fna
+[16:47:28] prokkascaffold_828/scaffold_828.fsa
+[16:47:28] prokkascaffold_828/scaffold_828.ffn
+[16:47:28] prokkascaffold_828/scaffold_828.tsv
+[16:47:28] prokkascaffold_828/scaffold_828.gff
+[16:47:28] prokkascaffold_828/scaffold_828.err
+[16:47:28] Annotation finished successfully.
+[16:47:28] Walltime used: 0.15 minutes
+[16:47:28] If you use this result please cite the Prokka paper:
+[16:47:28] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:47:28] Type 'prokka --citation' for more details.
+[16:47:28] Share and enjoy!
