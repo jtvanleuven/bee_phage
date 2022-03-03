@@ -1,28 +1,16 @@
-library(ComplexUpset)
 library(ggplot2)
 library(ggplot2movies)
+devtools::unload('UpSetR')
+library(ComplexUpset)
 head(movies, 3)
 genres = colnames(movies)[18:24]
 movies[genres] = movies[genres] == 1
 t(head(movies[genres], 3))
 movies[movies$mpaa == '', 'mpaa'] = NA
 movies = na.omit(movies)
-set_size = function(w, h, factor=1.5) {
-  s = 1 * factor
-  options(
-    repr.plot.width=w * s,
-    repr.plot.height=h * s,
-    repr.plot.res=100 / factor,
-    jupyter.plot_mimetypes='image/png',
-    jupyter.plot_scale=1
-  )
-}
-set_size(8, 3)
 upset(movies, genres, name='genre', width_ratio=0.1)
 
 set.seed(0)
-
-
 upset(
   movies,
   genres,
